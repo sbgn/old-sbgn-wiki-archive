@@ -1,0 +1,266 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-2.5</title>
+    <id>56</id>
+    <revision>
+      <id>1999</id>
+      <timestamp>2010-02-10T22:29:32Z</timestamp>
+      <contributor>
+        <username>SBGNWikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>Protected &quot;[[Events/SBGN-2.5]]&quot;: Only let sysops edit this page [edit=sysop:move=sysop] [cascading]</comment>
+      <text xml:space="preserve">&lt;big&gt;The third SBGN meeting is not exactly a regular workshop, but more of a &amp;quot;Spec-a-thon,&amp;quot; where we are inviting a smaller subset of the community to help iron out and prepare a first draft proposed specification for the first draft SBGN.&lt;/big&gt;  It will be held March 15-17 in Heidelberg, Germany, with local help provided by Ursula Kummer, Ralph Gauges and Sven Sahle. 
+
+[[image: Sbgn2.5.jpg | right]]
+The workshop co-organizers are:
+
+* Hiroaki Kitano (SBI &amp; Sony CSL)
+* Mike Hucka (Caltech)
+* Nicolas Le Novère (EBI)
+* Ralph Gauges (EML Research)
+* Ursula Kummer (EML Research)
+
+==Agenda and Presentations==
+
+&lt;span class=&quot;subhead4&quot;&gt;Day 1 (Thursday, March 15, 2007)&lt;/span&gt;
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot;
+!Time
+!Topic
+!Speaker
+!Files
+|-
+|2:00PM–3:45PM 
+|Summary of current state and issues 
+|Nicolas Le Novère 
+|[[media:Sbgn2.5-LeNovereSBGN-issues-sum.pdf  | PDF]]
+|-
+|3:45PM–4:00PM 
+|colspan=&quot;3&quot; | ''break''
+|-
+|4:00PM–4:30PM 
+|Summary of CellDesigner 4.0 notation (also see [http://systems-biology.org/~myukiko/sbgn/doku.php?id=spec:transition Yukiko's summary of proposed transition glyph images])
+|Hiroaki Kitano
+|[[media:Sbgn2.5-kitano-CD-StateTransitionExam.jpg | jpg_1]]&lt;br&gt;[[media:Sbgn2.5-kitano-CD-STSymbolSetPlanD.jpg | jpg_2]]&lt;br&gt;
+[[media:Sbgn2.5-kitano-ER-Cellcycle.jpg | jpg_3]]&lt;br&gt;
+[[media:Sbgn2.5-kitano-ER-symbols.jpg | jpg_4]]&lt;br&gt;
+[[media:Sbgn2.5-kitano-SBGN-ER-allosteric.jpg | jpg_5]]&lt;br&gt;
+[[media:Sbgn2.5-kitano-SBGN-ER-gene.jpg | jpg_6]]&lt;br&gt;
+[[media:Sbgn2.5-kitano-SBGNExampleVOC.jpg  | jpg_7]]&lt;br&gt;
+[[media:Sbgn2.5-kitano-symbols.jpg | jpg_8]]&lt;br&gt;
+[[media:Sbgn2.5-kitano-TransitionCases.jpg | jpg_9]]
+|-
+|4:30PM–5:30PM 
+|Gathering a list of issues to address
+|Nicolas, Mike and Katja
+|[[Events/SBGN 2.5/First Day Issues | HTML]]
+|-
+|5:30PM–7:30PM
+| colspan=&quot;3&quot; | ''break ''
+|-
+|7:30PM–9:30PM
+| colspan=&quot;3&quot; | ''dinner at the restaurant'' [http://maps.google.com/maps?f=l&amp;hl=en&amp;q=indian+palace,+Kettengasse+-vetter&amp;near=Heidelberg,+Germany&amp;layer=&amp;ie=UTF8&amp;om=1&amp;z=15&amp;ll=49.412034,8.705506&amp;spn=0.017255,0.028539&amp;iwloc=A Indian Palace]
+|-
+|}
+
+
+&lt;span class=&quot;subhead4&quot;&gt;Day 2 (Friday, March 16, 2007)&lt;/span&gt;
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+!Time
+!Topic
+!Speaker
+!Files
+|-
+|09:00AM–12:30PM 
+|Discussion of issues 
+|Nicolas and Mike
+|[[Events/SBGN 2.5/Discussion of Issues | HTML]]
+|-
+|12:30PM–14:00PM 
+| colspan=&quot;3&quot; | ''Lunch''
+|-
+|14:00PM–15:00PM 
+|Some points about MIM notation 
+|Mirit Aladjem
+|[[  |  ]]
+|-
+|15:00PM–15:20PM 
+|Some points about laying out diagrams
+|Falk Schreiber
+|[[media:Sbgn2.5-Schreiber-layout.pdf   | PDF]]&lt;br&gt;[[media:Sbgn2.5-Schreiber-layout-figs.pdf | figs_PDF]]
+|-
+|15:20PM–17:20PM 
+|Continuing discussion of issues
+|Nicolas and Mike 
+|&amp;nbsp;
+|-
+|}
+
+
+&lt;span class=&quot;subhead4&quot;&gt;Day 3 (Saturday, March 17, 2007)&lt;/span&gt;
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+!Time
+!Topic
+!Files
+|-
+|09:00AM–11:00AM 
+|Writing tasks assigned &amp; start writing
+|&amp;nbsp;
+|-
+|11:00AM–12:30PM 
+|Assess status, discuss problems
+|&amp;nbsp;
+|-
+|12:30PM–2:00PM 
+| colspan=&quot;2&quot; | ''Lunch''
+|-
+|2:00PM–4:00PM 
+|Continuing writing &amp; collect results
+|&amp;nbsp;
+|-
+|4:00PM–5:30PM 
+|Presentation &amp; discussion of results &amp; remaining issues
+|&amp;nbsp;
+|-
+|5:30 PM
+| colspan=&quot;2&quot; | ''Adjourn''
+|-
+|''evening''
+|''Self-organized Museum Night excursions'' (info by Katja) 
+|[[media: Sbgn2.5-heidelberg-saturday-night.pdf | PDF]]
+|-
+|}
+
+==Venue==
+&lt;div class=&quot;leftindent with-border&quot;&gt;
+The SBGN Meeting will be held at the Interdisciplinary Center for Scientific Computing of the Ruprecht-Karls-University of Heidelberg (Interdisziplinäres Zentrum für Wissenschaftliches Rechnen, in German, or IWR for short). 
+
+[http://www.iwr.uni-heidelberg.de/ Interdisciplinary Center for Scientific Computing (IWR)]
+Ruprecht-Karls-University of Heidelberg
+Im Neuenheimer Feld 368
+D-69120 Heidelberg
+Germany 
+
+The meeting will take place in '''room 432'''. 
+
+For directions to IWR:
+[http://www.iwr.uni-heidelberg.de/organization/iwr/find.php  http://www.iwr.uni-heidelberg.de/organization/iwr/find.php]
+
+For a map of the campus showing the location of the building(368):
+[http://www.iwr.uni-heidelberg.de/organization/iwr/map2.php http://www.iwr.uni-heidelberg.de/organization/iwr/map2.php]
+
+For a map showing the relation of the IWR to the hotels:
+[http://www.cds.caltech.edu/~ltaddeo/sbgn-3/map-heidelberg.pdf http://www.cds.caltech.edu/~ltaddeo/sbgn-3/map-heidelberg.pdf]
+&lt;/div&gt;
+
+==Hotels==
+&lt;div class=&quot;leftindent with-border&quot;&gt;
+The 2 hotels are in walking distance to the meeting place as well as to the city. 
+
+HOTEL CLASSIC INN
+Belfortstrasse 3
+69115 Heidelberg
+Tel: 06221 1 38 32-0
+Fax: 06221 1 38 32-38
+[http://www.hotel-classic-inn.de http://www.hotel-classic-inn.de/]
+
+* The Hotel Classic Inn is located very close to the train station (0.2 miles). (Location for Google Earth: 49° 24' 17.73” N; 8° 40' 47.92” E it's also marked and if you search for Heidelberg, Classic Inn, you can find it). The hotel is within walking distance of the IWR, but it's a long walk. You can also take a street car from the main station.
+* Wireless LAN is available in the rooms.
+
+HOTEL KOHLER
+Goethestr.2
+69115 Heidelberg
+Tel:++49-6221-970097
+Fax:++49-6221-970096
+e-mail: info@hotel-kohler.de
+[http://www.hotel-kohler.de http://www.hotel-kohler.de]
+
+* The Hotel Kohler is about 0.6 miles from the train station. (Location for Google Earth: 49° 24' 21.13” N; 8° 41' 23.83” E. It's also marked in Google Earth and you can find it by searching for Heidelberg, Hotel Kohler). From Hotel Kohler it's about 1.5 miles to the IWR in Neuenheimer Feld and you can either walk or take the street car from the main station.
+* Hotel Kohler has Wireless LAN in the lobby, but not in the rooms.
+&lt;/div&gt;
+
+==Travel Information==
+&lt;div class=&quot;leftindent with-border&quot;&gt;
+
+&lt;span class=&quot;subhead3&quot;&gt;Frankfurt Airport&lt;/span&gt;
+
+Airport Code: FRA
+Tel: (+49) 069 6900
+Fax: (+49) 069 690 70081
+
+[http://www.airportcity-frankfurt.com/cms/default/rubrik/13/13174.roadmap.htm Terminal Map]
+
+&lt;span class=&quot;subhead3&quot;&gt;Ground Transportation&lt;/span&gt;
+
+There are 4 main alternatives to get from Frankfurt Airport to Heidelberg. 
+
+#Lufthansa provides a shuttle service that brings you directly from Frankfurt airport to Heidelberg. The vans depart every hour and the fare is about 20 Euro. Travel time is about 75 minutes. In order to go on one of those shuttle buses you have to reserve a seat with ICS-Logistic as mentioned on their webpage: [http://www.lufthansa-airportbus.com/strecken_heidelberg.html http://www.lufthansa-airportbus.com/strecken_heidelberg.html]&lt;br&gt;&lt;br&gt;'''Update 2007-03-17''' (MH): For the Lufthansa shuttle bus, you can actually simply show up at the bus stop 10-15 minutes before the hour and see if you can buy a ticket right then. The “bus” is a minivan and holds only 5-6 people, so getting a reservation is safer. Cost for a round-trip ticket is 36 euros or 20 euros one way. If you expect to be taking the shuttle on the return trip, it may make more sense to opt for the round-trip ticket. Make sure to save your receipt.&lt;br&gt;&lt;br&gt;
+#Airport Shuttle Service TLS will arrange a chauffeur to wait for you in the arrival hall of the relevant airport terminal. Cost is 30 euros per person for the shuttle. You need to make a reservation 96 hours in advance: [http://www.cvb-heidelberg.de/e705/e743/index_eng.html http://www.cvb-heidelberg.de/e705/e743/index_eng.html]&lt;br&gt;&lt;br&gt;
+# Frankfurt airport has its own train station and trains leave every 30 minutes for Mannheim/Heidelberg. Note: you have to switch trains in Mannheim. Price for a train ticket is about 23 Euro and the traveling time is about 50 minutes. The Airport station is located beside Terminal 1. From Terminal 2 take the Sky Line transit (a transfer train between terminals - departs every 2-3 minutes) to T1. Further information is available at: [http://reiseauskunft.bahn.de/bin/query.exe/en http://reiseauskunft.bahn.de/bin/query.exe/en]&lt;br&gt;&lt;br&gt;
+# If several people arrive at the same time, they could try to share a taxi. If you negotiate, you can get a price of about 100 Euro for a taxi ride to Heidelberg. Please make sure you ask the taxi driver about the price because otherwise he might use a different pricing schema which might be a lot more expensive. This is probably worth it only if you have a group of at least 4 people. Also, travel time may vary depending on traffic but should be somewhere between that of the train and that of the shuttle bus. Taxi ranks are on the forecourt outside both terminals.
+
+
+&lt;span class=&quot;subhead3&quot;&gt;Heidelberg&lt;/span&gt;
+
+&lt;div class=&quot;leftindent-small&quot;&gt;
+[http://maps.google.com/maps?f=q&amp;hl=en&amp;q=reuprech-karl+universitat+heidelberg&amp;sll=49.41008,8.681946&amp;sspn=0.035462,0.099478&amp;layer=&amp;ie=UTF8&amp;z=13&amp;om=1 Heidelberg Google Map]
+
+The Heidelberg Time Zone is CET (GMT+2). [http://www.timeanddate.com/worldclock/results.html?query=heidelberg Current Time, Weather and Forecast]
+
+[http://www.e-heidelberg.com/attractions/attractions.html Sightseeing Options]
+
+[[media:Sbgn2.5-heidelberg-saturday-night.pdf | &quot;Museum Night&quot; in Heidelberg]] (info sheet created by Katja Wegner)
+&lt;/div&gt;
+
+&lt;span class=&quot;subhead3&quot;&gt;Electrical Power and Outlets&lt;/span&gt;
+
+&lt;div class=&quot;leftindent-small&quot;&gt;
+If you are traveling from outside of Germany be sure and '''bring an appropriate power plug converter''' for your laptop – or any other electrical devices you're bringing. Electric current in Germany is 50 Hz, 230 V. For information on the types of plugs that are used, as well as electrical standards in various countries:
+
+&lt;html&gt;&lt;a href=&quot;http://users.pandora.be/worldstandards/electricity.htm&quot;&gt;http://users.pandora.be/worldstandards/electricity.htm&lt;/a&gt;&lt;/html&gt;
+&lt;/div&gt;
+
+{| cellpadding=&quot;20&quot; align=&quot;center&quot;
+! Type C Plug
+| [[image: plug-type-c.jpg]]
+|-
+! Type F Plug
+| [[image: plug-type-f.jpg]]
+|}
+
+&lt;/div&gt;</text>
+    </revision>
+  </page>
+</mediawiki>

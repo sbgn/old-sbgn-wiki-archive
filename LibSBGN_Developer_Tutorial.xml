@@ -1,0 +1,182 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>LibSBGN/Developer Tutorial</title>
+    <id>765</id>
+    <revision>
+      <id>3022</id>
+      <timestamp>2012-11-05T18:18:25Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <text xml:space="preserve">This tutorial is intended for developers who want to read from or write to the SBGN-ML file format. Currently, LibSBGN handles reading, writing and validation of SBGN-ML files. Rendering and conversion to various formats is planned for the future.
+
+= LibSBGN for Java developers =
+
+== Preparation ==
+
+To use this tutorial, you'll need to obtain LibSBGN. There are three ways to do so:
+# Obtain a release from [https://sourceforge.net/projects/libsbgn/files/]
+# [[LibSBGN/Developer Tutorial Ant|Developer Tutorial Ant]]: compile it from source (using Ant)
+# [[LibSBGN/Developer Tutorial Eclipse|Developer Tutorial Eclipse]]: compile it from source (using Eclipse)
+
+== Reading SBGN-ML files in Java ==
+
+Here follows a snippet of Java code that shows how to read an SBGN-ML file. This uses the file &quot;adh.sbgn&quot; as input file, which you can download here: [https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/trunk/test-files/adh.sbgn adh.sbgn]
+
+ // our sbgn-ml file goes in &quot;f&quot;
+ File f = new File (&quot;../test-files/adh.sbgn&quot;);
+ 				
+ // Now read from &quot;f&quot; and put the result in &quot;sbgn&quot;
+ Sbgn sbgn = SbgnUtil.readFromFile(f);
+ 
+ // map is a container for the glyphs and arcs 
+ Map map = sbgn.getMap();
+ 
+ // we can get a list of glyphs (nodes) in this map with getGlyph()
+ for (Glyph g : map.getGlyph())
+ {
+ 	// print the sbgn class of this glyph
+ 	System.out.print (&quot; Glyph with class &quot; + g.getId());
+ 			
+ 	// if there is a label, print it as well
+ 	if (g.getLabel() != null)
+ 		System.out.println (&quot;, and label &quot; + g.getLabel().getText());
+ 	else
+ 		System.out.println (&quot;, without label&quot;);
+ }
+ 
+ // we can get a list of arcs (edges) in this map with getArc()
+ for (Arc a : map.getArc())
+ {
+ 	// print the class of this arc
+ 	System.out.println (&quot; Arc with class &quot; + a.getClazz());
+ }
+
+
+(See [https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/trunk/org.sbgn/examples/org/sbgn/ReadExample.java ReadExample.java])
+
+This will produce the following output:
+
+ Begin of Map
+  Glyph with class glyph1, and label Ethanol
+  Glyph with class glyph_ethanal, and label Ethanal
+  Glyph with class glyph_adh1, and label ADH1
+  Glyph with class glyph_h, and label H+
+  Glyph with class glyph_nad, and label NAD+
+  Glyph with class glyph_nadh, and label NADH
+  Glyph with class pn1, without label
+  Arc with class consumption
+  Arc with class production
+  Arc with class catalysis
+  Arc with class production
+  Arc with class production
+  Arc with class consumption
+
+== Writing SBGN-ML files in Java ==
+
+Example code for writing an SBGN file:
+
+ File f = new File (&quot;test-output.sbgn&quot;);
+ 
+ Sbgn sbgn = new Sbgn();		
+ Map map = new Map();
+ sbgn.setMap(map);
+ 	
+ // create a glyph with an id and class &quot;macromolecule&quot;
+ Glyph g1 = new Glyph();
+ g1.setId(&quot;glyph1&quot;);
+ g1.setClazz(&quot;macromolecule&quot;);
+ 
+ // add the glyph to the map
+ map.getGlyph().add (g1);
+ 
+ // define the bounding box of the glyph
+ Bbox bbox1 = new Bbox();
+ bbox1.setX(125);
+ bbox1.setY(60);
+ bbox1.setW(100);
+ bbox1.setH(40);
+ g1.setBbox(bbox1);
+ 		
+ // define a label for this glyph
+ Label label1 = new Label();
+ label1.setText(&quot;P53&quot;);
+ 
+ // now write everything to disk
+ SbgnUtil.writeToFile(sbgn, f);
+
+(See [https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/trunk/org.sbgn/examples/org/sbgn/WriteExample.java WriteExample.java])
+
+This will produce an SBGN-ML document called &quot;test-output.sbgn&quot;, containing a single Glyph.
+In XML it look like this:
+
+ &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+ &lt;sbgn xmlns=&quot;http://sbgn.org/libsbgn/pd/0.1&quot;&gt;
+     &lt;map&gt;
+         &lt;glyph class=&quot;macromolecule&quot; id=&quot;glyph1&quot;&gt;
+             &lt;bbox w=&quot;100.0&quot; h=&quot;40.0&quot; x=&quot;125.0&quot; y=&quot;60.0&quot;/&gt;
+         &lt;/glyph&gt;
+     &lt;/map&gt;
+ &lt;/sbgn&gt;
+
+== Validating SBGN-ML files in Java ==
+
+Validating a file is very simple, see the snippet below. To run this, you need to download a copy of [https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/trunk/resources/SBGN.xsd SBGN.xsd]
+
+Note that this validation is not comprehensive: it checks only for certain kinds of errors, but a passed validation does not guarantee that your diagram is fully SBGN compliant.
+
+ File xsd = new File (&quot;SBGN.xsd&quot;);
+ File f = new File (&quot;adh.sbgn&quot;);
+ 	
+ boolean isValid = SbgnUtil.isValid(f, xsd);
+ 
+ if (isValid)
+ 	System.out.println (&quot;Validation succeeded&quot;);
+ else
+ 	System.out.println (&quot;Validation failed&quot;);
+
+If validation didn't succeed, the method isValid() will return false and an error message will be printed to the standard error stream. See also: [https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/trunk/org.sbgn/examples/org/sbgn/ValidationExample.java ValidationExample.java]
+
+= LibSBGN for C++ developers =
+
+A tutorial for C++ developers can be found [[LibSBGN/Developer Tutorial C++|here]].
+
+= Writing extensions =
+
+For information about how to extend LibSBGN for arbitrary data, please see [[LibSBGN/SBGN-ML Extensions|SBGN-ML Extensions]].
+
+= Where to go from here =
+
+If you have further questions after reading this, you can always contact the mailinglist at sbgn-libsbgn@lists.sourceforge.net</text>
+    </revision>
+  </page>
+</mediawiki>

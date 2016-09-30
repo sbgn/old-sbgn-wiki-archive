@@ -1,0 +1,55 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Twitter</title>
+    <id>829</id>
+    <revision>
+      <id>3099</id>
+      <timestamp>2012-11-29T17:41:07Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <comment>New page: {{#widget:Twitter |user=lenoverelab |width=auto |count=10 |scrollbar |poll |tweets.color=#000000 |tweets.background=#f2f2f2 |tweets.links=#107bb5 |shell.color=#000000 |shell.background=#b8...</comment>
+      <text xml:space="preserve">{{#widget:Twitter
+|user=lenoverelab
+|width=auto
+|count=10
+|scrollbar
+|poll
+|tweets.color=#000000
+|tweets.background=#f2f2f2
+|tweets.links=#107bb5
+|shell.color=#000000
+|shell.background=#b8b8b8
+}}</text>
+    </revision>
+  </page>
+</mediawiki>

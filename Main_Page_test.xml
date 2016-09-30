@@ -1,0 +1,61 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Main Page/test</title>
+    <id>661</id>
+    <revision>
+      <id>2516</id>
+      <timestamp>2011-02-11T16:55:28Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <text xml:space="preserve">&lt;html&gt;&lt;img id=&quot;mainpagegraphic&quot; src=&quot;/skins/SBGN/graphics/sbgn-front-image-v5.gif&quot;&gt;&lt;/html&gt;
+
+Welcome to the global portal for documentation, news, and other information about the Systems Biology Graphical Notation (SBGN) project, an effort to standardize the graphical notation used in maps of biological processes. 
+
+The following links will bring you to the more popular pages of the website. Much more is available though. Explore using the top menu.
+
+{|width=&quot;100%&quot; style=&quot;font-weight:bold;font-size:1.5em;&quot;
+| align=&quot;center&quot; style=&quot;padding:15px;&quot;| [[Documents/Specifications | &lt;font color=&quot;#ffff00&quot;&gt;Specifications]]
+| align=&quot;center&quot; style=&quot;padding:15px;&quot;| [[SBGN_Software | &lt;font color=&quot;#ffff00&quot;&gt;Software ]]
+| align=&quot;center&quot; style=&quot;padding:15px;&quot;| [[Documents/Examples | &lt;font color=&quot;#ffff00&quot;&gt;Examples ]]
+|-
+| align=&quot;center&quot; style=&quot;padding:15px;&quot; |[http://www.biopax.org/harmony.php &lt;font color=&quot;#ffff00&quot;&gt;Next meeting]
+| align=&quot;center&quot; style=&quot;padding:15px;&quot; |[https://utils.its.caltech.edu/mailman/listinfo/sbgn-discuss &lt;font color=&quot;#ffff00&quot;&gt;Discussion]
+| align=&quot;center&quot; style=&quot;padding:15px;&quot; |[[Quote | &lt;font color=&quot;#ffff00&quot;&gt;Cite ]]
+|}
+
+SBGN is the work of many people.  It would not have been possible without the generous [[Contacts#Funding | support of multiple organizations]] over the years, for which we are very thankful.
+
+{{NewsPage}}</text>
+    </revision>
+  </page>
+</mediawiki>

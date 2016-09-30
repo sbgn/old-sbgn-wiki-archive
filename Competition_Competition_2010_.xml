@@ -1,0 +1,189 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Competition/Competition 2010/</title>
+    <id>582</id>
+    <revision>
+      <id>2344</id>
+      <timestamp>2010-10-07T08:19:18Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <text xml:space="preserve">Below are all the submissions to the SBGN annual competition 2010, grouped by sections. The winners are:
+
+* Completeness, exactitude, validation: [[#SBGN-ED - WINNER| SBGN-ED]]
+* Layout and rendering: Tie between [[#Arcadia - WINNER | Arcadia]] and [[#VISIBIOweb - WINNER | VISIBIOweb]]
+* Best Map: [[#Plant central metabolism - WINNER| Plant central metabolism]]
+* Outreach: [[#Tutorial by Anatoly Sorokin - WINNER | Anatoly Sorokin]]
+
+== Best SBGN software support (1) - Completeness, exactitude, validation ==
+
+=== BIOCHAM ===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Website: http://contraintes.inria.fr/BIOCHAM/
+* Contact: [mailto:prijatelkatadadicka@yahoo.com Dragana Jovanovska]
+* [[media:BIOCHAM-SBGN_competition_software-1.pdf | ‎Document describing the submission]]
+|[[Image:biocham.png|center| thumb|200px|BIOCHAM]]
+|}
+
+=== CellDesigner ===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Website: http://www.celldesigner.org/
+* Contact: [mailto:myukiko@sbi.jp Yukiko Matsuoka]
+* [[media:SBGNcompetition2010CellDesigner.pdf | ‎Document describing the submission]]
+|[[Image:Celldesigner.png|center| thumb|200px|CellDesigner]]
+|}
+
+=== SBGN-ED - ''WINNER''===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Website: http://vanted.ipk-gatersleben.de/addons/sbgn-ed/
+* Contact: [mailto:schreibe@ipk-gatersleben.de Falk Schreiber]
+* [[media:SBGN-ED-Description-software-1.pdf | ‎Document describing the submission]]
+* [[media:SBGN_software_(1)-SBGN-ED.zip | complete submission ]]
+|[[Image:SBGN-ED.png|center| thumb|200px|SBGN-ED]]
+|}
+
+== Best SBGN software support (2) - Layout and rendering  ==
+
+=== Arcadia - WINNER===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Website: http://arcadiapathways.sourceforge.net/
+* Contact: [mailto:alice.villeger@manchester.ac.uk Alice Villeger]
+* [[media:Arcadia_rendering.zip | ‎Complete submission]]
+|[[Image:193.png|center| thumb|200px|Arcadia]]
+|}
+
+=== VISIBIOweb - WINNER===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Website: http://www.bilkent.edu.tr/~bcbi/pvs.html
+* Contact: [mailto:ugur@cs.bilkent.edu.tr Ugur Dogrusoz]
+* [[media:VISIBIOweb.zip | ‎Complete submission 1]]
+|[[Image:VISIBIOweb.png|center| thumb|200px|VISIBIOweb]]
+|}
+
+== Best SBGN map: Breadth, accuracy, aesthetics ==
+
+=== Plant central metabolism - WINNER ===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Contact: [mailto:schreibe@ipk-gatersleben.de Falk Schreiber]
+* [[media:SBGN-ED_map.pdf | ‎Document describing the submission]]
+* [http://sbgn.org/images/3/35/MetaCrop-plant-central-metabolism.png full size map]
+|
+[[Image:MetaCrop-plant-central-metabolism-small.png|border|200px]]
+|}
+
+=== Development of Diabetic Retinopathy ===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Contact: [mailto:bdb@ebi.ac.uk Bernard de Bono]
+* [[media:Retinopathy.txt | ‎Document describing the submission]]
+* [http://sbgn.org/images/d/dc/SBGN_ER_retinopathy.png full size map]
+|
+[[Image:SBGN_ER_DM_retinopathy_v13_3-small.png|center| thumb|200px|Retinopathy]]
+|}
+
+=== Effect of Uranium ===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Contact: [mailto:lptolik@gmail.com Anatoly Sorokin]
+* [[media:Uranium.txt | ‎Document describing the submission]]
+* [http://sbgn.org/images/3/31/Uranium.png full size map]
+|
+[[Image:Uranium.png|center| thumb|200px|Uranium]]
+|}
+
+[http://www.surveymonkey.com/s/Y5DTRX9 Enter your vote]
+
+== Best SBGN outreach: lecture, training, publication, book, website  ==
+
+=== Tutorial by Yukiko Matsuoka ===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Contact: [mailto:myukiko@sbi.jp Yukiko Matsuoka]
+* [[media:SBGN_Tutorial-Matsuoka.pdf|  Outreach material (tutorial)]]
+* [[media:Supplementary_EGFR.zip| Outreach material (supplementary)]]
+|}
+
+=== Article by Falk Schreiber ===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Contact: [mailto:schreibe@ipk-gatersleben.de Falk Schreiber]
+* [[media:SBGN_outreach.pdf | ‎Document describing the submission]]
+* [[media:JunkerHSB10.pdf| Outreach material (article)]]
+|}
+
+=== Tutorial by Anatoly Sorokin - WINNER ===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Contact: [mailto:asorokin@inf.ed.ac.uk Anatoly Sorokin]
+* [[media:SBGN_Tutorial-Sorokin.pdf|Outreach material (tutorial)]]
+|}
+
+=== Tutorial by Richard Adams ===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Contact: [mailto:richard.adams@ed.ac.uk Richard Adams]
+* [[media:SBGN.zip|Outreach material (tutorial)]]
+* [[media:CoveringLetter.pdf| Covering Letter for the submission]]
+|}</text>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,73 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Symbols/complex</title>
+    <id>964</id>
+    <revision>
+      <id>4091</id>
+      <timestamp>2016-03-04T14:39:52Z</timestamp>
+      <contributor>
+        <username>Vtoure</username>
+        <id>76</id>
+      </contributor>
+      <text xml:space="preserve">''by Nicolas Le Novère''
+
+A complex node represents a biochemical entity composed of other biochemical entities, whether macromolecules, simple chemicals, multimers, or other complexes, linked by non-covalent bounds. The complex construct in SBGN possesses its own symbol, which is a rectangle with cut-corners (an octagonal box with sides of two different lengths). This symbol can be decorated with the symbols of its components. In this case, the label of the complex is optional. 
+
+&lt;center&gt;
+{{#icon:SymbolMonth-complex.png |||| corner iradius11}}
+&lt;/center&gt;
+
+The following example describes the reversible binding of calcium (represented as a simple chemical) on calmodulin (represented as a macromolecule).
+
+&lt;center&gt;
+{{#icon:Symbol-complex-example-1.png |||| corner iradius11}}
+&lt;/center&gt;
+
+The following example describes the binding the subunit alpha with subunits beta and gamma of the heterotrimeric G-protein.
+
+&lt;center&gt;
+{{#icon:Symbol-complex-example-2.png |||| corner iradius11}}
+&lt;/center&gt;
+
+
+Download the complex node image as (from the more semantic to the more generic):
+
+[ [[media:Symbol-complex.sbgn|SBGN-ML]] ]
+[ [[media:Symbol-complex.gml|GML]] ]
+[ [[media:Symbol-complex.graphml|GraphML]] ]
+[ [[media:Symbol-complex.svg|SVG]] ]
+[ [[media:Symbol-complex.odp|Open Document Format]] ]
+[ [[media:Symbol-complex.ppt|PowerPoint]] ]
+[ [[media:SymbolMonth-complex.pdf|PDF]] ]
+[ [[media:Symbol-complex.png|PNG]] ]</text>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,79 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN 2.5/First Day Issues</title>
+    <id>70</id>
+    <revision>
+      <id>894</id>
+      <timestamp>2008-08-14T21:51:45Z</timestamp>
+      <contributor>
+        <username>SBGNWikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">__NOTOC__ 
+These are &lt;big&gt;ordered in the original sequence&lt;/big&gt;. The parenthesized numbers after the headings indicate priority, as decided at the time of the discussion. 
+ 
+# Empty set: do we need it? (1) 
+# Filled ellipse or not filled? (2)  
+# Semantics of state variables: several unspecified semantics (3)  
+# Shape of a complex &amp; what's under the shape (multiple questions) (4)  
+#* &lt;span class=&quot;subhead2&quot;&gt;emek:&lt;/span&gt; do shapes have to touch inside? does topology indicate anything? 
+# Shape of compartments (4)  
+#* can compartments can have any shape? 
+#* &lt;span class=&quot;subhead2&quot;&gt;emek:&lt;/span&gt; are we allowing nested compartments? 
+#* &lt;span class=&quot;subhead2&quot;&gt;emek:&lt;/span&gt; are membranes separate compartments? 
+#* &lt;span class=&quot;subhead2&quot;&gt;emek:&lt;/span&gt; there are neighborhood relationships -- are we going to draw them? 
+# Rectangular shape of gene (2)  
+#* &lt;span class=&quot;subhead2&quot;&gt;emek:&lt;/span&gt; what happens if several elements of one gene intersect with another? does the info get duplicated? 
+#* &lt;span class=&quot;subhead2&quot;&gt;stuart:&lt;/span&gt; would like to discuss examples of state transition vis-a-vis gene regulation 
+# Controlled vocabulary for macromolecule labels (1)  
+#* &lt;span class=&quot;subhead2&quot;&gt;nicolas:&lt;/span&gt; also for physical properties (1) 
+# Modulation, catalysis: use a circle? should catalysis even exist? (5) 
+#* &lt;span class=&quot;subhead2&quot;&gt;mirit:&lt;/span&gt; do we want all of them in SBGN L1? 
+#* &lt;span class=&quot;subhead2&quot;&gt;emek:&lt;/span&gt; also trigger and others 
+#* also topic of shape of modulation &amp; rescaling diagrams 
+#* &lt;span class=&quot;subhead2&quot;&gt;anatoly:&lt;/span&gt; should there be multiple shapes? or one shape for all? put smth inside the diamond? 
+# All boolean connectors: (5)  
+#* &lt;span class=&quot;subhead2&quot;&gt;emek:&lt;/span&gt; highly tied to modulation 
+# Module: shape, content, terminals (3)  
+#* also: can a connector connect to a component inside the complex 
+# Hiroaki: discussing reduced notation (1)  
+# Rules for drawing layout (eg avoid overlap, etc.) (1)  
+#* &lt;span class=&quot;subhead2&quot;&gt;falk&lt;/span&gt; offers to prepare a list 
+# Do we want to incorporate annotation glyphs? (1)  
+# Do we want to discuss the languages used to implement SBGN? (0.5)  
+# Do we want to include generic entities in L1? (1)  
+#* &lt;span class=&quot;subhead2&quot;&gt;ralph:&lt;/span&gt; eg is event 
+# Entity-relationships: how to proceed? (1)  
+#* &lt;span class=&quot;subhead2&quot;&gt;mirit:&lt;/span&gt; must make sure to heed orthogonality goals 
+# Hiroaki: arrows? (1)</text>
+    </revision>
+  </page>
+</mediawiki>

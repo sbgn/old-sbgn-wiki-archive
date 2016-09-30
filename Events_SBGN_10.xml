@@ -1,0 +1,288 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-10</title>
+    <id>976</id>
+    <revision>
+      <id>3874</id>
+      <timestamp>2014-11-09T13:07:49Z</timestamp>
+      <contributor>
+        <username>Asorokin</username>
+        <id>14</id>
+      </contributor>
+      <comment>/* Sunday August 17 */</comment>
+      <text xml:space="preserve">{{EventImage | image = SBGN10-LA-100x100.jpg}}
+
+SBGN-10 will consist of a premeeting of [http://co.mbine.org/events/COMBINE_2014 COMBINE 2014] from August 16th to 17th 2014, and will be part of [http://co.mbine.org/events/COMBINE_2014 COMBINE 2014] from August 18th to 22nd in Los Angeles, USA. As many SBGN developers are also involved in other projects and standards the premeeting will allow people to participate in the SBGN discussion without distraction and develop the specifications to be discussed at [http://co.mbine.org/events/COMBINE_2014 COMBINE 2014].
+
+== Registration ==
+
+If you plan to participate in the '''SBGN pre-meeting on Aug.16-17''', please click [https://www.surveymonkey.com/s/SBGN10registration here] to register. The registration is free.
+
+If you plan to attend the rest of the SBGN 10 and COMBINE 2014, please register at [http://co.mbine.org/events/COMBINE_2014#Registration the COMBINE 2014 registration page].
+
+== Accommodation ==
+
+See [http://co.mbine.org/events/COMBINE_2014#Accommodation Accommodation for COMBINE 2014] for details.
+
+== Venue ==
+
+[http://www.radisson.com/los-angeles-hotel-ca-90007/cafiguer?gclid=CIj59Y_48bsCFU9afgode18Aig&amp;s_cid=se.ggl.rad_cmp58/ Radisson Hotel], Room 201.
+
+== Travel Information ==
+
+See [http://co.mbine.org/events/COMBINE_2014#Travel_Information Travel Information for COMBINE 2014] for details.
+
+== Agenda == 
+
+=== Saturday August 16 ===
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+! width=&quot;200px&quot;|Time
+! width=&quot;500px&quot;|Topic
+! width=&quot;200px&quot;| Speaker
+|-
+|08:00
+|'''Breakfast'''
+|
+|-
+|08:30
+|'''Welcome/Introduction'''
+|Huaiyu Mi
+|-
+|08:45
+|'''SBGN Overview and Status''' ([[Media:Falk_SBGN_overview.pdf |pdf]])
+|Falk Schreiber
+|-
+|09:15
+|'''Issues to discuss'''
+|
+|-
+|09:30 - 10:00
+|'''Update on PD Specification L1V2''' ([[Media:SBGN10PDUpdate_Moodie.pdf |pdf]])
+|Stuart Moodie
+|-
+|10:00 - 10:30
+|colspan=&quot;2&quot; align=&quot;center&quot; | '''Coffee break'''
+|
+|-
+|10:30 - 12:30
+|'''PD Specification L1V2 discussion'''
+|
+|-
+|12:30 - 14:00
+|colspan=&quot;2&quot; align=&quot;center&quot; | '''Lunch'''
+|
+|-
+|14:00 - 14:30
+|'''Introduction of DiseaseMap Project''' ([[Media:SBGN10_DiseaseMap_A_Mazein.pdf |pdf]])
+|Alexander Mazein
+|-
+|14:30 - 15:00
+|'''Visualization of Rule-Base Modeling''' ([[Media:SBGN-blinov-6.pdf |pdf]])
+|Michale Blinov
+|-
+|rowspan=&quot;3&quot; valign=&quot;top&quot;|15:00 - 15:50
+|'''PD Specification L2'''    
+|
+|-
+|  -generic / protein families
+|
+|-
+|  -style sheets
+|
+|-
+|15:50 - 16:20
+|colspan=&quot;2&quot; align=&quot;center&quot; | '''Coffee break'''
+|
+|-
+|16:20 - 18:15
+|'''PD L2 Discussion''' (cont.)
+|
+|-
+|}
+
+=== Sunday August 17 ===
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+! width=&quot;200px&quot;|Time
+! width=&quot;500px&quot;|Topic
+! width=&quot;200px&quot;| Speaker
+|-
+|08:00
+|'''Breakfast'''
+|
+|-
+|08:30 - 09:15
+|'''Reactome and SBGN''' ([[Media:SBGN_Reactome.pdf |pdf]])
+|Robin Haw
+|-
+|09:15 - 10:00
+|'''SBOL Visual''' ([[Media:SBGN_10_SBOL_Visual_Presentation.pdf |pdf]])
+| Jacqueline Quinn
+|-
+|10:00 - 10:30
+|'''PD Specification L1V2 (cont.)'''
+|Stuart Moodie
+|- 
+|10:30 - 10:45
+|colspan=&quot;2&quot; align=&quot;center&quot; | '''Coffee break'''
+|
+|-
+|10:45 - 11:15
+|'''SBGN-AF representation of LEGO''' ([[Media:LEGO_presentation_SBGN_Huaiyu.pdf |pdf]])
+|Huaiyu Mi
+|-
+|11:15 - 11:45
+|'''AF Specification L1V2'''
+|Huaiyu Mi
+|-
+|rowspan=&quot;3&quot; valign=&quot;top&quot;|11:45 - 12:30
+|'''Mapping SBGN to BioPAX'''
+|
+|-
+|   - CellDesigner to BioPAX conversion ([[Media:CellDesigner to BioPAX conversion.pdf |pdf]])
+|Anushya Muruganujan
+|-
+|   - Discussion
+|
+|-
+|12:30 - 13:40
+|colspan=&quot;2&quot; align=&quot;center&quot;| '''Lunch'''
+|
+|-
+|13:45 - 15:30
+|'''ER Specification L1V2''' ([[Media:ER_update_Anatolgy.pdf |pdf]])
+|Anatoly Sorokin
+|-
+|15:30 - 16:00
+|colspan=&quot;2&quot; align=&quot;center&quot; |'''Coffee break'''
+|
+|-
+|rowspan=&quot;7&quot; valign=&quot;top&quot;|16:00 - 18:00
+|'''The future'''
+|
+|-
+|  - funding opportunities
+|
+|-
+|  - SBGN dissemination
+|
+|-
+|  - editorial election
+|
+|-
+|  - SBGN competition
+|
+|-
+|  - next SBGN meeting
+|
+|-
+|  - actions and timescales
+|
+|-
+|}
+
+== Meeting Minutes ==
+
+Click [https://docs.google.com/document/d/17lo9kuO6chosyCPxoLBJUbXs1I2NuumdZUJ35cGPJUc/edit?usp=sharing '''here'''] to access the meeting notes shared on a Google document.
+
+==Workshop Participants==
+
+The following will be attending the meeting.
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+!width=&quot;120px&quot;| Name
+!width=&quot;220px&quot;| Affiliation
+! Group/Project
+! Joining Remotely
+|- 
+| Michael Blinov
+| University of Connecticut Health Center
+| BioNetGen@VCell
+|-
+| Tobias Czauderna
+| IPK Gatersleben (Germany)
+| [http://www.sbgn-ed.org SBGN-ED]
+|
+|- 
+| Emek Demir
+| MSKCC, New York
+| BioPAX, PathwayCommons
+|- 
+| Robin Haw
+| Ontario Institute for Cancer Research, Toronto
+| [http://www.reactome.org Reactome]
+|- 
+| Augustin Luna
+| MSKCC, New York
+| 
+|- 
+| Alexander Mazein
+| EISBM-CNRS, Lyon, France
+| DiseaseMap
+|
+|-  
+| Huaiyu Mi
+| USC (USA)
+| [http://www.pantherdb.org PANTHER Pathway]; [http://www.sbgn.org SBGN]; [http://www.geneontology.org/ Gene Ontology]
+| 
+|-
+|Stuart Moodie
+| Eight Pillars Ltd, Edinburgh, UK
+|
+|
+|-
+|Anushya Muruganujan
+| USC
+|
+|
+|-
+|Jacqueline Quinn
+| 
+|[http://www.sbolstandard.org/visual SBOL visual]
+|
+|-
+| Falk Schreiber
+| University of Halle-Wittenberg (Germany) &amp; Monash University Melbourne (Australia)
+| [http://www.sbgn-ed.org SBGN-ED]; [http://www.sbgn.org libSBGN]; [http://www.vanted.org VANTED]
+|
+|-
+| Anatoly Sorokin
+| Institute of Cell Biophysics (Russia), University of Edinburgh (UK)
+| [http://www.sbgn.org SBGN]
+|
+|- 
+| Katja Wengler
+| 
+| [http://homepages.stca.herts.ac.uk/~erdqmjs/Apostrophe.php NetBuilder]
+|
+|}</text>
+    </revision>
+  </page>
+</mediawiki>

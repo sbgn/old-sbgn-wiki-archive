@@ -1,0 +1,116 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Meeting minutes</title>
+    <id>550</id>
+    <revision>
+      <id>4131</id>
+      <timestamp>2016-03-25T16:09:18Z</timestamp>
+      <contributor>
+        <username>Huaiyumi</username>
+        <id>18</id>
+      </contributor>
+      <comment>/* SBGN editors meetings */</comment>
+      <text xml:space="preserve">== Scientific Committee Meetings and Minutes ==
+
+=== [[SciCom2010 | Meeting in Edinburgh, UK. 10 Oct. 2010]] ===
+
+== SBGN editors meetings ==
+
+The SBGN specification editors meet in person and via teleconferences to discuss the state of the specification, community requests, ongoing work, future goals, etc.
+
+=== [[Editors Telecon 25 March 2016 | Editors teleconference 25 March 2016 ]] ===
+
+=== [[Editors Telecon 29 January 2016 | Editors teleconference 29 January 2016 ]] ===
+
+=== [[Editors Telecon 16 November 2015 | Editors teleconference 16 November 2015 ]] ===
+
+=== [[Editors Telecon 6 August 2015 | Editors teleconference 6 August 2015 ]] ===
+
+=== [[Editors Telecon 29 June 2015 | Editors teleconference 29 June 2015 ]] ===
+
+=== [[Editors Telecon 19 March 2015 | Editors teleconference 19 March 2015 ]] ===
+
+=== [[Editors Telecon 16 Feb 2015 | Editors teleconference 16 Feb 2015 ]] ===
+
+=== [[Editors Telecon 19 Jan 2015 | Editors teleconference 19 Jan 2015 ]] ===
+
+=== [[Editors Telecon 16 Dec 2014 | Editors teleconference 16 Dec 2014 ]] ===
+
+=== [[Editors Telecon 10 Nov 2014 | Editors teleconference 10 Nov 2014 ]] ===
+
+=== [[Editors Telecon 12 Jun 2014 | Editors teleconference 12 Jun 2014 ]] ===
+
+=== [[Editors Telecon 24 Mar 2014 | Editors teleconference 24 Mar 2014 ]] ===
+
+=== [[Editors Telecon 06 Fev 2014 | Editors teleconference 06 Feb 2014 ]] ===
+
+=== [[Editors Telecon 04 Nov 2013 | Editors teleconference 04 Nov 2013 ]] ===
+
+=== [[Editors Telecon 29 May 2013 | Editors teleconference 29 May 2013 ]] ===
+
+=== [[Editors Telecon 02 Apr 2013 | Editors teleconference 02 April 2013 ]] ===
+
+=== [[Editors Telecon 04 Mar 2013 | Editors teleconference 04 Mar 2013]] ===
+
+=== [[Editors Telecon 23 Jan 2013 | Editors teleconference 23 Jan 2013]] ===
+
+=== [[Editors Telecon 05 Oct 2012 | Editors teleconference 05 Oct 2012]] ===
+
+=== [[Editors Telecon 13 Jul 2012 | Editors teleconference 13 Jul 2012]] ===
+
+=== [[Editors Telecon 19 Apr 2012 | Editors teleconference 19 Apr 2012]] ===
+
+=== [[Editors Telecon 26 Jan 2012 | Editors teleconference 26 Jan 2012]] ===
+
+=== [[Editors Telecon 15 Mar 2011 | Editors teleconference 15 March 2011]] ===
+
+=== [[Editors Telecon 23 Feb 2011 | Editors teleconference 23 February 2011]] ===
+
+=== [[Editors Telecon 13 Jan 2011 | Editors teleconference 13 January 2011]] ===
+
+=== [[SBGN_Admin_Meeting_08_April_2009| Editors/Authors' administrative meeting, Waiheke, 8 April evening]] ===
+
+=== [[SBGN authors meeting 08 Apr 2009 | Authors' meeting, Waiheke, 8 April 2009]] ===
+
+=== [[SBGN editors meeting 04 Mar 2009 | Editors' meeting, Hinxton, 4-5 March 2009  ]]===
+
+=== [[SBGN author meeting 26 Aug 2008 | Authors' meeting, ICSB 2008, 26 Aug 2008 ]] ===
+
+== libSBGN Subgroup Meetings and Minutes ==
+
+More recent meeting minutes can be found on the [http://sourceforge.net/apps/mediawiki/libsbgn/index.php?title=OnlineMeetings#Past_Meetings libSBGN website].
+
+=== [[media:LibSBGNspecsDraft1.1.pdf | Draft of libSBGN, July 2009]] ===
+
+=== [[LibSbgnMeeting090409 | Meeting at Waiheke Island, NZ. 9 April 2009]] ===</text>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,44 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Ftest</title>
+    <id>373</id>
+    <revision>
+      <id>1567</id>
+      <timestamp>2009-04-22T19:19:41Z</timestamp>
+      <contributor>
+        <username>SBGNWikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>New page: &lt;html&gt;&lt;iframe id=&quot;auto-resized-iframe&quot; src=&quot;https://utils.its.caltech.edu/mailman/listinfo/sbgn-discuss&quot; height=&quot;1000&quot; width=&quot;100%&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot;&gt;&lt;/ifram...</comment>
+      <text xml:space="preserve">&lt;html&gt;&lt;iframe id=&quot;auto-resized-iframe&quot; src=&quot;https://utils.its.caltech.edu/mailman/listinfo/sbgn-discuss&quot; height=&quot;1000&quot; width=&quot;100%&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/html&gt;</text>
+    </revision>
+  </page>
+</mediawiki>

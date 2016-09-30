@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="http://www.sbgn.org/skins/common/feed.css?116"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+		<id>http://www.sbgn.org/index.php?title=News&amp;action=feed&amp;feed=atom</id>
+		<title>sbgn.org - News</title>
+		<link rel="self" type="application/atom+xml" href="http://www.sbgn.org/index.php?title=News&amp;action=feed&amp;feed=atom"/>
+		<link rel="alternate" type="text/html" href="http://www.sbgn.org/News"/>
+		<updated>2016-06-07T23:37:03Z</updated>
+		<subtitle>(06 Jan.'16)Congratulations to Nicolas Le Novere and Alexander Mazein, elected SBGN editors for the period 2016-2018.
+
+(21 Oct.'15)Specifications available for SBGN ER L1 V2.0, and SBGN AF L1 V1.2.
+
+(19 Aug.'14)Draft versions of the latest SBGN specs are now available for review Draft PD Level 1 Version 2.0 and Draft ER Level 1 Version 2.0.
+
+(08 Jul.'14)SBGN 10 will be part of the fifth COMBINE forum, Aug 18-22 in Los Angeles. Please register as soon as possible for SBGN 10.
+
+(19 Apr.'13)The SBGN User Survey. We need your help to make SBGN better. Find out more here
+
+(11 Dec.'12)The vote on &quot;equivalence node&quot; to link generics entities is open. Vote before Dec 24
+
+(03 Dec.'12)Congratulations to Tobias Czauderna and Stuart Moodie, elected SBGN editors for the period 2013-2015.
+
+(16 Nov.'12)The vote for new editors  is opened. It will close on 16 Nov. '12.
+
+(07 Oct.'12)The SBGN PD user manual has been released. This will be a living document.
+
+(10 Dec.'11)The Milestone 2 of libSBGN has been released.
+
+(09 Aug.'11)The results of the vote for the  2011 annual competition are available. Congratulations to the producer of the best Map, Software support or Outreach.
+
+(19 Apr.'11)The  2011 annual competition is opened, with categories such as Best Software, Best Map and Best Outreach.
+
+(14 Apr.'11)Specifications available for 
+SBGN ER L1 V1.2
+
+(14 Feb.'11)Specifications available for 
+SBGN PD L1 V1.3
+
+(14 Jan.'11)Please vote about reversible processes
+
+(18 Dec.'10)Please vote about source and sink and about process duplication
+
+(07 Oct.'10)Have a look at the winners of the 
+ SBGN 2010 competition
+
+(06 Oct.'10)Specifications available for 
+SBGN PD L1 V1.2, and SBGN ER L1 V1.1
+
+(07 Aug.'10)SBGN 6 will be part of the 1st COMBINE meeting, Oct 6-9 in Edinburgh. Please register as soon as possible.
+
+(23 Apr.'10)The first  annual competition is opened, with categories such as Best Software, Best Map and Best Outreach.
+
+(02 Sep.'08)The first specifications for SBGN Entity Relationships and SBGN Activity Flows are out!
+
+(07 Aug.'09)Publication in Nature Biotechnology of an article describing the three languages composing SBGN.
+
+(15 Jun.'09)The second complete draft SBGN Entity Relationships Level&amp;nbsp;1 specification is out for comment. 
+Download the document and tell us what you think!
+
+(20 Apr.'09)The first complete draft SBGN Entity Relationships Level&amp;nbsp;1 specification is out for comment. 
+Download the document and tell us what you think!
+
+(20 Oct.'08)Join us at the combined CellML-SBGN-SBO-BioPAX-MIASE Workshop in Auckland, New Zealand, during April, 2009.  If you are planning on going, please register as soon as possible.  Download the poster and put it on your bulletin boards too!
+
+(23 Aug.'08)The first SBGN Process Diagrams Level&amp;nbsp;1 specification is out! Download the specification and tell us what you think!</subtitle>
+		<generator>MediaWiki 1.12.0 via WikiArticleFeeds 0.6.3</generator>
+
+	</feed>

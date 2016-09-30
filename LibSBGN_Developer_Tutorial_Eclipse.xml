@@ -1,0 +1,115 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>LibSBGN/Developer Tutorial Eclipse</title>
+    <id>775</id>
+    <revision>
+      <id>3941</id>
+      <timestamp>2015-01-20T22:26:40Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <comment>/* Build the LibSBGN source files, class files, jar file and JavaDoc files */</comment>
+      <text xml:space="preserve">This tutorial describes in 3 steps how to build the LibSBGN java classes and/or the LibSBGN jar using Eclipse.
+
+= Preparation =
+
+== Add the Java tools to the Ant runtime classpath ==
+
+Go to Window -&gt; Preferences -&gt; Ant -&gt; Runtime -&gt; Tab ''Classpath''
+
+Add the Java tools to ''Global Entries''
+* Click ''Add External JARs...''
+* Go to ''Path to JDK''/lib/tools.jar
+
+[[Image:LibSBGN_Ant_Classpath.png|thumb|c|center|346px|Set the Ant runtime classpath in the Eclipse preferences]]
+
+==  Add the JDK to the system PATH variable (necessary for JavaDoc) ==
+
+Add
+ ''Path to JDK''/bin
+to the system PATH variable as described [http://www.java.com/en/download/help/path.xml here] and [http://download.oracle.com/javase/tutorial/essential/environment/paths.html here]
+
+== Install an Eclipse Subversion plugin ==
+
+Install the Subversion plugin [http://www.eclipse.org/subversive/ Subversive] ([http://www.eclipse.org/subversive/documentation/gettingStarted/aboutSubversive/install.php installation documentation]) '''or''' [http://subclipse.tigris.org/ Subclipse] ([http://subclipse.tigris.org/servlets/ProjectProcess?pageID=p4wYuA installation documentation])
+
+= Check out LibSBGN from SourceForge =
+
+Open the ''SVN Repository Exploring'' Perspective
+* Go to Window -&gt; Open Perspective -&gt; SVN Repository Exploring '''or'''
+* Go to Window -&gt; Open Perspective -&gt; Other ... and choose ''SVN Repository Exploring''
+
+Add a new repository location (right click in ''SVN Repositories'')
+
+[[Image:LibSBGN_SVN_Repository_1.png|thumb|c|center|494px|Add a new repository location]]
+
+Enter
+ https://libsbgn.svn.sourceforge.net/svnroot/libsbgn
+in ''URL''
+
+Optionally choose ''Use a custom label'' and enter a name, e.g. ''LibSBGN''
+
+Click ''Finish''
+
+[[Image:LibSBGN_SVN_Repository_2.png|thumb|c|center|494px|Enter the repository location information]]
+
+Right click on ''LibSBGN/trunk''
+
+Choose ''Check Out''
+
+[[Image:LibSBGN_SVN_Repository_3.png|thumb|c|center|494px|Check out the trunk from the LibSBGN SVN repository]]
+
+= Build the LibSBGN source files, class files, jar file and JavaDoc files =
+
+Switch to the ''Java Perspective''
+
+To build the source files, class files and jar file
+* Right click on ''build.xml'' in project ''libsbgn''
+* Choose ''Run As'' -&gt; ''Ant Build''
+
+[[Image:LibSBGN_Build_1.png|thumb|c|center|494px|Build the LibSBGN source files, class files and jar file]]
+
+To build the source files, class files, jar file and JavaDoc files
+* Right click on ''build.xml'' in project ''libsbgn''
+* Choose ''Run As'' -&gt; ''Ant Build...''
+
+[[Image:LibSBGN_Build_2.png|thumb|c|center|494px|Build the LibSBGN source files, class files, jar file and JavaDoc files]]
+
+* Select ''doc''
+* Click ''Apply'' and/or ''Run''
+
+[[Image:LibSBGN_Build_3.png|thumb|c|center|494px|Build the LibSBGN source files, class files, jar file and JavaDoc files]]
+
+In case the build process doesn't start make sure that Ant is using the same JRE as the workspace (see figure above, tab ''JRE'').</text>
+    </revision>
+  </page>
+</mediawiki>

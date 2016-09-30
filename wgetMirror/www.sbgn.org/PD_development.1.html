@@ -1,0 +1,578 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+<head>
+<title>PD development - sbgn.org</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="robots" content="noindex,nofollow" />
+		<meta name="keywords" content="PD development,Events/SBGN-6.5/SBGN languages breakout topics,Events/SBGN-6/SBGN languages breakout topics" />
+		<link rel="shortcut icon" href="skins/common/images/favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="sbgn.org (English)" />
+<link rel="alternate" type="application/rss+xml" title="sbgn.org RSS Feed" href="index.php%3Ftitle=Special:Recentchanges&amp;feed=rss" />
+<link rel="alternate" type="application/atom+xml" title="sbgn.org Atom Feed" href="index.php%3Ftitle=Special:Recentchanges&amp;feed=atom" />
+<link rel='stylesheet' type='text/css' media='print' href='skins/common/wikiprintable.css%3F116.css' />
+<script type= "text/javascript">/*<![CDATA[*/
+var skin = "SBGN";
+var stylepath = "/skins";
+var wgArticlePath = "/$1";
+var wgScriptPath = "";
+var wgScript = "/index.php";
+var wgServer = "http://www.sbgn.org";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "PD_development";
+var wgTitle = "PD development";
+var wgAction = "view";
+var wgRestrictionEdit = [];
+var wgRestrictionMove = [];
+var wgArticleId = "667";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserGroups = null;
+var wgUserLanguage = "en";
+var wgContentLanguage = "en";
+var wgBreakFrames = false;
+var wgCurRevisionId = "3151";
+var wgVersion = "1.12.0";
+var wgEnableAPI = true;
+var wgEnableWriteAPI = false;
+/*]]>*/</script>
+<script type="text/javascript" src="skins/common/wikibits.js%3F116"></script>
+<script type="text/javascript" src="skins/SBGN/corner/corner.js"></script>
+<script type="text/javascript" src="skins/SBGN/sbgn.js"></script>
+<!--[if lt IE 7  ]><link rel="stylesheet" type="text/css" href="/skins/SBGN/IEFixes.css" /><![endif]-->
+<!--[if IE 7     ]><link rel="stylesheet" type="text/css" href="/skins/SBGN/IE70Fixes.css" /><![endif]-->
+<!--[if IE 6     ]><link rel="stylesheet" type="text/css" href="/skins/SBGN/IE60Fixes.css" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" type="text/css" href="/skins/SBGN/IE55Fixes.css" /><![endif]-->
+<style type='text/css'>
+/*/*/ /*<![CDATA[*/
+@import "skins/common/oldshared.css%3F116.css";
+@import "skins/SBGN/sbgn.css%3F116.css";
+
+/*]]>*/ /* */
+</style>
+</head>
+
+<body class='body'>
+<!-- Wiki debugging output:
+Unstubbing $wgMessageCache on call of $wgMessageCache->addMessages from wfSetupUploadLocal
+Unstubbing $wgParser on call of $wgParser->_unstub from wfSetupParserFunctions
+Unstubbing $wgContLang on call of $wgContLang->getMagic from MagicWord::load
+Unstubbing $wgUser on call of $wgUser->isAllowed from efConfirmAccountInjectStyle
+Fully initialised
+Unstubbing $wgLoadBalancer on call of $wgLoadBalancer->getConnection from wfGetDB
+IP: 125.236.212.175
+ Found possible skin: MySkin\n Found possible skin: Standard\n Found possible skin: Simple\n Found possible skin: CologneBlue\n Found possible skin: Chick\n Found possible skin: Modern\n Found possible skin: MonoBook\n Found possible skin: SBGN\n Found possible skin: Nostalgia\nTrying skin: SkinSbgn
+Language::loadLocalisation(): got localisation for en from source
+Unstubbing $wgLang on call of $wgLang->getCode from User::getPageRenderingHash
+MessageCache::load(): got from global cache
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Article::tryFileCache(): not cacheable
+Article::view using parser cache: yes
+Trying parser cache mediawiki_sbgn-mw1:pcache:idhash:667-0!1!0!!en!2!edit=0
+Parser cache miss.
+Trying skin: SkinSbgn
+File::transform: Doing stat for /net/isilon3/production/biomodels/sbgn/WWW/sbgn/images/thumb/4/43/Mtctepnvote.png/400px-Mtctepnvote.png
+BitmapHandler::doTransform: creating 400x478 thumbnail at /net/isilon3/production/biomodels/sbgn/WWW/sbgn/images/thumb/4/43/Mtctepnvote.png/400px-Mtctepnvote.png
+File::transform: Doing stat for /net/isilon3/production/biomodels/sbgn/WWW/sbgn/images/thumb/9/96/SimpleChemicalStadiumProposal.png/400px-SimpleChemicalStadiumProposal.png
+BitmapHandler::doTransform: creating 400x197 thumbnail at /net/isilon3/production/biomodels/sbgn/WWW/sbgn/images/thumb/9/96/SimpleChemicalStadiumProposal.png/400px-SimpleChemicalStadiumProposal.png
+Saved in parser cache with key mediawiki_sbgn-mw1:pcache:idhash:667-0!1!0!!en!2!edit=0 and timestamp 20160607234305
+Trying skin: SkinSbgn
+Trying skin: SkinSbgn
+Trying skin: SkinSbgn
+-->
+
+<div id='background'>
+<div id='topbar'>
+<a border="0" alt="SBGN.org&mdash;The portal for the global SBGN project."  title="SBGN.org&mdash;The portal for the global SBGN project." href="http://sbgn.org"><img src="skins/SBGN/graphics/sbgn-hd7.jpg"></a>
+</div><!-- id='topbar' -->
+<div id='navbar'>
+<a href="index.html">Home</a><a href="News.html">News</a><a href="Documents.html">Documents</a><a href="SBGN_Software.html">Software</a><a href="Community.html">Community</a><a  href="Events.html">Events</a><a style="border-right: none" href="About.html">About</a><div id='searchbox'><img align='middle' src='skins/SBGN/osx-searchbox/srch_l.gif' /><form class="searchform" action='http://www.sbgn.org/Site_Search_Results' ><input type='hidden' name='cx' value='014319754024382921002:ljgocqiqgme' /><input type='hidden' name='cof' value='FORID:9;BGC:#061824;BIMG:/SBGN/graphics/bg-tile-search.gif;' /><input type='hidden' name='ie' value='UTF-8' /><input type='text' name='q' class='srch_fld' value='Google Site Search...' onfocus="if(this.value=='Google Site Search...')this.value=''" autosave='applestyle_srch' results='5' onkeyup="applesearch.onChange('srch_fld','srch_clear')" /></form><img align='middle' src='skins/SBGN/osx-searchbox/srch_r.gif' /><script type='text/javascript' src='http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en'></script></div><!-- id='searchbox' -->
+
+</div><!-- id='navbar' --><div id='breadcrumbs'>
+<span class='breadcrumbs'>Parent pages: <a href='http://sbgn.org'>SBGN.org</a></span>
+</div><!-- id='breadcrumbs' -->
+
+<div id='content'>
+<div id='article'>
+<div id='pagetitle'><h1 class='pagetitle'>
+PD development</h1>
+</div><!-- id='pagetitle' -->
+<table id="toc" class="toc" summary="Contents"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1"><a href="PD_development.1.html#Creation_of_an_equivalence_node_to_link_generics_and_specifics"><span class="tocnumber">1</span> <span class="toctext">Creation of an equivalence node to link generics and specifics</span></a>
+<ul>
+<li class="toclevel-2"><a href="PD_development.1.html#.22Do-you_agree_that_we_need_a_symbol_to_explicitly_link_generics_and_specifics_depicted_on_the_same_map.3F.22"><span class="tocnumber">1.1</span> <span class="toctext">"Do-you agree that we need a symbol to explicitly link generics and specifics depicted on the same map?"</span></a></li>
+<li class="toclevel-2"><a href="PD_development.1.html#.22Do-you_agree_that_the_equivalence_node_must_be_a_logical_operator.2C_and_neither_an_entity_pool_node_nor_a_process_node.3F.22"><span class="tocnumber">1.2</span> <span class="toctext">"Do-you agree that the equivalence node must be a logical operator, and neither an entity pool node nor a process node?"</span></a></li>
+<li class="toclevel-2"><a href="PD_development.1.html#.22_If_you_answered_no_to_question_2.2C_what_do-you_think_this_symbol_should_be.3F.22"><span class="tocnumber">1.3</span> <span class="toctext">" If you answered no to question 2, what do-you think this symbol should be?"</span></a></li>
+<li class="toclevel-2"><a href="PD_development.1.html#.22Do-you_agree_that_the_arcs_linking_the_equivalence_symbol_to_the_relevant_EPN_should_be_equivalence_arcs.3F.22"><span class="tocnumber">1.4</span> <span class="toctext">"Do-you agree that the arcs linking the equivalence symbol to the relevant EPN should be equivalence arcs?"</span></a></li>
+<li class="toclevel-2"><a href="PD_development.1.html#.22If_you_answered_no_to_question_4.2C_what_do-you_think_those_arcs_should_be.3F.22"><span class="tocnumber">1.5</span> <span class="toctext">"If you answered no to question 4, what do-you think those arcs should be?"</span></a></li>
+<li class="toclevel-2"><a href="PD_development.1.html#.22_When_do-you_think_the_equivalence_gate_should_be_introduced.3F.22"><span class="tocnumber">1.6</span> <span class="toctext">" When do-you think the equivalence gate should be introduced?"</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="PD_development.1.html#Should_use_the_mt_and_ct_Controlled_Vocabularies_to_discriminate_between_otherwise_identical_EPNs.3F"><span class="tocnumber">2</span> <span class="toctext">Should use the mt and ct Controlled Vocabularies to discriminate between otherwise identical EPNs?</span></a>
+<ul>
+<li class="toclevel-2"><a href="PD_development.1.html#.22Do_you_think_the_mt_and_ct_Controlled_Vocabularies_should_be_used_to_discriminate_between_otherwise_identical_EPNs.3F.22"><span class="tocnumber">2.1</span> <span class="toctext">"Do you think the mt and ct Controlled Vocabularies should be used to discriminate between otherwise identical EPNs?"</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="PD_development.1.html#Change_the_Simple_Chemical_glyph_to_a_stadium_glyph_in_L1_Version_2.0"><span class="tocnumber">3</span> <span class="toctext">Change the Simple Chemical glyph to a stadium glyph in L1 Version 2.0</span></a>
+<ul>
+<li class="toclevel-2"><a href="PD_development.1.html#.22Do_you_agree_that_the_Stadium_symbol_.28shown_above.29_should_be_used_to_represent_the_Simple_Chemical_in_SBGN_PD_Level_1_Version_2.0.3F.22"><span class="tocnumber">3.1</span> <span class="toctext">"Do you agree that the Stadium symbol (shown above) should be used to represent the Simple Chemical in SBGN PD Level 1 Version 2.0?"</span></a></li>
+<li class="toclevel-2"><a href="PD_development.1.html#.22If_you_chose_NO_please_state_why.22"><span class="tocnumber">3.2</span> <span class="toctext">"If you chose NO please state why"</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="PD_development.1.html#On_reversible_arcs"><span class="tocnumber">4</span> <span class="toctext">On reversible arcs</span></a></li>
+<li class="toclevel-1"><a href="PD_development.1.html#Multiplication_of_source_and_sink"><span class="tocnumber">5</span> <span class="toctext">Multiplication of source and sink</span></a></li>
+<li class="toclevel-1"><a href="PD_development.1.html#Process_Identity_and_Cloning"><span class="tocnumber">6</span> <span class="toctext">Process Identity and Cloning</span></a></li>
+</ul>
+</td></tr></table><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<a name="Creation_of_an_equivalence_node_to_link_generics_and_specifics"></a><h2> <span class="mw-headline"> Creation of an equivalence node to link generics and specifics </span></h2>
+<p>The necessity to convey the idea that a given EPN represents an entity that 
+is in fact a generic form of other entities, represented by other EPNs in 
+the same map, has been around for a long time. It was already mentioned in 
+annex C.4 page 68 of SBGN PD L1V1.0, released in 2008.
+</p><p>An example of genericity would be a "generic gene product" representing a 
+group of orthologous gene products that we do not need or want to 
+discriminate. For instance, protein Erk, meant to represent any of the 
+proteins Erk1 and Erk2. Another example would be a "generic protein" 
+representing many different variants. For instance, a protein Erk-P meant 
+to represent any state of phosphorylation of Erk.
+</p><p>For more information, one can consult the detailed document written by Emek 
+Demir for the needs of BioPAX: 
+<a href="http://archive.biopaxwiki.org/GenericParticipants" class="external free" title="http://archive.biopaxwiki.org/GenericParticipants" rel="nofollow">http://archive.biopaxwiki.org/GenericParticipants</a>
+</p><p>The first focused discussion on the topic took place at the SBGN forum 2009 
+in Palo Alto. We have an <a href="http://sbgn.org/files/Discussion_Generics_SBGN5.mp3" class="" title="http://sbgn.org/files/Discussion_Generics_SBGN5.mp3" rel="nofollow">audio recording of the event</a>. 
+</p><p>Alexander Mazein later <a href="https://utils.its.caltech.edu/pipermail/sbgn-discuss/2010-October/000306.html" class="external text" title="https://utils.its.caltech.edu/pipermail/sbgn-discuss/2010-October/000306.html" rel="nofollow">proposed an "identity gate"</a> that essentially 
+provided a mean to represent the link between generics and related 
+specifics. He presented the use of this glyph at COMBINE 2010 in Edinburgh. We have [<a href="http://sbml.org/Special/Events/COMBINE-2010/mazein-2010-10-08.mov" class="external free" title="http://sbml.org/Special/Events/COMBINE-2010/mazein-2010-10-08.mov" rel="nofollow">http://sbml.org/Special/Events/COMBINE-2010/mazein-2010-10-08.mov</a> a 
+video of his presentation].
+</p><p>Finally, we had a long discussion about the issue at COMBINE 2011 in 
+Heidelberg. The <a href="http://co.mbine.org/sites/combine/files/2011-09-06-combine-mazein.mov" class="external text" title="http://co.mbine.org/sites/combine/files/2011-09-06-combine-mazein.mov" rel="nofollow">video is also available</a>.
+</p><p>Although all the issues are not totally settled, and in particular the 
+rules and restrictions of use are not fully defined, it seems there is a 
+consensus for the use of an "equivalence gate". It would be represented by 
+a circle (like all the other logical gates) containing the symbol 
+"equivalence" (LaTeX \equiv). This gate would be attached on each side to 
+equivalence arcs, that is arcs without specific end-symbols. On one side 
+there could be only one arc, linking to the generic EPN. On the other side 
+there could one or more arcs, linking to the specifics.
+</p>
+<hr />
+<p>A vote was completed on 27 Sep 2011. 
+</p>
+<a name=".22Do-you_agree_that_we_need_a_symbol_to_explicitly_link_generics_and_specifics_depicted_on_the_same_map.3F.22"></a><h3> <span class="mw-headline"> "Do-you agree that we need a symbol to explicitly link generics and specifics depicted on the same map?" </span></h3>
+<table>
+
+<tr>
+<th>Choice
+</th><th>Votes
+</th><th>Fraction
+</th></tr>
+<tr>
+<td>yes
+</td><td>7
+</td><td>70%
+</td></tr>
+<tr>
+<td>no
+</td><td>0
+</td><td>0%
+</td></tr>
+<tr>
+<td>not sure
+</td><td>3
+</td><td>30%
+</td></tr></table>
+<p>Comments provided:
+</p>
+<ul><li><i>In L2 we may come up with another solution.</i>
+</li><li><i>I believe that we need to consider a side-tree option for representing stateless generic relationships ( mostly homologies)</i>
+</li></ul>
+<a name=".22Do-you_agree_that_the_equivalence_node_must_be_a_logical_operator.2C_and_neither_an_entity_pool_node_nor_a_process_node.3F.22"></a><h3> <span class="mw-headline"> "Do-you agree that the equivalence node must be a logical operator, and neither an entity pool node nor a process node?" </span></h3>
+<table>
+
+<tr>
+<th>Choice
+</th><th>Votes
+</th><th>Fraction
+</th></tr>
+<tr>
+<td>yes
+</td><td>8
+</td><td>80%
+</td></tr>
+<tr>
+<td>no
+</td><td>1
+</td><td>10%
+</td></tr>
+<tr>
+<td>not sure
+</td><td>1
+</td><td>10%
+</td></tr></table>
+<p>Comments provided:
+</p>
+<ul><li><i>But not a process node!</i>
+</li><li><i>We don't know the mechanism so I can't see how we can answer this question.</i>
+</li></ul>
+<a name=".22_If_you_answered_no_to_question_2.2C_what_do-you_think_this_symbol_should_be.3F.22"></a><h3> <span class="mw-headline"> " If you answered no to question 2, what do-you think this symbol should be?" </span></h3>
+<table>
+
+<tr>
+<th>Choice
+</th><th>Votes
+</th><th>Fraction
+</th></tr>
+<tr>
+<td>an entity pool node
+</td><td>0
+</td><td>0%
+</td></tr>
+<tr>
+<td>a process node
+</td><td>0
+</td><td>0%
+</td></tr>
+<tr>
+<td>not sure
+</td><td>1
+</td><td>50%
+</td></tr>
+<tr>
+<td>Something else (specify)
+</td><td>1
+</td><td>50%
+</td></tr></table>
+<p>Comments provided:
+</p>
+<ul><li><i>In many ways it is similar to a logical operator - but that operates on the input/output</i>
+</li></ul>
+<a name=".22Do-you_agree_that_the_arcs_linking_the_equivalence_symbol_to_the_relevant_EPN_should_be_equivalence_arcs.3F.22"></a><h3> <span class="mw-headline"> "Do-you agree that the arcs linking the equivalence symbol to the relevant EPN should be equivalence arcs?" </span></h3>
+<table>
+
+<tr>
+<th>Choice
+</th><th>Votes
+</th><th>Fraction
+</th></tr>
+<tr>
+<td>yes
+</td><td>8
+</td><td>80%
+</td></tr>
+<tr>
+<td>no
+</td><td>2
+</td><td>20%
+</td></tr>
+<tr>
+<td>not sure
+</td><td>0
+</td><td>0%
+</td></tr></table>
+<p>Comments provided:
+</p>
+<ul><li><i>See above. Without knowing how the glyph works and what it means we cannot give a meaningful answer.</i>
+</li></ul>
+<p><br />
+</p>
+<a name=".22If_you_answered_no_to_question_4.2C_what_do-you_think_those_arcs_should_be.3F.22"></a><h3> <span class="mw-headline"> "If you answered no to question 4, what do-you think those arcs should be?" </span></h3>
+<table>
+
+<tr>
+<th>Choice
+</th><th>Votes
+</th><th>Fraction
+</th></tr>
+<tr>
+<td>consumption and production arcs
+</td><td>0
+</td><td>0%
+</td></tr>
+<tr>
+<td>modulation arcs
+</td><td>0
+</td><td>0%
+</td></tr>
+<tr>
+<td>not sure
+</td><td>1
+</td><td>50%
+</td></tr>
+<tr>
+<td>Something else (specify)
+</td><td>1
+</td><td>50%
+</td></tr></table>
+<p>Comments provided:
+</p>
+<ul><li><i>Something describing "could be" relationships</i>
+</li></ul>
+<a name=".22_When_do-you_think_the_equivalence_gate_should_be_introduced.3F.22"></a><h3> <span class="mw-headline"> " When do-you think the equivalence gate should be introduced?" </span></h3>
+<table>
+
+<tr>
+<th>Choice
+</th><th>Votes
+</th><th>Fraction
+</th></tr>
+<tr>
+<td>In the forthcoming PD Level 1 Version 2
+</td><td>4
+</td><td>40%
+</td></tr>
+<tr>
+<td>In a subsequent version of PD Level 1
+</td><td>3
+</td><td>30%
+</td></tr>
+<tr>
+<td>In a future Level of the PD language
+</td><td>2
+</td><td>20%
+</td></tr>
+<tr>
+<td>Other (specify)
+</td><td>3
+</td><td>30%
+</td></tr></table>
+<p>Comments provided:
+</p>
+<ul><li><i>Perhaps it could be a "recommendation" for version 2, while reserving the right to modify the semantics for V3? That way tools can start early to adapt to the new symbol, while there is some expectation that things might change?</i>
+</li><li><i>Asap... But not sure what is realistic</i>
+</li><li><i>We need to solve this problem, but it cannot be solved in L1 IMO. In L2 a diff solution may be found which doesn't need the equivalence gate.</i>
+</li></ul>
+<a name="Should_use_the_mt_and_ct_Controlled_Vocabularies_to_discriminate_between_otherwise_identical_EPNs.3F"></a><h2> <span class="mw-headline"> Should use the mt and ct Controlled Vocabularies to discriminate between otherwise identical EPNs? </span></h2>
+<p>In SBGN PD a number of controlled vocabularies have been defined, including the material type (mt) which defines the material of an EPN and the conceptual type (ct) which defines the conceptual role of the EPN. These are associated with the EPN inside a Unit of Information (UofI). In SBGN PD L1 V1.3 (the current version)  the mt can be used to distinguish between otherwise identical macromolecule EPNs and likewise the ct discriminates between identical nucleic acid feature EPNs. However, the use of the UofI for this is problematic as the UofI was intended to provide annotation for an EPN.
+</p><p>To resolve this situation we wanted to clarify the role of the mt/ct controlled vocabularies in identifying the EPN. Would it be better to ignore the mt/ct assignment when identifying an EPN and rely on different label names instead? The different cases, with mt/ct discrimination and without, are illustrated in the figure below.
+<a href="http://www.sbgn.org/Image:Mtctepnvote.png" class="image" title="Mtctepnvote.png"><img alt="" src="http://www.sbgn.org/images/thumb/4/43/Mtctepnvote.png/400px-Mtctepnvote.png" width="400" height="478" border="0" /></a>
+</p>
+<hr />
+<p>A vote was completed on 27 Sep 2011. 
+</p>
+<a name=".22Do_you_think_the_mt_and_ct_Controlled_Vocabularies_should_be_used_to_discriminate_between_otherwise_identical_EPNs.3F.22"></a><h3> <span class="mw-headline"> "Do you think the mt and ct Controlled Vocabularies should be used to discriminate between otherwise identical EPNs?" </span></h3>
+<table>
+
+<tr>
+<th>Choice
+</th><th>Votes
+</th><th>Fraction
+</th></tr>
+<tr>
+<td>yes (case 1)
+</td><td>10
+</td><td>76.9%
+</td></tr>
+<tr>
+<td>no (case 2)
+</td><td>3
+</td><td>23.1%
+</td></tr></table>
+<a name="Change_the_Simple_Chemical_glyph_to_a_stadium_glyph_in_L1_Version_2.0"></a><h2> <span class="mw-headline"> Change the Simple Chemical glyph to a stadium glyph in L1 Version 2.0 </span></h2>
+<p>There has been a proposal and much discussion on sbgn-discuss to change the Simple Chemical Glyph from the current Circle symbol to a Stadium symbol similar to that proposed for the State glyph. For more information and links to diagrams illustrating the issues please refer to the discussions at: <a href="https://utils.its.caltech.edu/pipermail/sbgn-discuss/2011-September/000655.html" class="external free" title="https://utils.its.caltech.edu/pipermail/sbgn-discuss/2011-September/000655.html" rel="nofollow">https://utils.its.caltech.edu/pipermail/sbgn-discuss/2011-September/000655.html</a>.
+</p><p>The diagram below presents the proposed new glyphs. The proposed replacement symbols for the Simple Chemical monomer and multimer glyphs are showed below as well as the cloned forms.
+</p><p><a href="http://www.sbgn.org/Image:SimpleChemicalStadiumProposal.png" class="image" title="SimpleChemicalStadiumProposal.png"><img alt="" src="http://www.sbgn.org/images/thumb/9/96/SimpleChemicalStadiumProposal.png/400px-SimpleChemicalStadiumProposal.png" width="400" height="197" border="0" /></a>
+</p><p><br />
+</p>
+<hr />
+<a name=".22Do_you_agree_that_the_Stadium_symbol_.28shown_above.29_should_be_used_to_represent_the_Simple_Chemical_in_SBGN_PD_Level_1_Version_2.0.3F.22"></a><h3> <span class="mw-headline"> "Do you agree that the Stadium symbol (shown above) should be used to represent the Simple Chemical in SBGN PD Level 1 Version 2.0?" </span></h3>
+<table>
+
+<tr>
+<th>Choice
+</th><th>Votes
+</th><th>Fraction
+</th></tr>
+<tr>
+<td>yes
+</td><td>11
+</td><td>68.8%
+</td></tr>
+<tr>
+<td>no
+</td><td>5
+</td><td>31.3%
+</td></tr></table>
+<a name=".22If_you_chose_NO_please_state_why.22"></a><h3> <span class="mw-headline"> "If you chose NO please state why" </span></h3>
+<table>
+
+<tr>
+<th>Choice
+</th><th>Votes
+</th><th>Fraction
+</th></tr>
+<tr>
+<td>I would like to keep the current symbol for Simple Chemical
+</td><td>1
+</td><td>20%
+</td></tr>
+<tr>
+<td>I would like to defer this change until Level 2 of SBGN PD
+</td><td>4
+</td><td>80%
+</td></tr></table>
+<p>This change will be incorporated into L1V2.0. We will allow the stadium to be drawn in such a way as it can also be a circle. This will preserve compatibility with previous version of SBGN PD.
+</p>
+<a name="On_reversible_arcs"></a><h2> <span class="mw-headline"> On reversible arcs </span></h2>
+<p>One of the questions discussed at COMBINE 2010 (as in several past meetings) was the representations of reversible processes. In PD L1V1, the "production" node is overloaded, meaning only production for an irreversible reaction, but meaning production *and* consumption for a reversible reaction. Several solutions have been discussed to disentangle the glyphs. The current survey addresses two related issues: 1) the representation of the consumption. 2) the representation of reversible processes. Note that contrary to the questions discussed in previous surveys, there was no consensus reached in COMBINE2010. We therefore do not seek ratification of a solution by the community to be implemented immediately. Rather we would like the opinion of everyone for future developments.
+</p><p>For a detailed presentation of the different solutions, see 
+<a href="Events/SBGN-6/SBGN_languages_breakout_topics.html#Reversible_arc" title="Events/SBGN-6/SBGN languages breakout topics"> here</a>
+</p><p>For the discussion about different solutions at HARMONY 2011, see 
+<a href="http://www.sbgn.org/Events/SBGN-6.5/SBGN_languages_breakout_topics#Reversible_arc" title="Events/SBGN-6.5/SBGN languages breakout topics"> here</a>
+</p>
+<hr />
+<p>A vote was opened on January 14th 2011 and closed on February 11th. 7 votes have been expressed. 
+</p><p>At the question "Are-you satisfied with the current representation of irreversible reactions, where a consumption arc does not carry an arrowhead. Or would-you like to adopt a representation that expresses the direction of consumption?", voters answered:
+</p>
+<table>
+
+<tr>
+<th>Choice
+</th><th>Votes
+</th><th>Fraction
+</th></tr>
+<tr>
+<td>keep the current situation
+</td><td>3
+</td><td>42.9%
+</td></tr>
+<tr>
+<td>depict the direction of consumption
+</td><td>4
+</td><td>57.1%
+</td></tr></table>
+<p>At the question "The solutions for the reversible processes that have been discussed at COMBINE 2010 would be: 0. Current situation. We do not change anythings. Advantage: it is already implemented. There is an overload at the level of the arc, but this is clear at the level of the process. 1. three types of arcs: consumption, production and bidirectional. The bidirectional would carry the same arrowheads. This solution would work for both the current and alternative consumption arc (see question 2). 2. three types of arcs: bidirectional would carry half arrows to remind that they are both consuming and producing. The representation would be a bit different according to the answer to question 2. 3. Two arcs from the entity pool node to the process node, one input and production on either side. The representation would be a bit different according to the answer to question 2. This solution was discussed and rejected at SBGN -2 in Yokohama. A scaling out would transform 3a) into 0) and 3b) into 1). The number of arcs may become esthetically unbearable. 4. Annotation inside the process node ("&gt;"). This solution does not change the arcs themselves, but makes clear that the process is or not reversible. Multiple choices are allowed." voters answered:
+</p>
+<table>
+
+<tr>
+<th>Choice
+</th><th>Votes
+</th><th>Fraction
+</th></tr>
+<tr>
+<td>Keep current situation
+</td><td>2
+</td><td>28.6%
+</td></tr>
+<tr>
+<td>Three types of arcs. Full arrowheads for reversible
+</td><td>4
+</td><td>57.1%
+</td></tr>
+<tr>
+<td>Three types of arcs. Half arrowheads for reversible
+</td><td>6
+</td><td>85.7%
+</td></tr>
+<tr>
+<td>Doubled arcs for reversible
+</td><td>0
+</td><td>0%
+</td></tr>
+<tr>
+<td>Annotation in the process node
+</td><td>0
+</td><td>0%
+</td></tr></table>
+<p>Further discussion on that topic was held at <a href="http://www.sbgn.org/Events/SBGN-6.5/SBGN_languages_breakout_topics" class="" title="http://www.sbgn.org/Events/SBGN-6.5/SBGN_languages_breakout_topics" rel="nofollow">HARMONY 2011</a>.
+</p>
+<a name="Multiplication_of_source_and_sink"></a><h2> <span class="mw-headline"> Multiplication of source and sink </span></h2>
+<p>In SBGN PD L1 V1, the source and sink, although represented by the same symbol (empty set), are separate SBGN glyphs. They follow different syntactic rules. In addition, an "empty-set" symbol can only be connected to one arc, either consumption (for source) or production (for sink). Although this situation arose from the need to be semantically clear, it is contrary to many usage, results in a sometimes large duplication of glyphs, and does not fully correspond to what is intended (a boundary condition with size null).
+</p><p>The question that was debated at COMBINE 2010 was "Are all "empty-set" glyphs members of a clone?"
+</p><p>The conclusion of the (long and animated) discussion was Yes.
+</p><p>Therefore:
+</p>
+<ol><li> The glyph Sink and Source are to be replaced by a single glyph called Empty Set. The symbol associated to those glyph does not change.
+</li><li> A given "empty-set" symbol can be connected to one or more arcs.
+</li><li> The sources and the sinks symbols are all members of the same clone. They all represent the same underlying object.
+</li><li> The Empty Set glyph does not belong to a compartment. 
+</li></ol>
+<hr />
+<p>A vote was organized to validate the result of the discussion. The question was "Do-you agree with the conclusions of the discussion held at COMBINE 2010, and the corresponding change in SBGN Process Description Level 1 Version 2 ". 
+The vote was opened on December 16th 2010 and closed on December 31st. 11 votes have been filed. The results are:
+</p>
+<table>
+
+<tr>
+<th>Choice
+</th><th>Votes
+</th><th>Fraction
+</th></tr>
+<tr>
+<td>Yes
+</td><td>8
+</td><td>72.7%
+</td></tr>
+<tr>
+<td>No
+</td><td>0
+</td><td>0%
+</td></tr>
+<tr>
+<td>We need more discussion
+</td><td>3
+</td><td>27.3%
+</td></tr></table>
+<p><br />
+</p>
+<a name="Process_Identity_and_Cloning"></a><h2> <span class="mw-headline"> Process Identity and Cloning </span></h2>
+<p>One of the questions discussed at COMBINE 2010 was the cloning of processes in PD. Because the identity of a process is currently only given by the arcs it connects to, the L1 V1.2 specification allows process to be cloned implicitly. Two processes linked to exactly the same EPNs are de facto graphical representation of the same underlying biological process. Alternative discussed:
+</p>
+<ol><li> Keep the current situation
+</li><li> Each process node is an independent node with its own identity
+</li><li> Allow users to decide and use a clone marker
+</li></ol>
+<p>Option is not sustainable, because one cannot represent two reactions with different intrinsic rates. At the end, it was felt that option 2 was the only non-confusing solution for the time being. 
+</p>
+<hr />
+<p>A vote was organized to validate the result of the discussion. The question was "When it comes to process node cloning, would-you prefer?". The vote was open on December 16th 2010 and closed on December 31st. 8 votes have been filed. The results are:
+</p>
+<table>
+
+<tr>
+<th>Choice
+</th><th>Votes
+</th><th>Fraction
+</th></tr>
+<tr>
+<td>To keep the current situation
+</td><td>0
+</td><td>0%
+</td></tr>
+<tr>
+<td>That each process node is an independent node with its own identity
+</td><td>6
+</td><td>75%
+</td></tr>
+<tr>
+<td>To allow users to decide and use a clone marker
+</td><td>2
+</td><td>25%
+</td></tr></table>
+
+<!-- Saved in parser cache with key mediawiki_sbgn-mw1:pcache:idhash:667-0!1!0!!en!2!edit=0 and timestamp 20160607234305 -->
+
+<div class="printfooter">
+<p>Retrieved from "<a href="PD_development.1.html">http://www.sbgn.org/PD_development</a>"</p>
+
+<p> This page was last modified 23:41, 29 December 2012. </p>
+</div>
+
+</div><!-- id='article' -->
+<div id='pagefooter'>
+<div id='bottomlinks'><a href="http://www.sbgn.org/index.php?title=PD_development&amp;action=history" title="PD development">Page&nbsp;History</a> <span class='link-sep'>|</span> <a href="http://www.sbgn.org/index.php?title=Special:Userlogin&amp;returnto=PD_development" title="Special:Userlogin">Log in</a></div><!-- id='bottomlinks' -->
+</div><!-- id='pagefooter' -->
+<div id='sitefooter'>
+&nbsp;
+</div><!-- id='sitefooter' --></div><!-- id='content' -->
+<div id='sitenotices'>
+Please use our <a href="https://sourceforge.net/tracker/?func=add&group_id=178553&atid=1100982">issue tracker</a> to send us suggestions and problem reports about this website.
+<div id='pagestats'>
+ This page was last modified 23:41, 29 December 2012. 
+</div><!-- id='pagestats' -->
+</div><!-- id='sitenotices' -->
+</div><!-- id='background' -->
+</body></html>

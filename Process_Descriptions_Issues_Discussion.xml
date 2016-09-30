@@ -1,0 +1,75 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Process Descriptions Issues Discussion</title>
+    <id>420</id>
+    <revision>
+      <id>1784</id>
+      <timestamp>2009-09-06T01:52:10Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <minor/>
+      <comment>[[Process Diagram Issues Discussion]] moved to [[Process Descriptions Issues Discussion]]: PD is now Process Description</comment>
+      <text xml:space="preserve">==== Glyphs ====
+
+* The stadium glyph should be used for state.
+
+* Frank Bergman proposed that the same glyph be used for Unspecified process in order to reduce the problems of simple chemicals not being ellipses. There was some reservations about this as it was felt that one of the desirable things about changing the state glyph was that it was different to the unspecified entity.
+
+* The annotation glyph as used in ER was proposed. The annotation glyph was felt to be useful. During discussion it was found that no vote had been taken by the community on which was the best symbol to use to link to the node the the SBGN glyph. This will be done before adoption of this proposal.
+
+==== Numbered Rules ====
+
+* It was agreed that enumerating the rules would be useful
+
+* Emek Demir suggested that the rules should be text or names not numbers.
+
+==== Complexes ====
+
+*It was agreed that the subunits are not EPNs as described in the spec. The spec should be changed. This means that they are a new type of EPN.
+
+* There was also controversy about enabling subunits to connect to the modulation arc. This should be revisited for V2
+
+==== Submap as process ====
+
+* It was agreed the the current submap had problems (see presentation) and that therefore it should be deprecated and replaced by some form of functional decomposition.
+
+* The details have still the be worked out but the suggestionm was to have a type of process that was more general and had less strict rules than the current process, which Emek called a &quot;Stoichiometric&quot; process. This need to be worked up into a detailed proposal. The general points where that:
+
+** It should have fewer restictions about moduclation and would not carry stoichiometry labels.
+
+** It would share the same name space as the parent map.
+
+* There was no time to discuss reversible processes, if we wanted to change Source/Sink semantics and the elimination of PD glyphs (RISC PD).</text>
+    </revision>
+  </page>
+</mediawiki>

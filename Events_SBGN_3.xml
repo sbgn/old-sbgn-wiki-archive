@@ -1,0 +1,251 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-3</title>
+    <id>36</id>
+    <revision>
+      <id>2000</id>
+      <timestamp>2010-02-10T22:29:44Z</timestamp>
+      <contributor>
+        <username>SBGNWikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>Protected &quot;[[Events/SBGN-3]]&quot;: Only let sysops edit this page [edit=sysop:move=sysop] [cascading]</comment>
+      <text xml:space="preserve">&lt;big&gt;The third SBGN meeting will be held on September 30, 2007, in Long Beach, California,&lt;/big&gt; at the [http://longbeach.hyatt.com/groupbooking/lgbrlucir2007 Hyatt hotel in Long Beach] in room “Seaview C”.  The meeting is being funded by [http://www.nedo.go.jp/ Japan’s New Energy and Industrial Technology Development Organization].  The workshop co-organizers are:
+
+* Hiroaki Kitano (SBI &amp; Sony CSL)
+* Mike Hucka (Caltech)
+* Nicolas Le Novère (EBI)
+* Akira Funahashi (SBI &amp; JST)
+
+==Registration==
+
+&lt;div class=&quot;blockquote&quot;&gt;
+If you are planning on attending, please fill out the very short [http://www.surveymonkey.com/s.aspx?sm=rPqiRvgZVQJf_2bJjNHcIl1Q_3d_3d registration page].&lt;/div&gt;
+
+==Agenda==
+
+&lt;div class=&quot;blockquote&quot;&gt;
+The SBGN community has so far developed a still-incomplete draft specification for SBGN Level 1. In this workshop, our aim will be to discuss and settle the remaining issues. In particular, we need to discuss and polish the notation for state-transition diagrams, and discuss entity relationship diagrams. 
+&lt;/div&gt;
+
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+!Time
+!Topic
+!Who
+!Files
+|- 
+|8:30&amp;nbsp;AM - 8:45&amp;nbsp;AM
+|Welcome and introduction
+|H. Kitano &amp; N. Le Novère
+| [http://sbgn.cvs.sourceforge.net/*checkout*/sbgn/documents/specifications/Level1/sbgn-level1.pdf Draft of 2007-09-27 (PDF)]
+|- 
+|8:45&amp;nbsp;AM – 10:20&amp;nbsp;AM
+|Summary of currently agreed-upon symbols and remaining controversies
+|N. Le Novère
+| [[media: Sbgn3-lenovere-existing-symbols.pdf | (PDF)]]
+|- 
+|10:50&amp;nbsp;AM – 12:00&amp;nbsp;AM
+|Continuing discussion of problematic and controversial symbols
+|N. Le Novère
+|&amp;nbsp;
+|- 
+|12:00&amp;nbsp;AM – 1:30&amp;nbsp;PM
+|''Lunch''
+|''Everyone''
+|''California Pizza Kitchen''
+|-  
+|1:30&amp;nbsp;PM – 2:30&amp;nbsp;PM
+|Continuation of discussion of the reduced notation
+|&amp;nbsp;
+|&amp;nbsp;
+|-  
+|2:30&amp;nbsp;PM – 4:00&amp;nbsp;PM
+|Discussion of entity-relationship diagrams
+|&amp;nbsp;
+|&amp;nbsp;
+|-  
+|4:00&amp;nbsp;PM – 5:30&amp;nbsp;PM
+|''To be determined''
+|&amp;nbsp;
+|&amp;nbsp;
+|-  
+|5:30&amp;nbsp;PM – 6:00&amp;nbsp;PM
+|Discussion of future plans
+|&amp;nbsp;
+|&amp;nbsp;
+|}
+
+&lt;div class=&quot;blockquote&quot;&gt;
+We will make arrangements for coffee/tea/soda/water breaks (one in the morning, one in the afternoon) and a lunch for everyone at the meeting.  It is likely there will be a self-paid group dinner arranged as well; we will announce the details when they have been worked out.
+&lt;/div&gt;
+
+==Workshop Participants==
+
+&lt;div class=&quot;blockquote&quot;&gt;This list was last updated on 2007-09-26.&lt;/div&gt;
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+!Name
+!Affiliation
+!Group/Project
+|-[http://www.sys-bio.org SBW]
+|Frank Bergmann
+|University of Washington (USA)
+|[http://www.sys-bio.org SBW]
+|-  
+|Michael Blinov
+|University of Connecticut Health Center (USA)
+|[http://vcell.org/bionetgen BioNetGen &amp;amp; BioNetGen@VCell]
+|-  
+|Octavian Bucur
+|Harvard Medical School (USA)
+|[http://www.hms.harvard.edu/dms/bbs/fac/khosravi_far.html Apoptosis in cancer]
+|-  
+|Akira Funahashi
+|Keio University
+|[http://celldesigner.org CellDesigner], SBGN
+|-  
+|Martin Golebiewski
+|EML Research GmbH (Germany)
+|[http://sabio.villa-bosch.de/SABIORK/ SABIO-RK]
+|-  
+|Igor Goryanin
+|University of Edinburgh (UK)
+|[http://www.bioinformatics.ed.ac.uk/epe EPE &amp; EPN]
+|-  
+|Naoki Honda
+|Nara Institute of Science and Technology (Japan) 	
+|Signal transduction in chemotaxis
+|-  
+|Michael Hucka
+|Caltech (USA)
+|[http://sbml.org/ SBML], SBGN, BioModels.net
+|-  
+|Sohyoung Kim
+|National Institute of Health (USA)
+|[http://discover.nci.nih.gov/mim/index.jsp MIM]
+|-  
+|Hiroaki Kitano
+|The Systems Biology Institute (Japan)
+|all things SB
+|-  
+|Fedor Kolpakov
+|Institute of Systems Biology (Russia)
+|[http://www.biouml.org/ BioUML]
+|-  
+|Nicolas Le Novère
+|EMBL-EBI (UK)
+|[http://www.ebi.ac.uk/biomodels/ BioModels Database], SBGN, SBML
+|-  
+|Yukiko Matsuoka
+|Systems Biology Institute (Japan)
+|[http://celldesigner.org/ CellDesigner], SBGN
+|-  
+|Huaiyu Mi
+|SRI International (USA)
+|[http://www.pantherdb.org/pathway/ PANTHER Pathway]
+|-  
+|Stuart Moodie
+|University of Edinburgh (UK)
+|[http://www.bioinformatics.ed.ac.uk/epe EPE &amp; EPN]
+|-  
+|Ion Moraru
+|University of Connecticut Health Center
+|[http://vcell.org/ VCell]
+|-  
+|Michael D Pedersen
+|University of Edinburgh (UK)
+|A language of biological systems
+|-  
+|Robert Phair
+|Integrative Bioinformatics, Inc. (USA)
+|[http://www.integrativebioinformatics.com/processdb.html ProcessDB]
+|-  
+|Rune Saetre
+|University of Tokyo (Japan)
+|[http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/ Genia]
+|-  
+|Sven Sahle
+|University of Heidelberg (Germany)
+|[http://www.copasi.org/ COPASI]
+|-  
+|Herbert Sauro
+|University of Washington (USA)
+|[http://www.sys-bio.org/ JDesigner &amp; SBVD]
+|-  
+|Jim Schaff
+|University of Connecticut Health Center (USA
+|[http://vcell.org/ VCell]
+|-  
+|Bruce Shapiro
+|Caltech 
+|[http://sbml.org/software/mathsbml/ MathSBML], SBML, Cellerator
+|-  
+|Anatoly Sorokin
+|University of Edinburgh (UK)
+|[http://www.bioinformatics.ed.ac.uk/epe EPE &amp; EPN]
+|-  
+|Alice Villeger
+|University of Manchester
+|&amp;nbsp;
+|-  
+|Katja Wegner
+|University of Hertfordshire (UK)
+|[http://strc.herts.ac.uk/bio/maria/Apostrophe/index.htm NetBuilder]
+|- 
+|}
+
+==Venue==
+
+&lt;div class=&quot;blockquote&quot;&gt;
+
+[[image: sbgn3-lbhyatt.jpg | right]]
+
+The meeting will be held at the [http://longbeach.hyatt.com/hyatt/hotels/group-booking.jsp?_requestid=361785 Long Beach Hyatt hotel] in Long Beach, California.   
+
+The meeting room is called “Seaview C” on the 1st floor.  [http://www.visitlongbeach.com/images/meeting/Hyatt_Floor%20Plans.jpg  Click here for a map of the Hyatt meeting rooms].
+
+You can use the [http://longbeach.hyatt.com/hyatt/hotels/group-booking.jsp?_requestid=154375 ICSB group code discount] for booking a room at the hotel if you wish to stay overnight there.  (Of course, if you were planning on staying in another nearby hotel for ICSB, then you may as well stay an extra night at that same hotel.)
+&lt;/div&gt;
+
+==Hotels==
+
+&lt;div class=&quot;blockquote&quot;&gt;See the [http://www.icsb07.caltech.edu/travel_info/hotels.html ICSB hotels page] for information about hotels near the ICSB venue, including the Hyatt, and the discount rate codes for ICSB attendees.  The discount rate applies to SBGN attendees too—just say you are with ICSB.&lt;/div&gt;
+
+==Travel Information==
+
+&lt;div class=&quot;blockquote&quot;&gt;
+The [http://www.icsb07.caltech.edu/travel_info/index.html ICSB travel information page] is reasonably complete and hopefully provides enough details about travel to and from the Long Beach area.
+&lt;/div&gt;</text>
+    </revision>
+  </page>
+</mediawiki>

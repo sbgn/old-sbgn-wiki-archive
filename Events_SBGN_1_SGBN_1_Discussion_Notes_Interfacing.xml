@@ -1,0 +1,99 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-1/SGBN-1 Discussion Notes: Interfacing</title>
+    <id>242</id>
+    <revision>
+      <id>1165</id>
+      <timestamp>2008-10-08T00:31:39Z</timestamp>
+      <contributor>
+        <username>Ltaddeo</username>
+        <id>6</id>
+      </contributor>
+      <text xml:space="preserve">&lt;div class=&quot;superhead2&quot;&gt;Feb. 12, 2006 discussions about interfacing SBGN with model representation languages&lt;/div&gt;
+
+''(Discussions moderated and notes taken by M. Hucka.)''
+
+'''A. Sorokin:''' We should be thinking about defining a mapping from the notation to machine-readable formats. First, it's a good exercise to make sure the notation is unambiguous. Second, it will be useful because people will want to translate it in some cases — maybe not all, but certainly some. We should also provide test cases for this mapping to illustrate it.
+
+'''S. Sahle:''' Wouldn't this handled by the layout specification?
+
+'''A. Sorokin:''' No, it's the other way around. This is about translating SBGN to SBML, or BioPAX, or CellML. The SBGN specification will tell you how to translate from a model to the graphical notation.
+
+'''S. Sahle:''' We could define a mapping to some storage format that is indepependent of SBML. For example, the Heidelberg/COPASI group's SBML layout extensions are not that strongly tied to SBML; they could be used separately with other XML storage formats. There is of course another way to go, and that is to extend the various formats like SBML and CellML with a way to represent the model in SBGN directly.
+
+'''I. Goryanin:''' would you represent SBGN in SBML by using this, or will you replace it once there's an SBGN specification?
+
+'''M. Hucka:''' No, you'd try to use the SBML layout/render extensions. The basic idea makes a lot of sense.
+
+'''P. Nielsen:''' Another way to go would be to define an object model for SBGN, then define relationships to the object models of other representation formats like CellML and SBML.
+
+'''M. Hucka:''' But in that case, aren't you defining a new language that's an alternative to the others?
+
+'''N. Le Novere:''' We have to define SBGN in a form outside all the other things. We need to define the syntax, etc., independently of SBML, CellML, BioPAX.
+
+'''H. Kitano:''' We also need to define how to bridge to the other languages.
+
+'''S. Sahle:''' SBGN is a specification for how to display things visually. Now the practical question is, do we define a format for storing SBGN?
+
+'''I. Goryanin:''' For all practical purposes we will need to define a file format, and for all practical purposes it'll have to be XML.
+
+'''S. Sahle:''' But the question, is this format its own separate thing, apart from the model representation languages? Maybe we should survey for this? Specifically, the question “do we want to have an independent format for storing SBGN”?
+
+'''M. Hucka:''' We need more clarity about what we're talking about when we're talking about representations for SBGN. Are we talking about the equivalent of having a UML definition for the object model of SBGN, and defining a mapping from that to SBML or BioPAX or whatever?
+
+'''F. Bergmann:''' You would have to define a translation to all 3 other formats, which is a lot to ask.
+
+'''I. Goryanin:''' Agreed. We're only talking about the visual representation of graphs.
+
+'''N. Le Novere:''' Could have ontology for SBGN. Then this would allow the creation of web services to translate between one form and another.
+
+'''U. Dogrusoz:''' It would be nice to have a standard machine-readable format for SBGN, but that's not the key issue here. The issue is what are the semantics for SBGN.
+
+'''S. Sahle:''' Is there a graphical format for representing CellML?
+
+'''P. Nielsen:''' No, and in fact as far as the CellML community is concerned, they would resist it, because the graphical representation is completely separate from the model.
+
+'''S. Sahle:''' That makes sense. Proposes that it should be entirely possible to store SBGN graphs using the XML layout+rendering representation they've been developing. It's mildly biased by SBML but it's really a completely separate format.
+
+'''Z. Li:''' Well, it makes sense that there should be a persistence mechanism for storing diagrams, so regardless of how it's done, there should be something defined for storing SBGN graphs. Zheng suggests using RDF instead of XML.
+
+'''M. Hucka:''' Still not sure we are clear about what we want to define. Consider the difference between SVG and BioPAX. SVG defines graphical entities, how they are drawn, how they are layed out on a page, etc. By contrast, something like BioPAX defines the meanings of the underlying objects and the relationships between them. Now, you can actually have an object model for the entities in SVG, but that's different from an object model for BioPAX. In one case you're talking about how to draw meaningless shapes on the screen, and in the other case you're talking about the relationships of meaningful entities.
+
+'''N. Le Novere:''' We still have 2 discussions going on. The first one concerns the question, “do we need to define a precise syntax and semantics for the visual notation”? And do-we need to express this in a formal language? The answer to this question is surely “yes”. The second discussion concerns the implementation of the graphs themselves, the encoding of particular graphs in some persistent format. The answer to this question is also “yes”, but we don't need to settle the format now. For the second issue of storage format, Nicolas suggests SVG would be good.
+
+'''S. Sahle:''' SVG can do it, in the same way that bitmaps can do it, but what you want is a little more structure specific to the domain, not any general purpose format. This is why they developed their layout and rendering format rather than use SVG directly.
+
+'''E. Demir:''' Maybe we can leave the definitions of the mappings between SBGN and SBML/BioPAX/CellML to the different groups, but we need to coordinate them so that they handle overlapping cases in the same consistent ways. We don't want to see the same kind of process in SBML and CellML be mapped in two different ways when they're drawn in SBGN. There may be subgroups for defining the mappings to the representation languages, but we have to make sure to coordinate them.
+
+''(There was general agreement on this point. Discussions moved on to the next topic.)''</text>
+    </revision>
+  </page>
+</mediawiki>

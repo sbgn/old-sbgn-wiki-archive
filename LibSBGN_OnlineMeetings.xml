@@ -1,0 +1,68 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>LibSBGN/OnlineMeetings</title>
+    <id>766</id>
+    <revision>
+      <id>3001</id>
+      <timestamp>2012-11-05T16:31:18Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <comment>/* Past Meetings */</comment>
+      <text xml:space="preserve">= General =
+
+For meetings, we use Evo Online. Please register for an Evo account well in advance, as it can take up to 24 hours to register.
+
+= Agenda =
+
+If you wish to add items to the Agenda for the upcoming meeting, please propose them here: [[LibSBGN/MeetingAgenda|MeetingAgenda]]
+
+= Past Meetings =
+
+Minutes from past meetings (both online and in real life):
+
+* April 2010 at [[Events/SBGN-5.5|SBGN5.5]]: [[LibSBGN/SBGN5.5 LibSBGN Minutes|minutes]]
+* June 2010: [https://sourceforge.net/mailarchive/forum.php?thread_name=4C08C163.20902%40gmail.com&amp;forum_name=sbgn-libsbgn minutes]
+* July 2010: [https://sourceforge.net/mailarchive/forum.php?thread_name=4C440C26.1090000%40ebi.ac.uk&amp;forum_name=sbgn-libsbgn minutes]
+* August 2010: [https://sourceforge.net/mailarchive/forum.php?thread_name=4C629B7F.9090404%40gmail.com&amp;forum_name=sbgn-libsbgn minutes]
+* October 2010 at [http://sbml.org/Events/Forums/COMBINE_2010 COMBINE]: [[LibSBGN/MinutesOct2010|minutes]]
+* November 2010: [[LibSBGN/MinutesNov2010|minutes]]
+* December 2010: [[LibSBGN/MinutesDec2010|minutes]]
+* January 2011: [[LibSBGN/MinutesJan2011|minutes]]
+* March 2011: [[LibSBGN/MinutesMar2011|minutes]]
+* April 2011 at [http://www.co.mbine.org/events/HARMONY_2011 HARMONY]: [[LibSBGN/MinutesApr2011|minutes]]
+* July 2011: [[LibSBGN/MinutesJul2011|minutes]]
+* August 2011: [[LibSBGN/MinutesAug2011|minutes]]
+* September 2011 at [http://co.mbine.org/events/COMBINE_2011 COMBINE]: [[LibSBGN/MinutesSep2011|minutes]]</text>
+    </revision>
+  </page>
+</mediawiki>

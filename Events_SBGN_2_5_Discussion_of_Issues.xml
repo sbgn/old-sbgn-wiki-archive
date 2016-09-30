@@ -1,0 +1,371 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN 2.5/Discussion of Issues</title>
+    <id>72</id>
+    <revision>
+      <id>937</id>
+      <timestamp>2008-08-15T07:03:22Z</timestamp>
+      <contributor>
+        <username>SBGNWikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>/* Do we want to create a controlled vocabulary for macromolecule labels (1) */</comment>
+      <text xml:space="preserve">This page is a list of questions &amp; issues &amp; controversies that arose during the meeting and that the group decided needed to be addressed.  (The parenthesized numbers after the headings indicate ... something ... we no longer remember what.)
+
+== Do we need a symbol for the &quot;empty set&quot;?  I.e., the symbol  Ø  (1)==
+
+* Yes.  The question is really about usage: when can you use it?  What is the syntax?
+	
+* '''''Emek''''': can SBGN have a transition that has no inputs? Do you really have to show the empty set, or can it be implicit?
+
+* '''''NL''''': If we assume that a transition has 2 nodes, and you skip an end, you end up with a problem.  We need to put something there.
+	
+* '''''HK''''': if you a tag (meaning a default node), you don't have a problem
+	
+* '''''NL''''': so answer to Emek's question is no.
+	
+* '''''IR''''': Is the default node a placeholder?  What is a tag exactly?
+
+* '''''HK''''': Tag indicates source and target but hides the rest.
+
+[[image:sbgn2.5-PastedImage.jpg | center]]
+
+* '''''AS''''': you can use tags for defining submodules too?
+
+* '''''MH''''': what's the connection between tags and empty set?
+	
+* '''''NL''''': it's a possible way to avoid having a notation for the empty set -- use tag instead
+	
+* '''''Frank''''': doesn't work for creation?
+	
+* '''''Emek''''': an empty set or tag acts like an entity, but not like a module
+	
+* '''''HK''''': tags and empty set are not identical; they don't work exactly the same way.  Tags are more like a roadmap -- a transition, a place where you move out somewhere else, whereas (as NL put it) &quot;empty set&quot; is void, &quot;nothingness.&quot;  Not a module, not a tag.  Modeler says &quot;I want nothing here.&quot;
+	
+* '''''FS''''': I'm not sure if users really like this.
+	
+* '''''NL''''': in modeling people often don't represent certain things, and using empty set is pretty well agreed-upon.  Same thing as when you describe reactions; you often don't go writing the proton/electron changes, even though we know they're there.
+	
+* '''''IR''''': the empty set gives people a place, a mark, where they could declare something in the future
+	
+* '''''ED''''': still feel that empty set is redundant.  You can give me an SBGN diagram and I can remove all the empty set signs and I can still interpret the thing in a context-independent manner. So why are we putting the empty set symbols in there?
+	
+* '''''NL''''': because you can't use an invisible node
+	
+* '''''KW''''': basically you're saying you always have to have both ends of a transition.  So you need a symbol.
+	
+* '''''ED''''': why not have a reaction that's specially marked as degradation?
+	
+* '''''NL''''': so do we want another special process called degradation?
+	
+* '''''ED''''': you're just replacing my special node with a transition node and a special node both?
+	
+* '''''NL''''': if we do that, we just push the problem from the entity node to the process
+** Also, you'll end up with a layout problem.  Imagine that you end up with
+	
+[[image:sbgn2.5-PastedImage0.jpg | center]]
+
+* '''''ED &amp; FS''''': But this is just a current software limitation, because the layout algorithms can't deal with such a construct in a good way
+	
+* What are conclusions?
+** '''''Q1''''': do we use entity node or process node?
+*** if we use entity node
+**** what kind of node is a tag?  state or transition?
+***** '''''HK''''' argues it's got to be state node
+***** General agreement: can't be a transition node
+**** '''''ED''''': can't you just use a state?
+*** if we use process node, do we need a different process node for each situation in which an empty set node was needed
+** Formation of working group (ED, FS, NL, HM, HK, KW)
+	
+==Do we want to create a controlled vocabulary for physical properties (1)==
+ 
+* '''''NL''''': 1st question is does anyone oppose the idea of creating a controlled vocabulary for physical properties?
+	
+* '''''HM''''': aren't there already some ontologies we can use?  Like from OBO?
+	
+* '''''NL''''': we can't incorporate all of ChEBI
+	
+* '''''HM''''': why not take a subset?
+	
+* '''''ED''''': but if we take a subset, aren't we setting ourselves up to have to maintain a separate ontology?
+	
+* '''''NL''''': purpose is to avoid having to create glyphs for everything.  The idea is to have something similar to how we currently have (e.g.) the use of a circle with a letter inside to indicate state.
+	
+* '''''IR''''': can we have an example of what you'd do in the case of complexes?
+	
+* '''''NL''''': consider indicating voltage.  One person will want to write voltage, another will write delta V, etc.  So we want to regulate that.
+ 	
+==Do we want to create a controlled vocabulary for macromolecule labels (1)==
+ 
+* '''''NL''''': do we want something that contains things like mRNA, polypeptide, etc.
+	
+* '''''MA''''': CV for molecular entities will be useful when we use them as units of info (i.e., when the entities are not actually interacting with whatever processes we're trying to depict)
+	
+* '''''ED''''': there's no single context-indep classification of macromolecules, so coming up with a CV of macromolecular labels might be problematic
+	
+* '''''NL''''': this doesn't necessarily preclude coming up with a labeling scheme, though
+	
+* '''''MA''''': e.g., if you're really interested in finding out what happens to the mRNA, then you need to know more, but sometimes it's enough to just have the CV label
+	
+* '''''SM''''': could borrow ideas from UML, the use of stereotypes.   Could have a special symbol for CV.   Have macromolecules defined by a stereotype.  The idea is that you use a symbol with a way of writing a label inside (UML stereotypes use &lt;&lt;label&gt;&gt; ).  The stereotype is a symbol for a class of things, and then tools could also substitute their own particular graphical notation/glyphs for the thing in question.  We would still have to come up with a scheme for saying what's allowed inside the label.
+** '''''AS''''': points out that this shouldn't be limited to macromolecules.  E.g., lithium is a drug, and it's not a macromolecule.
+	
+* '''''UK''''': it's really important that we provide a way to make this flexible, because we won't be able to come up with all possible types in the future.  So we need to allow for the situation, e.g., when you don't know whether it's a protein or an mRNA.
+	
+* '''''NL''''': so what are we saying?  is it ok to have it as a tool extension?  which part is defined by SBGN?  where do we stop?
+	
+* '''''ED''''': can't we leave it free, and standardize later?
+	
+* '''''NL''''': so what do we put in the spec?
+	
+* '''''HK''''': leave to L2?
+	
+* (rapid discussion in multiple directions -- missed a couple of minutes here)
+	
+* '''''NL''''': problem is in the biology, sometimes you have a molecule acting as more than one thing.  if you define glyphs, how are you going to do it?  so what we need is a way to put information inside a single shape, and the question before us is whether SBGN L1 should regulate the possible terms that are put into the shape in the same way that SBGN currently regulates the state variable terms (acetylation, methylation, etc.)
+	
+* '''''MA''''': why don't we decide for now to just have a standard for unit of information, for which you have a CV, w/o precluding future extension.  What we don't need right now is  a list of all the possible CVs for what goes into the unit of info.  Just need a way to define a way to include the unit of info.
+	
+* '''''NL''''': yes, that's what I'm saying too
+	
+* (break, during which more discussions took place)
+	
+* '''''NL''''' summarizing approach to labeling macromolecules -- we came to new conclusion here for solving this problem:
+
+[[Image:sbgn2.5-PastedImage1.jpg | right]]
+
+:Idea is that we use a labeling approach featuring a prefix followed by a term.  The prefixes are controlled, and the terms come from a CV such as SBO.  An example of the prefix might be &quot;T&quot; for type.  The prefix:term constitutes a unit of information.  
+
+:Moreover, the unit of information should be applicable to any entity node.  This solves the problem of dealing with small molecules, drugs, etc.
+
+==Tags -- do we have them in L1? what are semantics? (1)==
+ 	
+* (This came up during the discussion about empty set.  Conclusion is that it needs longer discussion and upgrading to a score of 3.)
+
+==Do we need a reduced notation?  If so, how many, and what form? (1)==
+ 	
+* '''''HK''''': class 1 reduced notation in CellDesigner has transcription, translation &amp; degradation.  Are those symbols ok?  Is that enough?
+	
+* '''''NL''''': I think this is related to macromolecules.  E.g., if you include translation, you probably also will eventually want to include splicing and other things.  
+	
+* '''''MA''''': the notation is like a reaction, but where DNA is acting as a reactant.
+	
+* '''''NL''''': I don't like this kind of approach
+	
+* '''''HM''''': reduced notations can be very useful
+	
+* '''''NL''''': can't always use this.  What if we instead use a module, with two outputs and one input, and gene involved both input as output, and you label the module appropriately.
+	
+[[image:sbgn2.5-PastedImage2.jpg | center]]
+	
+:* (discussion &amp; conclusion this has problems)
+	
+* We still seem to need a reduced notation, like a dashed arrow?
+** Idea is to use a regular arrow + box just like a regular transition.
+[[image:sbgn2.5-PastedImage3.jpg | center]]
+
+:* '''''HK''''': there's a problem here: it's not a regular transition, because DNA to RNA is not a transition in the sense of others -- transcription is not a transition from a gene to RNA!
+
+:* '''''NL''''': ok, but the problem with the other reduced notation proposal is that it only has translation, transcription -- why aren't other things included? How do you choose which 2 things are included?
+
+:* (discussion about using different kind of lines.  Conclusion is you can't use dashed lines or doubled lines because they are too easily lost during rescaling and photocopying.)	
+
+:* '''''UK''''': can you use a dotted line to indicate something that isn't a transition?  Then solid line can be for real transitions.
+
+:* '''''MA &amp; UK''''': don't use 2 types of dashed lines; use one dashed line, regular filled arrowhead, for something that isn't a proper transition.
+
+:* '''''YM''''': but isn't a dashed line usually used in biology for &quot;hypothesized&quot; things, like a reaction that is hypothetical.  Would it be confusing to use the dashed line for something else?
+
+:* Conclusion: we want 1 type of reduced notation, and the semantics of the reduced notation would emerge from the input and output.
+
+:* Decision to stop here on this, and discuss the actual notation later.
+ 
+==Do we want to incorporate annotation glyphs?  (1)==
+ 	
+* '''''NL''''': what is an annotation glyph?
+	
+* '''''SM''''': the question is whether to provide a guideline for how a tool (or whatever) can write notes, similar to how UML allows you to put a note on a diagram, connected to an entity with a dotted line.	
+
+[[image:sbgn2.5-PastedImage4.jpg | center]]
+
+* '''''SS''''': the question is, are annotations part of an SBGN graph, or is it a tool issue?  Do we want to have annotations as part of SBGN?
+	
+* '''''ED''''': problem with leaving it out is that the annotations affect layout.  A tool needs to know if there are annotations in order to lay out the diagram.
+	
+* '''''NL''''': but what are we trying to standardize?  the shape?  the location?  the content of annotations?
+	
+* '''''IR''''': it's important to standardize how annotations are put in
+	
+* '''''MH''''': so why can't we just provide a definition of how to write an annotation?
+	
+* '''''NL''''': I don't want the annotations to pollute my diagrams.  And anyway, I might want to present the information in different ways
+	
+* '''''KW''''': so don't use them?
+	
+* '''''NL''''': but if it's in the spec, everyone then has to implement support for it.  This is not about SBGN because the annotation doesn't change the semantics of the graph.
+	
+* '''''SS''''': it's probably the case we don't want to put it into SBGN now, but if we describe how to write SBGN graphs in a software format, it will need to provide a way to describe the annotation because layout tools will need to know about them.
+	
+* Conclusion: we don't specify how to do it, but we describe in the spec that it's not regulated in L1.
+
+==Do we want to have multiple Kitano-style arrows in ER style diagrams? (1)==
+ 	
+* Postpone until ER tackled
+
+==Do we include rules for drawing layout? (E.g. rules like &lt;html&gt;&amp;quot;diagram must avoid 
+overlap&amp;quot;&lt;/html&gt;, etc.) (1)==
+ 	
+* Conclusion: something needs to be written up
+	
+* Falk offers to prepare a list
+ 
+==Filled ellipse or not filled?  (2)==
+ 	
+* Conclusion: no filled ellipses
+ 
+==How should compartments be drawn?  What are shape &amp; line characteristics?  (4)==
+ 	
+* Can compartments can have any shape?
+					
+* '''''NL''''': you have a big problem if you start nesting compartments
+
+[[image:sbgn2.5-PastedImage5.jpg | center]]
+	
+* (much discussion and hot discussion)
+	
+* Conclusion on boundaries: draw single line that is &quot;relatively thicker&quot; than any other line
+	
+* '''''ED''''': are we allowing nested compartments?
+	
+* '''''ED''''': are membranes separate compartments?
+	
+* '''''ED''''': there are neighborhood relationships -- are we going to draw them?
+ 
+==How to represent modulation, catalysis, trigger, reset, etc.? Should catalysis even exist?  (5)==
+ 	
+* Q1: how far do we go in L1?
+** '''''MA''''': do we want all of them in SBGN L1?
+** '''''HM''''': catalysis is absolutely necessary.  If you want to draw metabolic networks, you need catalysis.
+** '''''ED''''': you need modulation
+** '''''HM''''': modulation is useful in certain cases, as long as we can define what we mean exactly by modulation.  People tend to use it a lot of different ways.  Sometimes it's even modulating a process.
+**  '''''NL''''': ok, we can agree to call it &quot;control&quot;.  The question is not really about how to name things, but the granularity about how far to go in defining terms/concepts in L1.  These are a controls, and you have an increasingly more details.
+
+::control
+:: -- inhibition
+:: -- stimulation
+::: -- catalysis
+::: -- ...
+
+::So here are 3 levels: do we go to level of catalysis?  further?
+	
+:* '''''SM''''': not sure what you gain by having catalysis as opposed to stimulation
+	
+:* '''''UK''''': if something is stimulating or inhibiting can sometimes depend on the quantity of the entity.  The term &quot;control&quot; is a little bit misleading too.  Can we find another?
+	
+:* '''''NL''''': ok, so we can look for some other word like &quot;influence&quot;.
+	
+:* '''''NL''''': should we poll sbgn-discuss whether, in L1, we need to have catalysis, or whether we should postpone that level of detail to L2.
+	
+:* Conclusion: we need to include catalysis
+	
+* Q2: how do we draw it?  what is the shape of modulation?  are there multiple shapes, or one for all?
+** Triggers are accepted.  Symbol seems to be accepted too.
+** Need a different symbol for absolute inhibition (the case where if the inhibitor is present, the reaction can't take place).  Task is to discuss over lunch.
+** Conclusion: postpone
+ 
+==Which boolean connectors should be included?  How should they be incorporated? (5)==
+ 	
+* '''''ED''''': boolean operators are highly tied to modulation
+	
+* Q1: and, or, not, xor.  Keep all?  Or some?
+** &quot;and&quot;: everyone agreed to keep
+** &quot;not&quot;: yes
+** &quot;xor&quot;: huge controversy
+*** '''''SM''''': does it mean that if you have both things (both inputs) at the same time, the output won't happen?  that's not actually what NL is talking about -- so maybe xor doesn't make sense?
+*** '''''ED''''': does xor mean competitive binding?  if so, it doesn't seem right
+** &quot;or&quot;: yes
+	
+* Q2: how to represent?
+** Conclusion: use square boxes, and for the first spec write both words &quot;and&quot;, &quot;not&quot;, and symbols and try to decide which one (words or symbols) later.
+ 	
+==How do we handle issues due to the rectangular shape of the gene representation? (2)  ••• not finished •••==
+ 	
+* '''''ED''''': what happens if several elements of one gene intersect with another? does the info get duplicated?
+	
+* '''''NL''''': actually this just needs to be documented in the spec
+	
+* '''''SM''''': would like to discuss examples of state transition vis-a-vis gene regulation
+** '''''NL''''': this is another example of why we need ER
+
+==Semantics of state variables: several unspecified semantics  (3) ••• not finished •••==
+ 	
+* (AS needs to write down what the question was)
+ 	
+==Issues of module shape, connectors, and meaning (3) ••• not finished •••==
+ 	
+* '''''AS''''': can a connector connect to a component inside the complex?
+	
+* '''''AS''''': absolutely not, can't do that, because anything that happens to the component happens to the complex
+	
+* '''''HM''''': no, why would that be?  that's not necessarily the case
+	
+* (discussion: big disagreement on what is a complex.  Is it like a module?)
+	
+* The complex has state itself.
+	
+* If you fold the complex, the state variables on the edges are kept around
+	
+* Related question: for a complex, do lines go inside the complex to the components or not?
+ 	
+==What should be shape of a complex?(4)==
+ 	
+* '''''ED''''': do shapes have to touch inside? does topology indicate anything?
+	
+* '''''NL''''': 3 possibilities
+	
+[[image:sbgn2.5-PastedImage6.jpg | center]]
+	
+:* Rounded box is too much like macromolecule
+	
+:* Octagon wins
+ 
+==Do we want to discuss the languages used to implement SBGN now? (0.5)==
+
+==Do we want to include generic entities in L1?  (1)==
+ 	
+* '''''RG''''': eg is event
+
+==Entity-relationship: how to proceed? (1)==
+ 
+* '''''MA''''': must make sure to heed orthogonality goals</text>
+    </revision>
+  </page>
+</mediawiki>

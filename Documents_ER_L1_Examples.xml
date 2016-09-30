@@ -1,0 +1,103 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Documents/ER L1 Examples</title>
+    <id>634</id>
+    <revision>
+      <id>3707</id>
+      <timestamp>2014-02-03T08:35:55Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <text xml:space="preserve">== Autophagy ==
+
+This map describe the molecular events leading to the formation of the autophagosomes, intracellular organelles responsible of autophagy, a mechanism by which a cell produces nutrients from the digestion of its own macromolecules. The map makes use of nested entities introduced in ER L1 V2. Blue influences promote autophagy, red inhibit it (and promote growth).
+
+
+[[Image:Autophagy.png|border|550px]]
+
+== PCR ==
+
+This example presents the different relations between the four entities involved in a Polymerase Chain Reaction (PCR). This examplifies the use of the ''entity'', the ''logical operator'' ''or'', the ''state variable'' ''existence'', the ''unit of information'', as well as the relationships ''interaction'', ''assignment'', ''necessary stimulation'' and ''absolute inhibition''.
+
+
+&lt;center&gt;
+{{#icon:PCR-small.png‎ |||| corner iradius11}}
+&lt;/center&gt;
+
+== CaMKII in synaptic plasticity ==
+
+This example depicts the effect of a depolarisation (dV) on the intracellular calcium, that binds to calmodulin, that itself binds to the calcium/calmoduline kinase II (CaMKII). The binding of calmodulin inhibits the folding of CaMKII monomer on itself, thus relieving the inhibition on the kinase activity. The phosphorylation of the glutamate receptors finally leads to the Long Term Potentiation (LTP) of the synapses. In addition, the map shows the effect of trans-phosphorylation on threonine 286, that makes the enzyme constitutively active, and on threonine 306, that renders the kinase insensitive to calmodulin, as well as the dimerisation of the kinase. In blue are the relationships enhancing the synaptic weight and in red the relationships decreasing it.
+
+&lt;center&gt;
+
+[[Image:CaMKII.png‎|border|550px]]
+&lt;/center&gt;
+
+== CaMKII in synaptic plasticity ==
+
+The image below shows the effect of calmodulin binding on CaMKII activity, using the nested entities of ER L2 V1. The image comes from the publication of [http://identifiers.org/pubmed/22279535 Stefan et al (2012)].
+
+&lt;center&gt;
+{{#icon:CaMKII-ER-L1V2.png |||| corner iradius11}}
+&lt;/center&gt;
+
+== Repressilator ==
+
+The repressilator is a circular system of three genes which products sequentially inhibit the expression of the next gene. Both the model and its in vitro realization were published by Michael Elowitz and Stanislas Leibler in 2000, in a publication that is seen as one of the milestones in the birth of Synthetic Biology. 
+
+&lt;center&gt;
+{{#icon:Repressilator-ER.png‎ |||| corner iradius11}}
+&lt;/center&gt;
+
+== Development of Diabetic Retinopathy ==
+
+The following map was presented to the annual SBGN competition 2010, section best map.
+
+[[Image:SBGN_ER_DM_retinopathy_v13_3-small.png|border|550px]]
+
+[ [http://sbgn.org/images/d/dc/SBGN_ER_retinopathy.png 
+[[Image:Transcription_initiation_er.gif|border|550px]]full size map] ]
+
+== Bacterial transcription initiation ==
+
+Diagram represents steps of transcription initiation in bacteria. As ER does not represent time, diagram has been converted to a movie.
+
+First step of the process is the association of RNA-polymerase with sigma-subunit to form holoenzyme. Holoenzyme is able to interact with promoter DNA.
+Alpha-subunit of RNA-polymerase is able to interact with up-element of the promoter and sigma-subunit is able to interact with -10 and -35 hexanucleotides of the promoter. Binding of holoenzyme to the promoter facilitate binding between sigma-subunit and promoter and interaction of up-element with RNAP is also facilitate that binding. 
+
+Interaction between -10 hexanucleotide and sigma-subunit is required for melting of the promoter DNA and formation of &quot;open&quot; complex. 
+In &quot;open&quot; complex RNA-polymerase is initiate synthesis of RNA product. After synthesis short product in the process of abortive synthesis sigma-subunit leaves RNAP-promoter complex and RNA-polymerase comes to the elongation phase.
+
+[[Image:Transcription_initiation_er.gif|border|550px]]</text>
+    </revision>
+  </page>
+</mediawiki>

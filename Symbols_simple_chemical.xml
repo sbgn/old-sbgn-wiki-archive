@@ -1,0 +1,78 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Symbols/simple chemical</title>
+    <id>899</id>
+    <revision>
+      <id>4083</id>
+      <timestamp>2016-03-03T15:49:23Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <text xml:space="preserve">''by Nicolas Le Novère''
+
+In SBGN Process Descriptions, a simple chemical is defined as the opposite of a macromolecule: it is a chemical compound that is not formed by the covalent linking of pseudo-identical residues. Examples of simple chemicals are an atom, a monoatomic ion, a salt, a radical, a solid metal, a crystal, etc. A simple chemical is represented by a circular container. 
+
+&lt;center&gt;
+{{#icon:Symbol-simpleChemical.png |||| corner iradius11}}
+&lt;/center&gt;
+
+The following example describes the conversion of glucose into glucose 6 phosphate, stimulated by the enzyme hexokinase, represented as a macromolecule.
+
+&lt;center&gt;
+{{#icon:Symbol-simpleChemical-example-real-1.png |||| corner iradius11}}
+&lt;/center&gt;
+
+The following example describes calcium stimulating the conversion of inactive calmodulin into active one. 
+
+&lt;center&gt;
+{{#icon:Symbol-simpleChemical-example-real-2.png |||| corner iradius11}}
+&lt;/center&gt;
+
+The following example describes the protein Gαi inhibiting the conversion of ATP into cAMP. 
+
+&lt;center&gt;
+{{#icon:Symbol-simpleChemical-example-real-3.png |||| corner iradius11}}
+&lt;/center&gt;
+
+Download the macromolecule node image as (from the more semantic to the more generic):
+
+[ [[media:Symbol-simpleChemical.sbgn|SBGN-ML]] ]
+[ [[media:Symbol-simpleChemical.gml|GML]] ]
+[ [[media:Symbol-simpleChemical.graphml|GraphML]] ]
+[ [[media:Symbol-simpleChemical.svg|SVG]] ]
+[ [[media:Symbol-simpleChemical.odp|Open Document Format]] ]
+[ [[media:Symbol-simpleChemical.ppt|PowerPoint]] ]
+[ [[media:Symbol-simpleChemical.pdf|PDF]] ]
+[ [[media:Symbol-simpleChemical.png|PNG]] ]</text>
+    </revision>
+  </page>
+</mediawiki>

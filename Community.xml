@@ -1,0 +1,71 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Community</title>
+    <id>29</id>
+    <revision>
+      <id>3610</id>
+      <timestamp>2013-09-17T10:35:19Z</timestamp>
+      <contributor>
+        <username>Falkschreiber</username>
+        <id>15</id>
+      </contributor>
+      <text xml:space="preserve">This is the SBGN wiki,  a &lt;big&gt;community-editable area&lt;/big&gt; where members of the SBGN community can write about SBGN topics and proposals for SBGN's continued evolution. This wiki is more suitable for writing longer and more static documents, whereas the [[SBGN Mailing Lists]] are more suitable to rapid dialogue between people. 
+
+== &lt;span class=&quot;h-icon-documents&quot;&gt;SBGN educational resources&lt;/span&gt; ==
+
+SBGN is under continuing development. However, some pieces of it are mature enough so there are some university courses devoted exclusively or partially to SBGN.  We gather information about [[SBGN educational resources | SBGN educational resources]]. This page also includes links to databases and software tools used in educational activities.
+
+== &lt;span class=&quot;h-icon-software&quot;&gt;SBGN Software&lt;/span&gt; ==
+
+Another page now lists the [[SBGN_Software |software supporting SBGN]].
+
+== &lt;span class=&quot;h-icon-documents&quot;&gt;SBGN development&lt;/span&gt; ==
+
+SBGN being as new as it is, there is a lot of exciting ongoing development taking place.  We gather information about [[SBGN development | SBGN development activities]].
+
+== &lt;span class=&quot;h-icon-editors&quot;&gt;Meeting minutes&lt;/span&gt; ==
+
+SBGN is largely developed through meetings. We sometimes are careful enough to record [[meeting minutes]]. See also the pages describing the various [[events]].
+
+== &lt;span class=&quot;h-icon-editors&quot;&gt;Election of editors&lt;/span&gt; ==
+
+SBGN is a community effort, and its development is coordinated by editors ho are democratically elected each years. You can find more [[About#SBGN_Editors | information on current editors and their duties]]. We also record the [[elections|results of past elections]].
+
+== &lt;span class=&quot;h-icon-bestpractice&quot;&gt;SBGN competition&lt;/span&gt; ==
+
+In order to stimulate the implementation of SBGN support, and the use of the notation, an [[competition | annual competition]] is organized.
+
+== SBGN Survey ==
+
+We have started a survey to get feedback about SBGN. Find out more [[survey | here]].</text>
+    </revision>
+  </page>
+</mediawiki>

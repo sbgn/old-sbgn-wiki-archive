@@ -1,0 +1,91 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>LibSBGN/ValidationEntryPage</title>
+    <id>763</id>
+    <revision>
+      <id>2990</id>
+      <timestamp>2012-11-05T15:45:18Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <comment>/* Validation Topics */</comment>
+      <text xml:space="preserve">==Validation Topics==
+
+* List of current rules: [[LibSBGN/ValidationRules|ValidationRules]] 
+* Currently, libSBGN rules are written in Schematron. See [[LibSBGN/SchematronHowto|SchematronHowto]]
+
+==Syntax for @see Entries==
+
+Validation rules in libSBGN should be tagged with a &quot;see&quot; attribute that refers to an SBGN specification that points to a validation rule. 
+
+&lt;code&gt;sbgn-(SBGN_LANG_ABBREV)-L(LEVEL_NUM)V(VERSION_NUM)-(SPEC_ENTRY)#(BULLET_NUM)&lt;/code&gt;
+
+* SBGN_LANG_ABBREV - pd, er, af
+* LEVEL_NUM - Digit
+* VERSION_NUM - Digit or number with decimal
+* SPEC_ENTRY - Digits separated by periods indicating the section where the rule is described. 
+* BULLET_NUM - Digit indicating the bulleted item describing a rule.
+
+Example: sbgn-pd-L1V1.3-3.5.2.2#1
+
+==Rule Categories (Roles)==
+
+Rules are tagged using the following categories to denote severity and status. 
+
+* error - Failure to pass this rule type results in invalidation
+* warning - Point to recommendations; failure to meet these recommendations does not result in invalidation.
+* unimplemented - Represent &quot;stubs&quot; for rules that remain to be implemented.
+* untestable - Rules that are that are untestable. Such rules may result from the need to have expert knowledge of a biological system to carry out the validation.
+** Example: If more than one set of stoichiometries can be applied to the flux arcs of the process then the stoichiometry of the flux arcs must be displayed. (sbgn-pd-L1V1.3-3.5.2.1#8)
+
+==Error Test Files==
+
+'''Creators of error test files should create both the correct and incorrect cases.'''
+
+===Naming Convention===
+
+Test files containing errors are named using the following components: 
+
+ruleId-assertionId_pass/fail-errorCount_testCount (
+
+* Error code for rule 
+* If multiple assertions are made then which one is being tested (in the order they appear in the ruleset).
+* pass/fail, whether the file passes or fail the rule followed by an error count of any existing errors. 
+* Use testCount if multiple files test the same rule. 
+* If multiple rules are broken, the name should take the ruleId of the first rule broken. 
+
+Example: pd10102-3_fail-1_1.sbgn
+
+The file failed rule pd10102 assertion 3 with 1 error. If more than one file tested this rule, then the final 1 would uniquely identify this file.</text>
+    </revision>
+  </page>
+</mediawiki>

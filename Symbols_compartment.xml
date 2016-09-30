@@ -1,0 +1,82 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Symbols/compartment</title>
+    <id>1038</id>
+    <revision>
+      <id>4092</id>
+      <timestamp>2016-03-04T14:40:14Z</timestamp>
+      <contributor>
+        <username>Vtoure</username>
+        <id>76</id>
+      </contributor>
+      <text xml:space="preserve">''by Vasundra Touré''
+
+A compartment is a container node found in SBGN PD and SBGN AF. It is a logical or physical structure that contains entity pool nodes (EPNs). One EPN belongs to one compartment. Thus, two &quot;same&quot; entities located in two different compartments are actually two different pools.
+The compartment has its own symbol: it is an enclosed structure with thick borders that can have any geometry. It should carry a label to characterise the compartment's name.
+
+&lt;center&gt;
+{{#icon:Symbol-compartment.png |||| corner iradius11}}
+&lt;/center&gt;
+
+The following example represents the consumption of phosphoenolpyruvate (PEP) to produce pyruvate in the cytosol compartment. The reaction is stimulated by the enzyme pyruvate kinase and produces a molecule of energy ATP.
+
+&lt;center&gt;
+{{#icon:Symbol-compartment_exampleGlycolysis.png |||| corner iradius11}}
+&lt;/center&gt;
+
+Compartments can overlap but that does not always imply that the overlapped compartment contains the overlapping one. Also, the overlapped part of a compartment should not contain any object which could be covered by an overlapping compartment.
+The following example shows the transport of pyruvate from the cytosol to the mitochondrion. Here, the cytosol is overlapped by the mitochondrion / the mitochondrion is overlapping the cytosol.
+
+&lt;center&gt;
+{{#icon:Symbol-compartment_examplePyruvate.png |||| corner iradius11}}
+&lt;/center&gt;
+
+Finally, compartments can hold units of information that will for instance give additional information about the physical environment of the compartment (pH, temperature, voltage, etc.).
+The following example represents the lysosome compartment with a pH of 4,8 and the cytosol compartment with a pH of 7,2. These units of information show that the lysosome is more acidic than the cytosol.
+
+&lt;center&gt;
+{{#icon:Symbol-compartment_exampleUnitOfInfo.png |||| corner iradius11}}
+&lt;/center&gt;
+
+
+Download the compartment node image as (from the more semantic to the more generic):
+
+[ [[media:Symbol-compartment.sbgn|SBGN-ML]] ]
+[ [[media:Symbol-compartment.gml|GML]] ]
+[ [[media:Symbol-compartment.graphml|GraphML]] ]
+[ [[media:Symbol-compartment.svg|SVG]] ]
+[ [[media:Symbol-compartment.odp|Open Document Format]] ]
+[ [[media:Symbol-compartment.ppt|PowerPoint]] ]
+[ [[media:Symbol-compartment.pdf|PDF]] ]
+[ [[media:Symbol-compartment.png|PNG]] ]</text>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,93 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Documents/Logos</title>
+    <id>346</id>
+    <revision>
+      <id>2251</id>
+      <timestamp>2010-08-11T15:58:12Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <comment>/* SBGN logos and banners */</comment>
+      <text xml:space="preserve">=== SBGN logos and banners ===
+
+Those logo are copyright of the [http://www.sbi.jp/ Systems Biology Institute]. They are distributed under the [http://www.gnu.org/copyleft/fdl.html GNU Free Documentation License].
+
+{| width=&quot;100%&quot; align=&quot;center&quot;
+! thumbnail
+! download
+! comment
+|-
+| {{#icon:LogoWhiteBackBlackLetters-75.png}}
+| [http://sbgn.org/Image:LogoWhiteBackBlackLetters-75.png download]
+| Logo with white background and black letters, 75 pixels wide.
+|-
+| {{#icon:LogoWhiteBackBlackLetters-75.png}}
+| [http://sbgn.org/Image:LogoWhiteBackBlackLetters-150.png download]
+| Logo with white background and black letters, 150 pixels wide.
+|-
+| {{#icon:LogoWhiteBackBlackLetters-75.png}}
+| [http://sbgn.org/Image:LogoWhiteBackBlackLetters-1024.png download]
+| Logo with white background and black letters, 1024 pixels wide.
+|-
+| {{#icon:LogoWhiteBackBlackLetters-75.png}}
+| [http://sbgn.org/Image:LogoWhiteBackBlackLetters.png download]
+| Logo with white background and black letters, high resolution.
+|-
+| {{#icon:LogoBlackBackWhiteLetters-75.png}}
+| [http://sbgn.org/Image:LogoBlackBackWhiteLetters-75.png download]
+| Logo with black background and white letters, 75 pixels wide.
+|-
+| {{#icon:LogoBlackBackWhiteLetters-75.png}}
+| [http://sbgn.org/Image:LogoBlackBackWhiteLetters-150.png download]
+| Logo with black background and white letters, 150 pixels wide.
+|-
+| {{#icon:LogoBlackBackWhiteLetters-75.png}}
+| [http://sbgn.org/Image:LogoBlackBackWhiteLetters-1024.png download]
+| Logo with black background and white letters, 1024 pixels wide.
+|-
+| {{#icon:LogoBlackBackWhiteLetters-75.png}}
+| [http://sbgn.org/Image:LogoBlackBackWhiteLetters.png download]
+| Logo with black background and white letters, high resolution.
+|-
+| {{#icon:Sbgn-banner-WhiteBackground-small.png}}
+| [http://sbgn.org/Image:Sbgn-banner-WhiteBackground-small.png download]
+| Banner with white background and black letters.
+|-
+| {{#icon:Sbgn-banner-BlackBackground-small.png}}
+| [http://sbgn.org/Image:Sbgn-banner-BlackBackground-small.png download]
+| Banner with black background and white letters.
+|-
+|}</text>
+    </revision>
+  </page>
+</mediawiki>

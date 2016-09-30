@@ -1,0 +1,101 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>User Page</title>
+    <id>731</id>
+    <revision>
+      <id>3649</id>
+      <timestamp>2013-10-31T18:36:20Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <comment>/* SBGN study guide */</comment>
+      <text xml:space="preserve">==SBGN study guide==
+Visit the [[Documents]] section for:
+* various [[Documents/Examples|examples]] (to get a better idea of what an actual map looks like)
+* some [[Documents/Outreach#Tutorials_on_using_SBGN_languages|tutorials]] (very accessible, but not always up-to-date)
+* [[Documents/Outreach#Publications_about_SBGN|publications]] about SBGN (a good start for a brief historical overview)
+* detailed [[Documents/Specifications|technical specifications]] (the ultimate reference documents, most up-to-date, but a steep learning curve for beginners)
+* some [[Documents/FAQs |Frequently Asked Questions]]
+
+Please also check the [http://sourceforge.net/projects/sbgn/files/SBGN%20Process%20Description%20language/Level%201%20Version%201.3/sbgn_PD-level1-Manual-v1.3.pdf/download SBGN PD User Manual] when you are ready to draw your own maps.
+
+==Quick overview==
+
+The Systems Biology Graphical Notation comprises three complementary languages suited to represent different types of pathways.
+
+'''''&lt;font color=&quot;#ffff00&quot;&gt;Process Descriptions (PD)&lt;/font&gt;''''' is a language that permits the description of the processes (e.g. biochemical reactions) taking place in a biological system. PD maps are essentially bipartite graphs made up of nodes representing pools of molecular species and nodes representing processes. PD is great to represent precisely metabolic networks for which we know all the reactants and reactions, and visualize chemical kinetic models.
+
+'''''&lt;font color=&quot;#ffff00&quot;&gt;Entity Relationships (ER)&lt;/font&gt;''''' is a language that permits the description of all the relations involving the entities of a biological system. There is mainly one type of nodes, representing the objects considered, linked by relationships. The relationships are independent, avoiding the problem of combinatorial explosion triggered by multistate entities. ER is perfect to visualize rule-based models.
+
+'''''&lt;font color=&quot;#ffff00&quot;&gt;Activity Flows (AF)&lt;/font&gt;''''' is a language that permits the description of the flow of activity in a biological system. All nodes represent activities, linked by modulation arcs. AF is best used to represent signalling pathways or gene regulatory networks where mechanistic knowledge is missing or omitted, and to visualize logical models.
+
+===Language reference cards===
+
+Users already familiar with the semantics and syntax of SBGN can refer to these cards as a reminder of the overall list of available glyphs for each language:
+
+{| style=&quot;width:100%&quot;
+|[[Image:Refcard-PD.png|center| thumb|200px|Process Descriptions]]
+|[[Image:Refcard-ER.png|center| thumb|200px|Entity Relationships]]
+|[[Image:Refcard-AF.png|center| thumb|200px|Activity Flows]]
+|}
+
+===SBGN Bricks dictionary===
+A dictionary of reusable patterns (e.g. phosphorylation, translation, catalysis, transport, etc.) commonly found in different types of biological networks is available on the [http://sourceforge.net/apps/mediawiki/sbgnbricks/index.php?title=SBGN_bricks_dictionary SBGN Bricks webpage].
+
+The patterns are available in all 3 SBGN languages (where applicable). They can be downloaded as SBGN-ML files, to be reused in [[User_Page#Software_tools_to_handle_maps|compatible software applications]].
+
+==Getting started==
+Check the following resources if you understand the general idea behind SBGN but are wondering exactly ''how'' you can start using it in your own maps.
+
+===User Manual===
+Beginner-friendly directions are now available in the [http://sbgn.svn.sourceforge.net/viewvc/sbgn/ProcessDiagram/trunk/UserManual/sbgn_PD-level1-user-public.pdf SBGN PD User Manual]. User guides for other languages will follow as soon as possible.
+
+===Software tools to handle maps===
+If you are looking for software tools designed specifically to handle SBGN maps, check our [[SBGN Software#Software_providing_support_for_SBGN|Software]] section.
+
+A growing number of tools supports SBGN-ML, the recommended file format to store SBGN maps. Maps saved as SBGN-ML files can be reused in any compatible tool. Each tool offers a unique set of useful features (e.g. semi-automated layouts, syntactic validation, etc.). SBGN-ML allows users to make the most of all available compatible applications.
+
+Reusable network patterns can be downloaded as SBGN-ML files from the [http://sourceforge.net/apps/mediawiki/sbgnbricks/index.php?title=SBGN_bricks_dictionary SBGN Bricks dictionary].
+
+If you are reluctant to install a new piece of software on your machine, SBGN maps can also be drawn using more generic applications, such as Microsoft PowerPoint or Inkscape. Feel free to reuse one of our [[Documents/Templates|templates]] to assist you in this task.
+
+===For developers of software tools===
+Tool developers eager to support SBGN should check the [[SBGN Software#Software tool assisting in supporting SBGN|LibSBGN]] project. This open source library allows to integrate a number of useful functionalities into third party applications: import/export of SBGNML files, check if a map is valid or not, etc.
+
+==How to cite?==
+When referring to SBGN in any publication, please follow these [[Quote|instructions]]. Feel free to reuse one of our [[Documents/Logos|logos]] in any poster, presentation, website, etc.
+
+==Going further, getting involved==
+SBGN is an open community project. Be it to ask a question or suggest a modification, anyone's input is welcome. Check the [[Developer_Page|Developer Page]] for more information.</text>
+    </revision>
+  </page>
+</mediawiki>

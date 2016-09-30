@@ -1,0 +1,422 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-4</title>
+    <id>35</id>
+    <revision>
+      <id>2004</id>
+      <timestamp>2010-02-10T22:36:57Z</timestamp>
+      <contributor>
+        <username>SBGNWikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>Protected &quot;[[Events/SBGN-4]]&quot;: Only let sysops edit this page [edit=sysop:move=sysop] [cascading]</comment>
+      <text xml:space="preserve">{{EventImage | image = sbgn4-100x100.jpg}}
+ 
+The fourth SBGN workshop will be held on &lt;big&gt;October 16 and 17, 2008, in Warnemunde, Germany&lt;/big&gt;, at the [http://www.hotel-neptun.de/wEnglisch/index.php Neptun Hotel].  The workshop will be a satellite of the 6th [http://wwwmosi.informatik.uni-rostock.de/cmsb08 Conference on Computational Methods in Systems Biology] (CMSB). 
+ 
+The focus of the presentations and discussions at this meeting will be the development of
+&lt;big&gt;support for the SBGN Process Diagram Level 1&lt;/big&gt; specification, and work towards defining the &lt;big&gt;Entity Relationship Level 1 and Activity Flow Level 1&lt;/big&gt; specifications. 
+
+
+== Agenda ==
+
+Times have been adjusted to correspond more closely the actual events of each day.  Video recordings are in [http://www.apple.com/quicktime/ QuickTime] format, for which free players are available for Mac and Windows. Beware that the files huge (200 MB–2.1 GB each).
+
+The videos are relatively low quality, and owing to lighting conditions in the room, the projected slides are almost never visible in the videos themselves.  Suggested approach for using the recordings: for a given talk, open both the video and the slides file at the same time on your computer, so that you can follow the presentation slides at the same time as viewing the video.
+
+''Technical glitches for some videos are noted in footnotes.''
+
+=== Thursday, October 16 ===
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+! width=&quot;75px&quot; | Time
+! width=&quot;270px&quot; | Topic
+! width=&quot;135px&quot; | Speaker(s)
+! Slides
+! Video
+|-
+| 09:00&amp;nbsp;&amp;ndash;&amp;nbsp;09:25
+| Introductions
+| N. Le&amp;nbsp;Nov&amp;egrave;re &amp;amp; M. Hucka
+| (none)
+| (none)
+|-
+| 09:25&amp;nbsp;&amp;ndash;&amp;nbsp;09:35
+| Modeling the Interferon response pathway in macrophages
+| Peter Ghazal
+| [[media:ghazal-2008-10-16.pdf | slides]]
+| [http://sbgn.org/files/sbgn4-peter-2008-10-16.mov mov]
+|-
+| 09:35&amp;nbsp;&amp;ndash;&amp;nbsp;09:50
+| Vanted and automatic SBGN layout
+| Falk Schreiber &amp; Christian Klukas
+| [[media:schreiber-2008-10-16.pdf | slides]]&lt;br&gt;[http://sbgn.org/files/schreiber-2008-10-16-visualization.mov demo]
+| [http://sbgn.org/files/sbgn4-falk-2008-10-16-governance.mov mov]
+|-
+| 09:50&amp;nbsp;&amp;ndash;&amp;nbsp;10:00
+| Arcadia: a visualisation tool for metabolic pathways
+| Alice Villeger
+| [[media:villeger-2008-10-16.pdf | slides]]
+| [http://sbgn.org/files/sbgn4-alice-2008-10-16.mov mov]
+|-
+| 10:00&amp;nbsp;&amp;ndash;&amp;nbsp;10:10
+| PathVisio, WikiPathways, and GPML
+| Martijn van Iersel
+| [[media:van-iersel-2008-10-16.pdf | slides]]
+| [http://sbgn.org/files/sbgn4-martijn-2008-10-16.mov mov]
+|-
+| 10:10&amp;nbsp;&amp;ndash;&amp;nbsp;10:20
+| Edinburgh Pathway Editor (EPE)
+| Anatoly Sorokin
+| [[media:sorokin-2008-10-16.pdf | slides]]
+| *1
+|-
+| 10:20&amp;nbsp;&amp;ndash;&amp;nbsp;10:30
+| CellML
+| Sarala Wimalaratne
+| [[media:sarala-2008-10-16.pdf | slides]]
+| *1
+|-
+| 10:30&amp;nbsp;&amp;ndash;&amp;nbsp;10:40
+| SBW
+| Frank Bergmann
+| [[media:bergmann-2008-10-16.pdf | slides]]
+| *1
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 10:35&amp;nbsp;&amp;ndash;&amp;nbsp;11:10
+| colspan=&quot;4&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Break'' 
+|-
+|11:10&amp;nbsp;&amp;ndash;&amp;nbsp;11:20
+| SBGN governance
+| Nicolas Le Nov&amp;egrave;re
+| [[media:nicolas-2008-10-16-governance.pdf | slides]]
+| [http://sbgn.org/files/sbgn4-nicolas-2008-10-16-governance.mov mov]
+|-
+|11:20&amp;nbsp;&amp;ndash;&amp;nbsp;11:40
+| SBGN design and implementation
+| Stuart Moodie
+| [[media:moodie-2008-10-16-sbgn-implem.pdf | slides]]
+| [http://sbgn.org/files/sbgn4-stuart-2008-10-16.mov mov]
+|-
+|11:40&amp;nbsp;&amp;ndash;&amp;nbsp;12:05
+| Issues in SBGN Process Diagrams Level 1
+| Nicolas Le Nov&amp;egrave;re
+| [[media:nicolas-2008-10-16-pd-issues.pdf | slides]]
+| [http://sbgn.org/files/sbgn4-nicolas-2008-10-16-issues.mov mov]
+|-
+|12:05&amp;nbsp;&amp;ndash;&amp;nbsp;12:35
+| Issues in SBGN Process Diagrams Level 1
+| Sarala Wimalaratne
+| [[media:sarala-2008-10-16-issues.pdf | slides]]
+| [http://sbgn.org/files/sbgn4-sarala-2008-10-16-issues.mov mov]
+|-
+|12:35&amp;nbsp;&amp;ndash;&amp;nbsp;13:00
+| Issues in SBGN Process Diagrams Level 1
+| Alice Villeger
+| [[media:villeger-2008-10-16-discussion.pdf | slides]]
+| [http://sbgn.org/files/sbgn4-alice-2008-10-16-issues.mov mov]
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 13:00&amp;nbsp;&amp;ndash;&amp;nbsp;14:00
+| colspan=&quot;4&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Lunch''
+|-
+|14:00&amp;nbsp;&amp;ndash;&amp;nbsp;14:15
+| Comments: Implementation of SBGN Process Diagrams Level 1
+| Peter Ghazal
+| [[media:ghazal-2008-10-16-logic-models.pdf | example]]
+| [http://sbgn.org/files/sbgn4-peter-2008-10-16-issues.mov mov]
+|-
+|14:15&amp;nbsp;&amp;ndash;&amp;nbsp;14:30
+| BioPAX and SBGN Process Diagrams Level 1
+| Emek Demir
+| (none)
+| [http://sbgn.org/files/sbgn4-emek-2008-10-16.mov mov]
+|-
+|14:30&amp;nbsp;&amp;ndash;&amp;nbsp;14:40
+| Language for biochemical systems
+| Michael D. Pedersen
+| [[media:pedersen-2008-10-16.pdf | slides]]
+| [http://sbgn.org/files/sbgn4-michael-2008-10-16.mov mov]
+|-
+|14:40&amp;nbsp;&amp;ndash;&amp;nbsp;14:55
+| Refresher about MIMs
+| Mirit Aladjem
+| [[media:aladjem-2008-10-16-mim.pdf | slides]]
+| [http://sbgn.org/files/sbgn4-mirit-2008-10-16.mov mov]
+|- 
+|14:55&amp;nbsp;&amp;ndash;&amp;nbsp;15:30
+| Towards SBGN Entity Relationships Level 1: Discussion #1
+| (Mod.: N. Le Nov&amp;egrave;re)
+| [[media:Nicolas-2008-10-16-ER-discussion.pdf| slides]]
+| [http://sbgn.org/files/sbgn4-2008-10-16-er-discussion-1.mov mov]
+|- 
+| style=&quot;background-color: #2f2f2f&quot;| 15:30&amp;nbsp;&amp;ndash;&amp;nbsp;16:00
+| colspan=&quot;4&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Break''
+|-
+|16:00&amp;nbsp;&amp;ndash;&amp;nbsp;17:30
+| Towards SBGN Entity Relationships Level 1: Discussion #2
+| (Mod.: N. Le Nov&amp;egrave;re)
+| [[media:Nicolas-2008-10-16-ER-discussion.pdf| slides]]
+| [http://sbgn.org/files/sbgn4-2008-10-16-er-discussion-2.mov mov]
+|}
+
+&lt;font size=&quot;-2&quot;&gt;''Notes from MH: (*1) An unexplained problem resulted in the recorded sound quality for the morning session to gradually worsen as time went on.  By the time of this presentation, it unfortunately became so bad, it rendered the recording useless.''&lt;/font&gt;
+
+=== Friday, October 17 ===
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot; 
+! width=&quot;75px&quot; | Time 
+! width=&quot;270px&quot; | Topic 
+! width=&quot;135px&quot; | Speaker(s) 
+! Files 
+! Video 
+|- 
+| 09:20&amp;nbsp;&amp;ndash;&amp;nbsp;09:30 
+| CellDesigner 4.1 &amp;amp; Payao plans 
+| Hiroaki Kitano 
+| [[media:Kitano-2008-10-17-celldesigner.pdf  | slides]] 
+| [http://sbgn.org/files/sbgn4-hiroaki-2008-10-17.mov mov] 
+|- 
+| 09:30&amp;nbsp;&amp;ndash;&amp;nbsp;09:45 
+| Summary of PANTHER Pathway 
+| Huaiyu Mi 
+|  [[media:Mi-2008-10-17-panther.pdf  | slides]] 
+| *2
+|- 
+| 09:45&amp;nbsp;&amp;ndash;&amp;nbsp;10:00 
+| Towards SBGN Activity Flow Diagrams in PANTHER Pathway 
+| Huaiyu Mi 
+|  [[media:Mi-2008-10-17-panther.pdf  | slides]] 
+| *2
+|- 
+| 10:00&amp;nbsp;&amp;ndash;&amp;nbsp;10:30 
+| Toward SBGN Activity Flow Diagrams Level 1: Discussion #1
+| (Mod.: H. Mi) 
+| [[media:Mi-2008-10-17-activity-flow.pdf | slides]] 
+|  *2
+|- 
+| style=&quot;background-color: #2f2f2f&quot;| 10:30&amp;nbsp;&amp;ndash;&amp;nbsp;11:00 
+| colspan=&quot;4&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Break''  
+|- 
+| 11:00&amp;nbsp;&amp;ndash;&amp;nbsp;12:30 
+| Toward SBGN Activity Flow Diagrams Level 1: Discussion #2
+| (Mod.: H. Mi) 
+| [[media:Mi-2008-10-17-activity-flow.pdf | slides]] 
+| [http://sbgn.org/files/sbgn4-2008-10-17-af-discussion-2.mov mov] 
+|- 
+| style=&quot;background-color: #2f2f2f&quot;| 12:30&amp;nbsp;&amp;ndash;&amp;nbsp;14:00
+| colspan=&quot;4&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Lunch''  
+|-  
+| 14:00&amp;nbsp;&amp;ndash;&amp;nbsp;15:10 
+| More discussion of SBGN ER diagrams 
+| (Mod.: N. Le&amp;nbsp;Nov&amp;egrave;re) 
+| [[media:nicolas-2008-10-17-er-discussion.pdf  | slides]]
+| [http://sbgn.org/files/sbgn4-2008-10-17-er-discussion-3.mov mov] 
+|-  
+| style=&quot;background-color: #2f2f2f&quot;| 15:10&amp;nbsp;&amp;ndash;&amp;nbsp;15:40 
+| colspan=&quot;4&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Break''  
+|- 
+| 15:40&amp;nbsp;&amp;ndash;&amp;nbsp;16:40 
+| Toward SBGN Activity Flow Diagrams Level 1: Discussion #3 
+| (Mod.: H. Mi)
+| [[media:Mi-2008-10-17-activity-flow-2.pdf | slides]]
+| [http://sbgn.org/files/sbgn4-2008-10-17-af-discussion-3.mov mov] 
+|- 
+| 16:40&amp;nbsp;&amp;ndash;&amp;nbsp;16:50
+| Final miscellaneous comments
+| (Everyone)
+| (none)
+| [http://sbgn.org/files/sbgn4-2008-10-17-final.mov mov] 
+|}
+
+&lt;font size=&quot;-2&quot;&gt;''Notes from MH: (*2) An inexplicable software glitch resulted in this recording's file being corrupted and unable to be opened in all movie players that I have tried.''&lt;/font&gt;
+
+==Workshop Participants==
+
+A more detailed list of attendees and their projects is provided on a [[Events/SBGN-4/SBGN-4_Participants | separate page]].  The following is only a summary.
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+!width=&quot;120px&quot;| Name
+!width=&quot;220px&quot;| Affiliation
+! Group/Project
+|-
+| Mirit Aladjem
+| NIH-NCI (USA)
+| [http://discover.nci.nih.gov/ Molecular Interaction Maps] (MIM)
+|-
+| Frank Bergmann
+| University of Washington (USA)
+| [http://sys-bio.org/ Systems Biology Worbench] (SBW)
+|-
+| Emek Demir
+| MSKCC (USA)
+| [http://www.biopax.org BioPAX], [http://www.pathwaycommons.org/ Pathway Commons]
+|-
+| Sarala Wimalaratne (Dissanayake)
+| University of Auckland (New Zealand)
+| [http://www.cellml.org/ CellML]
+|-
+| Johannes W. Dietrich
+| Ruhr-University of Bochum (Germany)
+| [http://www.medical-cybernetics.de Insulin Signal Transduction]
+|-
+| Peter Ghazal
+| University of Edinburgh (UK)
+| [http://www.pathwaymedicine.ed.ac.uk Pathway Medicine]
+|-
+| Michael Hucka
+| Caltech (USA)
+| [http://sbml.org/ SBML], [http://www.sbgn.org/ SBGN]
+|-  
+| Martijn van Iersel
+| Maastricht University (Netherlands)
+| [http://www.wikipathways.org Wikipathways]
+|-
+| Matthias Jeschke
+| University of Rostock (Germany)
+| [http://www.diemosiris.de dIEM oSiRiS]
+|-
+| Mathias John
+| University of Rostock (Germany)
+| [http://www.diemosiris.de dIEM oSiRiS]
+|-
+| Hiroaki Kitano
+| Sony Computer Science Laboratories, Inc. (Japan)
+| [http://www.sbgn.org/ SBGN], [http://celldesigner.org CellDesigner], [http://celldesigner.org/payao/ Payao], [http://issb.org ISSB], [http://www.ysbn.org YSBN], [http://www.rtkconsort.org/ RTK], [http://sbi.jp SBI], [http://www.symbio.jst.go.jp/symbio2/ Kitano Symbiotic Systems Project]
+|-  
+| Christian Klukas
+| IPK Gatersleben (Germany)
+| [http://vanted.ipk-gatersleben.de/ Vanted]
+|-
+| Nicolas Le Novère
+| EMBL-EBI (UK)
+| [http://www.ebi.ac.uk/biomodels/ BioModels Database], [http://www.sbgn.org/ SBGN], [http://sbml.org/ SBML]
+|-
+| Augustin Luna
+| NIH-NCI &amp;amp; Boston University (USA)
+| [http://discover.nci.nih.gov/ Molecular Interaction Maps] (MIM)
+|-
+| Carsten Maus
+| University of Rostock (Germany)
+| [http://wwwmosi.informatik.uni-rostock.de/mosi/Members/cm234/info?set_language=en  Mosi]
+|-  
+| Huaiyu Mi
+| SRI International (USA)
+| [http://www.pantherdb.org PANTHER Pathway]
+|-  
+| Stuart Moodie
+| University of Edinburgh (UK)
+| [http://www.bioinformatics.ed.ac.uk/epe/ Edinburgh Pathway Editor] (EPE)
+|-
+| Michael Pedersen
+| University of Edinburgh (UK)
+| LBS
+|-
+| Stefan Rybacki
+| University of Rostock (Germany)
+| [http://wwwmosi.informatik.uni-rostock.de/mosi/projects/cosa?set_language=en Cosa]
+|-
+| Falk Schreiber
+| IPK Gatersleben &amp; University of Halle (Germany)
+| [http://www.sbgn.org/ SBGN], automatic network layout, [http://vanted.ipk-gatersleben.de/ Vanted]
+|-
+| Anatoly Sorokin
+| University of Edinburgh (UK)
+| [http://www.bioinformatics.ed.ac.uk/epe/ Edinburgh Pathway Editor] (EPE)
+|-
+| Carolyn Talcott
+| SRI International (USA)
+| [http://pl.csl.sri.com/ Pathway Logic]
+|- 
+| Lin Uhrmacher
+| University of Rostock (Germany)
+| [http://www.diemosiris.de dIEM oSiRiS]
+|-
+| Alice Villeger
+| University of Manchester (UK)
+| [http://personalpages.manchester.ac.uk/staff/Alice.Villeger/arcadia.html Arcadia]
+|- 
+| Katja Wegner
+| University of Hertfordshire (UK)
+| [http://strc.herts.ac.uk/bio/maria/Apostrophe/index.htm NetBuilder]
+|}
+
+== Pre-Meeting Background Material ==
+
+The single most important preparation is to make sure to read the latest [[Documents/Specifications | SBGN specification documents]].  The meeting will '''not''' feature a tutorial about SBGN; all attendees will be assumed to be deeply familiar with the SBGN specifications.
+
+== Meeting discussions ==
+
+* [[Community/SBGN4_PD_L1_implementation | SBGN Process Diagrams Level 1]]
+* [[Community/SBGN4_Entity_Relationships | SBGN Entity Relationships Diagrams]]
+* [[Community/SBGN4_Activity_Flow | SBGN Activity Flow Diagrams]]
+
+== Accommodation ==
+
+A block of rooms has been reserved at the [http://www.hotel-neptun.de/wEnglisch/index.php Neptun Hotel] in Warnem&amp;uuml;nde, which is also the hotel where the meeting will take place. We have reserved 10 single and 10 double rooms.
+
+You need to book your own rooms.  When you book them, please mention that you will attend the SBGN meeting, and use the rebate codes &quot;Informatik Uni Rostock&quot; or &quot;CMSB&quot;.
+
+We should be able to pay for the accommodation. Therefore, do-not pay the rooms beforehand if possible (we will still be able to refund you, if you already paid for it).
+
+== Travel ==
+
+As mentioned above, SBGN 4 will be held in [http://en.wikipedia.org/wiki/Warnemunde Warnem&amp;uuml;nde, Germany], at the hotel [http://www.hotel-neptun.de/wEnglisch/index.php Neptun].  The map below shows its location relative to the train station in Warnem&amp;uuml;nde.
+
+&lt;div style=&quot;display: block; margin: 0 auto; padding: 0 0 1em 1em&quot;&gt;
+&lt;html&gt;&lt;center&gt;&lt;iframe width=&quot;420&quot; height=&quot;300&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://maps.google.com/maps/ms?f=q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;ie=UTF8&amp;amp;msa=0&amp;amp;msid=109424880801499172420.00045921f0d3c4a0caaf3&amp;amp;ll=54.178688,12.082901&amp;amp;spn=0.008062,0.017381&amp;amp;output=embed&amp;amp;s=AARTsJoHHG3MoxqwJWeuOqcV4nxKzwFhQA&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;/html&gt;
+&lt;/div&gt;
+
+The specific meeting room has not been established yet, but will be announced when the time comes closer to the meeting.  You can find information about traveling to Rostock-Warnem&amp;uuml;nde on the [http://wwwmosi.informatik.uni-rostock.de/cmsb08/more-information/travel CMSB08 travel page].
+
+The temperatures this time of year in the Rostock region tend to be slightly cool, but not very cold.  You may want to  to bring a light jacket and a sweater, and prepare for occasional rain.
+
+&lt;div style=&quot;display: block; margin: 0 auto; padding: 0 0 1em 1em&quot;&gt;
+&lt;html&gt;&lt;script src=&quot;http://www.gmodules.com/ig/ifr?url=http://www.notkewl.com/myWeather/myWeather.xml&amp;amp;up_paikka=GMXX0225&amp;amp;up_merkki=1&amp;amp;synd=open&amp;amp;w=285&amp;amp;h=250&amp;amp;title=&amp;amp;border=%23ffffff%7C0px%2C0px+dotted+%23ffffff&amp;amp;output=js&quot;&gt;&lt;/script&gt;&lt;/html&gt;&lt;/div&gt;
+
+If you are traveling from outside of Germany, be sure to bring an appropriate power plug converter for your laptop and all other electrical devices you're bringing. Electric current in Germany is 50 Hz, 220-240 V. The plug types are depicted below.  For more detailed information on the types of plugs that are used, as well as electrical standards in various countries, please visit http://users.pandora.be/worldstandards/electricity.htm .
+
+&lt;center&gt;
+{| class=&quot;no-background no-borders&quot;
+!width=&quot;150px&quot;| Type C Plug
+| [[image:plug-type-c.jpg]]
+|-
+!width=&quot;150px&quot;| Type F Plug
+| [[image:plug-type-f.jpg]]
+|}
+&lt;/center&gt;
+
+== Contact ==
+
+For any question concerning the content and organisation of the workshop, please send a message to [mailto:sbgn-team@sbgn.org sbgn-team@sbgn.org].</text>
+    </revision>
+  </page>
+</mediawiki>

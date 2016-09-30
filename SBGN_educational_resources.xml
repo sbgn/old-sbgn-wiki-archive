@@ -1,0 +1,64 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>SBGN educational resources</title>
+    <id>915</id>
+    <revision>
+      <id>3577</id>
+      <timestamp>2013-05-09T20:50:28Z</timestamp>
+      <contributor>
+        <username>Blinov</username>
+        <id>20</id>
+      </contributor>
+      <text xml:space="preserve">This page contains links to courses partially or exclusively devoted to teaching SBGN to students. It is aimed to help an educator to build a course and select tools to be used during the course.
+
+== &lt;span class=&quot;h-icon-documents&quot;&gt;SBGN courses/lectures for graduate and undergrad students and tools used &lt;/span&gt; ==
+
+* Fall 2012 [http://www.ccam.uchc.edu/mblinov/MEDS-6455-2012-Fall.html Introduction to Systems Biology] graduate course at [http://www.ccam.uchc.edu/ Center for Cell Analysis and Modeling] ([http://www.uchc.edu/ UCHC]) has a lecture and a set of assignments in SBGN. Tools and techniques taught:
+** Reading SBGN using Panther and Reactome databases
+** Drawing SBGN using CellDesigner &amp; SBGN-ED.
+** Drawing MIM (roughly similar to SBGN-ED) using Pathvisio-MIM.
+
+* April 2013 Tutorial on [http://www.nimbios.org/wordpress-training/cellbiology/schedule/ Mathematical Modeling for the Cell Biology Researcher and Educator] had couple of lectures mentioning SBGN.
+
+== &lt;span class=&quot;h-icon-software&quot;&gt;SBGN &quot;student-friendly&quot; tools used in course &lt;/span&gt; ==
+
+This is not a comprehensive list of SBGN-supporting tools! Only tools friendly enough that have been used in student education are listed here.
+
+* [http://www.pantherdb.org/pathway/ PANTHER] - has a large collection of  pathways beautifully drawn in SBGN-PD. Was used in UCHC ISB course.
+* [http://www.celldesigner.org/ CellDesigner] - used by many biologists (both modelers and non-modelers) to draw SBGN-PD diagrams that can be either converted to a computable model or used for presentations. Was used in UCHC ISB course.
+* [http://www.sbgn-ed.org/ SBGN-ED (Vanted)] - a tool that can be used to draw SBGN-PD, ER and AF. Was used in UCHC ISB course.
+
+== &lt;span class=&quot;h-icon-editors&quot;&gt; Please contribute! ==
+
+If you gave a course that included SBGN, or developed an SBGN software that was used in educational activities, please send your slides or links to tools and course pages to Michael Blinov at blinov @ uchc . edu. You can also request a login and password to edit this page from Mike Hucka at ...</text>
+    </revision>
+  </page>
+</mediawiki>

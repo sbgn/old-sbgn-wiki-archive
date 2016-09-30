@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="http://www.sbgn.org/skins/common/feed.css?116"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>sbgn.org - Main Page</title>
+		<link>http://www.sbgn.org/Main_Page</link>
+		<description>SBGN News
+
+
+(06 Jan. '16) Congratulations to Nicolas Le Novere and Alexander Mazein, elected SBGN editors for the period 2016-2018.</description>
+		<language>en</language>
+		<generator>MediaWiki 1.12.0 via WikiArticleFeeds 0.6.3</generator>
+		<lastBuildDate>Tue, 07 Jun 2016 23:36:33 GMT</lastBuildDate>
+	</channel>
+</rss>

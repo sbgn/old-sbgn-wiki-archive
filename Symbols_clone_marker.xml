@@ -1,0 +1,82 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Symbols/clone marker</title>
+    <id>1050</id>
+    <revision>
+      <id>4093</id>
+      <timestamp>2016-03-04T14:40:37Z</timestamp>
+      <contributor>
+        <username>Vtoure</username>
+        <id>76</id>
+      </contributor>
+      <text xml:space="preserve">''by Vasundra Touré''
+
+A clone marker is an auxiliary unit found in SBGN PD that can be hold by Entity Pool Nodes (EPNs). It informs that the entity has been duplicated: a visual indication shows that at least one other occurrence of the EPN can be found in the map. A glyph is marked by a clone marker when it is filled in it's lower part. There are two types of clone markers: the simple clone marker (unlabeled) and the labeled clone marker.
+
+The following example shows a simple chemical ATP with a simple clone marker.
+
+&lt;center&gt;
+{{#icon:Symbol-clone-marker.png |||| corner iradius11}}
+&lt;/center&gt;
+
+
+The labeled clone marker carries a label for identifying equivalent clones present elsewhere in the map. It is used for stateful EPNs to facilitate the identification when a large number of state variables are displayed making it difficult to visually identify equivalent clones. The following example represent a multimer macromolecule X that is phosphorylated (state variable P@S100) and is a dimer (unit of information N:2). The multimer X holds a labeled clone marker summarizing those information.
+
+&lt;center&gt;
+{{#icon:Symbol-clone-marker_Labeled.png |||| corner iradius11}}
+&lt;/center&gt;
+
+
+The following example shows the first three reactions that occur during the glycolysis.
+First, the glucose is consumed to produce glucose-6-phosphate. This reaction is catalyzed by the hexokinase enzyme and uses an ATP energy to produce ADP. 
+The second reaction, shows the production of fructose-6-phosphate from the glucose-6-phosphate. It is catalyzed by the glucose-6-phosphate isomerase enzyme. 
+Third, stimulated by the phosphofructokinase enzyme, the fructose-6-phosphate produces the fructose-1,6-phosphate by using an ATP that releases an ADP. 
+
+ATP and ADP are found two times in this pathway, thus both are identified by a clone marker.
+
+&lt;center&gt;
+{{#icon:Symbol-clone-marker_exampleGlc.png |||| corner iradius11}}
+&lt;/center&gt;
+
+
+Download the clone marker node image as (from the more semantic to the more generic):
+
+[ [[media:Symbol-clone-marker.sbgn|SBGN-ML]] ]
+[ [[media:Symbol-clone-marker.gml|GML]] ]
+[ [[media:Symbol-clone-marker.graphml|GraphML]] ]
+[ [[media:Symbol-clone-marker.svg|SVG]] ]
+[ [[media:Symbol-clone-marker.odp|Open Document Format]] ]
+[ [[media:Symbol-clone-marker.ppt|PowerPoint]] ]
+[ [[media:Symbol-clone-marker.pdf|PDF]] ]
+[ [[media:Symbol-clone-marker.png|PNG]] ]</text>
+    </revision>
+  </page>
+</mediawiki>

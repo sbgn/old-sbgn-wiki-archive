@@ -1,0 +1,169 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>About</title>
+    <id>457</id>
+    <revision>
+      <id>3999</id>
+      <timestamp>2016-01-06T22:36:01Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <comment>/* SBGN Editors */</comment>
+      <text xml:space="preserve">__TOC__
+The mission of SBGN project is to develop high quality, standard graphical languages for representing biological processes and interactions. Each SBGN language is based on the consensus of the broad international SBGN community of biologists, curators and software developers. 
+
+Over the course of its development many individuals, organizations and companies made invaluable contributions to the SBGN through participating in discussions and meetings, providing feedback on the documentation and worked examples, adopting the standard and spreading the word.
+
+== &lt;span class=&quot;h-icon-queries&quot;&gt;Get Involved&lt;/span&gt; == 
+
+Regardless of your experience or involvement level, we value your ideas and feedback. 
+
+For reporting issues, suggesting enhancements or requesting features please use the [https://sourceforge.net/tracker/?group_id=178553 dedicated trackers] on SourceForge.net.
+
+For general discussions about SBGN: please join the sbgn-discuss mailing list (see the [[SBGN Mailing Lists]] page) and bring up the topic there.
+
+For specific questions about this website, workshops, or other SBGN resource management topics: please send a message to the sbgn-editors mailing list (see the [[SBGN Mailing Lists]] page).
+
+SBGN meetings and workshops provide the best environment for learning about the process and getting involved. Please check the [[Events]] page for the upcoming events.
+ 
+== &lt;span class=&quot;h-icon-editors&quot;&gt;SBGN Editors&lt;/span&gt; ==
+
+The SBGN Editors work towards distilling discussions and requests into coherent specification documents, addressing comments and questions, correcting errata, and generally managing revisions to the SBGN specifications. The editors do not ''decide'' what to put in the specifications&amp;mdash;they are the voice and the hand of the community.
+
+The SBGN editors are elected by the community for 3-year terms as volunteers. There is no limit on the number of terms one can serve as an editor.  An serving editor, however, cannot stand for election thereby forcing a gap year between two successive terms.
+
+{|
+!Current editors:
+!
+!
+|-
+| 
+| [[Image:LeNovere-HeadShoulders.jpg | border | 100px ]]
+| 
+|-
+| valign=&quot;top&quot; | '''Robin Haw'''&lt;br /&gt;(elected in 2014)
+| valign=&quot;top&quot; | '''Nicolas Le Novère'''&lt;br /&gt; (elected in 2015)
+| valign=&quot;top&quot; | '''Augustin Luna'''&lt;br /&gt;(elected in 2014)
+|-
+| [[Image:Alexander-Mazein.jpg | border | 100px ]]
+| [[Image:Mi.jpg | border | 100px ]]
+|
+|-
+| valign=&quot;top&quot; | '''Alexander Mazein'''&lt;br /&gt;(elected in 2015)
+| valign=&quot;top&quot; | '''Huaiyu Mi'''&lt;br /&gt;(elected in 2013)
+|}
+
+&lt;!--
+'''Alice Villeger''' acted as an editor from January 2011 to December 2013.&lt;br /&gt;
+'''Emek Demir''' acted as an editor from January 2010 to December 2012.&lt;br /&gt;
+'''Nicolas Le Novère''' acted as an editor from September 2008 to December 2012.&lt;br /&gt;
+'''Huaiyu Mi''' acted as an editor from March 2009 to December 2011.&lt;br /&gt;
+'''Stuart Moodie''' also acted as an editor from September 2008 to December 2011.&lt;br /&gt;
+'''Falk Schreiber''' also acted as an editor from September 2008 to December 2010.&lt;br /&gt;
+'''Anatoly Sorokin''' also acted as an editor from September 2008 to December 2009.&lt;br /&gt;
+--&gt;
+
+{|
+!Former editors:
+!
+!
+|-
+| [[Image:Czauderna.jpg | border | 100px ]]
+| [[Image:Emek.jpg‎ | border | 100px]]
+| [[Image:Le_Novere.jpg | border | 100px]]
+|-
+| valign=&quot;top&quot; | '''Tobias Czauderna'''&lt;br /&gt;(January 2012 to December 2015)
+| valign=&quot;top&quot; | '''Emek Demir'''&lt;br /&gt;(January 2010 to December 2012)
+| valign=&quot;top&quot; | '''Nicolas Le Novère'''&lt;br /&gt;(September 2008 to December 2012)
+|-
+| [[Image:Mi.jpg | border | 100px ]]
+| [[Image:Moodie.jpg‎ | border | 100px]]
+| [[Image:Schreiber.jpg‎ | border | 100px ]]
+|-
+| valign=&quot;top&quot; | '''Huaiyu Mi'''&lt;br /&gt;(also March 2009 to December 2011)
+| valign=&quot;top&quot; | '''Stuart Moodie'''&lt;br /&gt;(September 2008 to December 2011, September 2012 to December 2015)
+| valign=&quot;top&quot; | '''Falk Schreiber'''&lt;br /&gt;(September 2008 to December 2010 and January 2012 to December 2014) 
+|-
+| [[Image:Alice-100px.jpg | border | 100px ]] 
+| [[Image:Anatoly-100px.jpg‎ | border | 100px ]]
+| 
+|-
+| valign=&quot;top&quot; | '''Alice Villéger'''&lt;br /&gt;(January 2011 to December 2013)
+| valign=&quot;top&quot; | '''Anatoly Sorokin'''&lt;br /&gt;(September 2008 to December 2009 and January 2012 to December 2014) 
+|}
+
+== &lt;span class=&quot;h-icon-editors&quot;&gt;SBGN Scientific Committee&lt;/span&gt; ==
+
+The duties of the SBGN Scientific committee are to help securing the financial support for SBGN development, to advocate the use of the language in their community, and to check that the development of SBGN is harmonious and democratic. The scientific committee does not have any decision-making power on the ''content'' of SBGN, although its advices presumably weight much in the decisions taken by the community.  
+
+Principal investigators of grants supporting SBGN development and maintenance are entitled to become members. Other memberships are proposed by the running Scientific Committee and the Editorial Board. Invited members may be pioneers or major players in the field of graphical representation of knowledge, or leading figures in fields that may endorse SBGN. New memberships require unanimity of expressed opinions from current members. The terms of invited members are yearly, renewable without restriction. Renewal must be proposed and seconded by existing members of scientific committee.
+
+{|
+!Current members:
+!
+!
+|-
+| [[Image:Gary.png| border |100px ]]
+| [[Image:Goryanin.jpg‎| border |100px ]]
+| [[Image:Hucka.jpg‎|border |100px]]
+|-
+|'''Gary D. Bader''', ''member invited in 2010''. (Ph.D. Biochemistry) Works on biological network analysis and pathway information resources as an Assistant Professor at The Donnelly Centre at the University of Toronto. He has been involved in leading development of protein interaction and pathway databases and standards, including the [http://www.biopax.org/ BioPAX] biological pathways exchange language.
+| '''Igor Goryanin''', ''SBGN PI joined in 2009''.
+| '''Michael Hucka''' ''member invited in 2009''. (Ph.D. in Computer Science and Engineering) Senior Research Fellow at [http://www.caltech.edu/ Caltech]. He has chaired the [http://sbml.org/ SBML] effort by community consensus since 2003. Today he works on all aspects of SBML and is involved with [http://biomodels.net BioModels.net] activities.
+|-
+| [[Image:Kitano.jpg‎| border |100px ]]
+| [[Image:Paul_thomas-100px.jpg| border |100px ]]
+| [[Image:Schreiber.jpg| border |100px ]]
+|
+|-
+| '''Hiroaki Kitano''', ''SBGN PI joined in 2009''.
+| '''Paul Thomas''' ''member invited in 2011''.(Ph.D.) Associate Professor of Preventive Medicine (Chief, Division of Bioinformatics) and Biology, University of Southern California, Los Angeles.  Works on the evolution of gene function and biological systems, and is a PI of the Gene Ontology project.
+| '''Falk Schreiber''', ''SBGN PI joined in 2013''.
+|}
+
+'''Kurt Kohn''' was an invited member between 2009 and 2010.
+'''Nicolas Le Nov&amp;egrave;re was a PI and invited member between 2009 and 2015 '''
+
+== &lt;span class=&quot;h-icon-funding&quot;&gt;Funding&lt;/span&gt; ==
+
+We are deeply indebted to the many funding agencies and organizations that have supported SBGN over the years.
+
+The development of SBGN during 2005&amp;ndash;2008 was mainly supported by a grant from the Japanese [http://www.nedo.go.jp New Energy and Industrial Technology Development Organization (NEDO)].  The principal investigators were Hiroaki Kitano, Akira Funahashi, Nicolas Le Novère, and Michael Hucka. 
+
+The [http://www.oist.jp Okinawa Institute of Science and Technology (OIST)], the British [http://www.bbsrc.ac.uk/ Biotechnology and Biological Sciences Research Council (BBSRC)] through a ''Japan Partnering Award'',  and a ''US Partnering Award'', the [http://www.eml-r.org/ European Media Laboratory (EML Research GmbH)], the [http://bnmc.caltech.edu Beckman Institute BNMC at the California Institute of Technology], and [http://www.nsf.gov/ US National Science Foundation (NSF)] provided additional support for SBGN workshops.
+
+== &lt;span class=&quot;h-icon-gift&quot;&gt;Ownership&lt;/span&gt; ==
+
+No one&amp;mdash;not the principal investigators, nor the SBGN Editors, nor the members of the SBGN Scientific Committee, nor the funding agencies or anyone else&amp;mdash;owns SBGN; it is a &lt;big&gt;free and open community effort&lt;/big&gt; that extends beyond any single group, and we view ourselves only as organizers and fellow developers.</text>
+    </revision>
+  </page>
+</mediawiki>

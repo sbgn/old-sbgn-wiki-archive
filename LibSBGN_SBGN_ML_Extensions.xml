@@ -1,0 +1,155 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>LibSBGN/SBGN-ML Extensions</title>
+    <id>770</id>
+    <revision>
+      <id>2988</id>
+      <timestamp>2012-11-05T15:39:48Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <comment>New page: = Extending LibSBGN =  The &quot;extension&quot; element can be used by tool developers to attach arbitrary data to any element of SBGN.  == XML ==  Here is an example of what an extension looks lik...</comment>
+      <text xml:space="preserve">= Extending LibSBGN =
+
+The &quot;extension&quot; element can be used by tool developers to attach arbitrary data to any element of SBGN.
+
+== XML ==
+
+Here is an example of what an extension looks like in XML:
+
+    &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+    &lt;sbgn xmlns=&quot;http://sbgn.org/libsbgn/0.2&quot;&gt;
+        &lt;map language=&quot;process description&quot;&gt;
+            &lt;extension&gt;
+        	&lt;renderInformation id=&quot;example&quot; programName=&quot;SBML Layout&quot; programVersion=&quot;3.0&quot;
+        	 xmlns=&quot;http://projects.eml.org/bcb/sbml/render/level2&quot;&gt;
+        		&lt;listOfColorDefinitions&gt;
+        		&lt;colorDefinition id=&quot;yelloComp&quot; value=&quot;#ffffccff&quot; /&gt;
+        		...
+        		&lt;/listOfColorDefinitions&gt;
+        		...
+        	&lt;/renderInformation&gt;
+        &lt;/extension&gt;
+
+* Complete sample sbgn-ml that uses extensions to store color gradients: [http://libsbgn.svn.sourceforge.net/svnroot/libsbgn/trunk/test-files/PD/neuronal_muscle_signalling_color.sbgn]
+* For more information about this format see the renderInformation description here: [http://sbml.org/Community/Wiki/SBML_Level_3_Proposals/Rendering]
+
+== Java ==
+
+In order to read the above file it suffices to iterate through the elements like this: 
+
+&lt;pre&gt;
+		Map map = diagram.getMap();
+		Extension ex = map.getExtension();
+				
+		// read render info
+		if (ex != null &amp;&amp; ex.getAny().size() &gt; 0) {
+			for (Element element : ex.getAny()) {
+				if (element.getNamespaceURI() == &quot;http://projects.eml.org/bcb/sbml/render/level2&quot;) {
+					// found render information
+		
+					// go through color definitions
+					System.out.println(&quot;Color definitions:&quot;);
+					NodeList colors = element
+							.getElementsByTagName(&quot;colorDefinition&quot;);
+					for (int i = 0; i &lt; colors.getLength(); i++) {
+						Element current = (Element) colors.item(i);
+						System.out.println(&quot;...color: &quot;
+								+ current.getAttribute(&quot;id&quot;) + &quot; = &quot;
+								+ current.getAttribute(&quot;value&quot;));
+					}
+					System.out.println();
+		
+					// go through gradient definitions
+					System.out.println(&quot;Gradient definitions:&quot;);
+					NodeList gradients = element
+							.getElementsByTagName(&quot;linearGradient&quot;);
+					for (int i = 0; i &lt; gradients.getLength(); i++) {
+						Element current = (Element) gradients.item(i);
+						System.out.println(&quot;...gradient: &quot;
+								+ current.getAttribute(&quot;id&quot;));
+		
+						System.out.println(&quot;......from: &quot;
+								+ ((Element) current.getChildNodes().item(0))
+										.getAttribute(&quot;stop-color&quot;));
+						System.out.println(&quot;......to: &quot;
+								+ ((Element) current.getChildNodes().item(1))
+										.getAttribute(&quot;stop-color&quot;));
+		
+					}
+					System.out.println();
+
+					// go through styles
+					System.out.println(&quot;Styles:&quot;);
+					NodeList styles = element.getElementsByTagName(&quot;style&quot;);
+					for (int i = 0; i &lt; styles.getLength(); i++) {
+						Element current = (Element) styles.item(i);
+						System.out.println(&quot;...applies to the following ids: &quot;
+								+ current.getAttribute(&quot;idList&quot;));
+		
+						Element group = (Element) current.getChildNodes().item(
+								0);
+						final String fill = group.getAttribute(&quot;fill&quot;);
+						if (!fill.isEmpty())
+							System.out.println(&quot;......fill: &quot; + fill);
+						System.out.println(&quot;......stroke: &quot;
+								+ group.getAttribute(&quot;stroke&quot;));
+						System.out.println(&quot;......strokeWidth: &quot;
+								+ group.getAttribute(&quot;stroke-width&quot;));
+
+					}
+					System.out.println();
+				}
+			}
+		}
+&lt;/pre&gt;
+
+You can attach arbitrary XML to an existing Sbgn document, by adding org.w3c.dom.Element's
+
+ 	Extension ext = new Extension();
+ 	glyph.setExtension(ext);
+ 		
+ 	DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+ 	DocumentBuilder db = dbf.newDocumentBuilder();
+ 	Document doc = db.newDocument();
+ 		
+ 	Element elt = doc.createElementNS(NAMESPACE, LOCALNAME);
+ 	elt.setPrefix(PREFIX);
+ 	elt.setAttribute(name, value);
+ 		
+ 	ext.getAny().add(elt);
+
+
+* Complete code demo in Java: [https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/trunk/org.sbgn/test/org/sbgn/ExtensionDemo.java]</text>
+    </revision>
+  </page>
+</mediawiki>

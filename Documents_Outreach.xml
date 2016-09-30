@@ -1,0 +1,69 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Documents/Outreach</title>
+    <id>544</id>
+    <revision>
+      <id>3606</id>
+      <timestamp>2013-08-06T23:35:43Z</timestamp>
+      <contributor>
+        <username>Huaiyumi</username>
+        <id>18</id>
+      </contributor>
+      <comment>/* Tutorials on using SBGN languages */</comment>
+      <text xml:space="preserve">== Tutorials on using SBGN languages ==
+
+Note that some of those tutorials may be outdated. Always refer to the [[Documents/Specifications| latest specifications]] for the most up to date information. 
+
+* [[media:NimBIOS_tutorial_2013.pdf| Tutorial at NIMBioS by Huaiyu Mi]], 2013
+* [[media:SBGN_Tutorial-Sorokin.pdf| Tutorial by Anatoly Sorokin]] - Winner of the 2010 SBGN competition, section outreach.
+* [[media:SBGN_Tutorial-Matsuoka.pdf|  Tutorial by Yukiko Matsuoka ]], [[media:Supplementary_EGFR.zip| Outreach material (supplementary)]]
+* [[media:SBGN.zip|Tutorial by Richard Adams]]
+
+== Presentations of SBGN ==
+
+* September 2009 - EMBL [[media:PinkSeminar2009.pdf | Pink Seminar 2009]] by Le Nov&amp;egrave;re. 73 slides.
+* July 2009 - [[media:DILS2009.pdf | Short presentation]] of SBGN extracted from a lecture by Le Novere at DILS2009 - 51 slides.
+
+== Publications about SBGN==
+
+Le Novère N, Hucka M, Mi H, Moodie S, Schreiber F, Sorokin A, Demir E, Wegner K, Aladjem MI, Wimalaratne SM, Bergman FT, Gauges R, Ghazal P, Kawaji H, Li L, Matsuoka Y, Villéger A, Boyd SE, Calzone L, Courtot M, Dogrusoz U, Freeman TC, Funahashi A, Ghosh S, Jouraku A, Kim S, Kolpakov F, Luna A, Sahle S, Schmidt E, Watterson S, Wu G, Goryanin I, Kell DB, Sander C, Sauro H, Snoep JL, Kohn K, Kitano H. The Systems Biology Graphical Notation. Nat Biotechnol. 2009 27(8):735-41. &lt;br /&gt;[ [[media:Lenov2009.pdf | Article]] ][ [[Lenov2009-SuppInfo.pdf | Supplementary Information]] ].
+
+== Related publications featuring SBGN prominently ==
+
+Junker A, Hartmann A, Schreiber F, Bäumlein H. An engineer's view on regulation of seed development. ''Trends Plant Sci.'' 2010 15(6):303-307&lt;br /&gt;
+[ [http://www.ncbi.nlm.nih.gov/pubmed/20400355 PubMed] ]
+
+
+Jansson A, Jirstrand M. Biochemical modeling with Systems Biology Graphical Notation. ''Drug Discov. Today'' 2010 15(9-10):365-70&lt;br /&gt;
+[ [http://www.ncbi.nlm.nih.gov/pubmed/20211756 PubMed] ]</text>
+    </revision>
+  </page>
+</mediawiki>

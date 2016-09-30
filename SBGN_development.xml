@@ -1,0 +1,92 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>SBGN development</title>
+    <id>549</id>
+    <revision>
+      <id>3677</id>
+      <timestamp>2013-11-19T15:21:33Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <comment>/* SBGN Process Description language specification working materials */</comment>
+      <text xml:space="preserve">SBGN being as new as it is, there is a lot of exciting ongoing development taking place.  We gather information about activities below. The [[Documents/Specifications]] page provides links to the current public SBGN specifications.
+
+== Working materials relevant to all languages ==
+
+The development of SBGN languages involves discussing and voting on different issues/features. This requires circulating [[documentation votes | background documentation relevant to the votes]].
+
+
+SBGN languages do not offer currently clean and expressive way of representing topologies and connectivities between components of graphs. This question is relevant at all scales, and solutions are necessary for representing domains, molecular complexes, sub-cellular phenomena, anatomical structures etc.
+
+
+Various propositions were made, from extending the existing languages to creating a completely new language. [[topology | An area of the wiki]] is dedicated to this issue.
+
+== SBGN Process Description language specification working materials ==
+
+The latest draft of SBGN PD Level 1 can be found [http://sourceforge.net/p/sbgn/code/HEAD/tree/ProcessDiagram/trunk/Specification/sbgn_PD-level1.pdf here]. Beware, this is a draft straight from the cradle. ''This is not the latest public SBGN PD specification!''
+
+You can comment on the specification for SBGN Process Description language Level 1 through the
+[http://sourceforge.net/tracker/?group_id=178553&amp;atid=1082245 sourceforge tracker]
+
+Discussions have started on possible evolutions of [[PD_development/Level_2 | PD for level 2]]. 
+
+We welcome discussion on [[PD development | future developments of the PD language]].
+
+== SBGN Entity Relationship language specification working materials ==
+
+The latest draft of SBGN ER Level 1 can be found [http://sourceforge.net/p/sbgn/code/HEAD/tree/EntityRelationship/trunk/sbgn_ER-level1.pdf here].  Beware, this is a draft straight from the cradle. ''This is not the latest public SBGN ER specification!''
+
+You can comment on the specification for SBGN Process Description language Level 1 through the
+[https://sourceforge.net/tracker/?group_id=178553&amp;atid=1170625 sourceforge tracker]
+
+We welcome discussion on [[ER development | future developments of the ER language]].
+
+== SBGN Activity Flow specification working materials ==
+
+The latest draft of SBGN AF Level 1 can be found [http://sourceforge.net/p/sbgn/code/HEAD/tree/ActivityFlow/trunk/sbgn_AF-level1.pdf here].  Beware, this is a draft straight from the cradle. ''This is not the latest public SBGN AF specification!''
+
+You can comment on the specification for SBGN Activity Flow language Level 1 through the
+[http://sourceforge.net/tracker/?group_id=178553&amp;atid=1175366 sourceforge tracker]
+
+
+We welcome discussion on [[AF development | future developments of the AF language]].
+
+&lt;!-- 
+== SBGN Release Management Guidelines ==
+
+The [[ReleaseVersioning]] page describes how the SBGN specification is versioned.
+
+The [[SvnReleaseManagement]] page describes how the SVN repository should be laid out and the different specifications and versions managed.
+--&gt;</text>
+    </revision>
+  </page>
+</mediawiki>

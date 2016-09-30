@@ -1,0 +1,82 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>LibSBGN/SBGN-ML Roadmap</title>
+    <id>764</id>
+    <revision>
+      <id>2971</id>
+      <timestamp>2012-11-05T15:00:42Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <comment>New page: = SBGN-ML Roadmap =  * Progress is designated using &quot;milestones&quot;, to avoid confusion with the SBGN Levels and versions * This roadmap is about SBGN-ML only. Various LibSBGN implementations...</comment>
+      <text xml:space="preserve">= SBGN-ML Roadmap =
+
+* Progress is designated using &quot;milestones&quot;, to avoid confusion with the SBGN Levels and versions
+* This roadmap is about SBGN-ML only. Various LibSBGN implementations are expected to follow closely.
+
+= Milestone 1 (Released, Jan 2011) =
+
+* Targeting PD Level 1 Version 1.2
+* Edge routing
+* Not yet complete definition of fonts and shapes.
+* XML Schema for validation
+
+= Milestone 2 (Released, Dec 2011) =
+
+* Targeting all three languages: PD, ER and AF.
+* Resolve issues related ports, based on feedback from library implementation(s).
+* Support and test extensibility (i.e. open SBGN-ML up for third-party extensions)
+* Extra layer of validation based on schematron
+
+= Milestone 3 =
+
+* Planned for November 2012
+
+* linking with external models (e.g. SBML, BioPAX)
+* MIRIAM compliance.
+
+* Update to latest version of each spec.
+** Nested entities
+** Finalize Submaps
+
+* Complete specification for any compartment shape
+
+* Colors, line thickness, stylesheets
+
+= Milestone 4/5 =
+
+* Detailed specification of all glyphs, i.e. roundness of rounded rectangles.
+* Delta / diff
+* Layered (Stack of) maps</text>
+    </revision>
+  </page>
+</mediawiki>

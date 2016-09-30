@@ -1,0 +1,396 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Behind the curtain</title>
+    <id>750</id>
+    <revision>
+      <id>3016</id>
+      <timestamp>2012-11-05T17:50:08Z</timestamp>
+      <contributor>
+        <username>Alice Villeger</username>
+        <id>19</id>
+      </contributor>
+      <comment>/* What's on section? */</comment>
+      <text xml:space="preserve">Now this is getting a bit meta...
+
+This page is for site maintenance only. If you're looking for information on SBGN, please go back to the [[Main_Page]].
+
+== Website Todo List (in no particular order) ==
+
+=== Check for broken links and orphan pages ===
+Get a crawler to write a site map??
+
+=== Revamp overall navigation ===
+Shadow prototype due on November 5th 2012
+DONE
+
+=== Change site visuals ===
+CSS, + icons so that they work on a light background.
+NB: requires direct access to the wiki's server, then show prototype within a month.
+
+=== Link to SBGN bricks ===
+?
+
+=== Map of the month ===
+?
+
+=== Integrate LibSBGN website more gracefully ===
+
+=== What's on section? ===
+upcoming meetings, current surveys and elections, competition...
+
+=== New navigation bar? ===
+
+== Manual list of orphans ==
+
+To review (delete, link to, archive?)
+
+=== Orphaned images ===
+
+A number of these were probably linked to from the mailing list or surveys...
+
+[[:Image:AN_Proposals.pdf]]
+
+[[:Image:Aladjem-2008-10-16-mim.pdf]]
+
+[[:Image:Aladjem.2009.09.02.pdf]]
+
+[[:Image:Arcadia_Oct2008.pdf]]
+
+[[:Image:Assignment_ER.png]]
+
+[[:Image:Assoc-dissoc.png]]
+
+[[:Image:Assoc-junction.png]]
+
+[[:Image:Assoc-revers.png]]
+
+[[:Image:Bergman.pdf]]
+
+[[:Image:Blinov.2009.09.02.pdf]]
+
+[[:Image:Boyd.2009.09.02.pdf]]
+
+[[:Image:CaMKII-ER-L1V2.png]]
+
+[[:Image:CaMKII-intro-new-2-small.png]]
+
+[[:Image:CaMKII.png]]
+
+[[:Image:Chrysler-100.jpg]]
+
+[[:Image:Circle-blue.gif]]
+
+[[:Image:Cul-de-sac-200x140px.jpg]]
+
+[[:Image:Curved-lines.png]]
+
+[[:Image:Czauderna.2009.09.02.pdf]]
+
+[[:Image:Dead-end-200x140px.jpg]]
+
+[[:Image:Decorations.png]]
+
+[[:Image:Dephosphorylation_ER.png]]
+
+[[:Image:Dogrusoz.2009.09.02.pdf]]
+
+[[:Image:EGFfromSTKEinAF2.png]]
+
+[[:Image:ER_L1V1.1-Inkscape.svg]]
+
+[[:Image:ER_L1V1.1.pdf]]
+
+[[:Image:ER_L1V1.1.png]]
+
+[[:Image:ER_L1V1.1.svg]]
+
+[[:Image:European-dead-end-200x140px.jpg]]
+
+[[:Image:FAQKinase.png]]
+
+[[:Image:Ghazal-2008-10-16-logic-models.pdf]]
+
+[[:Image:GoldenGate-100.jpg]]
+
+[[:Image:Icon-bestpractice.gif]]
+
+[[:Image:Icon-download.gif]]
+
+[[:Image:Icon-editors.gif]]
+
+[[:Image:Icon-events.gif]]
+
+[[:Image:Icon-faq.gif]]
+
+[[:Image:Icon-flatview.gif]]
+
+[[:Image:Icon-forum.gif]]
+
+[[:Image:Icon-funding-gift.gif]]
+
+[[:Image:Icon-funding2.gif]]
+
+[[:Image:Icon-home.gif]]
+
+[[:Image:Icon-login.gif]]
+
+[[:Image:Icon-logo.png]]
+
+[[:Image:Icon-logout.gif]]
+
+[[:Image:Icon-members.gif]]
+
+[[:Image:Icon-newpost.gif]]
+
+[[:Image:Icon-newtopic.gif]]
+
+[[:Image:Icon-nopost.gif]]
+
+[[:Image:Icon-post.gif]]
+
+[[:Image:Icon-profile.gif]]
+
+[[:Image:Icon-publications.gif]]
+
+[[:Image:Icon-queries.gif]]
+
+[[:Image:Icon-register.gif]]
+
+[[:Image:Icon-rss.gif]]
+
+[[:Image:Icon-samples.gif]]
+
+[[:Image:Icon-search.gif]]
+
+[[:Image:Icon-software.gif]]
+
+[[:Image:Icon-tree.gif]]
+
+[[:Image:Interaction-activation.png]]
+
+[[:Image:Interactions2.JPG]]
+
+[[:Image:KEGG-SBGN-map.png]]
+
+[[:Image:Klukas.2009.09.02.pdf]]
+
+[[:Image:Kohn.jpg]]
+
+[[:Image:Label-Vs-StateVariables.png]]
+
+[[:Image:Lenov2009-SuppInfo.pdf]]
+
+[[:Image:LibSBGNmeetingminutes20090903.doc]]
+
+[[:Image:Libsbgnmeetingminutes20090902.doc]]
+
+[[:Image:LogoBlackBackWhiteLetters-1024.png]]
+
+[[:Image:LogoBlackBackWhiteLetters-150.png]]
+
+[[:Image:LogoBlackBackWhiteLetters-75.png]]
+
+[[:Image:LogoBlackBackWhiteLetters.png]]
+
+[[:Image:LogoWhiteBackBlackLetters-1024.png]]
+
+[[:Image:LogoWhiteBackBlackLetters-150.png]]
+
+[[:Image:LogoWhiteBackBlackLetters-75.png]]
+
+[[:Image:LogoWhiteBackBlackLetters.png]]
+
+[[:Image:Maastricht.JPG]]
+
+[[:Image:Matsuoka.2009.09.02.pdf]]
+
+[[:Image:MetaCrop-plant-central-metabolism.png]]
+
+[[:Image:Mi-2008-10-17-activity-flow-2.pdf]]
+
+[[:Image:Mi-2008-10-17-activity-flow.pdf]]
+
+[[:Image:Mi-2008-10-17-panther.pdf]]
+
+[[:Image:Mi.jpg]]
+
+[[:Image:Mi_SBGN5_Activity_Flow.pdf]]
+
+[[:Image:Minutes_SAB_10-10-2010.txt]]
+
+[[:Image:MitochondrionOverlap.png]]
+
+[[:Image:MitochondrionSpread.png]]
+
+[[:Image:Moodie.2009.09.02.pdf]]
+
+[[:Image:Moodie.jpg]]
+
+[[:Image:Moodie_SBGN5PDIssues.pdf]]
+
+[[:Image:Moodie_Sbgn5HouseKeeping.pdf]]
+
+[[:Image:Moodie_domains.pdf]]
+
+[[:Image:Muruganujan.2009.09.02.pdf]]
+
+[[:Image:Muruganujan_ActivityFlow.pdf]]
+
+[[:Image:Muscle-annotation-line-color.png]]
+
+[[:Image:Nary_interactions.JPG]]
+
+[[:Image:Nicolas-2008-10-17-er-discussion.pdf]]
+
+[[:Image:No-overlap.png]]
+
+[[:Image:Notation4a.gif]]
+
+[[:Image:OmniGraffleTemplate.gstencil.zip]]
+
+[[:Image:Opposite-faces.png]]
+
+[[:Image:Outcome-influences.png]]
+
+[[:Image:PCR-small.png]]
+
+[[:Image:PD_L1V1.1-Inkscape.svg]]
+
+[[:Image:PD_L1V1.1.png]]
+
+[[:Image:PD_L1V1.1.svg]]
+
+[[:Image:Pico_WikiPathways_SBGN5.pdf]]
+
+[[:Image:Process-revers.png]]
+
+[[:Image:Repressilator-AF.png]]
+
+[[:Image:Repressilator-ER.png]]
+
+[[:Image:Repressilator.png]]
+
+[[:Image:ReversibleProcess.png]]
+
+[[:Image:SBGN-Wittenberg.pdf]]
+
+[[:Image:SBGN5-governance.pdf]]
+
+[[:Image:SBGN_ER_retinopathy.png]]
+
+[[:Image:SBGN_PD.ppt.zip]]
+
+[[:Image:Sample-compartment-pd.png]]
+
+[[:Image:Sample-ifn-gene.png]]
+
+[[:Image:Sample-mapk-pd.png]]
+
+[[:Image:Sbgn-banner-BlackBackground-small.png]]
+
+[[:Image:Sbgn-banner-BlackBackground.png]]
+
+[[:Image:Sbgn-banner-WhiteBackground-small.png]]
+
+[[:Image:Sbgn-banner-WhiteBackground.png]]
+
+[[:Image:Sbgn1-100x100.jpg]]
+
+[[:Image:Sbgn2-100x100.jpg]]
+
+[[:Image:Sbgn2.5-100x100.jpg]]
+
+[[:Image:Sbgn2.5-issues-21110image1.png]]
+
+[[:Image:Sbgn2.5-issues-21119image2.png]]
+
+[[:Image:Sbgn2.5-issues-21122image3.png]]
+
+[[:Image:Sbgn2.5-issues-21134image4.png]]
+
+[[:Image:Sbgn2.5-issues-21170image5.png]]
+
+[[:Image:Sbgn2.5-issues-21175image6.png]]
+
+[[:Image:Sbgn2.5-issues-2149image.png]]
+
+[[:Image:Sbgn2.5-issues-2169image0.png]]
+
+[[:Image:Sbgn3-100x100.jpg]]
+
+[[:Image:Sbgn3.5-100x100.jpg]]
+
+[[:Image:Sbgn3.5-eventphoto.jpg]]
+
+[[:Image:Sbgn3.5-pres-lenov-sbgn-currentstate.pdf]]
+
+[[:Image:Sbgn4-100x100.jpg]]
+
+[[:Image:Sbgn4.5-100x100.jpg]]
+
+[[:Image:Sbgn4.jpg]]
+
+[[:Image:Sbgn_5_5_wittenberg_100x100.jpg]]
+
+[[:Image:Smiley.png]]
+
+[[:Image:StoichiometryOnCurve.png]]
+
+[[:Image:Testfile.pdf]]
+
+[[:Image:Thistle.jpg]]
+
+[[:Image:Toronto_100x100.jpg]]
+
+[[:Image:Transition-modulated-forbidden.png]]
+
+[[:Image:Transition-modulated.png]]
+
+[[:Image:Transition-reversible.png]]
+
+[[:Image:Van-iersel.pdf]]
+
+[[:Image:Villeger-2008-10-16-questions.pdf]]
+
+[[:Image:Villeger.2009.09.02_arcadia.pdf]]
+
+[[:Image:Villeger.2009.09.02_lib.pdf]]
+
+[[:Image:WWWglycolysis.png]]
+
+[[:Image:WWWinsulin.png]]
+
+[[:Image:WWWmuscle-color.png]]
+
+[[:Image:WWWmuscle.png]]</text>
+    </revision>
+  </page>
+</mediawiki>

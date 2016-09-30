@@ -1,0 +1,190 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN 3.5/Discussion Notes:FinaliseL1Spec</title>
+    <id>49</id>
+    <revision>
+      <id>1169</id>
+      <timestamp>2008-10-08T19:47:50Z</timestamp>
+      <contributor>
+        <username>Ltaddeo</username>
+        <id>6</id>
+      </contributor>
+      <minor/>
+      <comment>[[Finalise SBGN Level 1 Specification: Discussion Notes]] moved to [[Events/SBGN 3.5/Discussion Notes:FinaliseL1Spec]]: Organizing event pages by event.</comment>
+      <text xml:space="preserve">__TOC__
+==Background==
+
+The goal of this session was to go through the Glyphs and check that there is a consensus to include them into the Level 1 spec and to highlight any remaining issues.
+
+==Glyphs==
+&lt;div class=&quot;subhead2&quot;&gt;Unit of Information&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt; &lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;State&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Source/Sink&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;It was agreed that The Source and Sink should be treated as syntactically different, but have the same Glyph. Also it was agreed that these nodes should only be attached to one arc (degree 1).&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Outcome&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Unspecified Entity&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Simple Chemical&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Macromolecule&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Multimer&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK for Simple Chemical and Macromolecule
+
+AS proposed a Multimer Complex - this was not resolved.&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Observable&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;AD proposed that we split this to a Perturbation and a Phenotype node.
+
+Perturbation should have an anvil shaped symbol and only be associated with a modulating arc.
+
+Phenotype would be a hexagon and only be the target of a modulation arc.&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Generics&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;ED suggested we should try and deal with Generics in the specification. There was some debate as to whether this is a good idea.
+
+Agreed to look into this further and it may be something for the next version.&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Complex&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;There was concern that making the subunits visible enables users to attach significance to the topology of the complex diagram. However SBGN does not support this. Options discussed were:
+
+1) Not show subunits at all.
+
+2) Show and provide some mechanism for describing topology.
+
+3) Leave as is.
+
+We decided to do 3.
+
+There was debate about whether we should allow users to link consumption arcs to the subunits of a complex. The options were to:
+
+1) Allow this but attach no meaning to it.
+
+2) Not allow it (current spec).
+
+3) Not allow it but investigate requirements from Huaiyu and report back on Wednesday.
+
+We decided to adopt option 3.&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Compartment&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;Issue raised by NL about whether to add states to compartments.
+
+No conclusion about this.
+
+Raised issue about whether Compartments were nested. Concluded that they are not.
+
+Compartment edges don't mean anything. Idea is that diagram is independent of compartment topology.&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Modules&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;Much discussion about using tags for interface specification. To be discussed further.&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Omitted Process&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Uncertain Transition&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Association&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Dissociation&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Consumption&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Modulation&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Activation&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Catalysis&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Trigger&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Truth Arc&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;New arc need because gap in syntax. Provides input to logic gate.&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Interaction&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Assignment&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;OK&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Delay&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;Questioned whether needed. Suggested that could add as Unit of information to a process.
+
+FB suggested changing to a square so it's a process.
+
+SLM/HM suggested using annotation of process.
+
+ED worried that this is a bad idea as a may need to be extended to handle other temporal information.
+
+Defer it until next version.&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Gene Regulation&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;We need to address this. Examples in current spec don't work. We should identify a good solution to this during the week.&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&quot;subhead2&quot;&gt;Tags for cloning&lt;/div&gt;
+&lt;div class=&quot;leftindent-small&quot;&gt;Much discussion and what looked like different understanding of how tags work. This needs to be pursued.&lt;/div&gt;&lt;br&gt;
+
+==Issues to be resolved (this week?)==
+* Nomenclature - clarify ST notation and SEN nomenclature.
+
+* Multimer complex - in or out?
+ 
+* Linking to subunits of a complex - should it be permitted?
+
+* States in compartment - should we add this?
+
+* Compartment nesting semantics - this needs clartification.
+
+* Module interface definition needs agreement.
+
+* Gene regulation - needs clarification about how this should work.
+
+* Cloning of &amp;quot;State&amp;quot; nodes.</text>
+    </revision>
+  </page>
+</mediawiki>

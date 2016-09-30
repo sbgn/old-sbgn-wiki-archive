@@ -1,0 +1,603 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+<head>
+<title>LibSBGN/Exchange Format - sbgn.org</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="LibSBGN/Exchange Format,LibSBGN/Exchange Format (as discussed around SBGN5.5),LibSBGN/SBGN-ML Extensions" />
+		<link rel="shortcut icon" href="../skins/common/images/favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="sbgn.org (English)" />
+<link rel="alternate" type="application/rss+xml" title="sbgn.org RSS Feed" href="../index.php%3Ftitle=Special:Recentchanges&amp;feed=rss" />
+<link rel="alternate" type="application/atom+xml" title="sbgn.org Atom Feed" href="../index.php%3Ftitle=Special:Recentchanges&amp;feed=atom" />
+<link rel='stylesheet' type='text/css' media='print' href='../skins/common/wikiprintable.css%3F116.css' />
+<script type= "text/javascript">/*<![CDATA[*/
+var skin = "SBGN";
+var stylepath = "/skins";
+var wgArticlePath = "/$1";
+var wgScriptPath = "";
+var wgScript = "/index.php";
+var wgServer = "http://www.sbgn.org";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "LibSBGN/Exchange_Format";
+var wgTitle = "LibSBGN/Exchange Format";
+var wgAction = "view";
+var wgRestrictionEdit = [];
+var wgRestrictionMove = [];
+var wgArticleId = "762";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserGroups = null;
+var wgUserLanguage = "en";
+var wgContentLanguage = "en";
+var wgBreakFrames = false;
+var wgCurRevisionId = "3992";
+var wgVersion = "1.12.0";
+var wgEnableAPI = true;
+var wgEnableWriteAPI = false;
+/*]]>*/</script>
+<script type="text/javascript" src="../skins/common/wikibits.js%3F116"></script>
+<script type="text/javascript" src="../skins/SBGN/corner/corner.js"></script>
+<script type="text/javascript" src="../skins/SBGN/sbgn.js"></script>
+<!--[if lt IE 7  ]><link rel="stylesheet" type="text/css" href="/skins/SBGN/IEFixes.css" /><![endif]-->
+<!--[if IE 7     ]><link rel="stylesheet" type="text/css" href="/skins/SBGN/IE70Fixes.css" /><![endif]-->
+<!--[if IE 6     ]><link rel="stylesheet" type="text/css" href="/skins/SBGN/IE60Fixes.css" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" type="text/css" href="/skins/SBGN/IE55Fixes.css" /><![endif]-->
+<style type='text/css'>
+/*/*/ /*<![CDATA[*/
+@import "../skins/common/oldshared.css%3F116.css";
+@import "../skins/SBGN/sbgn.css%3F116.css";
+
+/*]]>*/ /* */
+</style>
+</head>
+
+<body class='body'>
+<!-- Wiki debugging output:
+Unstubbing $wgMessageCache on call of $wgMessageCache->addMessages from wfSetupUploadLocal
+Unstubbing $wgParser on call of $wgParser->_unstub from wfSetupParserFunctions
+Unstubbing $wgContLang on call of $wgContLang->getMagic from MagicWord::load
+Unstubbing $wgUser on call of $wgUser->isAllowed from efConfirmAccountInjectStyle
+Fully initialised
+Unstubbing $wgLoadBalancer on call of $wgLoadBalancer->getConnection from wfGetDB
+IP: 125.236.212.175
+ Found possible skin: MySkin\n Found possible skin: Standard\n Found possible skin: Simple\n Found possible skin: CologneBlue\n Found possible skin: Chick\n Found possible skin: Modern\n Found possible skin: MonoBook\n Found possible skin: SBGN\n Found possible skin: Nostalgia\nTrying skin: SkinSbgn
+Language::loadLocalisation(): got localisation for en from source
+Unstubbing $wgLang on call of $wgLang->getCode from User::getPageRenderingHash
+MessageCache::load(): got from global cache
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Article::tryFileCache(): not cacheable
+Article::view using parser cache: yes
+Trying parser cache mediawiki_sbgn-mw1:pcache:idhash:762-0!1!0!!en!2!edit=0
+Found.
+Trying skin: SkinSbgn
+Trying skin: SkinSbgn
+Trying skin: SkinSbgn
+-->
+
+<div id='background'>
+<div id='topbar'>
+<a border="0" alt="SBGN.org&mdash;The portal for the global SBGN project."  title="SBGN.org&mdash;The portal for the global SBGN project." href="http://sbgn.org"><img src="../skins/SBGN/graphics/sbgn-hd7.jpg"></a>
+</div><!-- id='topbar' -->
+<div id='navbar'>
+<a href="../index.html">Home</a><a href="../News.html">News</a><a href="../Documents.html">Documents</a><a href="../SBGN_Software.html">Software</a><a href="../Community.html">Community</a><a  href="../Events.html">Events</a><a style="border-right: none" href="../About.html">About</a><div id='searchbox'><img align='middle' src='../skins/SBGN/osx-searchbox/srch_l.gif' /><form class="searchform" action='http://www.sbgn.org/Site_Search_Results' ><input type='hidden' name='cx' value='014319754024382921002:ljgocqiqgme' /><input type='hidden' name='cof' value='FORID:9;BGC:#061824;BIMG:/SBGN/graphics/bg-tile-search.gif;' /><input type='hidden' name='ie' value='UTF-8' /><input type='text' name='q' class='srch_fld' value='Google Site Search...' onfocus="if(this.value=='Google Site Search...')this.value=''" autosave='applestyle_srch' results='5' onkeyup="applesearch.onChange('srch_fld','srch_clear')" /></form><img align='middle' src='../skins/SBGN/osx-searchbox/srch_r.gif' /><script type='text/javascript' src='http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en'></script></div><!-- id='searchbox' -->
+
+</div><!-- id='navbar' --><div id='breadcrumbs'>
+<span class='breadcrumbs'>Parent pages: <a href='http://sbgn.org'>SBGN.org</a> / <a href="../LibSBGN.1.html" title="LibSBGN">LibSBGN</a></span>
+</div><!-- id='breadcrumbs' -->
+
+<div id='content'>
+<div id='article'>
+<div id='pagetitle'><h1 class='pagetitle'>
+Exchange Format</h1>
+</div><!-- id='pagetitle' -->
+<p>The XML implementation of SBGN is known as SBGN-ML.
+</p><p>The current version (namespace <b>http://sbgn.org/libsbgn/0.2</b>) covers all three languages (PD, ER and AF).
+Please refer also to the documentation that is auto-generated from the XSD: <a href="http://libsbgn.sourceforge.net/sbgn.doc/" class="external free" title="http://libsbgn.sourceforge.net/sbgn.doc/" rel="nofollow">http://libsbgn.sourceforge.net/sbgn.doc/</a>
+</p>
+<table id="toc" class="toc" summary="Contents"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1"><a href="Exchange_Format.html#Namespaces"><span class="tocnumber">1</span> <span class="toctext">Namespaces</span></a></li>
+<li class="toclevel-1"><a href="Exchange_Format.html#Common_types_and_elements"><span class="tocnumber">2</span> <span class="toctext">Common types and elements</span></a>
+<ul>
+<li class="toclevel-2"><a href="Exchange_Format.html#Notes"><span class="tocnumber">2.1</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#Extension"><span class="tocnumber">2.2</span> <span class="toctext">Extension</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#PointAttributes_attribute_group"><span class="tocnumber">2.3</span> <span class="toctext">PointAttributes attribute group</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#point_element"><span class="tocnumber">2.4</span> <span class="toctext">point element</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#bbox_element"><span class="tocnumber">2.5</span> <span class="toctext">bbox element</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#label_element"><span class="tocnumber">2.6</span> <span class="toctext">label element</span></a>
+<ul>
+<li class="toclevel-3"><a href="Exchange_Format.html#bbox_of_a_label"><span class="tocnumber">2.6.1</span> <span class="toctext">bbox of a label</span></a></li>
+<li class="toclevel-3"><a href="Exchange_Format.html#text_of_a_label"><span class="tocnumber">2.6.2</span> <span class="toctext">text of a label</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="Exchange_Format.html#High_level_elements"><span class="tocnumber">3</span> <span class="toctext">High level elements</span></a>
+<ul>
+<li class="toclevel-2"><a href="Exchange_Format.html#sbgn_element_.5Broot.5D"><span class="tocnumber">3.1</span> <span class="toctext">sbgn element [root]</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#map_element"><span class="tocnumber">3.2</span> <span class="toctext">map element</span></a>
+<ul>
+<li class="toclevel-3"><a href="Exchange_Format.html#bbox_element_of_a_map"><span class="tocnumber">3.2.1</span> <span class="toctext">bbox element of a map</span></a></li>
+<li class="toclevel-3"><a href="Exchange_Format.html#language_attribute_of_a_map"><span class="tocnumber">3.2.2</span> <span class="toctext">language attribute of a map</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="Exchange_Format.html#glyph_element"><span class="tocnumber">4</span> <span class="toctext">glyph element</span></a>
+<ul>
+<li class="toclevel-2"><a href="Exchange_Format.html#label_or_state_of_a_glyph"><span class="tocnumber">4.1</span> <span class="toctext">label or state of a glyph</span></a>
+<ul>
+<li class="toclevel-3"><a href="Exchange_Format.html#state_of_a_glyph"><span class="tocnumber">4.1.1</span> <span class="toctext">state of a glyph</span></a>
+<ul>
+<li class="toclevel-4"><a href="Exchange_Format.html#value_of_a_state"><span class="tocnumber">4.1.1.1</span> <span class="toctext">value of a state</span></a></li>
+<li class="toclevel-4"><a href="Exchange_Format.html#variable_of_a_state"><span class="tocnumber">4.1.1.2</span> <span class="toctext">variable of a state</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="Exchange_Format.html#clone_element_of_a_glyph"><span class="tocnumber">4.2</span> <span class="toctext">clone element of a glyph</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#callout_of_a_glyph"><span class="tocnumber">4.3</span> <span class="toctext">callout of a glyph</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#bbox_element_of_a_glyph"><span class="tocnumber">4.4</span> <span class="toctext">bbox element of a glyph</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#glyph_elements_inside_a_glyph"><span class="tocnumber">4.5</span> <span class="toctext">glyph elements inside a glyph</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#entity_of_a_glyph"><span class="tocnumber">4.6</span> <span class="toctext">entity of a glyph</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#port_elements_of_a_glyph"><span class="tocnumber">4.7</span> <span class="toctext">port elements of a glyph</span></a>
+<ul>
+<li class="toclevel-3"><a href="Exchange_Format.html#id_of_a_port"><span class="tocnumber">4.7.1</span> <span class="toctext">id of a port</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="Exchange_Format.html#class_of_a_glyph"><span class="tocnumber">4.8</span> <span class="toctext">class of a glyph</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#orientation_of_a_glyph"><span class="tocnumber">4.9</span> <span class="toctext">orientation of a glyph</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#id_of_a_glyph"><span class="tocnumber">4.10</span> <span class="toctext">id of a glyph</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#compartmentRef_of_a_glyph"><span class="tocnumber">4.11</span> <span class="toctext">compartmentRef of a glyph</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#compartmentOrder_of_a_compartment"><span class="tocnumber">4.12</span> <span class="toctext">compartmentOrder of a compartment</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="Exchange_Format.html#arc_element"><span class="tocnumber">5</span> <span class="toctext">arc element</span></a>
+<ul>
+<li class="toclevel-2"><a href="Exchange_Format.html#class_attribute_of_an_arc"><span class="tocnumber">5.1</span> <span class="toctext">class attribute of an arc</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#id_of_an_arc"><span class="tocnumber">5.2</span> <span class="toctext">id of an arc</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#glyph_element_of_an_arc"><span class="tocnumber">5.3</span> <span class="toctext">glyph element of an arc</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#port_elements_of_an_arc"><span class="tocnumber">5.4</span> <span class="toctext">port elements of an arc</span></a>
+<ul>
+<li class="toclevel-3"><a href="Exchange_Format.html#id_of_a_port_2"><span class="tocnumber">5.4.1</span> <span class="toctext">id of a port</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="Exchange_Format.html#start_element_of_an_arc"><span class="tocnumber">5.5</span> <span class="toctext">start element of an arc</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#list_of_next_elements_of_an_arc"><span class="tocnumber">5.6</span> <span class="toctext">list of next elements of an arc</span></a>
+<ul>
+<li class="toclevel-3"><a href="Exchange_Format.html#list_of_point_elements_of_a_next_element"><span class="tocnumber">5.6.1</span> <span class="toctext">list of point elements of a next element</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="Exchange_Format.html#end_element_of_an_arc"><span class="tocnumber">5.7</span> <span class="toctext">end element of an arc</span></a>
+<ul>
+<li class="toclevel-3"><a href="Exchange_Format.html#list_of_point_elements_of_an_end_element"><span class="tocnumber">5.7.1</span> <span class="toctext">list of point elements of an end element</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="Exchange_Format.html#source_attribute_of_an_arc"><span class="tocnumber">5.8</span> <span class="toctext">source attribute of an arc</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#target_attribute_of_an_arc"><span class="tocnumber">5.9</span> <span class="toctext">target attribute of an arc</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="Exchange_Format.html#arcgroup_element"><span class="tocnumber">6</span> <span class="toctext">arcgroup element</span></a>
+<ul>
+<li class="toclevel-2"><a href="Exchange_Format.html#class_attribute_of_an_arcgroup"><span class="tocnumber">6.1</span> <span class="toctext">class attribute of an arcgroup</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#glyph_element_of_an_arcgroup"><span class="tocnumber">6.2</span> <span class="toctext">glyph element of an arcgroup</span></a></li>
+<li class="toclevel-2"><a href="Exchange_Format.html#arc_element_of_an_arcgroup"><span class="tocnumber">6.3</span> <span class="toctext">arc element of an arcgroup</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="Exchange_Format.html#.28Pre.29History"><span class="tocnumber">7</span> <span class="toctext">(Pre)History</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<a name="Namespaces"></a><h1> <span class="mw-headline"> Namespaces </span></h1>
+<p>The XML namespace is used to distinguish versions of SBGN-ML. All element of Milestone 1 SBGN-ML have namespace <b>http://sbgn.org/libsbgn/pd/0.1</b> All element of Milestone 2 SBGN-ML have namespace <b>http://sbgn.org/libsbgn/0.2</b>. The namespace only goes for elements; attributes are in default (=undefined) namespace.
+</p>
+<a name="Common_types_and_elements"></a><h1> <span class="mw-headline"> Common types and elements </span></h1>
+<a name="Notes"></a><h2> <span class="mw-headline"> Notes </span></h2>
+<p>Version: available from SBGN-ML milestone 2.
+</p><p>The <a href="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/complexType/SBGNBase.notes.html" class="" title="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/complexType/SBGNBase.notes.html" rel="nofollow">notes</a> element can be used to add information about a SBGN map.
+</p>
+<a name="Extension"></a><h2> <span class="mw-headline"> Extension </span></h2>
+<p>Version: available from SBGN-ML milestone 2.
+</p><p>The <a href="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/complexType/SBGNBase.extension.html" class="" title="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/complexType/SBGNBase.extension.html" rel="nofollow">extension</a> element can be used by tool developers as a generic extension mechanism. See <a href="SBGN-ML_Extensions.html" title="LibSBGN/SBGN-ML Extensions">SBGN-ML Extensions</a> for details
+</p>
+<a name="PointAttributes_attribute_group"></a><h2> <span class="mw-headline"> PointAttributes attribute group </span></h2>
+<p>The <a href="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/attributeGroup/PointAttributes.html" class="" title="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/attributeGroup/PointAttributes.html" rel="nofollow">PointAttributes</a> attribute group describes absolute 2D Cartesian coordinates:
+</p>
+<ul><li> <b>x</b> (float)&nbsp;: horizontal, from left to right
+</li><li> <b>y</b> (float)&nbsp;: vertical, from top to bottom
+</li></ul>
+<p>The origin is located in the top-left corner of the map.
+</p><p>There is no unit: proportions must be preserved, but the maps can be drawn at any scale.
+In the test files examples, to obtain a drawing similar to the reference *.png file, values in the corresponding *.sbgn file should be read as pixels.
+</p>
+<a name="point_element"></a><h2> <span class="mw-headline"> point element </span></h2>
+<p>The <a href="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/point.html" class="" title="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/point.html" rel="nofollow">point</a> element is characterized by <b>PointAttributes</b>.
+</p>
+<a name="bbox_element"></a><h2> <span class="mw-headline"> bbox element </span></h2>
+<p>The <a href="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/bbox.html" class="" title="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/bbox.html" rel="nofollow">bbox</a> element describes a rectangle:
+</p>
+<ul><li> <b>PointAttributes</b> correspond to the 2D coordinates of the top left corner
+</li><li> <b>width</b> and <b>height</b> attributes (both float) refer to the dimensions of the rectangle
+</li></ul>
+<p>The rectangle corresponds to the outer bounding box of a shape.
+The shape itself can be irregular (for instance in the case of some compartments)
+</p><p>In the case of process nodes, the bounding box only concerns the central glyph (square, or circle),
+the input/output ports are not included, and neither are the lines connecting them to the central glyph.
+</p><p>A <b>bbox</b> is required for all <b>glyph</b> elements, and is optional for <b>label</b> elements.
+</p>
+<a name="label_element"></a><h2> <span class="mw-headline"> label element </span></h2>
+<p>The <a href="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/label.html" class="" title="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/label.html" rel="nofollow">label</a> element describes the text accompanying a glyph:
+</p>
+<ul><li> the <b>text</b> attribute (string) is mandatory.
+</li><li> its position can be specified by a <b>bbox</b> (optional)
+</li></ul>
+<p>Tools are free to display the text in any style (font, font-size, etc.)
+</p>
+<a name="bbox_of_a_label"></a><h3> <span class="mw-headline"> bbox of a label </span></h3>
+<p>The <b>bbox</b> element of a <b>label</b> is optional.
+When no <b>bbox</b> is defined, the <b>bbox</b> of the parent glyph is inherited.
+The <b>label</b> should be drawn centered horizontally and vertically in the <b>bbox</b>.
+</p><p>When the <b>bbox</b> is inherited, the <b>label</b> may spill outside (just like it can spill outside its parent <b>glyph</b>)
+</p><p>An explicit <b>bbox</b> provides a stronger hint regarding what surface the <b>label</b> should cover.
+It defines an upper boundary outside of which the <b>label</b> should (ideally) not spill.
+It also represents a preferred size:
+the surface covered by the <b>label</b> can be smaller, but should ideally be as close as possible to the <b>bbox</b>.
+</p><p>In most <b>glyph</b> classes (EPNs, unit of information, etc.), the <b>label</b> is supposed to be centered,
+so the <b>bbox</b> is usually omitted (unless there's a specific hint to be shared concerning the area the <b>label</b> should ideally cover)
+</p><p>However, the <b>label</b> of a <b>compartment</b> or a <b>complex</b> can be drawn anywhere inside the <b>glyph</b>, so these should preferably have an explicit <b>bbox</b>.
+</p>
+<a name="text_of_a_label"></a><h3> <span class="mw-headline"> text of a label </span></h3>
+<p>The <b>text</b> element is a simple string. Multi-line labels are allowed. Line breaks are encoded as <code>&amp;#xA;</code> as specified by the XML standard.
+</p>
+<a name="High_level_elements"></a><h1> <span class="mw-headline"> High level elements </span></h1>
+<a name="sbgn_element_.5Broot.5D"></a><h2> <span class="mw-headline"> sbgn element [root] </span></h2>
+<p>The <a href="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/sbgn.html" class="" title="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/sbgn.html" rel="nofollow">sbgn</a> element is the root of any SBGN-ML document.
+In the current version, it contains one (and only one) <b>map</b> element.
+</p>
+<a name="map_element"></a><h2> <span class="mw-headline"> map element </span></h2>
+<p>The <a href="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/map.html" class="" title="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/map.html" rel="nofollow">map</a> element describes a single SBGN map.
+</p><p>It contains a list of <b>glyph</b> elements, a list of <b>arc</b> elements, and a list of <b>arcgroup</b> elements.
+These lists can be of any size (possibly empty).
+</p>
+<a name="bbox_element_of_a_map"></a><h3> <span class="mw-headline"> bbox element of a map </span></h3>
+<p>The <b>bbox</b> element on a <b>map</b> is not mandatory, it allows the application to define a canvas, and at the same time to define a whitespace margin around the glyphs.
+</p><p>If a bbox is defined on a map, all glyphs, arcs, and arcgroups must be inside this bbox, otherwise they could be clipped off by applications.
+</p>
+<a name="language_attribute_of_a_map"></a><h3> <span class="mw-headline"> language attribute of a map </span></h3>
+<p>The <b>language</b> attribute of a <b>map</b> is always required.
+</p><p>The attribute can take one of the following values:
+</p>
+<ul><li> process description
+</li><li> entity relationship
+</li><li> activity flow
+</li></ul>
+<a name="glyph_element"></a><h1> <span class="mw-headline"> glyph element </span></h1>
+<p>The <a href="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/glyph.html" class="" title="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/glyph.html" rel="nofollow">glyph</a> element is:
+</p>
+<ul><li> either a stand-alone, high-level SBGN node (an EPN, PN, compartment, etc.)
+</li><li> or a sub-node (state variable, unit of information, inside of a complex, etc.)
+</li></ul>
+<p>In the first case, it appears directly in the <b>glyph</b> list of the map.
+</p><p>In the second case, it is a child of another <b>glyph</b> element.
+</p>
+<a name="label_or_state_of_a_glyph"></a><h2> <span class="mw-headline"> label or state of a glyph </span></h2>
+<p>The text inside a <b>glyph</b> is described:
+- either by a <a href="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/label.html" class="" title="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/label.html" rel="nofollow">label</a> element (optional) [process nodes can't have one]
+- or by a <a href="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/glyph.state.html" class="" title="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/glyph.state.html" rel="nofollow">state</a> element (optional) [for state variables only]
+</p>
+<a name="state_of_a_glyph"></a><h3> <span class="mw-headline"> state of a glyph </span></h3>
+<p>The <b>state</b> element should only be used for state variables.
+It replaces the <b>label</b> element used for other glyphs.
+It describes the text to be drawn inside the state variable.
+</p>
+<a name="value_of_a_state"></a><h4> <span class="mw-headline"> value of a state </span></h4>
+<p>The <b>value</b> attribute (string) represents the state of the variable. It can be:
+</p>
+<ul><li> either from a predefined set of string (P, S, etc.) which correspond to specific SBO terms (cf. SBGN specs)
+</li><li> or any arbitrary string
+</li></ul>
+<a name="variable_of_a_state"></a><h4> <span class="mw-headline"> variable of a state </span></h4>
+<p>The <b>variable</b> attribute (string) describes the site where the  modification described by the value attribute occurs. It is:
+</p>
+<ul><li> optional when there is only one state variable on the parent EPN
+</li><li> required when there is more than one state variable on the parent EPN
+</li></ul>
+<a name="clone_element_of_a_glyph"></a><h2> <span class="mw-headline"> clone element of a glyph </span></h2>
+<p>The <a href="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/glyph.clone.html" class="" title="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/glyph.clone.html" rel="nofollow">clone</a> element is optional.
+It means the glyph carries a clone marker.
+It can contain an optional <b>label</b>.
+</p>
+<a name="callout_of_a_glyph"></a><h2> <span class="mw-headline"> callout of a glyph </span></h2>
+<p>Callouts are used in the case of glyphs with class annotation. The callout is always optional, it can be used to show which element the callout points to.
+</p>
+<a name="bbox_element_of_a_glyph"></a><h2> <span class="mw-headline"> bbox element of a glyph </span></h2>
+<p>The <b>bbox</b> element is mandatory and unique: exactly one per <b>glyph</b>.
+</p><p>It defines the outer bounding box of the glyph.
+The actual shape of the glyph can be irregular (for instance in the case of some compartments)
+</p><p>In the case of process nodes, the bounding box only concerns the central glyph (square, or circle), the input/output ports are not included, and neither are the lines connecting them to the central glyph.
+</p>
+<a name="glyph_elements_inside_a_glyph"></a><h2> <span class="mw-headline"> glyph elements inside a glyph </span></h2>
+<p>A <b>glyph</b> element can contain any number of children <b>glyph</b> elements.
+</p><p>In practice, this should only happen in the following cases:
+</p>
+<ul><li> a compartment with unit of information children
+</li><li> an EPN with states variables and/or unit of information children
+</li><li> a complex, with state variables, unit of info, and/or EPN children
+</li></ul>
+<a name="entity_of_a_glyph"></a><h2> <span class="mw-headline"> entity of a glyph </span></h2>
+<p>An <b>entity</b> is only used in Activity Flow diagrams. It should be placed on a subglyph of an activity glyph, and is used to indicate the entity that performs the activity.
+</p>
+<a name="port_elements_of_a_glyph"></a><h2> <span class="mw-headline"> port elements of a glyph </span></h2>
+<p>A <b>glyph</b> element contain an unbounded, potentially empty list of <b>port</b> elements.
+</p><p>A <b>port</b> element describes an anchor point, which <b>arc</b> elements can refer to as a <b>source</b> or <b>target</b>. It consists in:
+</p>
+<ul><li> absolute 2D cartesian coordinates (<b>PointAttribute</b>)
+</li><li> a unique <b>id</b> attribute
+</li></ul>
+<p>Two <b>port</b> elements are required for process nodes.
+They represent the extremity of the two "arms" which protrude on both sides of the core of the <b>glyph</b> (= square or circle shape).
+</p><p>Other glyphs don't need ports (but can use them if desired).
+</p><p><br />
+</p>
+<a name="id_of_a_port"></a><h3> <span class="mw-headline"> id of a port </span></h3>
+<p>The <b>id</b> attribute (xsd:ID) of a <b>port</b> can be referred to as a <b>source</b> or <b>target</b> by <b>arc</b> elements.
+</p><p>The xsd:ID type is an alphanumeric identifier, starting with a letter.
+</p><p>Port IDs often contain the ID of their glyph, followed by a local port number (e.g. glyph4.1, glyph4.2, etc.)
+</p><p>However, this style convention is not mandatory, and IDs should never be interpreted as carrying any meaning.
+</p>
+<a name="class_of_a_glyph"></a><h2> <span class="mw-headline"> class of a glyph </span></h2>
+<p>The <b>class</b> attribute (string) defines the semantic of the <b>glyph</b> element, and influences:
+</p>
+<ul><li> the way that glyph should be rendered
+</li><li> the overall syntactic validity of the map
+</li></ul>
+<p>The various classes encompass the following SBGN elements:
+</p>
+<ul><li> Entity Pool Node classes (PD only)
+<ul><li> <i>unspecified entity</i>
+</li><li> <i>simple chemical</i>
+</li><li> <i>macromolecule</i>
+</li><li> <i>nucleic acid feature</i>
+</li><li> <i>source and sink</i>
+</li><li> <i>complex</i>
+</li><li> <i>simple chemical multimer</i>
+</li><li> <i>macromolecule multimer</i>
+</li><li> <i>nucleic acid feature multimer</i>
+</li><li> <i>complex multimer</i>
+</li></ul>
+</li><li> Process Node classes (PD only)
+<ul><li> <i>process</i>
+</li><li> <i>omitted process</i>
+</li><li> <i>uncertain process</i>
+</li><li> <i>association</i>
+</li><li> <i>dissociation</i>
+</li></ul>
+</li><li> Entity Node classes (ER only)
+<ul><li> <i>entity</i>
+</li><li> <i>outcome</i>
+</li></ul>
+</li><li> Other Node classes (ER only)
+<ul><li> <i>interaction</i>
+</li><li> <i>influence target</i>
+</li><li> <i>variable value</i>
+</li><li> <i>implicit xor</i>
+</li><li> <i>annotation</i>
+</li></ul>
+</li><li> Activity Node classes (AF only)
+<ul><li> <i>biological activity</i>
+</li><li> <i>perturbation</i>
+</li></ul>
+</li><li> Other Node classes (both PD and ER)
+<ul><li> <i>perturbing agent</i>
+</li></ul>
+</li><li> Other Node classes (both PD and AF)
+<ul><li> <i>compartment</i>
+</li><li> <i>submap</i>
+</li><li> <i>tag</i>
+</li><li> <i>terminal</i>
+</li></ul>
+</li><li> Logical Operator classes (PD, ER, and AF)
+<ul><li> <i>and</i>
+</li><li> <i>or</i>
+</li><li> <i>not</i>
+</li></ul>
+</li><li> Logical Operator classes (both ER and AF)
+<ul><li> <i>delay</i>
+</li></ul>
+</li><li> Other Node classes (PD, ER, and AF)
+<ul><li> <i>phenotype</i>
+</li></ul>
+</li><li> Subglyph on glyph classes (both PD and ER)
+<ul><li> <i>state variable</i>
+</li><li> <i>unit of information</i>
+</li></ul>
+</li><li> Subglyph on glyph classes (ER only)
+<ul><li> <i>existence</i>
+</li><li> <i>location</i>
+</li></ul>
+</li></ul>
+<p>Arc classes are defined in a separate enumeration.
+</p><p>When left empty, the default value of this attribute is "unspecified entity"
+</p>
+<a name="orientation_of_a_glyph"></a><h2> <span class="mw-headline"> orientation of a glyph </span></h2>
+<p>The <b>orientation</b> attribute is used to express how to draw asymmetric glyphs.
+</p><p>The <b>orientation</b> of Process Nodes is either "horizontal" or "vertical".
+It refers to an (imaginary) line connecting the two in/out sides of the PN.
+</p><p>The <b>orientation</b> of Tags can be "left", "right", "up" or "down".
+It refers to the direction the arrow side of the glyph is pointing at.
+</p>
+<a name="id_of_a_glyph"></a><h2> <span class="mw-headline"> id of a glyph </span></h2>
+<p>The <b>id</b> attribute (xsd:ID) of a <b>glyph</b> can be referred to as a <b>source</b> or <b>target</b> by <b>arc</b> elements.
+</p><p>The xsd:ID type is an alphanumeric identifier, starting with a letter.
+</p><p>It is recommended to generate meaningless IDs (e.g. "glyph1234") and avoid IDs with a meaning (e.g. "epn_ethanol")
+</p>
+<a name="compartmentRef_of_a_glyph"></a><h2> <span class="mw-headline"> compartmentRef of a glyph </span></h2>
+<p><b>compartmentRef</b> is a reference to the ID of the compartment that this glyph is part of. Only use this if there is at least one explicit compartment present in the diagram. Compartments are only used in PD and AF, and thus this attribute as well. For PD, this should be used only for EPN's.
+</p><p>In case there are no compartments, entities that can have a location, such as EPN's, are implicit member of an invisible compartment that encompasses the whole map. In that case, this attribute must be omitted.
+</p>
+<a name="compartmentOrder_of_a_compartment"></a><h2> <span class="mw-headline"> compartmentOrder of a compartment </span></h2>
+<p>The <b>compartmentOrder</b> attribute can be used to define a drawing order for compartments. It enables tools to draw compartments in the correct order especially in the case of overlapping compartments. Compartments are only used in PD and AF, and thus this attribute as well.
+</p><p>The attribute is of type float, the attribute value has not to be unique. Compartments with higher <b>compartmentOrder</b> are drawn on top. The attribute is optional and should only be used for compartments.
+</p>
+<a name="arc_element"></a><h1> <span class="mw-headline"> arc element </span></h1>
+<p>The <a href="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/arc.html" class="" title="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/arc.html" rel="nofollow">arc</a> element describes an SBGN arc between two SBGN nodes. It contains:
+</p>
+<ul><li> For <b>PD</b>: an optional stoichiometry marker,
+</li><li> For <b>ER</b>: an optional cardinality marker, zero or more ports (influence targets), and zero or more outcomes,
+</li><li> a mandatory <b>source</b> and <b>target</b> (<b>glyph</b> or <b>port</b>),
+</li><li> a geometric description of its whole path, from <b>start</b> to <b>end</b>. This path can involve any number of straight lines or quadratic/cubic Bezier curves.
+</li></ul>
+<a name="class_attribute_of_an_arc"></a><h2> <span class="mw-headline"> class attribute of an arc </span></h2>
+<p>The <b>class</b> attribute (string) defines the semantic of the <b>arc</b>, and influences:
+</p>
+<ul><li> the way that arc should be rendered
+</li><li> the overall syntactic validity of the map
+</li></ul>
+<p>The various classes encompass all possible types of SBGN arcs:
+</p>
+<ul><li> For <b>PD</b> only
+<ul><li> <i>production</i>
+</li><li> <i>consumption</i>
+</li><li> <i>catalysis</i>
+</li></ul>
+</li><li> For <b>ER</b> only
+<ul><li> <i>assignment</i>
+</li><li> <i>interaction</i>
+</li><li> <i>absolute stimulation</i>
+</li><li> <i>absolute inhibition</i>
+</li></ul>
+</li><li> For <b>AF</b> only
+<ul><li> <i>positive influence</i>
+</li><li> <i>negative influence</i>
+</li><li> <i>unknown influence</i>
+</li></ul>
+</li><li> For <b>PD and ER</b>
+<ul><li> <i>modulation</i>
+</li><li> <i>stimulation</i>
+</li><li> <i>inhibition</i>
+</li></ul>
+</li><li> For <b>PD and AF</b>
+<ul><li> <i>equivalence arc</i>
+</li></ul>
+</li><li> For <b>PD, ER, and AF</b>
+<ul><li> <i>necessary stimulation</i>
+</li><li> <i>logic arc</i>
+</li></ul>
+</li></ul>
+<a name="id_of_an_arc"></a><h2> <span class="mw-headline"> id of an arc </span></h2>
+<p>The <b>id</b> attribute (xsd:ID) of an <b>arc</b> can be used for reference.
+</p><p>The xsd:ID type is an alphanumeric identifier, starting with a letter.
+</p><p>It is recommended to generate meaningless IDs (e.g. "arc1234") and avoid IDs with a meaning.
+</p>
+<a name="glyph_element_of_an_arc"></a><h2> <span class="mw-headline"> glyph element of an arc </span></h2>
+<p>An arc can contain a single optional child <b>glyph</b>.
+This <b>glyph</b> must be of <b>class</b> <i>stoichiometry</i> (a square with a numeric label)
+</p><p>In PD, an arc can contain a single optional <b>sub-glyph</b>.
+This <b>glyph</b> must be of <b>class</b> <i>stoichiometry</i> (a square with a numeric label).
+</p><p>In ER, an arc can contain several <b>sub-glyphs</b>.
+This can be zero or one <b>glyph</b> of class <i>cardinality</i> (e.g. <i>cis</i> or <i>trans</i>), plus zero to many <b>glyphs</b> of class <i>outcome</i> (black dot).
+</p>
+<a name="port_elements_of_an_arc"></a><h2> <span class="mw-headline"> port elements of an arc </span></h2>
+<p><b>Port</b> elements of <b>arcs</b> are only allowed in <b>ER</b>.
+</p><p>An <b>arc</b> element contains an unbounded, potentially empty list of <b>port</b> elements.
+</p><p>A <b>port</b> element describes an anchor point, which <b>arc</b> elements can refer to as a <b>target</b>. It consists of:
+</p>
+<ul><li> absolute 2D cartesian coordinates (<b>PointAttribute</b>),
+</li><li> a unique <b>id</b> attribute.
+</li></ul>
+<a name="id_of_a_port_2"></a><h3> <span class="mw-headline"> id of a port </span></h3>
+<p>The <b>id</b> attribute (xsd:ID) of a <b>port</b> can be referred to as a <b>target</b> by an <b>arc</b> element.
+</p><p>The xsd:ID type is an alphanumeric identifier, starting with a letter.
+</p><p>Port IDs often contain the ID of their arc, followed by a local port number (e.g. arc4.1, arc4.2, etc.)
+</p><p>However, this style convention is not mandatory, and IDs should never be interpreted as carrying any meaning.
+</p>
+<a name="start_element_of_an_arc"></a><h2> <span class="mw-headline"> start element of an arc </span></h2>
+<p>The <b>start</b> element (characterized by <b>PointAttributes</b>) represents the starting point of the <b>arc'</b>s path. It is unique and mandatory.
+</p>
+<a name="list_of_next_elements_of_an_arc"></a><h2> <span class="mw-headline"> list of next elements of an arc </span></h2>
+<p>A <b>next</b> element represents the next point (cf. <b>PointAttributes</b>) in the arc's path.
+</p><p>Between the <b>start</b> and the <b>end</b> of the path, there can be any number (even zero) of <b>next</b> elements (intermediate points).
+They are read consecutively: <b>start</b>, <b>next</b>, <b>next</b>, ..., <b>next</b>, <b>end</b>.
+</p><p>When the path from the previous point to this point is not straight, this element also contains a list of control points (between 1 and 2) describing a Bezier curve (quadratic if 1 control point, cubic if 2) between the previous point and this point.
+</p>
+<a name="list_of_point_elements_of_a_next_element"></a><h3> <span class="mw-headline"> list of point elements of a next element </span></h3>
+<p>This list of control points (<b>point</b> elements) is only used when the path describes a curve.
+</p><p>The number of <b>point</b> elements describes the degree of the Bezier curve:
+</p>
+<ul><li> linear (0, empty list)
+</li><li> quadratic (1 <b>point</b> element)
+</li><li> cubic (2 <b>point</b> elements)
+</li></ul>
+<a name="end_element_of_an_arc"></a><h2> <span class="mw-headline"> end element of an arc </span></h2>
+<p>The <b>end</b> element represents the ending point (cf. <b>PointAttributes</b>) of the <b>arc'</b>s path. It is unique and mandatory.
+</p><p>When the path from the previous point to this point is not straight, this element also contains a list of control points (between 1 and 2) describing a Bezier curve (quadratic if 1 control point, cubic if 2) between the previous point and this point.
+</p>
+<a name="list_of_point_elements_of_an_end_element"></a><h3> <span class="mw-headline"> list of point elements of an end element </span></h3>
+<p>This list of control points (<b>point</b> elements) is only used when the path describes a curve.
+</p><p>The number of <b>point</b> elements describes the degree of the Bezier curve:
+</p>
+<ul><li> linear (0, empty list)
+</li><li> quadratic (1 <b>point</b> element)
+</li><li> cubic (2 <b>point</b> elements)
+</li></ul>
+<a name="source_attribute_of_an_arc"></a><h2> <span class="mw-headline"> source attribute of an arc </span></h2>
+<p>The <b>source</b> attribute (xsd:IDREF) is always required. It can refer:
+</p>
+<ul><li> either to the <b>id</b> of a <b>glyph</b>
+</li><li> or to the <b>id</b> of a <b>port</b> on a <b>glyph</b>
+</li></ul>
+<a name="target_attribute_of_an_arc"></a><h2> <span class="mw-headline"> target attribute of an arc </span></h2>
+<p>The <b>target</b> attribute (xsd:IDREF) is always required. It can refer:
+</p>
+<ul><li> either to the <b>id</b> of a <b>glyph</b>
+</li><li> or to the <b>id</b> of a <b>port</b> on a <b>glyph</b>
+</li></ul>
+<a name="arcgroup_element"></a><h1> <span class="mw-headline"> arcgroup element </span></h1>
+<p>The <a href="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/arcgroup.html" class="" title="http://libsbgn.sourceforge.net/sbgn.doc/http___sbgn.org_libsbgn_0.2/element/arcgroup.html" rel="nofollow">arcgroup</a> describes a set of <b>arcs</b> and <b>glyphs</b> that have a relation together, for example in <b>ER</b> <b>arcs</b> of class <i>interaction</i> around a <b>glyph</b> of class <i>interaction</i>.
+</p><p>Note that, in spite of the name, an <b>arcgroup</b> contains both <b>arcs</b> and <b>glyphs</b>.
+</p>
+<a name="class_attribute_of_an_arcgroup"></a><h2> <span class="mw-headline"> class attribute of an arcgroup </span></h2>
+<p>The class attribute defines the semantic of the arcgroup.
+</p><p>Currently, there is only one value defined:
+</p>
+<ul><li> For <b>ER</b> only
+<ul><li> <i>interaction</i>
+</li></ul>
+</li></ul>
+<a name="glyph_element_of_an_arcgroup"></a><h2> <span class="mw-headline"> glyph element of an arcgroup </span></h2>
+<p>An <b>arcgroup</b> can contain <b>glyphs</b>.
+For example, in an <b>arcgroup</b> of class <i>interaction</i>, there must be one <b>glyph</b> of class <i>interaction</i>.
+</p>
+<a name="arc_element_of_an_arcgroup"></a><h2> <span class="mw-headline"> arc element of an arcgroup </span></h2>
+<p>An <b>arcgroup</b> can have multiple <b>arcs</b>.
+They are all assumed to form a single hyperarc-like structure.
+</p>
+<a name=".28Pre.29History"></a><h1> <span class="mw-headline"> (Pre)History </span></h1>
+<p>For an older version of this page, see <a href="Exchange_Format_(as_discussed_around_SBGN5.5).html" title="LibSBGN/Exchange Format (as discussed around SBGN5.5)">Exchange Format (as discussed around SBGN5.5)</a>
+</p>
+<!-- Saved in parser cache with key mediawiki_sbgn-mw1:pcache:idhash:762-0!1!0!!en!2!edit=0 and timestamp 20160607175310 -->
+
+<div class="printfooter">
+<p>Retrieved from "<a href="Exchange_Format.html">http://www.sbgn.org/LibSBGN/Exchange_Format</a>"</p>
+
+<p> This page was last modified 05:48, 4 January 2016. </p>
+</div>
+
+</div><!-- id='article' -->
+<div id='pagefooter'>
+<div id='bottomlinks'><a href="../index.php%3Ftitle=LibSBGN%252FExchange_Format&amp;action=history.html" title="LibSBGN/Exchange Format">Page&nbsp;History</a> <span class='link-sep'>|</span> <a href="../index.php%3Ftitle=Special:Userlogin&amp;returnto=LibSBGN%252FExchange_Format.html" title="Special:Userlogin">Log in</a></div><!-- id='bottomlinks' -->
+</div><!-- id='pagefooter' -->
+<div id='sitefooter'>
+&nbsp;
+</div><!-- id='sitefooter' --></div><!-- id='content' -->
+<div id='sitenotices'>
+Please use our <a href="https://sourceforge.net/tracker/?func=add&group_id=178553&atid=1100982">issue tracker</a> to send us suggestions and problem reports about this website.
+<div id='pagestats'>
+ This page was last modified 05:48, 4 January 2016. 
+</div><!-- id='pagestats' -->
+</div><!-- id='sitenotices' -->
+</div><!-- id='background' -->
+</body></html>

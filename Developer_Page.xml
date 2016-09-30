@@ -1,0 +1,75 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Developer Page</title>
+    <id>787</id>
+    <revision>
+      <id>3018</id>
+      <timestamp>2012-11-05T17:59:06Z</timestamp>
+      <contributor>
+        <username>Alice Villeger</username>
+        <id>19</id>
+      </contributor>
+      <comment>/* Community votes */</comment>
+      <text xml:space="preserve">==Staying up to date==
+===For anyone with an interest in SBGN===
+To keep track of what's going on in the SBGN world, and be sure never to miss a [[Events|meeting]], a [[Competition|competition]], a [[SBGN_development|survey]], an [[Elections |election]], or the release of the latest [[Documents/Specifications|specifications]], don't forget to:
+* check the latest [[News]],
+* &lt;font size=&quot;4&quot;&gt;subscribe to '''sbgn-announce''' and '''sign-discuss'''&lt;/font&gt; (see the [[SBGN Mailing Lists]] page).
+
+===For fervent developers===
+People particularly involved in the development process of SBGN may also want to keep an eye on recent [[Meeting minutes]], have a look at topics discussed during recent [[Events]], and check the results of past [[SBGN development|development surveys]].
+
+== Getting involved == 
+Regardless of your experience or involvement level, we value your ideas and feedback.
+
+===Bug tracker===
+For reporting issues, suggesting enhancements or requesting features please use the [https://sourceforge.net/tracker/?group_id=178553 dedicated trackers] on SourceForge.net.
+
+===Mailing lists===
+For general discussions about SBGN: please join the '''sbgn-discuss''' mailing list (see the [[SBGN Mailing Lists]] page) and bring up the topic there. Some of the discussions will look horribly technical, but don't let this put you off asking simple questions. The community is always eager to help.
+
+For specific questions about this website, workshops, or other SBGN resource management topics: please send a message to the '''sbgn-editors''' mailing list (see the [[SBGN Mailing Lists]] page).
+
+===Meetings and workshops===
+SBGN meetings and workshops provide the best environment for learning about the process and getting involved. Please check the [[Events]] page for past and upcoming events.
+
+===Annual competition===
+The [[Competition|Annual SBGN Competition]] welcomes entries from EVERYONE, and anyone can vote for their favourite map, software tool, and outreach material. Make sure not to miss this year's deadline! (or start preparing your entry for next year...)
+
+===Community votes===
+The community regularly gets asked to vote on a number of issues:
+* SBGN [[Competition|competition]] winners (see above)
+* [[SBGN_development|development]] surveys. Surveys are created by editors, for questions (regarding possible changes to the current SBGN specifications) which have been previously debated [[Mailing-lists|online]] and during [[Events|meetings]]. Thus everyone in the community gets an opportunity to express their preferences before a decision is made.
+* yearly [[About#SBGN_Editors|editor]] elections. Anyone can vote, and anyone can stand to be elected, provided they get at least one nomination (and self-nominations are 100% OK!) during the yearly nomination process preceding each election.
+Keep an eye on [[Mailing-lists|'''sbgn-announce''' and '''sbgn-discuss''']] and make sure not to miss the deadlines of any of these important online community events.</text>
+    </revision>
+  </page>
+</mediawiki>

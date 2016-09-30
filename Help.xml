@@ -1,0 +1,1184 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Help</title>
+    <id>148</id>
+    <revision>
+      <id>1036</id>
+      <timestamp>2008-09-05T16:59:09Z</timestamp>
+      <contributor>
+        <username>Mhucka</username>
+        <id>9</id>
+      </contributor>
+      <comment>/* Site icons */</comment>
+      <text xml:space="preserve">&lt;html&gt;&lt;style type='text/css'&gt;
+/*/*/ /*&lt;![CDATA[*/
+td, th {  padding: 8px; }
+table { width: 100% }
+/*]]&gt;*/ /* */
+&lt;/style&gt;&lt;/html&gt;
+This help page serves as a quick reference for common editing commands and features of this installation of MediaWiki.  You may find more detailed information about MediaWiki at [http://meta.wikimedia.org/wiki/Help:Editing MediaWiki's help pages].
+
+This installation of MediaWiki on SBGN.org features numerous extensions and enhancements by the SBGN Team.  Please see the section later on this page summarizing these enhancements.
+
+== How to edit ==
+
+To start editing a page, first log in using the '''Log in''' button on the bottom of the page.  Once you are logged in, you will be able to see an '''Edit''' button on the bottom of each page (including this one) as well as links titled ['''edit'''] next to each section heading.  Clicking on the '''Edit''' button on the bottom of a page lets you edit the whole page in one go; clicking on the ['''edit'''] link next to a section heading lets you edit just that one section.  
+
+During editing, the page in your browser will be replaced with a text box where you can edit the page (or section) contents directly.  You can just type and delete text directly.  You can also embellish your text with formatting, links, tables, images and other things.  The rest of this page summarizes how.
+
+When you have finished editing, click on the '''Show preview''' button under the editing box to see how your changes will look '''before''' you make them permanent.  Repeat the edit/preview process until you are satisfied, then click the '''Save page''' button and your changes will be immediately applied to the article. Sometimes it is helpful to save in between.
+
+== How to format text (&quot;wiki markup&quot;) ==
+
+Here are the most frequently used types of wiki markup.  Please refer to [http://meta.wikimedia.org/wiki/Help:Editing MediaWiki's help pages] for more comprehensive information about formatting.  (The possibilities are much greater than what this short summary shows!)
+
+=== Basic text formatting and organization ===
+
+&lt;br clear=&quot;right&quot; /&gt;
+&lt;center&gt;
+{|
+! style=&quot;width: 50%&quot; | What it looks like
+! style=&quot;width: 50%&quot; | What you type
+|-
+|
+You can ''italicize text'' by putting 2 
+apostrophes on each side. 
+
+3 apostrophes will embolden '''the text'''. 
+
+5 apostrophes will embolden and italicize 
+'''''the text'''''.
+
+(4 apostrophes don't do anything special -- there's just ''''one left over''''.)
+|&lt;pre&gt;
+You can ''italicize text'' by putting 2 
+apostrophes on each side. 
+
+3 apostrophes will embolden '''the text'''. 
+
+5 apostrophes will embolden and italicize 
+'''''the text'''''.
+
+(4 apostrophes don't do anything
+special -- there's just ''''one left
+over''''.)
+&lt;/pre&gt;
+|-
+|
+Put text in a fixed-width
+typewriter font, often used for &lt;code&gt;
+literal text&lt;/code&gt; and &lt;code&gt;computer code samples&lt;/code&gt;.
+|&lt;pre&gt;
+Put text in a fixed-width
+typewriter font, often used for &lt;code&gt;
+literal text&lt;/code&gt; and
+&lt;code&gt;computer code samples&lt;/code&gt;.
+&lt;/pre&gt;
+|-
+|
+&lt;strike&gt;Strike out&lt;/strike&gt;
+or &lt;u&gt;underline&lt;/u&gt; text,
+or write it &lt;span style=
+&quot;font-variant:small-caps&quot;&gt;
+in small caps&lt;/span&gt;.
+|&lt;pre&gt;
+&lt;strike&gt;Strike out&lt;/strike&gt;
+or &lt;u&gt;underline&lt;/u&gt; text,
+or write it &lt;span style=
+&quot;font-variant:small-caps&quot;&gt;
+in small caps&lt;/span&gt;.
+&lt;/pre&gt;
+|-
+|
+Superscripts and subscripts:
+X&lt;sup&gt;2&lt;/sup&gt;, H&lt;sub&gt;2&lt;/sub&gt;O
+|&lt;pre&gt;
+Superscripts and subscripts:
+X&lt;sup&gt;2&lt;/sup&gt;, H&lt;sub&gt;2&lt;/sub&gt;O
+&lt;/pre&gt;
+|-
+|
+&lt;blockquote&gt;
+The '''blockquote''' command formats block 
+quotations, typically by surrounding them 
+with whitespace and a slightly different font.
+&lt;/blockquote&gt;
+|&lt;pre&gt;
+&lt;blockquote&gt;
+The '''blockquote''' command formats block 
+quotations, typically by surrounding them 
+with whitespace and a slightly different font.
+&lt;/blockquote&gt;
+&lt;/pre&gt;
+|-
+|
+&lt;div style=&quot;font-size:150%; font-weight: bold&quot;&gt;Section headings&lt;/div&gt;
+
+''Headings'' organize your writing into sections.
+The Wiki software can automatically generate
+a table of contents from them.
+
+&lt;div style=&quot;font-size:140%;font-weight:bold; margin-top: 1em;&quot;&gt;Subsection&lt;/div&gt;
+Using more equals signs creates a subsection.
+
+&lt;div style=&quot;font-size:120%;font-weight:bold; margin-top: 0.75em&quot;&gt;A smaller subsection&lt;/div&gt;
+
+Don't skip levels, like from two to four equals signs.
+
+Start with 2 equals signs, not 1, because 1 creates H1 tags and those should be reserved for page titles.
+|&lt;pre&gt;
+== Section headings ==
+
+''Headings'' organize your writing into sections.
+The Wiki software can automatically generate
+a table of contents from them.
+
+=== Subsection ===
+
+Using more equals signs creates a subsection.
+
+==== A smaller subsection ====
+
+Don't skip levels, 
+such as from two to four equals signs.
+
+Start with 2 equals signs, not 1,
+because 1 creates H1 tags
+and those should be reserved for page titles.
+&lt;/pre&gt;
+|- id=&quot;lists&quot;
+|
+* ''Unordered lists'' are easy to do:
+** Start every line with a star.
+*** More stars indicate a deeper level.
+*: Previous item continues.
+** A new line
+* in a list  
+marks the end of the list.
+*Of course you can start again.
+|&lt;pre&gt;
+* ''Unordered lists'' are easy to do:
+** Start every line with a star.
+*** More stars indicate a deeper level.
+*: Previous item continues.
+** A new line
+* in a list  
+marks the end of the list.
+* Of course you can start again.
+&lt;/pre&gt;
+|-
+|
+# ''Numbered lists'' are:
+## Very organized
+## Easy to follow
+A new line marks the end of the list.
+# New numbering starts with 1.
+
+|&lt;pre&gt;
+# ''Numbered lists'' are:
+## Very organized
+## Easy to follow
+A new line marks the end of the list.
+# New numbering starts with 1.
+&lt;/pre&gt;
+|-
+|
+: A colon &lt;nowiki&gt;(:)&lt;/nowiki&gt; indents a line or paragraph.
+A newline starts a new paragraph. &lt;br&gt;
+: We use 1 colon to indent once.
+:: We use 2 colons to indent twice.
+::: 3 colons to indent 3 times, and so on.
+|&lt;pre&gt;
+: A colon (:) indents a line or paragraph.
+A newline starts a new paragraph. &lt;br&gt;
+Often used for discussion on talk pages.
+: We use 1 colon to indent once.
+:: We use 2 colons to indent twice.
+::: 3 colons to indent 3 times, and so on.
+&lt;/pre&gt;
+|-
+|
+&lt;br&gt;
+A semicolon (&lt;nowiki&gt;;&lt;/nowiki&gt;) starts a definition list, like this:
+;Definition
+:Text item 1
+:Text item 2
+|&lt;pre&gt;
+;Definition
+:Text item 1
+:Text item 2
+&lt;/pre&gt;
+|-
+| 
+An explicit horizontal rule is obtained using four dashes (-'s).
+----
+|
+&lt;pre&gt;
+----
+&lt;/pre&gt;
+|}
+&lt;/center&gt;
+
+=== Avoiding formatting (&quot;just show what I typed!&quot;) ===
+
+Sometimes you will want to show literal text, without interpretation and reformatting by the wiki engine.  Here are some ways of doing that.
+
+&lt;center&gt;
+{|
+!What it looks like
+!What you type
+|-
+|
+&lt;nowiki&gt;
+The nowiki tag ignores 
+[[Wiki]] ''markup''.
+It reformats text by 
+removing
+newlines    and multiple
+ spaces.
+It still interprets special
+characters: &amp;rarr;
+&lt;/nowiki&gt;
+|&lt;pre&gt;
+&amp;lt;nowiki&amp;gt;
+The nowiki tag ignores 
+[[Wiki]] ''markup''.
+It reformats text by 
+removing
+newlines    and multiple
+ spaces.
+It still interprets special
+characters: &amp;amp;rarr;
+&amp;lt;/nowiki&amp;gt;
+&lt;/pre&gt;
+|-
+|
+&lt;pre&gt;
+The pre tag ignores [[Wiki]]
+ ''markup''.
+It also doesn't     reformat
+ text.
+It still interprets special
+characters: &amp;rarr;
+&lt;/pre&gt;
+|&lt;pre&gt;
+&amp;lt;pre&amp;gt;
+The pre tag ignores [[Wiki]]
+ ''markup''.
+It also doesn't     reformat
+ text.
+It still interprets special
+characters: &amp;amp;rarr;
+&amp;lt;/pre&amp;gt;
+&lt;/pre&gt;
+|-
+|
+Leading spaces are another way to preserve formatting.
+
+ Putting a space at the
+ beginning of each
+ line stops the text   
+ from being
+ reformatted.  It still 
+ interprets [[Wiki]]
+ ''markup'' and special
+ characters: &amp;rarr;
+|&lt;pre&gt;
+Leading spaces are another way
+to preserve formatting.
+
+ Putting a space at the
+ beginning of each
+ line stops the text   
+ from being
+ reformatted.  It still 
+ interprets [[Wiki]]
+ ''markup'' and special
+ characters: &amp;amp;rarr;
+&lt;/pre&gt;
+|}
+&lt;/center&gt;
+
+== How to make links ==
+
+In wiki parlance, a &quot;wikilink&quot; is an internal link to another page or a page-section within the same site (such as this one).  The wiki system automatically checks if the target of a wikilink exists.  If the page doesn't exist, the link leads instead to an editing screen.  Such links are nicknamed &quot;red links&quot; because they are colored red to indicate the status of the page (i.e., not created). In MediaWiki, a wikilink is enclosed in two inward-facing square brackets: &lt;nowiki&gt;&quot;[[&quot; and &quot;]]&quot;&lt;/nowiki&gt;.
+
+The other kind of link is an external link, which goes to another website altogether, whether that site is another wiki or not and whether the page is text, graphics, or other.  External links in MediaWiki syntax can be either plain URLs, or a URL followed by text all enclosed in single inward-facing square brackets: &quot;[&quot; and &quot;]&quot;.  An external link can take many forms:
+*''target'': &lt;nowiki&gt;http://meta.wikimedia.org/&lt;/nowiki&gt; is rendered as http://meta.wikimedia.org/
+*[ ''target'' ''label'' ], with a blank space in between: &lt;nowiki&gt; [http://meta.wikimedia.org/ wikimedia] &lt;/nowiki&gt; gives [http://meta.wikimedia.org/ wikimedia]  
+*[ ''target'' ] - these are automatically labelled with serial numbers 1, 2, 3, ...:&lt;nowiki&gt; [http://meta.wikimedia.org/]&lt;/nowiki&gt; gives [http://meta.wikimedia.org/]
+
+All told, there are four sorts of links in MediaWiki: 
+# internal links to other pages in the wiki
+# external links to websites
+# inter-wiki (links to other wikis)
+# inter-language links to other language versions of the same wiki
+
+The first letter of the target page is automatically capitalized and spaces are represented as underscores (typing an underscore in the link will have a similar effect as typing a space, but is not recommended, since the underscore will also be shown in the text).
+
+&lt;center&gt;
+{| 
+|-
+! Description
+! You type
+! You get
+|-
+|Internal link
+|&lt;tt&gt;&lt;nowiki&gt;[[Main Page]]&lt;/nowiki&gt;&lt;/tt&gt;
+|[[Main Page]]
+|-
+|Category link
+|&lt;tt&gt;&lt;nowiki&gt;[[:Category:Help]]&lt;/nowiki&gt;&lt;/tt&gt;
+|[[:Category:Help]]
+|-
+|Piped link 
+|&lt;tt&gt;&lt;nowiki&gt;[[Main Page|different text]]&lt;/nowiki&gt;&lt;/tt&gt;
+|[[Main Page|different text]]
+|-
+|Anchor link 
+|&lt;tt&gt;&lt;nowiki&gt;[[#External links|Anchor link]]&lt;/nowiki&gt;&lt;/tt&gt;
+|[[#External links|Anchor link]]
+|-
+|External link
+|&lt;tt&gt;&lt;nowiki&gt;http://mediawiki.org&lt;/nowiki&gt;&lt;/tt&gt;
+|http://mediawiki.org
+|-
+|Internal link to image file
+|&lt;tt&gt;&lt;nowiki&gt;[[media:example.jpg]]&lt;/nowiki&gt;&lt;/tt&gt;
+|[[media:example.jpg]]
+|-
+|External link,&lt;br /&gt;
+different title
+|&lt;tt&gt;&lt;nowiki&gt;[http://mediawiki.org MediaWiki]&lt;/nowiki&gt;&lt;/tt&gt;
+|[http://mediawiki.org MediaWiki]
+|-
+|External link,&lt;br /&gt;
+unnamed
+|&lt;tt&gt;&lt;nowiki&gt;[http://mediawiki.org]&lt;/nowiki&gt;&lt;/tt&gt;
+|[http://mediawiki.org]
+|-
+|External link,&lt;br /&gt;
+same host unnamed
+|&lt;tt&gt;&lt;nowiki&gt;[http://{{SERVERNAME}}/pagename]&lt;/nowiki&gt;&lt;/tt&gt;
+|[http://{{SERVERNAME}}/pagename]
+|-
+|Interwiki link
+|&lt;tt&gt;&lt;nowiki&gt;[[Wikipedia:MediaWiki]]&lt;/nowiki&gt;&lt;/tt&gt;
+|[[Wikipedia:MediaWiki]]
+|-
+|mailto
+|&lt;tt&gt;&lt;nowiki&gt;mailto:info@example.org&lt;/nowiki&gt;&lt;/tt&gt;
+|mailto:info@example.org
+|-
+|mailto unnamed
+|&lt;tt&gt;&lt;nowiki&gt;[mailto:info@example.org]&lt;/nowiki&gt;&lt;/tt&gt;
+|[mailto:info@example.org]
+|-
+|mailto named
+|&lt;tt&gt;&lt;nowiki&gt;[mailto:info@example.org info]&lt;/nowiki&gt;&lt;/tt&gt;
+|[mailto:info@example.org info]
+|-
+|redirect
+|&lt;tt&gt;&lt;nowiki&gt;#REDIRECT [[Main Page]]&lt;/nowiki&gt;&lt;/tt&gt;
+| &amp;rarr; [[Main Page]]
+|}
+&lt;/center&gt;
+
+== How to use math in TeX/LaTeX format ==
+
+This MediaWiki installation supports typing mathematical formulas in TeX/LaTeX syntax.  Math markup goes inside &lt;code&gt;&lt;nowiki&gt;&lt;math&gt; ... &lt;/math&gt;&lt;/nowiki&gt;&lt;/code&gt;. Here is an example:
+
+&lt;center&gt;
+{|
+!What it looks like
+!What you type
+|-
+|
+&lt;math&gt;\sum_{n=0}^\infty \frac{x^n}{n!}&lt;/math&gt;
+|&lt;pre&gt;&lt;nowiki&gt;
+&lt;math&gt;\sum_{n=0}^\infty \frac{x^n}{n!}&lt;/math&gt;
+&lt;/nowiki&gt;&lt;/pre&gt;
+|}
+&lt;/center&gt;
+
+
+The editing toolbar provide with the edit box (when you click to edit a wiki page) has a button for inserting the math tags.  Your TeX code has to be put literally; MediaWiki templates, predefined templates, and parameters cannot be used within math tags&amp;mdash;pairs of double braces are ignored and &quot;#&quot; gives an error message.
+
+There is a general [http://meta.wikimedia.org/wiki/Help:Formula MediaWiki help page on using TeX markup] that provides a lot of examples and information about using TeX/LaTeX math in wiki pages.
+
+== How to upload and reference images ==
+
+First, you need to '''upload an image file''' to the wiki (using the '''Upload file''' link at the bottom of the page) ''before'' you use the following wiki text to place the image on an article.  You can also reference images on an external page (see further below for a description of the different syntax), but uploading images is preferrable.  Uploaded images get their own revision histories and descriptions, and the image syntax provides more control.
+
+The full syntax for displaying an uploaded image is:
+ &lt;code&gt;&lt;nowiki&gt;[[Image:{name}|{options}]]&lt;/nowiki&gt;&lt;/code&gt;
+Where options can be zero or more of the following, separated by pipes:
+*&lt;code&gt;thumb&lt;/code&gt;, &lt;code&gt;thumbnail&lt;/code&gt;, or &lt;code&gt;frame&lt;/code&gt;: Controls how the image is formatted.
+*&lt;code&gt;left&lt;/code&gt;, &lt;code&gt;right&lt;/code&gt;, &lt;code&gt;center&lt;/code&gt;, &lt;code&gt;none&lt;/code&gt;: Controls the alignment of the image on the page.
+*&lt;code&gt;{width}px&lt;/code&gt;: Resizes the image to the given width in pixels.  (Note: the &quot;px&quot; must be present.)
+*&lt;code&gt;{caption text}&lt;/code&gt;
+The options can be given in any order. Some are mutually exclusive, and then the last specified wins. The last unrecognized option is used as the caption for framed images or together with thumbnails. (In other words,  if a given option does not match any of the other possibilities, it is assumed to be the caption text.)  It's also used as the '''alt''' description text, i.e. the text shown when you hover a cursor over the image. Caption text can contain wiki links or other formatting.
+
+The following are some examples.
+
+&lt;center&gt;
+{|
+|-
+!'''Description'''
+!'''You type''' 
+!'''You get'''
+|-
+|Embed image&lt;br /&gt; (with alt text)
+|
+&lt;code&gt;&lt;nowiki&gt;[[Image:Example.jpg|Lilly]]&lt;/nowiki&gt;&lt;/code&gt;
+|
+[[Image:Example.jpg|Lilly]]
+|-
+|Link to description page
+|
+&lt;code&gt;&lt;nowiki&gt;[[:Image:Example.jpg]]&lt;/nowiki&gt;&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;&lt;nowiki&gt;[[:Image:Example.jpg|Lilly]]&lt;/nowiki&gt;&lt;/code&gt;
+|
+[[:Image:Example.jpg]]&lt;br /&gt;
+[[:Image:Example.jpg|Lilly]]
+|-
+|Link directly to file
+|
+&lt;code&gt;&lt;nowiki&gt;[[Media:Example.jpg]]&lt;/nowiki&gt;&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;&lt;nowiki&gt;[[Media:Example.jpg|Lilly]]&lt;/nowiki&gt;&lt;/code&gt;
+|
+[[Media:Example.jpg]]&lt;br /&gt;
+[[Media:Example.jpg|Lilly]]
+|-
+|Thumbnail&lt;br /&gt; (centered, 100 pixels&lt;br /&gt; wide, with caption)
+|
+&lt;code&gt;&lt;nowiki&gt;[[Image:Example.jpg|center|
+thumb|100px|Lilly]]&lt;/nowiki&gt;&lt;/code&gt;
+|
+[[Image:Example.jpg|center|thumb|100px|Lilly]]
+|-
+|Border&lt;br /&gt; (100 pixels) &lt;br /&gt; Results in a very small gray border
+&lt;!-- Note: because the fine gray border can not be seen when used on the &quot;Lilly&quot;-image an image is used with a withe background --&gt;
+|
+&lt;code&gt;&lt;nowiki&gt;[[Image:Example.jpg|border|100px]]&lt;/nowiki&gt;&lt;/code&gt;
+|
+[[Image:Example.jpg|border|100px]]
+|-
+|Frameless&lt;br /&gt;Like thumbnail, respect user preferences for image width but without border and no right float.
+|
+&lt;code&gt;&lt;nowiki&gt;[[Image:Example.jpg|frameless]]&lt;/nowiki&gt;&lt;/code&gt;
+|
+[[Image:Example.jpg|frameless]]
+|}
+&lt;/center&gt;
+
+=== External image files ===
+
+You can link to an external file using the same syntax used for linking to an external web page. 
+*&lt;code&gt;&lt;nowiki&gt;[http://url.for/some/image.png]&lt;/nowiki&gt;&lt;/code&gt;
+Or with different text:
+*&lt;code&gt;&lt;nowiki&gt;[http://url.for/some/image.png link text here]&lt;/nowiki&gt;&lt;/code&gt;
+
+=== Gallery of images ===
+
+It's easy to make a gallery of thumbnails with the &lt;code&gt;&lt;nowiki&gt;&lt;gallery&gt;&lt;/nowiki&gt;&lt;/code&gt; tag. The syntax is:
+&lt;pre&gt;
+&lt;gallery&gt;
+Image:{filename}|{caption}
+Image:{filename}|{caption}
+{...}
+&lt;/gallery&gt;
+&lt;/pre&gt;
+Captions are optional, and may contain wiki links or other formatting.
+
+for example:
+&lt;pre&gt;
+&lt;gallery&gt;
+Image:Example.jpg|Item 1
+Image:Example.jpg|a link to [[Help]]
+Image:Example.jpg
+Image:Example.jpg
+Image:Example.jpg|''italic caption''
+&lt;/gallery&gt;
+&lt;/pre&gt;
+is formatted as:
+&lt;gallery&gt;
+Image:Example.jpg|Item 1
+Image:Example.jpg|a link to [[Help]]
+Image:Example.jpg
+Image:Example.jpg
+Image:Example.jpg|''italic caption''
+&lt;/gallery&gt;
+
+== How to create tables ==
+
+Tables may be authored in wiki pages using either HTML table elements directly, or using wikicode formatting to define the table.  The benefit of wikicode is that the table is constructed of character symbols which tend to make it easier to perceive the table structure in the article editing view compared to HTML table elements.
+
+A good general rule of thumb is to avoid using a table unless you need to. Table markup often complicates page editing.
+
+=== Wiki table markup summary ===
+
+{|
+|&lt;nowiki&gt;{|&lt;/nowiki&gt; || start '''table'''
+|-
+|&lt;nowiki&gt;|+&lt;/nowiki&gt; || table '''caption,''' ''optional;'' only one per table and between table start and first row
+|-
+|&lt;nowiki&gt;|-&lt;/nowiki&gt; || '''table row,''' ''optional on first row'' -- wiki engine assumes the first row
+|-
+|&lt;nowiki&gt;!&lt;/nowiki&gt;  || '''table header''' cell, ''optional.'' Consecutive table headers may be added on same line separated by double marks (!!) or start on new lines, each with its own single mark (!).
+|- 
+|&lt;nowiki&gt;|&lt;/nowiki&gt;  || '''table data''' cell, ''required!'' Consecutive table data cells may be added on same line separated by double marks (&lt;nowiki&gt;||&lt;/nowiki&gt;) or start on new lines, each with its own single mark (&lt;nowiki&gt;|&lt;/nowiki&gt;).
+|-
+|&lt;nowiki&gt;|}&lt;/nowiki&gt; || end '''table'''
+|}
+*The above marks must '''start on a new line''' except the double || and !! for optionally adding consecutive cells to a line.
+*'''XHTML attributes.''' Each mark, except table end, optionally accepts one or more XHTML attributes. Attributes must be on the same line as the mark. Separate attributes from each other with a single space. 
+**Cells and caption (&lt;nowiki&gt;| or ||, ! or !!, and |+&lt;/nowiki&gt;) hold content. So separate any attributes from content with a single pipe (|). Cell content may follow on same line or on following lines.
+**Table and row marks (&lt;nowiki&gt;{| and |-&lt;/nowiki&gt;) do not directly hold content. Do ''not'' add pipe (|) after their optional attributes. If you erroneously add a pipe after attributes for the table mark or row mark the parser will delete it ''and'' your final attribute if it was touching the erroneous pipe!
+*'''Content''' may (a) follow its cell mark on the same line after any optional XHTML attributes or (b) on lines below the cell mark. Content that uses wiki markup that itself needs to start on a new line, such as lists, headers, or nested tables, must of course be on its own new line.
+
+'''''Warning''''':Negative value minus sign can break your table (it may display missing some values) if you start a cell on a new line with a negative number or a parameter that evaluates to a negative number (|-6) because that is the wiki markup for table row, not table cell. To avoid this, insert a space before the value (| -6) or use in-line cell markup (||-6).
+
+=== Simple table ===
+
+The following table lacks borders and good spacing but shows the simplest wiki markup table structure.
+
+&lt;center&gt;
+{|
+!What it looks like
+!What you type
+|-
+|
+{|
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+|width=&quot;50%&quot;|
+&lt;pre&gt;
+{|
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+&lt;/pre&gt;
+|}
+&lt;/center&gt;
+
+
+For more table-ish looking wiki markup cells can be listed on one line separated by ||. This does not scale well for longer cell content such as paragraphs. It works well for short bits of content however, such as our example table.
+
+Extra spaces within cells in the wiki markup can be added, as I have done in the wiki markup below, to make the wiki markup itself look better but they do not affect the actual table rendering.
+
+HTML attributes can be added to tables on this page but have been left out of the following example for simplicity.
+
+&lt;center&gt;
+{|
+!What it looks like
+!What you type
+|-
+|
+{|
+|  Orange    ||   Apple   ||   more
+|-
+|   Bread    ||   Pie     ||   more
+|-
+|   Butter   || Ice cream ||  and more
+|}
+|width=&quot;50%&quot;|
+&lt;pre&gt;
+{|
+|  Orange    ||   Apple   ||   more
+|-
+|   Bread    ||   Pie     ||   more
+|-
+|   Butter   || Ice cream ||  and more
+|}
+&lt;/pre&gt;
+|}
+&lt;/center&gt;
+
+=== Table with TH headings ===
+
+TH (HTML table headings) can be created by using ! instead of |. Headings usually show up bold and centered by default.
+
+&lt;center&gt;
+{| width=&quot;100%&quot;
+!What it looks like
+!What you type
+|-
+|
+{| align=&quot;center&quot;
+!Yummy
+!Yummier
+|-
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+|width=&quot;50%&quot;|
+&lt;pre&gt;
+{|
+!Yummy
+!Yummier
+|-
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+&lt;/pre&gt;
+|}
+&lt;/center&gt;
+
+
+They can appear on the side:
+
+&lt;center&gt;
+{| width=&quot;100%&quot;
+!What it looks like
+!What you type
+|-
+|
+{|
+!Fruit
+|Orange
+|Apple
+|-
+!Dish
+|Bread
+|Pie
+|-
+!Complement
+|Butter
+|Ice cream 
+|}
+|width=&quot;50%&quot;|
+&lt;pre&gt;
+{|
+!Fruit
+|Orange
+|Apple
+|-
+!Dish
+|Bread
+|Pie
+|-
+!Complement
+|Butter
+|Ice cream 
+|}
+&lt;/pre&gt;
+|}
+&lt;/center&gt;
+
+
+Right justified side headings can be done as follows:
+
+&lt;center&gt;
+{|  width=&quot;100%&quot;
+!What it looks like
+!What you type
+|-
+|
+{| 
+!align=&quot;right&quot; |Fruit
+|Orange
+|Apple
+|-
+!align=&quot;right&quot; |Dish
+|Bread
+|Pie
+|-
+!align=&quot;right&quot; |Complement
+|Butter
+|Ice cream 
+|}
+|width=&quot;50%&quot;|
+&lt;pre&gt;
+{| 
+!align=&quot;right&quot; |Fruit
+|Orange
+|Apple
+|-
+!align=&quot;right&quot; |Dish
+|Bread
+|Pie
+|-
+!align=&quot;right&quot; |Complement
+|Butter
+|Ice cream 
+|}
+&lt;/pre&gt;
+|}
+&lt;/center&gt;
+
+===Caption===
+
+A '''table caption''' can be added to the top of any table as follows:
+
+&lt;center&gt;
+{|  width=&quot;100%&quot; cellspacing=&quot;5&quot;
+!What it looks like
+!What you type
+|-
+|
+{|
+|+Food complements
+|-
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+|width=&quot;50%&quot;|
+&lt;pre&gt;
+{|
+|+Food complements
+|-
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+&lt;/pre&gt;
+|}
+&lt;/center&gt;
+
+
+'''Attributes''' can be added to the caption as follows:
+
+&lt;center&gt;
+{| width=&quot;100%&quot; cellspacing=&quot;5&quot;
+!What it looks like
+!What you type
+|-
+|
+{|
+|+align=&quot;bottom&quot; style=&quot;color:#e76700;&quot;|''Food complements''
+|-
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+|width=&quot;50%&quot;|
+&lt;pre&gt;
+{|
+|+align=&quot;bottom&quot; style=&quot;color:#e76700;&quot;|''Food complements''
+|-
+|Orange
+|Apple
+|-
+|Bread
+|Pie
+|-
+|Butter
+|Ice cream 
+|}
+&lt;/pre&gt;
+|}
+&lt;/center&gt;
+
+&lt;br /&gt;
+
+== How to color text ==
+
+It is very simple to color a selection of text: simply use the standard HTML markup as shown in the following example:
+&lt;pre&gt;
+  &lt;font color=&quot;COLOR&quot;&gt;some text...&lt;/font&gt;
+&lt;/pre&gt;
+
+COLOR is a color expressed either as a [http://en.wikipedia.org/wiki/Web_colors recognized HTML color names] or [http://en.wikipedia.org/wiki/Web_colors hexadecimal color codes].  &lt;font color=&quot;green&quot;&gt;For example, if you wanted this phrase to appear colored green on your monitor&lt;/font&gt;, you would use the word &quot;green&quot; as the value of COLOR.
+
+Note that it is a very good idea to avoid shades of blue and red as colors, because they have special meaning on this site.  (Dark blue is the color of unvisited hyperlinks, lighter blue is the color of visited hyperlinks, and red is the color of hyperlinks to wiki pages that do not yet exist.)
+
+== How to use &quot;magic&quot; words ==
+
+MediaWiki's &quot;magic words&quot; are symbols recognized by the system and associated with particular actions or dynamic textual substitutions.  Here is a summary of some particularly useful magic words.  A  more extensive list is [http://meta.wikimedia.org/wiki/Help:Magic_words available at MediaWiki.org].
+
+=== Global time ===
+
+The time is reported in [http://en.wikipedia.org/wiki/UTC UTC].  Note that caching may affect the time displayed. If the page was displayed by the same user and has not changed (has not been edited) since the last time it was displayed, it is possible that the page may be cached (by the user's browser) and the displayed time or date may not change.  Also, if a heavily used page, rather than freshly rendered by the software each time it is generated, is instead being retrieved from a caching system (such as the main page on Wikipedia) the date or time may not change from the last time the page was originally retrieved by the caching hardware or software.
+
+{|
+! Word
+! class=&quot;unsortable&quot; | Example 
+! class=&quot;unsortable&quot; | Explanation
+|-
+| &lt;nowiki&gt;{{CURRENTDAY}}&lt;/nowiki&gt;
+| &lt;code&gt;{{CURRENTDAY}}&lt;/code&gt;
+| Displays the current day in numeric form.
+|-
+| &lt;nowiki&gt;{{CURRENTDAY2}}&lt;/nowiki&gt;
+| &lt;code&gt;{{CURRENTDAY2}}&lt;/code&gt;
+| '''[MW1.6+]''' Same as &lt;nowiki&gt;{{CURRENTDAY}}&lt;/nowiki&gt;, but with leading zero (01 .. 31).
+|-
+| &lt;nowiki&gt;{{CURRENTDAYNAME}}&lt;/nowiki&gt;
+| &lt;code&gt;{{CURRENTDAYNAME}}&lt;/code&gt;
+| Name of the day in the language of the project or English.
+|-
+| &lt;nowiki&gt;{{CURRENTDOW}}&lt;/nowiki&gt;
+| &lt;code&gt;{{CURRENTDOW}}&lt;/code&gt;
+| Same as &lt;nowiki&gt;{{CURRENTDAYNAME}}&lt;/nowiki&gt;, but as a number (0=Sunday, 1=Monday...).
+|-
+| &lt;nowiki&gt;{{CURRENTMONTH}}&lt;/nowiki&gt;
+| &lt;code&gt;{{CURRENTMONTH}}&lt;/code&gt;
+| The number 01 .. 12 of the month.
+|-
+| &lt;nowiki&gt;{{CURRENTMONTHABBREV}}&lt;/nowiki&gt;
+| &lt;code&gt;{{CURRENTMONTHABBREV}}&lt;/code&gt;
+| '''[MW1.5+]''' Same as &lt;nowiki&gt;{{CURRENTMONTH}}&lt;/nowiki&gt;, but in abbreviated form (Jan .. Dec).
+|-
+| &lt;nowiki&gt;{{CURRENTMONTHNAME}}&lt;/nowiki&gt;
+| &lt;code&gt;{{CURRENTMONTHNAME}}&lt;/code&gt;
+| Same as &lt;nowiki&gt;{{CURRENTMONTH}}&lt;/nowiki&gt;, but in named form (January .. December).
+|-
+| &lt;nowiki&gt;{{CURRENTTIME}}&lt;/nowiki&gt;
+| &lt;code&gt;{{CURRENTTIME}}&lt;/code&gt;
+| The current time (00:00 .. 23:59).
+|-
+| &lt;nowiki&gt;{{CURRENTHOUR}}&lt;/nowiki&gt;
+| &lt;code&gt;{{CURRENTHOUR}}&lt;/code&gt;
+| The current hour (00 .. 23).
+|-
+| &lt;nowiki&gt;{{CURRENTWEEK}}&lt;/nowiki&gt;
+| &lt;code&gt;{{CURRENTWEEK}}&lt;/code&gt;
+| Number of the current week (1-53) according to [http://en.wikipedia.org/wiki/en:ISO_8601 ISO 8601] with no leading zero.
+|-
+| &lt;nowiki&gt;{{CURRENTYEAR}}&lt;/nowiki&gt;
+| &lt;code&gt;{{CURRENTYEAR}}&lt;/code&gt;
+| Returns the current year.
+|-
+| &lt;nowiki&gt;{{CURRENTTIMESTAMP}}&lt;/nowiki&gt;
+| &lt;code&gt;{{CURRENTTIMESTAMP}}&lt;/code&gt;
+| '''[MW1.7+]''' [http://en.wikipedia.org/wiki/en:ISO_8601 ISO 8601] time stamp.
+|}
+
+===Local time===
+
+The time depending on the local timezone of the wiki (''not'' depending on the timezone in the user's preference settings).
+
+{|
+! Word 
+! Example 
+! Explanation
+|-
+| &lt;nowiki&gt;{{LOCALDAY}}&lt;/nowiki&gt;
+| &lt;code&gt;{{LOCALDAY}}&lt;/code&gt;
+| Displays the local day of the month in numeric form.
+|-
+| &lt;nowiki&gt;{{LOCALDAY2}}&lt;/nowiki&gt;
+| &lt;code&gt;{{LOCALDAY2}}&lt;/code&gt;
+| Same as &lt;nowiki&gt;{{LOCALDAY}}&lt;/nowiki&gt;, but with a leading zero (01 .. 31).
+|-
+| &lt;nowiki&gt;{{LOCALDAYNAME}}&lt;/nowiki&gt;
+| &lt;code&gt;{{LOCALDAYNAME}}&lt;/code&gt;
+| Name of the day in the language of the project or English.
+|-
+| &lt;nowiki&gt;{{LOCALDOW}}&lt;/nowiki&gt;
+| &lt;code&gt;{{LOCALDOW}}&lt;/code&gt;
+| Same as &lt;nowiki&gt;{{LOCALDAYNAME}}&lt;/nowiki&gt;, but as a number (0=Sunday, 1=Monday...).
+|-
+| &lt;nowiki&gt;{{LOCALMONTH}}&lt;/nowiki&gt;
+| &lt;code&gt;{{LOCALMONTH}}&lt;/code&gt;
+| The number 01 .. 12 of the month.
+|-
+| &lt;nowiki&gt;{{LOCALMONTHABBREV}}&lt;/nowiki&gt;
+| &lt;code&gt;{{LOCALMONTHABBREV}}&lt;/code&gt;
+| Same as &lt;nowiki&gt;{{LOCALMONTH}}&lt;/nowiki&gt;, but in abbreviated form as Jan .. Dec.
+|-
+| &lt;nowiki&gt;{{LOCALMONTHNAME}}&lt;/nowiki&gt;
+| &lt;code&gt;{{LOCALMONTHNAME}}&lt;/code&gt;
+| Same as &lt;nowiki&gt;{{LOCALMONTH}}&lt;/nowiki&gt;, but in named form as January .. December.
+|-
+| &lt;nowiki&gt;{{LOCALTIME}}&lt;/nowiki&gt;
+| &lt;code&gt;{{LOCALTIME}}&lt;/code&gt;
+| The local time (00:00 .. 23:59).
+|-
+| &lt;nowiki&gt;{{LOCALHOUR}}&lt;/nowiki&gt;
+| &lt;code&gt;{{LOCALHOUR}}&lt;/code&gt;
+| The local hour (00 .. 23).
+|-
+| &lt;nowiki&gt;{{LOCALWEEK}}&lt;/nowiki&gt;
+| &lt;code&gt;{{LOCALWEEK}}&lt;/code&gt;
+| Number of the local week (1-53) according to [http://en.wikipedia.org/wiki/en:ISO_8601 ISO 8601] with no leading zero.
+|-
+| &lt;nowiki&gt;{{LOCALYEAR}}&lt;/nowiki&gt;
+| &lt;code&gt;{{LOCALYEAR}}&lt;/code&gt;
+| Returns the local year.
+|-
+| &lt;nowiki&gt;{{LOCALTIMESTAMP}}&lt;/nowiki&gt;
+| &lt;code&gt;{{LOCALTIMESTAMP}}&lt;/code&gt;
+| [http://en.wikipedia.org/wiki/en:ISO_8601 ISO 8601] time stamp.
+|}
+
+=== Page names and related info ===
+
+{|
+! Word 
+! Example 
+! Explanation
+|-
+| &lt;nowiki&gt;{{PAGENAME}}&lt;/nowiki&gt;
+| &lt;code&gt;Some Page Name&lt;/code&gt;
+| Returns the name of the current page, including all levels (Title/Subtitle).
+|-
+| &lt;nowiki&gt;{{PAGENAMEE}}&lt;/nowiki&gt;
+| &lt;code&gt;Some_Page_Name&lt;/code&gt;
+| More URL-friendly, with special characters percent-encoded. (Useful for using an articlename in an external link.)
+|-
+| &lt;nowiki&gt;{{SUBPAGENAME}}&lt;/nowiki&gt;&lt;br /&gt;&lt;nowiki&gt;{{SUBPAGENAMEE}}&lt;/nowiki&gt;
+| &lt;code&gt;Page Name&lt;br /&gt;Page_Name&lt;/code&gt;
+| Name of the current page, excluding parent pages (&quot;Page Name&quot; on
+&quot;One/Two/Page Name&quot;) in namespaces supporting subpages.
+|-
+| &lt;nowiki&gt;{{BASEPAGENAME}}&lt;/nowiki&gt;&lt;br &gt;&lt;nowiki&gt;{{BASEPAGENAME}}&lt;/nowiki&gt;
+| &lt;code&gt;One/Two&lt;br /&gt;One/Two&lt;/code&gt;
+| The basename of a subpage (&quot;One/Two&quot; on &quot;One/Two/Page Name&quot;).
+|-
+| &lt;nowiki&gt;{{REVISIONID}}&lt;/nowiki&gt;
+| &lt;code&gt;{{REVISIONID}}&lt;/code&gt;
+| The unique identifying number of a page.  Note that when editing a page, this value is null.
+|-
+| &lt;nowiki&gt;{{REVISIONDAY}}&lt;/nowiki&gt;
+| &lt;code&gt;{{REVISIONDAY}}&lt;/code&gt;
+| The day on which the page was last modified.
+|-
+| &lt;nowiki&gt;{{REVISIONDAY2}}&lt;/nowiki&gt;
+| &lt;code&gt;{{REVISIONDAY2}}&lt;/code&gt;
+| The day on which the page was last modified, but with a leading zero (01 .. 31).
+|-
+| &lt;nowiki&gt;{{REVISIONMONTH}}&lt;/nowiki&gt;
+| &lt;code&gt;{{REVISIONMONTH}}&lt;/code&gt;
+| The month in which the page was last modified.
+|-
+| &lt;nowiki&gt;{{REVISIONYEAR}}&lt;/nowiki&gt;
+| &lt;code&gt;{{REVISIONYEAR}}&lt;/code&gt;
+| The year in which the page was last modified.
+|-
+| &lt;nowiki&gt;{{REVISIONTIMESTAMP}}&lt;/nowiki&gt;
+| &lt;code&gt;{{REVISIONTIMESTAMP}}&lt;/code&gt;
+| [http://en.wikipedia.org/wiki/en:ISO_8601 ISO 8601] time stamp, indicating when the page was last modified.
+|-
+| &lt;nowiki&gt;{{SITENAME}}&lt;/nowiki&gt;
+| &lt;code&gt;{{SITENAME}}&lt;/code&gt;
+| Value of {{h:mwg|Sitename}}.
+|-
+| &lt;nowiki&gt;{{SERVER}}&lt;/nowiki&gt;
+| &lt;small&gt;{{SERVER}}&lt;/small&gt;
+| Value of {{h:mwg|Server}}  
+|-
+| &lt;nowiki&gt;{{SERVERNAME}}&lt;/nowiki&gt;
+| &lt;code&gt;{{SERVERNAME}}&lt;/code&gt;
+| {{h:mwg|ServerName}}
+|-
+|}
+
+&lt;br /&gt;
+
+== Special features of the SBML.org wiki system ==
+
+This site includes several extensions and customizations added by the SBML Team.  These features are not standard in basic MediaWiki sites, although versions of them are available as [[http://www.mediawiki.org/wiki/Extension_Matrix|extensions to MediaWiki]].
+
+=== Using images as icons ===
+
+This wiki implements a modified version of the [http://www.mediawiki.org/wiki/Extension:Icon MediaWiki &quot;Icon&quot; extension].  The extension provides a means of inserting an image into a page such that the image is ''not'' turned into a link to the image file description (which is what the standard MediaWiki &lt;code&gt;&lt;nowiki&gt;[[Image]]&lt;/nowiki&gt;&lt;/code&gt; markup does).  The syntax of the new function provided by this extension is the following:
+
+&lt;pre&gt;
+ {{#icon: file name | alt text | width | page to link to | CSS classes }}
+&lt;/pre&gt;
+
+Only the file name is required; the remaining arguments are optional.  Most of the arguments are hopefully self-explanatory, except for the last one: the &quot;CSS classes&quot; is text added to the value of the &lt;code&gt;&lt;nowiki&gt;class&lt;/nowiki&gt;&lt;/code&gt; attribute of the &lt;code&gt;&lt;nowiki&gt;&lt;img src=&quot;...&quot;/&gt;&lt;/nowiki&gt;&lt;/code&gt; element used to place the image on the rendered page.  The &lt;code&gt;#icon&lt;/code&gt; function always adds &lt;code&gt;&lt;nowiki&gt;class=&quot;icon&quot;&lt;/nowiki&gt;&lt;/code&gt; to the &lt;code&gt;img&lt;/code&gt; element, but the additional argument allows you to append more class attribute values.  This is useful for changing the appearance of the image.
+
+The following are some examples of use:
+
+* &lt;code&gt;&lt;nowiki&gt;{{#icon: Image.jpg | Info }}&lt;/nowiki&gt;&lt;/code&gt; will display file Image.jpg in its default size, with alt text &quot;Info&quot;
+* &lt;code&gt;&lt;nowiki&gt;{{#icon: Image.jpg | Info | 24 }}&lt;/nowiki&gt;&lt;/code&gt; same as above, but the width of the image is set to 24 pixels
+* &lt;code&gt;&lt;nowiki&gt;{{#icon: Image.jpg | Info | 24 | News }}&lt;/nowiki&gt;&lt;/code&gt; same as above, and the image is made into a link to page [[News]]
+* &lt;code&gt;&lt;nowiki&gt;{{#icon: Image.jpg | | | | corner iradius15 }}&lt;/nowiki&gt;&lt;/code&gt; adds &quot;corner iradius15&quot; to the class
+
+=== Rounded image corners ===
+
+=== Collapsible tables ===
+
+
+
+=== Conditional/tests in wiki markup ===
+
+=== Site icons ===
+
+The SBGN.org site uses custom icons designed by Caltech's [http://directory.caltech.edu/cgi-bin/search.cgi?uid=jas Jessica Stephens].  The following is  list of the icons.  Beware that '''nearly all are already used somewhere on this site''', so do not simply use them again without carefully thinking about the implications for content identity, overloading of meaning, and user confusion.  As a general rule, avoid reusing icons that already appear in top-level pages (e.g., [[Documents]]).  Icons that are used in the [http://sbgn.org/Forums Forums] area (especially those that show up only after a user is logged in to the Forums system) can probably be reused elsewhere without causing too much confusion.
+
+{| width=&quot;100%&quot; align=&quot;center&quot;
+! Icon 
+! Text
+! Places used on site
+|-
+| {{#icon:icon-download.gif}}
+| &lt;nowiki&gt;{{#icon:icon-download.gif}}&lt;/nowiki&gt;
+| 
+|-
+| {{#icon:icon-newpost.gif}}
+| &lt;nowiki&gt;{{#icon:icon-newpost.gif}}&lt;/nowiki&gt;
+| [http://sbgn.org/Forums Forums]
+|-
+| {{#icon:icon-nopost.gif}}
+| &lt;nowiki&gt;{{#icon:icon-nopost.gif}}&lt;/nowiki&gt;
+| [http://sbgn.org/Forums Forums]
+|-
+| {{#icon:icon-register.gif}}
+| &lt;nowiki&gt;{{#icon:icon-register.gif}}&lt;/nowiki&gt;
+| [http://sbgn.org/Forums Forums], various [[Events]] pages
+|-
+| {{#icon:icon-search.gif}}
+| &lt;nowiki&gt;{{#icon:icon-search.gif}}&lt;/nowiki&gt;
+| [http://sbgn.org/Forums Forums]
+|-
+| {{#icon:icon-publications.gif}}
+| &lt;nowiki&gt;{{#icon:icon-publications.gif}}&lt;/nowiki&gt;
+| [[Documents]]
+|-
+| {{#icon:icon-faq.gif}}
+| &lt;nowiki&gt;{{#icon:icon-faq.gif}}&lt;/nowiki&gt;
+| [[Documents]], [http://sbgn.org/Forums Forums]
+|-
+| {{#icon:icon-bestpractice.gif}}
+| &lt;nowiki&gt;{{#icon:icon-bestpractice.gif}}&lt;/nowiki&gt;
+| [[Documents]]
+|-
+| {{#icon:icon-samples.gif}}
+| &lt;nowiki&gt;{{#icon:icon-samples.gif}}&lt;/nowiki&gt;
+| [[Documents]], [[Community]]
+|-
+| {{#icon:icon-editors.gif}}
+| &lt;nowiki&gt;{{#icon:icon-editors.gif}}&lt;/nowiki&gt;
+| [[About]]
+|-
+| {{#icon:icon-queries.gif}}
+| &lt;nowiki&gt;{{#icon:icon-qureies.gif}}&lt;/nowiki&gt;
+| [[About]]
+|-
+| {{#icon:icon-flatview.gif}}
+| &lt;nowiki&gt;{{#icon:icon-flatview.gif}}&lt;/nowiki&gt;
+| [http://sbgn.org/Forums Forums]
+|-
+| {{#icon:icon-login.gif}}
+| &lt;nowiki&gt;{{#icon:icon-login.gif}}&lt;/nowiki&gt;
+| [http://sbgn.org/Forums Forums]
+|-
+| {{#icon:icon-logout.gif}}
+| &lt;nowiki&gt;{{#icon:icon-logout.gif}}&lt;/nowiki&gt;
+| [http://sbgn.org/Forums Forums]
+|-
+| {{#icon:icon-members.gif}}
+| &lt;nowiki&gt;{{#icon:icon-members.gif}}&lt;/nowiki&gt;
+| [http://sbgn.org/Forums Forums]
+|-
+| {{#icon:icon-newtopic.gif}}
+| &lt;nowiki&gt;{{#icon:icon-newtopic.gif}}&lt;/nowiki&gt;
+| [http://sbgn.org/Forums Forums]
+|-
+| {{#icon:icon-profile.gif}}
+| &lt;nowiki&gt;{{#icon:icon-profile.gif}}&lt;/nowiki&gt;
+| [http://sbgn.org/Forums Forums]
+|-
+| {{#icon:icon-post.gif}}
+| &lt;nowiki&gt;{{#icon:icon-post.gif}}&lt;/nowiki&gt;
+| [http://sbgn.org/Forums Forums]
+|-
+| {{#icon:icon-tree.gif}}
+| &lt;nowiki&gt;{{#icon:icon-tree.gif}}&lt;/nowiki&gt;
+| [http://sbgn.org/Forums Forums]
+|-
+| {{#icon:icon-funding2.gif}}
+| &lt;nowiki&gt;{{#icon:icon-funding2.gif}}&lt;/nowiki&gt;
+|
+|-
+| {{#icon:icon-funding-gift.gif}}
+| &lt;nowiki&gt;{{#icon:icon-funding-gift.gif}}&lt;/nowiki&gt;
+| [[About]]
+|-
+| {{#icon:icon-events.gif}}
+| &lt;nowiki&gt;{{#icon:icon-events.gif}}&lt;/nowiki&gt;
+| 
+|-
+| {{#icon:icon-forum.gif}}
+| &lt;nowiki&gt;{{#icon:icon-forum.gif}}&lt;/nowiki&gt;
+| 
+|-
+| {{#icon:icon-home.gif}}
+| &lt;nowiki&gt;{{#icon:icon-home.gif}}&lt;/nowiki&gt;
+| [http://sbgn.org/Forums Forums]
+|-
+| {{#icon:icon-rss.gif}}
+| &lt;nowiki&gt;{{#icon:icon-rss.gif}}&lt;/nowiki&gt;
+| [http://sbgn.org/Forums Forums]
+|-
+| {{#icon:icon-software.gif}}
+| &lt;nowiki&gt;{{#icon:icon-software.gif}}&lt;/nowiki&gt;
+| [[Community]], [http://sbgn.org/Forums Forums]
+|-
+|}</text>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,105 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>LibSBGN/SchematronHowto</title>
+    <id>773</id>
+    <revision>
+      <id>2992</id>
+      <timestamp>2012-11-05T15:51:30Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <comment>New page: == Concept and Features ==  The way that Schematron is used is that first the rule set is converted into a XML stylesheet (XSL), and then the dataset to be validated is transformed against...</comment>
+      <text xml:space="preserve">== Concept and Features ==
+
+The way that Schematron is used is that first the rule set is
+converted into a XML stylesheet (XSL), and then the dataset to be
+validated is transformed against the stylesheet to produce the
+validation report (see Basic Usage). A strength of Schematron is its
+ability to use XPath expressions to select XML instances, therefore a
+good understanding of XPath is essential (see XPath Links).
+
+=== Features ===
+
+* Schematron uses assertions (used to detects errors) and reports
+(used to report affirmative instances).
+* Schematron supports workflows in which distinct groups of rules are
+active; these are known as phases.
+* Schematron supports the reporting of diagnostic information.
+
+== Basic Usage ==
+
+Here is an example using the Xalan XSLT processor:
+
+ # Xalan SCHEMATRON_SOURCE.sch ./schematron/iso_svrl_for_xslt1.xsl &gt;
+ SCHEMATRON_AS_XSL.xsl
+ # Xalan FILE_TO_BE_VALIDATED.xml SCHEMATRON_AS_XSL.xsl &gt; VALIDATION_REPORT.svrl
+
+== Schematron Tutorials and Tips ==
+
+* [http://www.dpawson.co.uk/schematron/index.html ISO Schematron Tutorial]
+* [http://www.ldodds.com/papers/schematron_xsltuk.html Schematron: validating XML using XSLT]
+* [http://www.mulberrytech.com/papers/schematron-Philly.pdf Introduction to Schematron]
+* [http://broadcast.oreilly.com/2009/06/the-top-three-mistakes-in-sche.html The top three mistakes in Schematron]
+
+== Schematron Documentation ==
+
+* [http://www.schematron.com/spec.html Schematron specification]
+* [http://www.mulberrytech.com/quickref/schematron1.pdf Schematron Quick Reference]
+
+== Main Schematron Pages ==
+
+* [http://code.google.com/p/schematron/ Schematron on Google Code (for downloads)]
+* [http://www.schematron.com/ Schematron Homepage]
+
+== Extending Schematron == 
+
+* [http://www.schematron.com/schematron-skeleton-api.htm API for ISO Schematron Skeleton]
+* [http://code.google.com/p/probatron4j/ Probatron4j - Java Schematron implementation uses custom XPath functions coded in Java]
+
+== XPath Links ==
+
+* [http://www.w3.org/TR/xpath/#path-abbrev XPath Abbreviated Syntax]
+* [http://www.w3schools.com/Xpath/xpath_functions.asp XPath, XQuery, and XSLT Functions]
+* [http://msdn.microsoft.com/en-us/library/ms256086.aspx XPath Examples]
+* [http://www.bastian-bergerhoff.com/eclipse/features/web/XPathDeveloper/toc.html XPath Developer Eclipse Plugin] An environment to test XPath expressions
+
+== Java XSLT Processors ==
+
+* [http://xalan.apache.org Xalan]
+* [http://saxon.sourceforge.net/ Saxon]
+
+== Navigating Objects using XPath ==
+
+* [http://commons.apache.org/jxpath/ JXPath: Applies XPath expressions to graphs of objects of all kinds: JavaBeans, Maps, Servlet contexts, DOM, etc.]</text>
+    </revision>
+  </page>
+</mediawiki>

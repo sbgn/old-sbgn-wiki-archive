@@ -1,0 +1,77 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Housekeeping Issues</title>
+    <id>419</id>
+    <revision>
+      <id>1779</id>
+      <timestamp>2009-09-05T02:18:01Z</timestamp>
+      <contributor>
+        <username>Smoodie</username>
+        <id>12</id>
+      </contributor>
+      <text xml:space="preserve">==== Hosting ====
+
+It was agreed to host all SBGN resources at SourceForge. This means that the Wiki and sbgn-discuss mailing list should be moved there. There was no volunteer to do this.
+
+==== SF Issues ====
+
+* The svn project name will need to change from ProcessDiagram to ProcessDescription. This will be done soon now that the release are out.
+
+* There was agreement to move from the SF Tracker to MantisBT as the projects issue tracker. This is hosted by SF and provides a number of benefits:
+
+** Control workflow
+** Assign changes to releases
+** Finer grained control
+** More mature, more features that tracker
+** Not dependent on SF
+
+==== libSBGN ====
+
+* There was much discussion about the relationship between libSBGN and SBGN proper. It was clear from the discussion that SBGN and the SBGN specifications should be clearly distinct from libSBGN. It is also not giverened by the Editorial board.
+
+* In subsequent discussion during the Editorial Board meeting the next day it was agree that the Steering Committee would have an interest ing this as much of the SBGN grant funding does or is likely to have a focus on implementing tools support and libraries.
+
+* There was inconclusive discussion about whether to split libSBGN into a separate project. It was later agreed during the Editorial Board Meeting that this would be desirable for practical reasons of controlling access permissions to the repository and mailing lists. Alice Villeger will do this.
+
+==== sbgn.org ====
+
+* The sbgn.org domain the hosting of the web site was inquired into the following are the details of the server hosting provided later by Yukiko Matsuoka:
+
+&lt;blockquote&gt;
+The domain sbgn.org was being registered by SBI with NEDO money.
+Created on 2005 Feb, secured till 2012 Feb.
+
+The website is hosted in one of the servers managed in SBI.
+and all the data including WIKI is stored on the server (NOT in Keio Univ.)
+&lt;/blockquote&gt;</text>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,97 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Editors Telecon 23 Jan 2013</title>
+    <id>857</id>
+    <revision>
+      <id>3207</id>
+      <timestamp>2013-01-23T20:55:06Z</timestamp>
+      <contributor>
+        <username>Falkschreiber</username>
+        <id>15</id>
+      </contributor>
+      <comment>/* How to increase user base */</comment>
+      <text xml:space="preserve">Present: 
+
+* Tobias Czauderna (TC)
+* Stuart Moodie (SM)
+* Anatoly Sorokin (AS)
+* Falk Schreiber (FS)
+
+== SBGN related workshop ==
+
+SM: Funding for a workshop in Edingburgh
+
+Discussion about the best time (around 15/04, beginning of May?)
+
+How long should the meeting be? - 3 days, maybe 4 days (lunch to lunch)
+
+Aim of the meeting: 
+* Kick-start SBGN
+* Content of next level of SBGN (Level 2)
+
+Decision:
+* SM will do survey with blocks of possible days
+
+== One day online / skype meeting ==
+
+Decision:
+* Similar to last one
+* Including all privious editors
+* TC will do survey of possible days
+* February / March
+
+== Other topics (from Alice via mail) ==
+
+* Symbol of the Month... Anyone wants to take responsibility for this?
+--&gt; FS will discus with NLN
+
+* I need to contact Nicolas Rodriguez if we want to change the look of the wiki (e.g. switch from a dark background to a lighter one)
+
+* Tobias migrated the SBGNML site onto the wiki, but the pages are not prefixed (like a new category) with SBGNML/, so they can't be told apart from the other SBGN pages. Maybe try and fix this?
+--&gt; TC will discus it directly with AV
+
+* Work on the PD specs: who, when, where, how, ...? (maybe cf below...?)
+
+* Meeting in Edinburgh mentioned by Anatoly a while ago?
+
+== How to increase user base ==
+
+SM: Survey how SBGN is used
+* More people than on sbgn-discuss
+
+FS: Tutorials at conferences
+
+AS: Put it in email, on facebook etc
+
+FS: (Part of) summer schools</text>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,120 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events</title>
+    <id>30</id>
+    <revision>
+      <id>3965</id>
+      <timestamp>2015-04-29T06:07:59Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <comment>/* COMBINE/HARMONY Events */</comment>
+      <text xml:space="preserve">__FORCETOC__
+
+== SBGN Events ==
+
+As part of our efforts to develop and establish SBGN, in &lt;big&gt;2006 we 
+initiated a workshop series&lt;/big&gt; to bring together individuals from around 
+the world who are interested in discussing SBGN, its implementation and its 
+evolution. 
+ 
+This page provides access to meeting pages, agendas, notes and 
+other information about upcoming as well as past events. 
+&lt;!-- Note to editors: The value of 'page' cannot be a URL; it must 
+  -- be a page relative to this site.  If you want to create a link
+  -- to an off-site location, put a RewriteRule into the .htaccess
+  -- file at the root of the sbgn.org MediaWiki installation, and
+  -- then refer to the &quot;fake&quot; page thus created.  You may also need
+  -- to create an actual page named after the fake page.  An example
+  -- of all this is how Events/SBGN-4.5 is done.
+  --&gt;
+
+&lt;!-- {{EventInfo | title = SBGN 8.5 | page = Events/SBGN-8.5 | image = UCHC-100x100.jpg | date = 20&amp;ndash;23 May 2013 | location = UCHC, USA | summary = SBGN 8.8 will be part of the third [http://co.mbine.org/events/HARMONY_2012 HARMONY hackathons].}} --&gt;
+
+
+{{EventInfo | title = SBGN 10 | page = Events/SBGN-10 | image = SBGN10-LA-100x100.jpg| date = 16 &amp;ndash; 22 August 2014 | location = Los Angeles, USA | summary = SBGN 10 was part of the fifth [http://co.mbine.org/events/COMBINE_2014 COMBINE forum].}}
+
+
+{{EventInfo | title = SBGN 9 | page = Events/SBGN-9 | image = edicastle_100x100.png| date = 29 Apr &amp;ndash; 2 May 2013 | location = Edinburgh, UK | summary = This workship was dedicated to SBGN and it focused on the current SBGN specifications and SBGN's future development.}}
+
+
+{{EventInfo | title = SBGN 8 | page = Events/SBGN-8 | image = Toronto_100x100.jpg| date = 15&amp;ndash;18 August 2012 | location = Toronto, CA | summary = SBGN 8 was part of the third [http://co.mbine.org/events/COMBINE_2012 COMBINE forum].}}
+
+{{EventInfo | title = SBGN 7.5 | page = Events/SBGN-7.5 | image = Maastricht.JPG | date = 21&amp;ndash;25 May 2012 | location = Maastricht, NL | summary = SBGN 7.5 was part of the second [http://co.mbine.org/events/HARMONY_2012 HARMONY hackathons].}}
+
+{{EventInfo | title = SBGN 7 | page = Events/SBGN-7 | image = Sbgn2.5-100x100.jpg| date = 3&amp;ndash;7 Sept. 2011 | location = Heidelberg, DE | summary = SBGN 7 was part of the second [http://co.mbine.org/events/COMBINE_2011 COMBINE forum].}}
+
+
+{{EventInfo | title = SBGN 6.5 | page = Events/SBGN-6.5 | image = Chrysler-100.jpg| date = 18&amp;ndash;22 Apr. 2011 | location = New-York, USA | summary = SBGN 6.5 took part of the first [http://www.co.mbine.org/events/HARMONY_2011 HARMONY hackathons], held at the [http://cbio.mskcc.org/ Memorial Sloan Kettering Cancer Center].  Some [[Discussion_on_Issues minutes of the discussions]].}}
+
+
+{{EventInfo | title = SBGN 6 | page = Events/SBGN-6 | image = Thistle.jpg| date = 05&amp;ndash;10 Oct. 2010 | location = Edinburgh, UK | summary = SBGN 6 took place as part of the first COMBINE forum, together with the SBML and SED-ML meeting, held as a satellite of the [http://www.icsb2010.org.uk/ ICSB].}}
+
+{{EventInfo | title = SBGN 5.5 | page = Events/SBGN-5.5 | image = Sbgn_5_5_wittenberg_100x100.jpg| date = 21&amp;ndash;23 Apr. 2010 | location = Wittenberg, Germany | summary = }}
+
+{{EventInfo | title = SBGN 5 | page = Events/SBGN-5 | image = GoldenGate-100.jpg
+
+ | date = 02&amp;ndash;03 Sept. 2009 | location = SRI International, Stanford, USA | summary = SBGN 5 took place just before the SBML forum.}}
+
+{{EventInfo | title = SBGN 4.5 | page = Events/SBGN-4.5 | image = Sbgn4.5-100x100.jpg | date = 05&amp;ndash;09 Apr. 2009 | location = Waiheke, New Zealand | summary = SBGN 4.5 was a joint meeting organised by the CellML group.}}
+
+{{EventInfo | title = SBGN 4 | page = Events/SBGN-4 | image = sbgn4-100x100.jpg | date = 16&amp;ndash;17 Oct. 2008 | location = Rostock, Germany | summary = SBGN 4 was a satellite of the The ''6th Conference on Computational Methods in Systems Biology'' (CMSB).}}
+
+{{EventInfo | title = SBGN 3.5 | page = Events/SBGN-3.5 | image = sbgn3.5-100x100.jpg | date = 28 Jan.&amp;ndash;2 Feb. 2008 | location = Okinawa, Japan | summary = SBGN 3.5 was part of the super-hackathon on &quot;standards and ontologies for systems biology&quot;, held in Okinawa, Japan.}}
+
+{{EventInfo | title = SBGN 3 | page = Events/SBGN-3 | image = sbgn3-100x100.jpg | date = 30 Sep. 2007 | location = Long Beach, California, USA | summary = SBGN 3 was held the day before the ICSB 2007 conference in Long Beach, California.}}
+
+{{EventInfo | title = SBGN 2.5 | page = Events/SBGN-2.5 | image = sbgn2.5-100x100.jpg | date = 15&amp;ndash;17 Mar. 2007 | location = Heidelberg, Germany | summary = This SBGN workshop was a &quot;spec-a-thon&quot; where a smaller group of people worked on hammering out details of rough draft specification for SBGN Level 1. }}
+
+{{EventInfo | title = SBGN 2 | page = Events/SBGN-2 | image = sbgn2-100x100.jpg | date = 7 October 2006 | location = Yokohama, Japan | summary = The second SBGN workshop was on the day before [http://www.icsb-2006.org/ ICSB 2006], in Yokohama, Japan, at the [http://www.welcome.city.yokohama.jp/convention/eng/search/details.php?fid=E008 Yokohama World Porters] building 6F, room 3.}}
+
+{{EventInfo | title = SBGN 1 | page = Events/SBGN-1 | image = sbgn1-100x100.jpg | date = 11&amp;ndash;12 February 2006 | location = Tokyo, Japan | summary = The first SBGN workshop was held at the [http://www.aist.go.jp/index_en.html AIST Tokyo Waterfront Bio-IT Research Building] in Tokyo, Japan.
+}}
+
+== COMBINE/HARMONY Events ==
+
+The 'COmputational Modeling in BIology' NEtwork ([http://co.mbine.org/ COMBINE]) is an initiative to coordinate the development of the various community standards and formats for computational models, initially in Systems Biology and related fields.
+
+{{EventInfo | title = COMBINE 2015 | page = Events/COMBINE_2015 | | date = 12&amp;ndash;16 October 2015 | location = Salt Lake City, UT, USA | summary = SBGN will be part of the sixth [http://co.mbine.org/events/COMBINE_2015 COMBINE forum].}}
+
+{{EventInfo | title = HARMONY 2015 | page = Events/HARMONY_2015 | image = Sbgn_5_5_wittenberg_100x100.jpg | date = 20&amp;ndash;24 April 2015 | location = Wittenberg, Germany | summary = SBGN was part of the fifth [http://co.mbine.org/events/HARMONY_2015 HARMONY hackathon].}}
+
+{{EventInfo | title = COMBINE 2014 | page = Events/COMBINE_2014 | image = sbgn3-100x100.jpg | date = 18&amp;ndash;22 August 2014 | location = Los Angeles, USA | summary = SBGN was part of the fifth [http://co.mbine.org/events/COMBINE_2014 COMBINE forum].}}
+
+{{EventInfo | title = HARMONY 2014 | page = Events/HARMONY_2014 | | date = 22&amp;ndash;25 April 2014 | location = Manchester, UK | summary = SBGN was part of the fourth [http://co.mbine.org/events/HARMONY_2014 HARMONY hackathon].}}
+
+{{EventInfo | title = COMBINE 2013 | page = Events/COMBINE2013 | image = Eiffel-100x100.jpg | date = 16&amp;ndash;20 September 2013 | location = Paris, France | summary = SBGN was part of the fourth [http://co.mbine.org/events/COMBINE_2013 COMBINE forum].}}
+
+{{EventInfo | title = HARMONY 2013 | page = Events/HARMONY2013 | image = UCHC-100x100.jpg | date = 20&amp;ndash;23 May 2013 | location = Farmington, USA | summary = SBGN was part of the third [http://co.mbine.org/events/HARMONY_2013 HARMONY hackathon].}}</text>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,147 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Competition/Competition 2011/</title>
+    <id>688</id>
+    <revision>
+      <id>2716</id>
+      <timestamp>2011-11-02T19:29:21Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <text xml:space="preserve">Below are all the submissions to the SBGN annual competition 2010, grouped by sections. The winners are:
+
+* Best SBGN software support: [[#SBGN-ED - WINNER| SBGN-ED]]
+* Best Map: [[#KEGG pathways in SBGN - WINNER| KEGG pathways in SBGN]]
+* Outreach: [[#Database: iPAVS - WINNER | Database: iPAVS]]
+
+== Best SBGN software support ==
+
+Software must be evaluated according to multiple criteria such as completeness, exactitude, and validation of SBGN or layout and rendering of the maps.
+
+=== iPAVS ===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Website: http://ipavs.cidms.org
+* Contact: [mailto:pradeeps@gist.ac.kr Pradeep Kumar]
+* [[media:IPAVs.txt | ‎Document describing the submission]]
+|[[Image:IPAVS.png|center| thumb|200px|iPAVS]]
+|}
+
+=== SBGN-ED - ''WINNER''===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Website: http://www.sbgn-ed.org/
+* Contact: [mailto:schreibe@ipk-gatersleben.de Falk Schreiber]
+* [[media:Submission_software.zip | File containing the submission]]
+|[[Image:Sbgn-ed.png|center| thumb|200px|SBGN-ED]]
+|}
+
+== Best SBGN map: Breadth, accuracy, aesthetics ==
+
+=== ER Stress response ===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Contact: [mailto:pradeeps@gist.ac.kr Pradeep Kumar]
+* [[media:PKumar-description.pdf | ‎Document describing the submission]]
+* [http://www.sbgn.org/images/4/48/ER_Stress_UPR_Pradeep-Kumar.png full size map]
+|
+[[Image:ER_Stress_UPR_Pradeep-Kumar.png|border|200px]]
+|}
+
+=== KEGG pathways in SBGN - ''WINNER'' ===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Contact: [mailto:schreibe@ipk-gatersleben.de Falk Schreiber]
+* [[media:KEGG-SBGN_map-explanation.pdf | ‎Document describing the submission]]
+* [http://www.sbgn.org/images/b/b9/KEGG-SBGN-map.png full size map]
+|
+[[Image:KEGG-SBGN-map-small.png|border|200px]]
+|}
+
+=== TGF beta signaling pathway ===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Contact: [mailto:k.wegner@herts.ac.uk Katja Wegner]
+* [[media:SbgnCompetWegner.pdf | ‎Document describing the submission]]
+* [[media:Tgfb.png | full size map]]
+|
+[[Image:Tgfb.png|border|200px]]
+|}
+
+=== Calcium regulation of synaptic plasticity ===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Contact: [mailto:mattioni@ebi.ac.uk Michele Mattioni]
+* [[media:MMattioni-description.txt | ‎Document describing the submission]]
+* [[media:SBGN-spine.png | full size map]]
+|
+[[Image:SBGN-spine.png|border|200px]]
+|}
+
+== Best SBGN outreach: lecture, training, publication, book, website  ==
+
+=== Database: iPAVS - ''WINNER''===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Website: http://ipavs.cidms.org
+* Contact: [mailto:pradeeps@gist.ac.kr Pradeep Kumar]
+* [[media:IPAVs.txt | ‎Document describing the submission]]
+|[[Image:IPAVS.png|center| thumb|200px|iPAVS]]
+|}
+
+=== Database: MetaCrop SBGN Maps===
+
+{| style=&quot;width:100%&quot;
+|- 
+|
+* Website: http://metacrop.ipk-gatersleben.de
+* Contact: [mailto:schreibe@ipk-gatersleben.de Falk Schreiber]
+* [[media:MetaCrop_SBGN_maps.pdf | ‎Document describing the submission]]
+|[[Image:MetaCrop.png|center| thumb|200px|MetaCrop]]
+|}</text>
+    </revision>
+  </page>
+</mediawiki>

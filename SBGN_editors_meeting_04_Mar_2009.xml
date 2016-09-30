@@ -1,0 +1,89 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>SBGN editors meeting 04 Mar 2009</title>
+    <id>358</id>
+    <revision>
+      <id>2009</id>
+      <timestamp>2010-02-10T22:40:20Z</timestamp>
+      <contributor>
+        <username>SBGNWikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>Protected &quot;[[SBGN editors meeting 04 Mar 2009]]&quot; [edit=sysop:move=sysop] [cascading]</comment>
+      <text xml:space="preserve">= Minutes of Editors' Meeting 4-5 March 09 =
+
+== Location ==
+
+Hinxton
+
+== Attendees ==
+
+Nicolas Le Novère (NL)
+Stuart Moodie (SM)
+Anatoly Sorokin (AS)
+Falk Schreiber (FS)
+
+Huaiyu Mi attended part of the second day through videocon.
+
+== Report ==
+
+On March 4th morning, the editors discussed in details the problems and errata of the PD L1 R1.0 specification, and what to put in PD L1 R1.1 versus PD L1 R2.
+
+A long discussion ensued about the problem of reversible reactions (see picture below). Currently while the semantics of consumption arc is clear, this is not the problem of production arc, that also cover an implicit consumption arc in the case of reversible reactions. Diverse approaches to the problem were envisioned: Changing the semantics of production arc, creating another arc, identical to production, but representing reversibility, and changing completely the syntax of processes.  
+[[Image:Reversibility.JPG|reversibility]]
+
+March 4th afternoon was devoted to discussions around ER L1. 
+
+The arrowheads use for assignment and interaction are identical (harpoon). This is confusing. Furthermore, while the assignment convey an idea of information transfer from the state variable value to the state variable, this is not the case of the interaction. On the contrary, the arrowhead are &quot;pointers&quot; t the interactors, but they could also suggest a transfer of information from the outcome to the interactors. Various possibilities were envisioned.
+
+[[Image:Interaction.JPG|interaction]]
+
+Only a few viable possibilities were retained (see below). However, it was felt that the issue should be postponed after L1 R1.
+
+[[Image:Interaction2.JPG|interaction conclusion]]
+
+We discussed in detail the representation of n_ary interactions. It was finally decided to propose a system were an interaction is represented by a circle attached to the arrow pointing to the interactors. The outcomes should all be on the circle. In the case of binary interaction without cardinality, the circle can be omitted.
+
+[[Image:nary_interactions.JPG|nary_interactions
+
+The representation of existence and location state variables were (re)discussed. The decision for existence was to use a variable represented by black and white semi-circles. The values would be T(rue) or F(alse). For the location variable, we will propose the use of a &quot;pin&quot;. 
+
+[[Image:Existence.JPG|existence]]
+
+The editors then discussed the concepts and structure of Level 1 of the Activity Flow diagrams. This was done with Huaiyu Mi through videoconf. The concept of activity was in particular refined. 
+
+The editors discussed the situation of the SBGN website. The website is great, nice and functional, largely thanks to the hard work of Mike Hucka and colleagues. But it is felt that the current situation is a bit dangerous since we are at the mercy of one machine on which we have no control at all. In the long run we should move it to Sourceforge. The question is to know who would take care of the content.
+
+Finally, the editors discussed the situation of SBGN meetings. In particular, the absence of any relevant information on ICSB 2010 called for back-up solutions. Falk will investigate possible SBGN meetings in Wittenberg in late October or Spring 2010.</text>
+    </revision>
+  </page>
+</mediawiki>

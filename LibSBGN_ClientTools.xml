@@ -1,0 +1,61 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>LibSBGN/ClientTools</title>
+    <id>768</id>
+    <revision>
+      <id>2980</id>
+      <timestamp>2012-11-05T15:04:53Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <comment>New page: Tools using or planning to use LibSBGN:  = Editors =  * [http://www.pathvisio.org PathVisio] has a plugin for creating, editing and exporting SBGN diagrams. Supports import of SBGN-ML Mile...</comment>
+      <text xml:space="preserve">Tools using or planning to use LibSBGN:
+
+= Editors =
+
+* [http://www.pathvisio.org PathVisio] has a plugin for creating, editing and exporting SBGN diagrams. Supports import of SBGN-ML Milestone 1 and 2. Supports export of SBGN-ML Milestone 2 only. Supports all three sublanguages of SBGN. For instructions on how to install and use, see [http://pathvisio.org/wiki/PluginDocumentation#SBGN here])
+* [http://www.sbgn-ed.org SBGN-ED], based on [http://www.vanted.org VANTED], allows editing, translating and validating of SBGN Maps. It currently supports Milestone 2 of SBGN-ML in the current release.
+* [http://www.celldesigner.org/ CellDesigner] will support SBGN-ML in the upcoming release.
+
+= Other = 
+
+* [http://arcadiapathways.sourceforge.net/ Arcadia] will support SBGN-ML in the upcoming release.
+* [http://www.biopax.org/paxtools.php Paxtools] supports conversion from BioPAX to SBGN-ML.
+* [http://www.ra.cs.uni-tuebingen.de/software/KEGGtranslator/index.htm KEGG Translator] will support conversion from KEGG to SBGN-ML in the upcoming release.
+* [http://sbmllayout.sf.net/ SBML Layout and Rendering Extension] supports conversion from SBGN-ML.
+* [http://www.ebi.ac.uk/compneur-srv/converters/converters Systems Biology Format Converter] will support converting to and from various systems biology formats.
+* [http://www.bilkent.edu.tr/~bcbi/pvs.html VISIBIOweb], a free, open-source, web-based pathway visualization and layout services software for BioPAX (level 2) pathway models, can export to SBGN-ML.
+* [http://sourceforge.net/projects/cysbgn/ CySBGN], a plug-in for  [http://www.cytoscape.org/ Cytoscape] is currently under development.
+* [http://www.reactome.org Reactome] is actively using LibSBGN.</text>
+    </revision>
+  </page>
+</mediawiki>

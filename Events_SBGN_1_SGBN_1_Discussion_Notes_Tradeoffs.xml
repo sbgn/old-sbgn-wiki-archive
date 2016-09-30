@@ -1,0 +1,223 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-1/SGBN-1 Discussion Notes: Tradeoffs</title>
+    <id>240</id>
+    <revision>
+      <id>1136</id>
+      <timestamp>2008-10-03T23:59:00Z</timestamp>
+      <contributor>
+        <username>Ltaddeo</username>
+        <id>6</id>
+      </contributor>
+      <text xml:space="preserve">&lt;div class=&quot;superhead2&quot;&gt;Feb. 12, 2006 discussions about tradeoffs between notations and requirements for SBGN&lt;/div&gt;
+
+''(Discussions moderated and notes taken by M. Hucka.)''
+
+'''Z. Li:''' Do we want to start by delineating the scope of SBGN?
+
+'''H. Kitano:''' Yes. Suggestion: we start with a couple of areas. Molecular interaction maps and PDNs represent two different areas. We could start with that.
+
+'''P. Ghazal:''' Maybe should also also think about the levels of organization. Peter sees the following: the organism level, the organ level, the cellular level, and the molecular level. It's the last one (molecular) where SBGN seems to be really focused.
+
+'''I. Goryanin:''' In cases where we're talking about things like communications between cells, proteins, signaling molecules, etc., we're really talking about molecular level. We should start with this as the foundation. Anything we do at higher level should be built on a firm foundation at the molecular level.
+
+'''M. Aladjem:''' But what about other descriptions, like metabolic, signaling, etc.? Where do they fit in?
+
+'''M. Hucka:''' It seems like those are orthogonal descriptions to the organ/cellular/molecular levels. They're definitely important, but in a sense they're another cut at descriptions. It's kind of like the difference between a functional vs. a structural description.
+
+'''M. Aladjem:''' There are other descriptions of molecular systems, signaling systems, etc. available. Do we want to use some of that work? There's a lot that's been done.
+
+'''P. Ghazal:''' Their group has interests in signaling, also in metabolic pathways. There are also ongoing efforts at standardizing other things like descriptions of small RNAs, etc., and these will have to be taken into account, and SBGN will need to be compatible with those standards in the future.
+
+'''H. Kitano:''' RNA regulation will be important in the future. But it isn't standardized currently.
+
+'''I. Goryanin:''' Metabolic networks are very important. SBML handles that well, and we should make sure SBGN is compatible with that.
+
+'''H. Kitano:''' Yes, definitely, and this should be fairly easy to adapt.
+
+'''I. Goryanin:''' Agreed.
+
+'''E. Demir:''' Talked to BioPAX principals recently over a confernce call; he can report that they're interested in making SBGN be their official visualization standard, but the BioPAX community will need to make sure it covers all the elements in BioPAX, that everything in BioPAX can be mapped to SBGN notations. This is a requirement they bring to the table.
+
+'''H. Kitano:''' So we will need to undertand the elements in BioPAX and see if there is any thing that can't be mapped from SBGN.
+
+'''E. Demir:''' Did a preliminary examination of a number of different visual notations. The one thing that's missing from all of them is the ability ot express abstraction.
+
+'''M. Hucka:''' But wait, doesn't MIM and PDN's ability to define containment provide the ability for abstraction?
+
+'''E. Demir:''' There are 2 ways abstraction can be done: as a set of things, and a list of things. MIM and PDN has only one of those.
+
+'''H. Kitano:''' It would be good if BioPAX community could come up with a concise list of what needs to be represented and a set of benchmark examples that need to be addressed. This would be useful for SBML and other things.
+
+'''(Several people):''' Suggestion: put something on the SBGN web site for benchmark examples, plus a list of the kinds of molecular interactions we want to be able to represent in SBGN, and links to papers (e.g. in PubMed) that describe these interactions. By providing examples of each case using the different notations, it will give us examples of how each case can be represented in the different notations. People will be able to compare them more easily.
+
+'''N. Le Novere:''' They have 50 examples already in BioModels Database – the models that are in the database serve as case examples of what people want to represent today in computational models.
+
+'''E. Demir:''' He can provide some examples in BioPAX.
+
+'''N. Le Novere:''' We could also use BioPAX output from reactome
+
+'''H. Kitano:''' This sounds like an action item!
+
+(H. Kitano, H. Mi, S. Moodie, E. Demir, M. Aladjem volunteered to come up with case examples.)
+
+'''M. Hucka:''' We can create a page on SBGN.org and a form-based entry system for collecting the information in a regular way.
+
+'''M. Aladjem:''' What should be the scale of the examples? How many examples?
+
+'''E. Demir:''' We should try to find representative examples.
+
+(Hucka very briefly lost track of follow-ups to Mirit's question and discussion topic rapidly changed; resolution to Mirit's is unknown.)
+
+'''P. Ghazal:''' So is the next thing to talk about is how to go about settling on the symbols to use?
+
+'''E. Demir:''' We should have symbols for molecular roles, etc. We could look to Ken Fukuda's work; they've developed an ontology for molecular roles.
+
+'''H. Kitano:''' If we assign each symbol to each role, will have a lot of symbols. We need a way to make it simpler. So what can we do? One thing they've thought about is to use color coding, but then you have the problem with faxing diagrams, publication in journals, etc. The medium you use to communicate may constrain what you can do.
+
+'''P. Ghazal:''' So you raised the issue of having a core set. Maybe we need to reach agreement on a core set? On a practical matter, maybe the underlying question is to find different groups listing the symbols, compare them, find a set we agree on.
+
+'''M. Hucka:''' (To Kitano.) Want to clarify what we're talking about. Are we talking about the symbols like the molecules in PDN diagrams? If so, where do you get an explosion of symbols? Isn't there a limited set?
+
+'''H. Kitano:''' Well, consider that RNA has different forms. If you have separate symbols for each form, that's start to grow quickly.
+
+'''N. Le Novere:''' You already have explosion with just small molecules. For instance, small molecules, ions, radicals etc. Sometimes the molecules have different roles in different contexts, and you talk about them differently. Acetate is a small molecule, but also an ion. Same for charged proteins, by the way. This implies the possibility of needing different symbols for the same molecule in different contexts. The problem is then to understadn they are the same molecule. Nicolas suggests not putting too much semantics on the symbols, otherwise things will get rapidly out of hand.
+
+'''M. Aladjem:''' Don't you end up with different maps in those cases?
+
+'''N. Le Novere:''' Well, it's a separate issue. You want to make sure that a reader doesn't face different symbols in different maps for same thing. This will be a problem when it comes time to merge different maps together.
+
+'''I. Goryanin:''' Going back to the suggestion for looking at chemical dictionaries, we should look at those dictionaries as a source list of what's needed.
+
+'''N. Le Novere:''' But going in the direction of having different symbols for different things is a real problem. Wants to dispute the idea that you want symbols like “receptor”, because a lot of things can act as receptors in different contexts. A receptor can also be an enzyme. And the roles of receptors and ligands are interchangeable. A role is not always inherent in the molecule.
+
+'''P. Ghazal:''' Well, you need to consider a diversity of entities, as Igor said for chemical dictionaries, and work down from there to a core set of things that are dealt with in SBGN.
+
+'''M. Aladjem:''' Would like to see flexbility left in the notation. You need to have things like wildcards.
+
+'''N. Le Novere:''' Agreed with Mirit. Nicolas likes the Kohn notation's idea of not having a specific symbol for anything. We clearly need one symbol for an independent reacting entitye. DNA is different and a gene is a unit of information in certain contexts, not a physical entity. So we need another symbol. It makes sense to have only a very limited number of different symbols. Maybe even in SBGN-1 we should avoid semantic assignments to the symbols.
+
+'''E. Demir:''' In Patika, they tried to have a functional notation but couldn't get it to work because entities can always be described in orthogonal ways. We should worry about this issue right from the start.
+
+'''N. Le Novere:''' But how are you going to handle the fact that same entity can have different roles in different situations?
+
+'''E. Demir:''' You can have a scheme involving composition of embellishments on the symbols to indicate different roles.
+
+'''M. Aladjem:''' Agreed with the idea of start with a limited set. We should start with molecular entities and later expand the set.
+
+'''P. Ghazal:''' There seems to be agreement that there can be a definition of process/functional arrows, and also that things like contingencies need to be expressed.
+
+'''I. Goryanin:''' Where this all this fit in with ontologies?
+
+'''N. Le Novere:''' Yeah, we should use ontologies to map glyphs in the notation to the entities they represent.
+
+'''I. Goryanin:''' Maybe we can decide today whether to call the entities “molecular entity” or “biochemical entity”?
+
+'''H. Kitano: What is the difference?
+
+'''I. Goryanin: Molecular entities tend to be specifically organic, in biological systems. Biochemical entity is more general.
+
+'''P. Ghazal:''' He volunteers that his group (and anyone who wants to help him) will collect proposals from different groups for the core set of entities and processes and notations, and will evaluate where there is agreement and where there's commonality, and then at SBGN-2, we can discusse the results.
+
+'''M. Hucka:''' That's wonderful – a volunteer to do actual work! We can also put the raw materials submitted by people on a page on SBGN.org.
+
+'''P. Nielsen:''' Sarala has started doing analysis of different notations for the CellML group's visualization work, and would volunteer to collaborate with Peter on this.
+
+'''H. Kitano:''' Do people agree the PDN notation can be used for repreesenting metabolic pathway? (Showed example of representing something taken from KEGG but drawn in CellDesigner/PDN notation.)
+
+'''I. Goryanin:''' It seems it may need some additions, but yes, from their experience with it, it can do it.
+
+'''E. Demir:''' A given KEGG metabolic map is always unique for the underlying biological process, is it?
+
+'''I. Goryanin:''' Yeah, that's right, there's a many-to-one issue. Assigning EC numbers is an example of where there are problems.
+
+'''N. Le Novere:''' The problem with EC numbers is that nobody can explain if the EC number is supposed to annotate the reaction or the molecule. EC is meant to annotate the process, not the molecule. So in process diagrams, you shouldn't put the EC annotation on the molecule; you should put it on the process.
+
+'''H. Mi:''' In their work at ABI, they've stopped trying to use EC numbers.
+
+'''N. Le Novere:''' Maybe we should use InterPro instead?
+
+'''I. Goryanin:''' Aren't we talking about different things here?
+
+'''M. Aladjem:''' If there are problems with EC numbers, why not put the EC info as an annotation on a diagram, not as part of the text labeling the entity? You don't have to have it as part of the graphical language. It can still be useful to provide as an annotation though.
+
+'''I. Goryanin:''' Agrees.
+
+'''N. Le Novere:''' Let's try to go back to the question of what kind of diagrams. Can we agree that we need both views, the process and the molecular interactions?
+
+'''S. Moodie:'' What about having a hierchy of levels?
+
+'''N. Le Novere:''' We need have a limited set, because we're already confused among ourselves, and it only will be harder to explain to others.
+
+'''H. Kitano:''' (Sketched out some possible view of the difference between the different notations, and what is a “view” in this context.) The question right now is are we agreed that we need to have both entity-relationship (MIM) and process views (PDN). A separate question is how to show levels of detail within the graphical diagrams. Think of the situation in computer graphics, where we talk about model-view-control separation. The ER and process views are different views in this sense. Something like SBML and CellML may be the underlying model.
+
+'''P. Ghazal:'' The efforts of their group has been really in trying to capture information at different levels, making it completely compatible with notations being discussed. Peter is confident it will stretch to capture ER type of information too.
+
+'''M. Aladjem:''' Do we have to limit ourselves to two views?
+
+'''N. Le Novere:''' One problem is we've been talking a lot from the standpoint of those producing the diagrams, but we also have to worry about the readers of the diagrams, and having a lot of views and notations is going to be more difficult for readers.
+
+'''H. Kitano:''' Not sure we can work with multiple views at once. If given the opportunity to combine elements of different views, people are too likely to take the path of least resistance and use the simplest pieces from the different approaches, and result will be incomplete because they won't be putting in enough details. They'll use the simplest pieces from each approach.
+
+'''M. Hucka:''' Doesn't think that's what Nicolas was proposing here.
+
+'''H. Kitano:''' Agrees, that's not, but he just wants to bring up the warning that we should keep different views separate and rely on software to translate between them systematically, rather than have users mixing bits from different approaches to notations.
+
+'''U. Dogrusoz:''' Representations like SBML and BioPAX define the model, and SBGN maps a view into the models. There might be an SBGN markup language that could be then stored with the BioPAX or SBML model.
+
+(Several people expressed agreement on Ugur's point.)
+
+'''S. Moodie:''' We should also take into consideration automatic layout. We want to make sure we don't design a standard where it's impossible to do auto layout on the result.
+
+'''H. Kitano:''' But it's impossible to do auto layout today anyway. It's an NP-complete problem. We know humans will have to do it by hand.
+
+'''N. Le Novere:''' Entirely disagrees with this point of view. Today we have small models and the corresponding diagrams are small, but we're going to have large models in the future, and it'll be impossible to have humans generate the layouts for all of them by hand. Think of databases with a lot of models. We're not going to pay someone to go through and create diagrams by hand for them all. We have to assume that we're going to be done automatic layout somehow.
+
+'''M. Hucka:''' Can we get back to the question of whether the two diagrams types (entity-relationship or MIM on the one hand, and PDN or state-transition diagram on the other) are enough?
+
+'''E. Demir:''' When you have interaction diagrams, when people are talking about protein-protein interactions, we don't know what's going on in detail in those interactions. It's not clear how you would use MIM or PDN for that. You don't know the kinds of process arrows to draw.
+
+'''H. Kitano:''' Agrees, protein-protein are a different beast.
+
+'''U. Dogrusoz:''' Can't we have a third type of view, for P-P?
+
+'''E. Demir:''' Yes, how would you capture PPI maps in the two notations?
+
+'''H. Kitano:''' PPI is a different abstraction, not a different “view”.
+
+'''E. Demir:''' The fundamental problem is that a node in a PPI map can be mapped to several states in a state transition (PDN) diagram. You can't put the two together.
+
+'''M. Hucka:''' Why don't we do this: the people who want to define the relationship between PPI and MIM and PDN get together and discuss it further over lunch, with a goal of reporting back the results when we gather again after lunch.
+
+''(People dispersed for lunch.)''</text>
+    </revision>
+  </page>
+</mediawiki>

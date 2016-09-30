@@ -1,0 +1,65 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-1/SGBN-1 Discussion Notes: Resolutions</title>
+    <id>241</id>
+    <revision>
+      <id>1163</id>
+      <timestamp>2008-10-08T00:22:58Z</timestamp>
+      <contributor>
+        <username>Ltaddeo</username>
+        <id>6</id>
+      </contributor>
+      <text xml:space="preserve">&lt;div class=&quot;superhead2&quot;&gt;Feb. 12, 2006 discussions about unanswered questions&lt;/div&gt;
+
+''(Discussions moderated and notes taken by M. Hucka.)''
+
+'''M. Hucka:''' One of the questions that we were left with from earlier today is whether PPI implies the need for a 3rd type of view. What was the result of discussions?
+
+'''H. Kitano:''' The conclusion seems to be that there's a different model in PPI, and PPI needs a view of this model. It's not the same model that underlies entity-relationship and state-transition diagrams. He proposes the following levels of definition:
+
+[[image: Sbgn1-discussion.jpg | right]]
+
+* model: something in CellML or SBML, a machine-readable form
+* view: this is “how to graphically represent a model”, like an entity-relationship (MIM-style) or state-transition (PDN-style) diagram
+
+* layer
+* abstraction
+* levels
+* versions
+
+'''P. Ghazal:''' The conclusion seems to be that if you're talking about protein-protein interaction, it falls under category of an ER type of view. If you're talking about a process, it falls under the Kitano type of state-transition view. If you're talking about a hierarchy, it falls under the Edinburgh type of view. Now here's a different question: does SBGN support data without an underlying model?
+
+'''U. Dogrusoz:''' There seem to be 2 model-layer-view constructions going on. The ER and ST are 2 views of an underlying conceptual model of something, but they also act as 2 models themselves. Your diagrams are 2 views of those two models.
+
+''(There was additional undirected discussion. Unfortunately, I was trying to think through the issues and failed to take adequate notes during the rest of this session. — M. Hucka.)''</text>
+    </revision>
+  </page>
+</mediawiki>

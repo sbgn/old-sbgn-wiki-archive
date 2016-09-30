@@ -1,0 +1,55 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Sbgn-FAQ</title>
+    <id>34</id>
+    <revision>
+      <id>159</id>
+      <timestamp>2008-07-24T23:54:11Z</timestamp>
+      <contributor>
+        <username>Ltaddeo</username>
+        <id>6</id>
+      </contributor>
+      <text xml:space="preserve">==Where can I find more simple/complex examples of SBGN models?==
+While trying to learn SBGN, I found myself trying to find examples of simple chemical processes that have been represented in this notation. I thought that seeing more examples would make understanding the glyphs a bit easier. 
+
+==How can I represent ________ in SBGN?==
+There might already be a model of what I’m looking for in SBGN. 
+
+==How *should* I represent ________ in SBGN?==
+From a newbie standpoint, I found myself wondering what can be left out of the model and what should definitely be in the model. (Hope that makes sense…) 
+
+==Is there something on this site that will make referencing glyphs easier?==
+Maybe a clickable SBGN reference card? 
+
+==What SBGN-compatible software is available?==</text>
+    </revision>
+  </page>
+</mediawiki>

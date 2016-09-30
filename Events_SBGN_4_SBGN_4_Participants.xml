@@ -1,0 +1,154 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-4/SBGN-4 Participants</title>
+    <id>289</id>
+    <revision>
+      <id>1374</id>
+      <timestamp>2008-10-17T13:55:34Z</timestamp>
+      <contributor>
+        <username>SBGNWikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">The following is a list of participants at SBGN-4 and detailed information about their projects and activities.  The information listed here was provided by each participant.
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+!width=&quot;120px&quot;| Name
+!width=&quot;120px&quot;| Affiliation
+! Group/Project
+|-
+|Mirit Aladjem
+|NIH-NCI (USA)
+|[http://discover.nci.nih.gov/ Molecular Interaction Maps] (MIM)
+|-
+|Frank Bergmann
+|University of Washington (USA)
+|[http://sys-bio.org/ Systems Biology Worbench] / SBGN Prototypes
+|-
+|Emek Demir
+|MSKCC (USA)
+|A short list of SBGN related projects I am working on: [http://www.biopax.org BioPAX] is a standard pathway exchange language. Chisio is a BioPAX visualization software. [http://www.pathwaycommons.org/ Pathway Commons] is a common portal for pathway information.
+|-
+|Sarala Wimalaratne (Dissanayake)
+|University of Auckland (New Zealand)
+|[http://www.cellml.org/ CellML] is an implementation-independent simulation modelling language which is mainly used for understanding the dynamics of complex biological processes. Even though the CellML model structure and mathematics provide a powerful method for describing the dynamics of biological processes, the language has limited support for capturing higher level biological information. The biological knowledge is implicit in the mathematics and structure of the model. The objective is to develop a framework for annotating and visualizing biophysical concepts covered in CellML models.
+|-
+|Johannes W. Dietrich
+|Ruhr-University of Bochum (Germany)
+|[http://www.medical-cybernetics.de Insulin Signal Transduction]
+|-
+|Peter Ghazal
+|University of Edinburgh (UK)
+|[http://www.pathwaymedicine.ed.ac.uk Modelling the Interferon response pathway in macrophages. Logical notation and description of pathways.]
+|-
+|Michael Hucka
+|Caltech (USA)
+|[http://sbml.org/ SBML], [http://www.sbgn.org/ SBGN]
+|-  
+|Martijn van Iersel
+|Maastricht University (Netherlands)
+|I'm one of the developers for the PathVisio pathway editor and the related WikiPathways pathway repository. These projects make use of a custom graphical layout format called GPML. Integration with a.o. BioPAX and the MIM notation standard is ongoing work. [http://www.wikipathways.org wikipathways].
+|-
+|Matthias Jeschke
+|University of Rostock (Germany)
+|Spatial simulation [http://www.diemosiris.de dIEM oSiRiS]
+|-
+|Mathias John
+|University of Rostock (Germany)
+|[http://www.diemosiris.de dIEM oSiRiS]
+|-
+|Hiroaki Kitano
+| Sony Computer Science Laboratories, Inc. (Japan)
+| All things SB
+|-
+|H. H. Klein
+|Ruhr-University of Bochum (Germany)
+|Insulin Signal Transduction
+|-
+| Christian Klukas
+| IPK Gatersleben (Germany)
+| Development of the [http://vanted.ipk-gatersleben.de/ Vanted]  system (Visualization and Analysis of Networks containing Experimental Data), which now provides preliminary support for SBGN Process Diagrams.
+|-  
+|Nicolas Le Novère
+|EMBL-EBI (UK)
+|[http://www.ebi.ac.uk/biomodels/ BioModels Database], [http://www.sbgn.org/ SBGN], [http://sbml.org/ SBML]
+|-
+|Augustin Luna
+|NIH-NCI / Boston University
+|[http://discover.nci.nih.gov/ Molecular Interaction Maps] (MIM)
+|-
+|Carsten Maus
+|University of Rostock (Germany)
+|[http://wwwmosi.informatik.uni-rostock.de/mosi/Members/cm234/info?set_language=en  Mosi]
+|-  
+|Huaiyu Mi
+|SRI International (USA)
+|[http://www.pantherdb.org PANTHER Pathway]
+|-  
+|Stuart Moodie
+|University of Edinburgh (UK)
+|[http://www.bioinformatics.ed.ac.uk/epe/ Edinburgh Pathway Editor] (EPE)
+|-
+|Michael Pedersen
+|University of Edinburgh (UK)
+|My work is centered around the design of a textual, modular modelling language for biochemical systems (LBS). Recently I have also been working on a programming language for synthetic biology. My interest in SBGN concerns the prospect of visualising models/programs in these languages.
+|-
+|Stefan Rybacki
+|University of Rostock (Germany)
+|[http://wwwmosi.informatik.uni-rostock.de/mosi/projects/cosa?set_language=en Cosa]
+|-
+|Falk Schreiber
+|IPK Gatersleben &amp; University of Halle (Germany)
+|[http://www.sbgn.org/ SBGN] - automatic network layout - [http://vanted.ipk-gatersleben.de/ Vanted]
+|-
+|Anatoly Sorokin
+|University of Edinburgh (UK)
+|[http://www.bioinformatics.ed.ac.uk/epe/ Edinburgh Pathway Editor]
+|-
+|Carolyn Talcott
+|SRI International (USA)
+|[http://pl.csl.sri.com/ Pathway Logic] -- a logic based approach to biomolecular pathway modeling and analysis.
+|- 
+|Lin Uhrmacher
+|University of Rostock (Germany)
+|[http://www.diemosiris.de dIEM oSiRiS]. Multi-Level Modeling and Simulation for Computational Biology, Spatial Modeling and Simulation Approaches
+|-
+|Alice Villeger
+|University of Manchester (UK)
+|[http://personalpages.manchester.ac.uk/staff/Alice.Villeger/arcadia.html Arcadia]
+|- 
+|Katja Wegner
+|University of Hertfordshire (UK)
+|[http://strc.herts.ac.uk/bio/maria/Apostrophe/index.htm NetBuilder]
+|- 
+|}</text>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,57 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-7.5</title>
+    <id>736</id>
+    <revision>
+      <id>2799</id>
+      <timestamp>2012-05-22T15:37:19Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <text xml:space="preserve">SBGN-7.5 was held from May 21st to 25rd, 2012, in Maastricht, Netherlands, at the School of management.
+
+== Tuesday 22 afternoon: Mixed maps ==
+
+Rational: In the literature and some pathway databases, one find hybrid maps, in particular with parts in PD and parts in AF. We have currently not possibility to implement that in SBGN.
+
+Everyone agree that full hybrid maps are not desirable. They would be impossible to validate. 
+
+Several solutions are envisioned:
+
+Using Submaps: e.g. Within a map in AF, an activity X is linked to a submap. This submap contains a map in PD, in which X is a macromolecule. This is fine but not sufficient since we use equivalenceArc. This should be different from a PD submap in a PD map, both containing a macromolecule Y. Furthermore, the relation between X macromolecule and X activity is not specified.
+
+Using groups: an activity A stimulate X that is consumed by a process producing Y. Y inhibits B. Same issues than above. But worse since the glyphs in a group belong to the same map. X could be duplicated and the activity and macromolecule linked by an equivalence node (proposed by Alexander Mazein).
+
+It is felt that it is maybe too early to settle on a given solution. People are encouraged to think about the issue and to test possible solutions.</text>
+    </revision>
+  </page>
+</mediawiki>

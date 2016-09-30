@@ -1,0 +1,77 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Editors Telecon 26 Jan 2012</title>
+    <id>723</id>
+    <revision>
+      <id>2732</id>
+      <timestamp>2012-02-03T11:17:26Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <comment>New page: Present:  * Nicolas Le Nov&amp;egrave;re (NLN) * Huaiyu Mi (HM) * Stuart Moodie (SM) * Falk Schreiber (FS) * Anatoly Sorokin (AS)  == News from the SBGN world ==  HM has been talking to the GO...</comment>
+      <text xml:space="preserve">Present: 
+* Nicolas Le Nov&amp;egrave;re (NLN)
+* Huaiyu Mi (HM)
+* Stuart Moodie (SM)
+* Falk Schreiber (FS)
+* Anatoly Sorokin (AS)
+
+== News from the SBGN world ==
+
+HM has been talking to the GO consortium, to convince them to use the AF specification in the curation procedures. 
+
+Huaiyu's grant application to the NSG for supporting SBGN is still under review.
+
+FS received funding for further development of SBGN-ED, and there will be money available to organise a meeting. Falk's group developed a method to generate SBGN from KEGG maps.
+
+NLN reports that Paul Thomas was appointed as invited member to the scientific committee. Nicolas stepped down as his SBGN-supporting grant ended.
+
+AS is in contact with russian scientists very interested in SBGN. They could be a very good test bed for the new specifications.
+
+== Specifications ==
+
+NLN reports on the two documents for PD. One technical normative specification, the target user being the software developers, and one user manual, which target the end user. 
+
+SM will continue to help with the PD specification, AS becoming the editor in charge. 
+
+FS takes over the AF specification but HM will continue to help.
+
+ER remains the responsibility of NLN.
+
+== Organisation ==
+
+Falk will organise a poll to decide on the next SBGN TC.
+
+We should try to engage better all the editors in their duties. NLN is to contact the relevant people.</text>
+    </revision>
+  </page>
+</mediawiki>

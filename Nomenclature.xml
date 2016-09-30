@@ -1,0 +1,116 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Nomenclature</title>
+    <id>428</id>
+    <revision>
+      <id>1995</id>
+      <timestamp>2010-02-10T22:26:23Z</timestamp>
+      <contributor>
+        <username>SBGNWikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>/* Language versus notation */</comment>
+      <text xml:space="preserve">In order to decrease confusion when talking about SBGN, it is important to use a consistent nomenclature. The following describes what should currently be used.
+
+== Language versus notation ==
+
+SBGN specifications propose symbols, ways to organise them, but also 
+semantic rules to analyse the resulting representations. SBGN &quot;drawings&quot; 
+can be translated into English, but also into computer readable formats. 
+Those specifications really propose true languages. SBGN is therefore made 
+up of three &lt;b&gt;languages&lt;/b&gt;.
+
+== What are the languages? ==
+
+PD is a language that permits the description of all the processes taking 
+place in a biological system. The ensemble of all these processes 
+constitute a Description.
+
+ER is a language that permits the description of all the relations 
+involving the entities of a biological system. The ensemble of all these 
+relations constitute a Relationship.
+
+AF is a language that permits the description of the flow of activity in a 
+biological system.
+
+== Nomenclature ==
+
+The three languages of SBGN should be referred to as:
+
+* the Process Description language
+* the Entity Relationship language
+* the Activity Flow language
+
+abbreviated as:
+
+* the PD language
+* the ER language
+* the AF language
+
+----
+
+A specific representation of a biological system in one of the SBGN 
+languages should be referred to as:
+
+* a Process Description map
+* an Entity Relationship map
+* an Activity Flow map
+
+abbreviated as
+
+* a PD map
+* an ER map
+* an AF map
+
+----
+
+The corpus of all SBGN representations should be referred to as:
+
+* Process Descriptions
+* Entity Relationships
+* Activity Flows
+
+The capitalization is important. PD, ER and AF are names of languages. As 
+such they must be capitalized in English. This is not the case of the 
+accompanying noun (language or map).
+
+== Graph, diagram or map? ==
+
+A graph is a very technical term that belongs to mathematics and is 
+uncommon in biology. Diagram is a concept that encompasses more than just 
+graph. Examples are Venn diagrams for instance. Therefore, we recommend 
+using the term map for SBGN representations. Those representations 
+effectively permit users to travel and orient themselves in a biological 
+system. Map is also the term most frequently used by the different 
+communities, whether in metabolism, signaling or genomics.</text>
+    </revision>
+  </page>
+</mediawiki>

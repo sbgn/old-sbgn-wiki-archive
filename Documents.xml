@@ -1,0 +1,82 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Documents</title>
+    <id>28</id>
+    <revision>
+      <id>2966</id>
+      <timestamp>2012-11-05T14:58:44Z</timestamp>
+      <contributor>
+        <username>Alice Villeger</username>
+        <id>19</id>
+      </contributor>
+      <comment>Reordered and separated documents in two categories (learn and use)</comment>
+      <text xml:space="preserve">== Learning about SBGN ==
+
+{{#icon:icon-publications.gif ||| Documents/Specifications | heading-icon}} &lt;big&gt;[[Documents/Specifications | Specifications ]]&lt;/big&gt;
+
+The SBGN specification documents define the visual representation and semantics of the Systems Biology Graphical Notation. These documents are the definitive references for SBGN.
+
+&lt;p class=&quot;rule2em&quot;&gt;&lt;/p&gt; 
+{{#icon:icon-samples.gif ||| Documents/Examples | heading-icon}} &lt;big&gt;[[Documents/Examples | Examples ]]&lt;/big&gt;
+
+To give you a sense for what SBGN maps ''look'' like, we provide a number of examples.  (The [[Documents/Specifications | specification documents]] also provide many examples.)
+
+&lt;p class=&quot;rule2em&quot;&gt;&lt;/p&gt; 
+{{#icon:icon-faq.gif ||| Documents/FAQs | heading-icon}} &lt;big&gt;[[Documents/FAQs | FAQ about SBGN languages]]&lt;/big&gt;
+
+The Frequently Asked Questions section provides answers to some, well, frequently asked questions about SBGN.
+
+&lt;p class=&quot;rule2em&quot;&gt;&lt;/p&gt; 
+{{#icon:icon-samples.gif ||| Documents/Outreach | heading-icon}} &lt;big&gt;[[Documents/Outreach| Outreach Materials ]]&lt;/big&gt;
+
+Presentations, tutorials, publications can be accessed through this page. 
+
+== Using SBGN ==
+
+&lt;p class=&quot;rule2em&quot;&gt;&lt;/p&gt; 
+{{#icon:icon-samples.gif ||| Documents/Templates | heading-icon}} &lt;big&gt;[[Documents/Templates | Templates ]]&lt;/big&gt;
+
+To help you start using SBGN in your favourite software, we provide templates in various formats. 
+
+&lt;p class=&quot;rule2em&quot;&gt;&lt;/p&gt; 
+{{#icon:icon-logo.png ||| Documents/Logos | heading-icon}} &lt;big&gt;[[Documents/Logos| Graphical material ]]&lt;/big&gt;
+
+This section provides some graphical materials, such as banners and logos, that you can use to advertise or mention SBGN.
+
+&lt;!--
+&lt;p class=&quot;rule2em&quot;&gt;&lt;/p&gt; 
+{{#icon:icon-bestpractice.gif ||| Documents/Best Practices | heading-icon}} &lt;big&gt;[[Documents/Best Practices | Best Practices ]]&lt;/big&gt;
+
+Some matters of using SBGN in practice do not end up in the language specifications, but are useful to know if you are implementing software. They're addressed in this section.
+--&gt;</text>
+    </revision>
+  </page>
+</mediawiki>

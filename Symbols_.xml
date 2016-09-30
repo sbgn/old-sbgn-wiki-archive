@@ -1,0 +1,59 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Symbols/</title>
+    <id>844</id>
+    <revision>
+      <id>4192</id>
+      <timestamp>2016-06-02T15:21:10Z</timestamp>
+      <contributor>
+        <username>Vtoure</username>
+        <id>76</id>
+      </contributor>
+      <text xml:space="preserve">== Symbol of the month series ==
+
+* June 2016: [[Symbols/unspecified_entity | PD Unspecified Entity]] ''by Vasundra Touré''
+* May 2016: [[Symbols/perturbing_agent | PD Perturbing Agent]] ''by Vasundra Touré''
+* Apr 2016: [[Symbols/unit_of_information_for_BA | AF Unit of information (for BA)]] ''by Vasundra Touré''
+* Mar 2016: [[Symbols/biological_activity | AF Biological Activity]] ''by Vasundra Touré''
+* Feb 2016: [[Symbols/clone_marker | PD Clone Marker]] ''by Vasundra Touré''
+* Jan 2016: [[Symbols/compartment | PD &amp; AF Compartment]] ''by Vasundra Touré''
+* Jan 2014: [[Symbols/complex| PD Complex]] ''by Nicolas Le Novère''
+* Oct 2013: [[Symbols/nucleic_acid_feature| PD Nucleic Acid Feature]] ''by Nicolas Le Novère''
+* Jun 2013: [[Symbols/catalysis| PD Catalysis]] ''by Nicolas Le Novère''
+* Apr 2013: [[Symbols/simple_chemical| PD Simple Chemical]] ''by Nicolas Le Novère''
+* Mar 2013: [[Symbols/macromolecule| PD Macromolecule]] ''by Nicolas Le Novère''
+* Feb 2013: [[Symbols/consumption_production_reversible| PD Consumption, Production and Reversible]] ''by Nicolas Le Novère''
+* Jan 2013: [[Symbols/process| PD Process]] ''by Nicolas Le Novère''
+* Dec 2012: [[Symbols/inhibition| PD Inhibition]] ''by Nicolas Le Novère''
+* Nov 2012: [[Symbols/stimulation| PD Stimulation]] ''by Nicolas Le Novère''</text>
+    </revision>
+  </page>
+</mediawiki>

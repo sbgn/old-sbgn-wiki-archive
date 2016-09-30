@@ -1,0 +1,84 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Symbols/process</title>
+    <id>845</id>
+    <revision>
+      <id>4086</id>
+      <timestamp>2016-03-03T15:50:40Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <text xml:space="preserve">''by Nicolas Le Novère''
+
+A ''process'' is something that happens, involving one or more physical entities, and modifies the structure, location or free energy of at least one of the participants. Examples would be biochemical reactions or transports. In SBGN Process Description language, a process is represented by the ''process node'', an unlabelled square. A process node is connected to the entity participating (''entity pool node'', labelled &quot;EPN&quot; in the figure below), via arcs representing consumption, production or modulation. In the drawing below, the process node is coloured in red:
+
+&lt;center&gt;
+{{#icon:SymbolMonth-process.png |||| corner iradius11}}
+&lt;/center&gt;
+
+The following generic example describes an entity C that stimulates the process transforming an entity A into an entity B.
+
+&lt;center&gt;
+{{#icon:SymbolMonth-process-example.png |||| corner iradius11}}
+&lt;/center&gt;
+
+The following example describes the conversion of glucose into glucose 6 phosphate, stimulated by the enzyme hexokinase.
+
+&lt;center&gt;
+{{#icon:SymbolMonth-process-example-real.png |||| corner iradius11}}
+&lt;/center&gt;
+
+The following example describes the transport of messenger RNA from the nucleus to the cytoplasm. Note that in SBGN, the containing compartment is part of the identity of an EPN. Therefore one does not need to differentiate the two mRNA pools via their labels (e.g. mRNA_nuc and mRNA_cyt).
+
+&lt;center&gt;
+{{#icon:SymbolMonth-process-example-real-2.png |||| corner iradius11}}
+&lt;/center&gt;
+
+The following example describes the reversible conversion of the glutamate ionotropic receptor between closed and open states.
+
+&lt;center&gt;
+{{#icon:SymbolMonth-process-example-real-3.png |||| corner iradius11}}
+&lt;/center&gt;
+
+Download the process node image as (from the more semantic to the more generic):
+
+[ [[media:SymbolMonth-process.sbgn|SBGN-ML]] ]
+[ [[media:SymbolMonth-process.gml|GML]] ]
+[ [[media:SymbolMonth-process.graphml|GraphML]] ]
+[ [[media:SymbolMonth-process.svg|SVG]] ]
+[ [[media:SymbolMonth-process.odp|Open Document Format]] ]
+[ [[media:SymbolMonth-process.ppt|PowerPoint]] ]
+[ [[media:SymbolMonth-process.pdf|PDF]] ]
+[ [[media:SymbolMonth-process.png|PNG]] ]</text>
+    </revision>
+  </page>
+</mediawiki>

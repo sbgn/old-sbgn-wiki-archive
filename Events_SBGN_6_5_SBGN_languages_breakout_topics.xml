@@ -1,0 +1,139 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-6.5/SBGN languages breakout topics</title>
+    <id>680</id>
+    <revision>
+      <id>2629</id>
+      <timestamp>2011-07-10T12:07:32Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <comment>/* On reversible arcs */</comment>
+      <text xml:space="preserve">== On reversible arcs ==
+
+There has been a long ongoing discussion about the problem of representing reversible reactions. The problem of the current representation is that the production arc also covers an implicit consumption arc in the case of a reversible reaction. So, the &quot;production&quot; arc is overloaded, meaning only production for an irreversible reaction, but meaning production and consumption for a reversible reaction. Diverse approaches to the problem were envisioned and there was already a vote about possible solutions (for previous discussions see also [[SBGN_editors_meeting_04_Mar_2009]] and [[Events/SBGN-6/SBGN_languages_breakout_topics]]). However, the discussion at HARMONY showed that there is a need to reconsider the possible solutions. A major question is if a user is able by looking on local information (either entity pool node (EPN) or process node (PN)) if the reaction is reversible or not and in which direction the reaction works. Here is an overview of possible solutions which got at least some support in previous discussions. The table below will summarize properties of these solutions.
+
+[[Image:arcs-discussion.jpg]]
+
+[[Image:Arcs-discussion2.png]]
+
+1 - current solution (nothing to change, there is an overload at the level of the arc); note that at the EPN it is not clear if a reaction is a production or a production + consumption in case of reversible reaction 
+
+2 -
+
+3 - note that there is no rule at the moment which half side of the arrow should be shown
+
+4 - similar to 2, but needs new glyph for PN
+
+5 - 
+
+6 - similar to 3, but needs new glyph for PN
+
+7 and 8 - similar to 4
+
+9 - similar to 6 (could also use arrows as in 7)
+
+10 - similar to 5, but needs new glyph for PN
+
+{| 
+|-
+!image
+!new glyph for arrowhead
+!new glyph for process
+!local information at EPN visible
+!local information at PN visible
+|-
+!1
+!no
+!no
+!no
+!no
+|-
+!2
+!no
+!no
+!no
+!yes
+|-
+!3
+!yes
+!no
+!yes
+!yes
+|-
+!4
+!no
+!yes
+!no
+!yes
+|-
+!5
+!yes
+!no
+!yes
+!no
+|-
+!6
+!yes
+!yes
+!yes
+!yes
+|-
+!7
+!no
+!yes
+!no
+!yes
+|-
+!8
+!no
+!yes
+!no
+!yes
+|-
+!9
+!yes
+!yes
+!yes
+!yes
+|-
+!10
+!yes
+!yes
+!yes
+!yes
+|}
+
+No decision has been made,</text>
+    </revision>
+  </page>
+</mediawiki>

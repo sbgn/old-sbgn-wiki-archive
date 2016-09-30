@@ -1,0 +1,54 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>LibSBGN/MinutesJul2011</title>
+    <id>784</id>
+    <revision>
+      <id>3010</id>
+      <timestamp>2012-11-05T17:11:41Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <comment>New page: Present: Frank, Alice, Tobias, Gael, Martijn  * Tobias completed the AF test-cases. The next step is tool support for AF. * Augustin has continued work on Validation. * &quot;Complete&quot; validati...</comment>
+      <text xml:space="preserve">Present: Frank, Alice, Tobias, Gael, Martijn
+
+* Tobias completed the AF test-cases. The next step is tool support for AF.
+* Augustin has continued work on Validation.
+* &quot;Complete&quot; validation can be a shifting goal. To set a concrete goal for the next milestone, we should at least make sure we can validate the &quot;class&quot; attribute.
+* Alice has posted a message on the mailing list regarding &quot;type III&quot; state variables. Further discussion is expected on the mailing list.
+* Alice has looked into the problem of storing &quot;Unit of Information&quot;. There are only very few examples of this. More examples and / or clarification of the spec is needed.
+* Frank implemented his extensions proposal. Implementation was comitted to subversion. Java bindings are still generated without problem. Existing examples continue to validate. This is essentially done, all that is left is more documentation and perhaps a small test-case extension.
+* A remaining open question is the best way to generate bindings for extensions and / or access the extension XML directly.
+* Tobias posted a compartmentOrder example. The proposal is accepted by all, after brief discussion we decided to drop the requirement for the attribute to be present and unique, to make it easier for tool writers. Choice between high/low and float/integer does not matter and is left to Tobias to decide.
+* Martijn wil sign up for LibSBGN poster and talk for the next COMBINE. We will present both together. Unfortunately it looks like Alice won't be able to be there.</text>
+    </revision>
+  </page>
+</mediawiki>

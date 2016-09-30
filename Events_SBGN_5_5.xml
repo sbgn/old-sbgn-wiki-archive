@@ -1,0 +1,456 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-5.5</title>
+    <id>448</id>
+    <revision>
+      <id>2211</id>
+      <timestamp>2010-04-26T18:27:29Z</timestamp>
+      <contributor>
+        <username>Falkschreiber</username>
+        <id>15</id>
+      </contributor>
+      <comment>/* Friday April 23 */</comment>
+      <text xml:space="preserve">{{EventImage | image = Sbgn_5_5_wittenberg_100x100.jpg}}
+
+SBGN-5.5 will be held from April 21st to 23rd, 2010, in [http://en.wikipedia.org/wiki/Wittenberg Wittenberg], Germany, at the [http://www.leucorea.de/ Leucorea].
+
+The meeting will be an opportunity for the SBGN community to meet face-to-face and to discuss SBGN development. The meeting will include presentations of SBGN specifications, implementations of support, as well as focused discussions about SBGN issues and future development.
+
+The local organizers are Tobias Czauderna and Falk Schreiber. We gratefully acknowledge funding from IPK Gatersleben, Martin Luther University Halle-Wittenberg, and IMBIO e.V.
+
+== Agenda == 
+
+=== Wednesday April 21 ===
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+! width=&quot;75px&quot;|Time
+! width=&quot;270px&quot;|Topic
+! width=&quot;135px&quot;| Speaker
+! width=&quot;120px&quot; | Slides
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 8:00am
+| colspan=&quot;3&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Breakfast in the cafeteria of the Leucorea'' 
+|-
+| 9:00am&amp;nbsp;&amp;ndash;&amp;nbsp;9:10am
+| Introduction
+| Tobias Czauderna
+| (none)
+|-
+| 9:10am&amp;nbsp;&amp;ndash;&amp;nbsp;9:20am
+| Introduction
+| Nicolas Le Novère (via Skype)
+| (none)
+|-
+| style=&quot;background-color: #424242&quot; | 9:20am&amp;nbsp;&amp;ndash;&amp;nbsp;11:00am
+| style=&quot;background-color: #424242&quot; | '''Hacking (development of SBGN support)''' 
+| style=&quot;background-color: #424242&quot; |
+| style=&quot;background-color: #424242&quot; |
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 11:00am
+| colspan=&quot;3&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Coffee break'' 
+|-
+| style=&quot;background-color: #424242&quot; | 11:20am&amp;nbsp;&amp;ndash;&amp;nbsp;1:00pm
+| style=&quot;background-color: #424242&quot; | '''Hacking (development of SBGN support)''' 
+| style=&quot;background-color: #424242&quot; |
+| style=&quot;background-color: #424242&quot; |
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 1:00pm
+| colspan=&quot;3&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Lunch'' 
+|-
+| style=&quot;background-color: #424242&quot; | 2:00pm&amp;nbsp;&amp;ndash;&amp;nbsp;4:00pm
+| style=&quot;background-color: #424242&quot; | '''Hacking (development of SBGN support)''' 
+| style=&quot;background-color: #424242&quot; |
+| style=&quot;background-color: #424242&quot; |
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 4:00pm
+| colspan=&quot;3&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Coffee break'' 
+|-
+| style=&quot;background-color: #424242&quot; | 4:20pm&amp;nbsp;&amp;ndash;&amp;nbsp;6:00pm
+| style=&quot;background-color: #424242&quot; | '''Hacking (development of SBGN support)''' 
+| style=&quot;background-color: #424242&quot; |
+| style=&quot;background-color: #424242&quot; |
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 7:00pm
+| colspan=&quot;3&quot; style=&quot;background-color: #2f2f2f&quot;| ''Dinner  (self-funded):  [http://www.luther-hotel-wittenberg.de/en/restaurant-convivo.html Restaurant Convivo]''
+Neustraße 7-10&lt;br&gt;
+Lutherstadt Wittenberg
+
+[http://maps.google.de/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Neustra%C3%9Fe+7-10+06886+Lutherstadt+Wittenberg&amp;sll=51.866489,12.647959&amp;sspn=0.011554,0.019419&amp;ie=UTF8&amp;hq=&amp;hnear=Neustra%C3%9Fe+7,+06886+Wittenberg,+Lutherstadt,+Wittenberg,+Sachsen-Anhalt&amp;ll=51.866488,12.643869&amp;spn=0.011554,0.027595&amp;z=16 Map and directions]
+|}
+
+=== Thursday April 22 ===
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+! width=&quot;75px&quot; | Time
+! width=&quot;270px&quot; | Topic
+! width=&quot;135px&quot; | Speaker
+! width=&quot;120px&quot; | Slides
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 8:00am
+| colspan=&quot;3&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Breakfast in the cafeteria of the Leucorea'' 
+|-
+| 9:00am&amp;nbsp;&amp;ndash;&amp;nbsp;9:10am
+| Discussion around Wednesday activities
+| Tobias Czauderna
+| 
+|-
+| style=&quot;background-color: #424242&quot; | 9:10am&amp;nbsp;&amp;ndash;&amp;nbsp;11:00am
+| style=&quot;background-color: #424242&quot; | '''Presentations&amp;nbsp;&amp;amp;&amp;nbsp;Software Implementations''' 
+| style=&quot;background-color: #424242&quot; | Chair: Nicolas Le Novère
+| style=&quot;background-color: #424242&quot; |
+|-
+|
+| Pathway diagrams in PathVisio: towards a richer model
+| Martijn van Iersel
+| [[media:Van_Iersel_2010_04_22.pdf | slides]]
+|-
+|
+| SBGN-ED: Editing, Validating, and Translating of SBGN Maps
+| Tobias Czauderna
+| [[media:Czauderna_2010_04_22.pdf | slides]]
+|-
+|
+| Quantifying SBGN-PD
+| Stuart Moodie
+| [[media:Moodie_2010_04_22.pdf | slides]]
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 11:00am
+| colspan=&quot;3&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Coffee break'' 
+|-
+| style=&quot;background-color: #424242&quot; | 11:20am&amp;nbsp;&amp;ndash;&amp;nbsp;1:00pm
+| style=&quot;background-color: #424242&quot; | '''Roadmap&amp;nbsp;&amp;amp;&amp;nbsp;Governance of SBGN'''  
+| style=&quot;background-color: #424242&quot; | Chair: Nicolas Le Novère
+| style=&quot;background-color: #424242&quot; |
+|-
+|
+| &amp;ndash; SBGN competition&lt;br&gt;
+&amp;ndash; SBGN advertisement
+|
+|
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 1:00pm
+| colspan=&quot;3&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Lunch'' 
+|-
+| style=&quot;background-color: #424242&quot; | 2:00pm&amp;nbsp;&amp;ndash;&amp;nbsp;4:00pm
+| style=&quot;background-color: #424242&quot; | '''Presentation&amp;nbsp;&amp;amp;&amp;nbsp;Entity Relationship Discussion'''
+| style=&quot;background-color: #424242&quot; | Chair: Nicolas Le Novère
+| style=&quot;background-color: #424242&quot; |
+|-
+|
+| ER &amp;ndash; nested entities
+| Nicolas Le Nov&amp;egrave;re
+| [[media:SBGN5.5-NestedEntities.pdf | slides]]
+|-
+|
+| Representing disease mechanisms in SBGN
+| Bernard de Bono (via Skype)
+|
+|-
+|
+| Software for Formalized Molecular Interaction Maps (MIM)
+| Augustin Luna (slides provided)
+| [[media:Luna_2010_04_22.pdf | slides]]
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 4:00pm
+| colspan=&quot;3&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Coffee break''
+|-
+| style=&quot;background-color: #424242&quot; | 4:20pm&amp;nbsp;&amp;ndash;&amp;nbsp;6:00pm
+| style=&quot;background-color: #424242&quot; | '''Activity Flow Discussion'''
+| style=&quot;background-color: #424242&quot; | Chair: Nicolas Le Novère
+| style=&quot;background-color: #424242&quot; |
+|-
+|
+| Biological Activity Node
+| Huaiyu Mi (via Skype)
+| [[media:SBGN5.5-BiologicalActivityProposals.pdf | slides]]
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 8:00pm
+| colspan=&quot;3&quot; style=&quot;background-color: #2f2f2f&quot;| ''Dinner  (self-funded):  [http://www.alte-canzley.com/en/restaurant/index.html Restaurant Alte Canzley]''
+Schlossplatz 3-5&lt;br&gt;
+Lutherstadt Wittenberg
+
+[http://maps.google.de/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Schlossplatz+3-5+06886+Lutherstadt+Wittenberg&amp;sll=51.151786,10.415039&amp;sspn=20.141655,42.758789&amp;ie=UTF8&amp;hq=&amp;hnear=Schlo%C3%9Fplatz+3,+06886+Wittenberg,+Lutherstadt,+Wittenberg,+Sachsen-Anhalt&amp;z=16&amp;iwloc=A Map and directions] 
+|}
+
+=== Friday April 23 ===
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+! width=&quot;75px&quot; | Time
+! width=&quot;270px&quot; | Topic
+! width=&quot;135px&quot; | Speaker
+! width=&quot;120px&quot; | Slides
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 8:00am
+| colspan=&quot;3&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Breakfast in the cafeteria of the Leucorea'' 
+|-
+| style=&quot;background-color: #424242&quot; | 9:00am&amp;nbsp;&amp;ndash;&amp;nbsp;11:00am
+| style=&quot;background-color: #424242&quot; | '''libSBGN&amp;nbsp;&amp;amp;&amp;nbsp;SBGN-ML''' 
+| style=&quot;background-color: #424242&quot; | Chair: Alice Villeger
+| style=&quot;background-color: #424242&quot; |
+|-
+|
+| Update on the libSBGN/SBGN format effort and discussion
+|
+|
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 11:00am
+| colspan=&quot;3&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Coffee break'' 
+|-
+| style=&quot;background-color: #424242&quot; | 11:20am&amp;nbsp;&amp;ndash;&amp;nbsp;1:00pm
+| style=&quot;background-color: #424242&quot; | '''Process Description Discussion''' 
+| style=&quot;background-color: #424242&quot; | Chair: Stuart Moodie
+| style=&quot;background-color: #424242&quot; |
+|-
+|
+| SBGN PD&amp;nbsp;&amp;ndash;&amp;nbsp;What's Next&lt;br&gt;
+&amp;ndash; process cloning&lt;br&gt;
+&amp;ndash; TM proteins&lt;br&gt;
+&amp;ndash; moving compartments
+| Stuart Moodie&lt;br&gt;
+&amp;nbsp;&lt;br&gt;
+&amp;nbsp;&lt;br&gt;
+&amp;nbsp;
+| [[media:SBGN5.5-PDWhatsNext.pdf | slides]]&lt;br&gt;
+&amp;nbsp;&lt;br&gt;
+&amp;nbsp;&lt;br&gt;
+&amp;nbsp;
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 1:00pm
+| colspan=&quot;3&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Lunch'' 
+|}
+
+== Minutes ==
+
+== Participants ==
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+!width=&quot;130px&quot;|Name
+!width=&quot;230px&quot;|Affiliation
+!Group/Project
+|-
+|Tobias Czauderna
+|IPK Gatersleben (Germany)
+|[http://vanted.ipk-gatersleben.de/ VANTED], SBGN-ED, layout
+|-
+|Bernard de Bono*
+|EMBL-EBI (UK)
+|RICORDO
+|-
+|Damien Fleury
+|CNRS (France)
+|[http://www.sidr-isb.eu/ SIDR]
+|-
+|Anja Hartmann
+|IPK Gatersleben (Germany)
+|[http://rimas.ipk-gatersleben.de/ RIMAS]
+|-
+|Astrid Junker
+|IPK Gatersleben (Germany)
+|[http://rimas.ipk-gatersleben.de/ RIMAS]
+|-
+|Christian Klukas
+|IPK Gatersleben (Germany)
+|[http://vanted.ipk-gatersleben.de/ VANTED], SBGN-ED
+|-
+|Nicolas Le Novère
+|EMBL-EBI (UK)
+|[http://www.ebi.ac.uk/biomodels-main/ BioModels]/[http://www.ebi.ac.uk/compneur-srv/kisao/ KiSAO]/ [http://www.ebi.ac.uk/compneur-srv/miase/ MIASE]/[http://www.ebi.ac.uk/miriam/ MIRIAM]/ [http://www.ebi.ac.uk/sbo/ SBO]/SBGN/[http://sbml.org/Main_Page SBML]/ [http://www.ebi.ac.uk/compneur-srv/sed-ml/ SED-ML]/[http://www.ebi.ac.uk/compneur-srv/teddy/ TEDDY]
+|-
+|Augustin Luna*
+|National Cancer Institute and Bioinformatics Department, Boston University (USA)
+|[http://discover.nci.nih.gov/mim/ Molecular Interactions Maps (MIM)]
+|-
+|Huaiyu Mi*
+|SRI International (USA)
+|[http://www.pantherdb.org/pathway/ PANTHER Pathway]
+|-
+|Stuart Moodie
+|University of Edinburgh (UK)
+|[http://www.pathwayeditor.org/ Edinburgh Pathway Editor]
+|-
+|Falk Schreiber
+|IPK Gatersleben&amp;nbsp;&amp;amp;&amp;nbsp;MLU Halle-Wittenberg (Germany)
+|[http://vanted.ipk-gatersleben.de/ VANTED], SBGN-ED, layout
+|-
+|Anatoly Sorokin
+|University of Edinburgh (UK)
+|[http://www.pathwayeditor.org/ Edinburgh Pathway Editor]
+|-
+|Martijn van Iersel
+|BiGCaT Bioinformatics, Maastricht University (The Netherlands)
+|[http://www.pathvisio.org/ PathVisio], [http://www.wikipathways.org/index.php/WikiPathways WikiPathways], [http://www.bridgedb.org/ BridgeDb]
+|-
+|Alice Villeger
+|University of Manchester (UK)
+|[http://arcadiapathways.sourceforge.net/ Arcadia]
+|-
+|Röbbe Wünschiers
+|University of Applied Sciences Mittweida (Germany)
+|
+|}
+ * could not attend in person because of cancelled flights
+
+== Accommodation ==
+
+Some accommodation can be provided by the hosts of the meeting directly at the Leucorea (single rooms). The Leucorea is located in the city centre. If you travel in company and/or would prefer to stay in a hotel in Wittenberg, please visit [http://www.wittenberg.de/staticsite/staticsite.php?menuid=813&amp;topmenu=661 Wittenberg Information - accommodation].
+
+== Travel ==
+
+=== Leucorea, Wittenberg ===
+
+As mentioned above, SBGN-5.5 will be held in [http://en.wikipedia.org/wiki/Wittenberg Wittenberg], Germany, at the [http://www.leucorea.de/ Leucorea].
+
+&lt;html&gt;
+Leucorea&lt;br&gt;
+Collegienstraße 62&lt;br&gt;
+06886 Lutherstadt Wittenberg
+&lt;/html&gt;
+
+[[Image:Sbgn_5_5_leucorea_800x600.jpg|center|thumb|425px|Leucorea]]
+
+The maps below show the location of the Leucorea.
+
+[[Image:Sbgn_5_5_wittenberg_map_760x486.gif|center|thumb|425px|Leucorea]]
+
+&lt;html&gt;
+&lt;ol&gt;
+&lt;li&gt;Schloßkirche - Castle Church&lt;/li&gt;
+&lt;li&gt;Cranachhöfe - Cranach Courtyards&lt;/li&gt;
+&lt;li&gt;Altes Rathaus, Markt - Old Town Hall, Marketplace&lt;/li&gt;
+&lt;li&gt;Stadtkirche - Town Church&lt;/li&gt;
+&lt;li&gt;Leucorea&lt;/li&gt;
+&lt;li&gt;Melanchthonhaus - Melanchthon House&lt;/li&gt;
+&lt;li&gt;Lutherhaus - Luther House&lt;/li&gt;
+&lt;li&gt;Luthereiche - Luther Oak&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/html&gt;
+
+&lt;div style=&quot;display: block; margin: 0 auto; padding: 0 0 1em 1em&quot;&gt;
+&lt;html&gt;&lt;center&gt;
+&lt;iframe width=&quot;425&quot; height=&quot;350&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://maps.google.com/maps?f=q&amp;amp;source=embed&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Collegienstra%C3%9Fe+62+06886+Lutherstadt+Wittenberg+&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=Collegienstra%C3%9Fe+62,+06886+Wittenberg,+Lutherstadt,+Wittenberg,+Sachsen-Anhalt,+Deutschland&amp;amp;t=h&amp;amp;ll=51.865057,12.649662&amp;amp;spn=0.004638,0.00912&amp;amp;z=15&amp;amp;output=embed&quot;&gt;&lt;/iframe&gt;&lt;br&gt;
+&lt;a href=&quot;http://maps.google.com/maps?f=q&amp;amp;source=embed&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Collegienstra%C3%9Fe+62+06886+Lutherstadt+Wittenberg+&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=Collegienstra%C3%9Fe+62,+06886+Wittenberg,+Lutherstadt,+Wittenberg,+Sachsen-Anhalt,+Deutschland&amp;amp;t=h&amp;amp;ll=51.865057,12.649662&amp;amp;spn=0.004638,0.00912&amp;amp;z=15&quot; class=&quot;external text&quot; title=&quot;View Larger Map&quot;&gt;View Larger Map&lt;/a&gt;
+&lt;/center&gt;&lt;/html&gt;
+&lt;/div&gt;
+
+=== Travelling by air and train ===
+
+If you plan to travel by air and train we would like to advise you either to go to Berlin (Airport Berlin Tegel TXL or Airport Berlin Schönefeld SXF) or to Leipzig (Airport Leipzig/Halle LEJ).
+
+[http://www.berlin-airport.de/EN/index.html Airport Berlin Tegel TXL] to Lutherstadt Wittenberg
+&lt;html&gt;
+&lt;ul&gt;
+&lt;li&gt;by bus (Bus TXL) or taxi from the airport to Berlin main station (Berlin Hauptbahnhof or short Berlin HBF)&lt;/li&gt;
+&lt;li&gt;by ICE or IC from Berlin main station to Lutherstadt Wittenberg&lt;/li&gt;
+&lt;li&gt;duration: 1 hour 15 minutes&lt;/li&gt;
+&lt;li&gt;frequency: approximately one per hour&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/html&gt;
+[http://www.berlin-airport.de/EN/index.html Airport Berlin Schönefeld SXF] to Lutherstadt Wittenberg
+&lt;html&gt;
+&lt;ul&gt;
+&lt;li&gt;by suburban train (S45) from the airport to Berlin Südkreuz station&lt;/li&gt;
+&lt;li&gt;by ICE or IC from Berlin Südkreuz station to Lutherstadt Wittenberg&lt;/li&gt;
+&lt;li&gt;duration: 1 hour 20 minutes&lt;/li&gt;
+&lt;li&gt;frequency: approximately one per hour&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/html&gt;
+[http://www.leipzig-halle-airport.de/en/index.html Airport Leipzig/Halle LEJ] to Lutherstadt Wittenberg
+&lt;html&gt;
+&lt;ul&gt;
+&lt;li&gt;by regional train from the airport to Leipzig main station (Leipzig Hauptbahnhof or short Leipzig HBF)&lt;/li&gt;
+&lt;li&gt;by ICE from Leipzig main station to Lutherstadt Wittenberg&lt;/li&gt;
+&lt;li&gt;duration: 1 hour&lt;/li&gt;
+&lt;li&gt;frequency: every 2 hours&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/html&gt;
+For more information see also [http://www.sbgn.org/Events/SBGN-5.5#Travelling_by_train Travelling by train].
+
+=== Travelling by train ===
+
+You can use the journey planner on the web page of [http://www.bahn.de/i/view/GBR/en/index.shtml Deutsche Bahn] to plan your trip (please enter 'Lutherstadt Wittenberg' as destination and select then 'Lutherstadt Wittenberg' again from the pop-up menu). From Wittenberg main station to the Leucorea you can either take a taxi or walk. The Leucorea is in a 10 minutes walking distance from the station.
+
+=== Travelling by car ===
+
+The maps below show travel directions to Wittenberg.
+
+&lt;div style=&quot;display: block; margin: 0 auto; padding: 0 0 1em 1em&quot;&gt;
+&lt;html&gt;&lt;center&gt;
+&lt;iframe width=&quot;425&quot; height=&quot;350&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://maps.google.com/maps?f=q&amp;amp;source=embed&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Collegienstra%C3%9Fe+62+06886+Lutherstadt+Wittenberg+&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=Collegienstra%C3%9Fe+62,+06886+Wittenberg,+Lutherstadt,+Wittenberg,+Sachsen-Anhalt,+Deutschland&amp;amp;ll=51.865057,12.649662&amp;amp;spn=1.18722,2.334595&amp;amp;z=7&amp;amp;iwloc=A&amp;amp;output=embed&quot;&gt;&lt;/iframe&gt;&lt;br&gt;
+&lt;a href=&quot;http://maps.google.com/maps?f=q&amp;amp;source=embed&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=Collegienstra%C3%9Fe+62+06886+Lutherstadt+Wittenberg+&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=Collegienstra%C3%9Fe+62,+06886+Wittenberg,+Lutherstadt,+Wittenberg,+Sachsen-Anhalt,+Deutschland&amp;amp;ll=51.865057,12.649662&amp;amp;spn=1.18722,2.334595&amp;amp;z=7&amp;amp;iwloc=A&quot; style=&quot;color:#0000FF;text-align:left&quot;&gt;View Larger Map&lt;/a&gt;
+&lt;/center&gt;&lt;/html&gt;
+&lt;/div&gt;
+[[Image:Sbgn_5_5_wittenberg_travel_500x317.gif|center|Wittenberg travel directions]]
+
+For more information see also [http://www.sbgn.org/Events/SBGN-5.5#Leucorea.2C_Wittenberg Leucorea, Wittenberg].
+
+=== Weather ===
+
+The weather in Germany during April can be unsettled, with temperatures ranging from 8°C to 18°C (46°F to 64°F). There is a chance of rain, so make sure to bring an umbrella and some wet weather clothes.
+&lt;div style=&quot;display: block; margin: 0 auto; padding: 0 0 1em 1em&quot;&gt;
+&lt;html&gt;
+&lt;iframe width=&quot;210&quot; height=&quot;170&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; frameborder=&quot;0&quot;
+src=&quot;http://www.weatheronline.co.uk/cgi-bin/homecif?WMO=10364&amp;L=en&amp;WIDTH=210&amp;HEIGHT=170&amp;CLOUD=0&quot;&gt;
+&lt;/iframe&gt;
+&lt;/html&gt;
+&lt;/div&gt;
+
+=== Miscellaneous ===
+
+If you are traveling from outside of Germany, make sure to bring an appropriate power plug converter for your laptop and all other electrical devices you are bringing. Electric current in Germany is 50 Hz, 220 V. The plug types are depicted below. For more detailed information on the types of plugs that are used, as well as electrical standards in various countries, please visit [http://users.pandora.be/worldstandards/electricity.htm Electricity around the world].
+
+&lt;center&gt;
+{|
+!width=&quot;150px&quot;|Type C Plug
+|&lt;html&gt;&lt;img width=&quot;300px&quot; src=&quot;http://users.telenet.be/worldstandards/images/C%20plug.jpg&quot;&gt;&lt;/html&gt;
+|}
+{|
+!width=&quot;150px&quot;|Type F Plug
+|&lt;html&gt;&lt;img width=&quot;300px&quot; src=&quot;http://users.telenet.be/worldstandards/images/F%20plug.jpg&quot;&gt;&lt;/html&gt;
+|}
+&lt;/center&gt;
+
+== Local Organisers &amp; Contact ==
+
+SBGN-5.5 is organised by Falk Schreiber (IPK Gatersleben &amp; MLU Halle-Wittenberg, Germany) and Tobias Czauderna (IPK Gatersleben, Germany).
+
+If you have any queries please contact Tobias Czauderna czauderna&lt;at&gt;ipk-gatersleben.de.
+
+== Acknowledgement ==
+
+We thank [http://www.ipk-gatersleben.de IPK Gatersleben] and [http://www.imbio.de IMBio - Informationsmanagement in der Biotechnologie e.V.] for financial support.
+
+
+&lt;center&gt;
+[[Image:Sbgn_5_5_IPK_logo.png]]&lt;html&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/html&gt;[[Image:Sbgn_5_5_IMBio_logo.png]]
+&lt;/center&gt;</text>
+    </revision>
+  </page>
+</mediawiki>

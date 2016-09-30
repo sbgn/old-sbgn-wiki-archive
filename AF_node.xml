@@ -1,0 +1,92 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>AF node</title>
+    <id>518</id>
+    <revision>
+      <id>2589</id>
+      <timestamp>2011-04-20T17:29:25Z</timestamp>
+      <contributor>
+        <username>Huaiyumi</username>
+        <id>18</id>
+      </contributor>
+      <minor/>
+      <comment>[[AF development]] moved to [[AF node]]</comment>
+      <text xml:space="preserve">== AF nodes ==
+
+Since the release of SBGN Activity Flow Level 1 specification, we have received some feedback, particularly about the biological activity glyph.  Many of the concerns are reasonable (see details below).
+
+In April 2009, we conducted a poll on the topic.  The SBGN AF Level 1 specification was drafted based on the outcome of the poll.  Unfortunately, due to a glitch in the SBGN discussion list, some of our members did not receive the message and failed to participate in the poll.  As a result, we had very few people voted in the poll.  Many of the feedback came after the poll was closed and even after the specification was released.  We would like to re-open the discussion in order to ensure that the specification will be supported by the community.  The [[Media: AF_proposals.pdf| proposals]] were presented at the COMBINE Workshop in last October.  
+
+One consensus we have reached is that AF is about influences among the activities, therefore the nodes in AF diagram should represent activities rather than entities.  The problem arises when one wants to decorate the activity node to display the type of entity that the activity comes from.
+
+The goal is to create biological activity nodes that are
+* unambiguous
+* ontologically accurate
+* consistent with representations in all three SBGN languages
+
+=== Current specification ===
+* [[Media: Current_AN.png‎ |The activity node]] is represented by a rectangle.
+* [[Media: Current_Dec.png‎ |Entity decoration ]]uses unit of information to indicate the type of entity where the activity comes.
+* Examples: [[Media: Current_egfr.png|EGFR]]; [[Media: Current_PPAR.png | PPAR]]; [[Media: Current_TGFbeta.png | TGF-beta ]]
+* ''Advantages'':  It is ontologically correct to use a unique glyph to represent biological activity, which is an occurrent.
+* ''Disadvantages'':  The unit of information decoration can be too small to differentiate, e.g., a macromolecule vs a nucleic acid feature or a complex.  It can be useless when the node itself is small in a very large map.
+
+=== Proposal 1 ===
+* [[Media: proposal_1_AN.png | The biological activity node]] is represented by a rectangle.
+* [[Media: proposal_1_Dec.png | The entity decoration]] is drawn the same way as in PD.  The AN is placed on the line of the entity glyph to indicate that the activity is derived from the entity.
+* All modulation arcs (positive influence, negative influence) must be connected to the activity nodes, but not the entity decoration.
+* Examples: [[Media: proposal_1_egfr.png|EGFR]]; [[Media: proposal_1_PPAR.png | PPAR]]; [[Media: proposal_1_TGFbeta.png | TGF-beta ]]
+* One problem with this proposal is that the activity node looks quite similar to the unit of information in the SBGN PD.
+
+=== Proposal 2 ===
+
+It is similar to proposal 1, except that the [[Media: proposal_2_AN.png |biological activity nodes]] are placed inside rather than on the edge of the [[Media: proposal_2_Dec.png |entity decoration]].
+* [[Media: proposal_2_AN.png | The biological activity node]]
+* [[Media: proposal_2_Dec.png | The entity decoration]]
+* Examples: [[Media: proposal_2_egfr.png|EGFR]]; [[Media: proposal_2_PPAR.png | PPAR]]; [[Media: proposal_2_TGFbeta.png | TGF-beta ]]
+
+=== Proposal 3 ===
+* [[Media: proposal_3_AN.png |The biological activity node]] is represented by a rectangle when the entity type of the activity is not illustrated. When the entity type needs to be illustrated, glyphs same to the EPN in PD are used to indicate the type of entity the activity is from.  However, here, these nodes represent biological activity but not entity per se.
+* Examples: [[Media: proposal_3_egfr.png|EGFR]]; [[Media: proposal_3_PPAR.png | PPAR]]; [[Media: proposal_3_TGFbeta.png | TGF-beta ]]
+* The major criticism about this proposal is that it is ontologically ambiguous.
+
+=== Proposal 4 ===
+This is similar to proposal 2 except that the [[Media: proposal_4_Dec.png |entity decoration]] is placed inside of [[Media: proposal_4_AN.png |biological activity nodes]].
+* [[Media: proposal_4_AN.png | The biological activity node]]
+* [[Media: proposal_4_Dec.png | The entity decoration]]
+* Examples: [[Media: proposal_4_egfr.png|EGFR]]; [[Media: proposal_4_PPAR.png | PPAR]]; [[Media: proposal_4_TGFbeta.png | TGF-beta ]]
+
+
+
+[http://www.surveymonkey.com/s/73LP2YG Click here to take survey]</text>
+    </revision>
+  </page>
+</mediawiki>

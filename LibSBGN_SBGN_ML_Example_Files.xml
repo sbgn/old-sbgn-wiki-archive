@@ -1,0 +1,101 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>LibSBGN/SBGN-ML Example Files</title>
+    <id>769</id>
+    <revision>
+      <id>3043</id>
+      <timestamp>2012-11-07T20:02:08Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <text xml:space="preserve">This page provides some SBGN-ML example files created with LibSBGN.
+
+Examples 1 to 5 are based on the examples in the SBGN Process Description specification [[#1|[1]]].
+
+== Glycolysis ==
+
+This example illustrates how SBGN can be used to describe metabolic pathways. [[#1|[1]]]
+
+Download [https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/tags/milestone1/example-files/glycolysis.sbgn glycolysis.sbgn]
+
+[[Image:LibSBGN_Glycolysis.png|thumb|center|529px]]
+
+== Insulin-like Growth Factor (IGF) signalling ==
+
+This example shows the use of compartments and how details can be hidden by using a submap. The submap is shown in the next example. [[#1|[1]]]
+
+Download [https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/tags/milestone1/example-files/insulin-like_growth_factor_signaling.sbgn insulin-like_growth_factor_signaling.sbgn]
+
+[[Image:LibSBGN_Insulin-like_Growth_Factor_signalling.png|thumb|center|563px]]
+
+== MAPK cascade ==
+
+A submap of the previous map showing the MAPK cascade. [[#1|[1]]]
+
+Download [https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/tags/milestone1/example-files/mapk_cascade.sbgn mapk_cascade.sbgn]
+
+[[Image:LibSBGN_MAPK_cascade.png|thumb|center|375px]]
+
+== Neuronal/Muscle signalling ==
+
+A description of inter-cellular signalling using SBGN. [[#1|[1]]]
+
+Download [https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/tags/milestone1/example-files/neuronal_muscle_signalling.sbgn neuronal_muscle_signalling.sbgn]
+
+[[Image:LibSBGN_Neuronal_Muscle_signalling.png|thumb|center|455px]]
+
+== Activated STAT1alpha induction of the IRF1 gene ==
+
+An example of gene regulation using logical operators. [[#1|[1]]]
+
+Download [https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/tags/milestone1/example-files/activated_stat1alpha_induction_of_the_irf1_gene.sbgn activated_stat1alpha_induction_of_the_irf1_gene.sbgn]
+
+[[Image:LibSBGN_Activated_STAT1alpha_induction_of_the_IRF1_gene.png|thumb|center|317px]]
+
+== Central plant metabolism ==
+
+This is the representation of major parts of the central metabolism in monocotyledon plants. The information has been derived from the [http://metacrop.ipk-gatersleben.de MetaCrop] [[#2|[2]]] database, a manually curated repository of high quality information concerning the metabolism of crop plants. This includes pathways, reactions, locations, transport processes, and more.
+
+Download [https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/tags/milestone1/example-files/central_plant_metabolism.sbgn central_plant_metabolism.sbgn]
+
+[[Image:LibSBGN_Central_plant_metabolism_small.png|thumb|center|663px]]
+
+[http://www.sbgn.org/images/8/80/LibSBGN_Central_plant_metabolism.png Full resolution‎] (5,891 × 3,791 pixels, file size: 1.46 MB)
+
+== References ==
+
+&lt;span id=&quot;1&quot;&gt;[1]&lt;/span&gt; S. Moodie, N. Le Novere, E. Demir, H. Mi, and F. Schreiber. Systems Biology Graphical Notation: Process Description language Level 1. Available from Nature Precedings http://precedings.nature.com/documents/3721/version/2 (2010).
+
+&lt;span id=&quot;2&quot;&gt;[2]&lt;/span&gt; E. Grafahrend-Belau, S. Weise, D. Koschützki, U. Scholz, B. H. Junker, and F. Schreiber. [http://nar.oxfordjournals.org/cgi/content/full/36/suppl_1/D954 MetaCrop: a detailed database of crop plant metabolism]. Nucleic Acids Research, 36(Database issue):D954-D958 (2008).</text>
+    </revision>
+  </page>
+</mediawiki>

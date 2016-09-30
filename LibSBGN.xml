@@ -1,0 +1,110 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>LibSBGN</title>
+    <id>751</id>
+    <revision>
+      <id>4203</id>
+      <timestamp>2016-06-07T23:03:54Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <minor/>
+      <comment>Protected &quot;[[LibSBGN]]&quot;: protected for migration to GitGub [edit=sysop:move=sysop] [cascading]</comment>
+      <text xml:space="preserve">= About LibSBGN =
+
+The main goal of LibSBGN is to provide a standard electronic implementation for [[Main Page|SBGN]].
+
+== Download ==
+
+Please also see the [[LibSBGN/Release Notes|Release Notes]]
+
+* [http://sourceforge.net/projects/libsbgn/files/libsbgn-milestone2.zip/download libsbgn-milestone2.zip]
+* [http://sourceforge.net/projects/libsbgn/files/libsbgn-milestone2.tar.gz/download libsbgn-milestone2.tar.gz]
+
+== The SBGN-ML format ==
+
+SBGN-ML is an XML-based file format dedicated to the description of SBGN maps.
+
+For more information, refer to the page dedicated to this [[LibSBGN/Exchange Format|exchange format]].
+
+== The LibSBGN library ==
+
+LibSBGN is a library that deals with [[Main Page|SBGN maps]]. It features:
+* Reading / writing the SBGN-ML file format
+* Validation (of semantical and syntactical correctness) See [[LibSBGN/ValidationEntryPage|ValidationEntryPage]]
+* Conversion to other formats such as SBML and BioPAX
+* Support for at least Java and C++
+
+== Current status ==
+
+LibSBGN and SBGN-ML are still in development. See [[LibSBGN/SBGN-ML_Roadmap|SBGN-ML_Roadmap]]
+
+= Documentation =
+
+== General information ==
+
+* [http://precedings.nature.com/documents/5304/version/1 LibSBGN presentation] at COMBINE 2010
+* [http://precedings.nature.com/documents/4967/version/1 LibSBGN poster] presented at COMBINE 2010 and ISCB 2010
+* [http://libsbgn.sourceforge.net/SBGNML_Introduction.pdf LibSBGN tutorial] presented at [http://www.co.mbine.org/events/HARMONY_2011 HARMONY 2011]
+* [http://precedings.nature.com/documents/6373/version/1/ LibSBGN status update] presented at [http://co.mbine.org/events/COMBINE_2011 COMBINE 2011]
+
+== ... for tool developers ==
+
+* [[LibSBGN/Developer Tutorial|Developer Tutorial]] This is a tutorial for developers who want to add LibSBGN support to their tool.
+* [http://libsbgn.sourceforge.net/docs/ Java API Docs]
+
+= The LibSBGN Development Process =
+
+We're currently defining the [[LibSBGN/Exchange Format|exchange format]].
+To see what was discussed in the past, see [[LibSBGN/OnlineMeetings#Past Meetings|OnlineMeetings#Past Meetings]] and the [https://sourceforge.net/mailarchive/forum.php?forum_name=sbgn-libsbgn mailing list] hosted in the SBGN SourceForge project
+
+We hold semi-monthly online meetings. For information about past and future meetings, see: [[LibSBGN/OnlineMeetings|OnlineMeetings]]. For the latest information about upcoming meetings, please contact the mailing list. We also have live discussions bi-annually at [http://co.mbine.org/events COMBINE and HARMONY]:
+* [http://co.mbine.org/events/COMBINE_2012 COMBINE 2012]
+* [http://www.co.mbine.org/events/HARMONY_2012 HARMONY 2012]
+
+Implementation plan: [[LibSBGN/SBGN-ML_Roadmap|SBGN-ML_Roadmap]]
+
+The development of LibSBGN is articulated around a number of online tools (mostly hosted on SourceForge):
+* the [https://sourceforge.net/scm/?type=svn&amp;group_id=318225 svn repository]
+* the [https://sourceforge.net/tracker/?group_id=318225&amp;atid=1338219 bug tracker] (See also: [[LibSBGN/Bug Tracker FAQ|bug tracker FAQ]])
+* the [https://sourceforge.net/mailarchive/forum.php?forum_name=sbgn-libsbgn mailing list]
+
+= Software Support =
+
+LibSBGN is being adopted by a number of tools. For an up-to-date list, see [[LibSBGN/ClientTools|ClientTools]]. To see how these tools render SBGN-ML files, see our [http://libsbgn.sourceforge.net/render_comparison/ render comparison] page. 
+
+= Example Files =
+
+Some example files created with LibSBGN can be found here: [[LibSBGN/SBGN-ML Example Files|SBGN-ML Example Files]].</text>
+    </revision>
+  </page>
+</mediawiki>

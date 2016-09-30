@@ -1,0 +1,76 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Symbols/catalysis</title>
+    <id>934</id>
+    <revision>
+      <id>4082</id>
+      <timestamp>2016-03-03T15:49:02Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <text xml:space="preserve">''by Nicolas Le Novère''
+
+A ''catalysis'' is a particular case of [[Symbols/stimulation | ''stimulation'']], where the effector affects positively the flux of a process represented by the target process. The positive effect on the process is due to the lowering of the activation energy of a reaction. The target extremity of a ''catalysis'' carries an empty circle.
+
+In SBGN Process Description language, the catalysis of a process is represented by the ''catalysis arc''. The target extremity of a ''catalysis'' carries an empty circle. A ''catalysis arc'' starts from an ''entity pool node'' (labelled &quot;EPN&quot; in the figure below, representing for instance a pool of molecules) and ends on a ''process node'' (labelled &quot;PN&quot; in the figure below, representing for instance a reaction).  In the drawing below, the catalysis arc is coloured in red:
+
+&lt;center&gt;
+{{#icon:Symbol-catalysis.png |||| corner iradius11}}
+&lt;/center&gt;
+
+The following generic example describes an entity C that catalyses the process transforming an entity A into an entity B.
+
+&lt;center&gt;
+{{#icon:Symbol-catalysis-example.png |||| corner iradius11}}
+&lt;/center&gt;
+
+
+The following actual example describes the conversion of glucose into glucose 6 phosphate, catalysed by the enzyme hexokinase.
+
+&lt;center&gt;
+{{#icon:Symbol-catalysis-example-real.png |||| corner iradius11}}
+&lt;/center&gt;
+
+
+Download the process node image as (from the more semantic to the more generic):
+
+[ [[media:Symbol-catalysis.sbgn|SBGN-ML]] ]
+[ [[media:Symbol-catalysis.gml|GML]] ]
+[ [[media:Symbol-catalysis.graphml|GraphML]] ]
+[ [[media:Symbol-catalysis.svg|SVG]] ]
+[ [[media:Symbol-catalysis.odp|Open Document Format]] ]
+[ [[media:Symbol-catalysis.ppt|PowerPoint]] ]
+[ [[media:Symbol-catalysis.pdf|PDF]] ]
+[ [[media:Symbol-catalysis.png|PNG]] ]</text>
+    </revision>
+  </page>
+</mediawiki>

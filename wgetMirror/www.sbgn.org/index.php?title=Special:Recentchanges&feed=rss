@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="http://www.sbgn.org/skins/common/feed.css?116"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>sbgn.org - Recent changes [en]</title>
+		<link>http://www.sbgn.org/Special:Recentchanges</link>
+		<description>Track the most recent changes to the wiki in this feed.</description>
+		<language>en</language>
+		<generator>MediaWiki 1.12.0</generator>
+		<lastBuildDate>Tue, 07 Jun 2016 23:36:35 GMT</lastBuildDate>
+		<item>
+			<title>Special:Log/protect</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/protect&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;protected &amp;quot;&lt;a href=&quot;/LibSBGN/Bug_Tracker_FAQ&quot; title=&quot;LibSBGN/Bug Tracker FAQ&quot;&gt;LibSBGN/Bug Tracker FAQ&lt;/a&gt;&amp;quot;: protected for migration to GitGub [edit=sysop:move=sysop] [cascading]&lt;/p&gt;
+</description>
+			<pubDate>Tue, 07 Jun 2016 23:04:30 GMT</pubDate>			<dc:creator>Tczauderna</dc:creator>			<comments>http://www.sbgn.org/Log/protect</comments>		</item>
+		<item>
+			<title>Special:Log/protect</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/protect&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;protected &amp;quot;&lt;a href=&quot;/LibSBGN&quot; title=&quot;LibSBGN&quot;&gt;LibSBGN&lt;/a&gt;&amp;quot;: protected for migration to GitGub [edit=sysop:move=sysop] [cascading]&lt;/p&gt;
+</description>
+			<pubDate>Tue, 07 Jun 2016 23:03:54 GMT</pubDate>			<dc:creator>Tczauderna</dc:creator>			<comments>http://www.sbgn.org/Log/protect</comments>		</item>
+		<item>
+			<title>Special:Log/protect</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/protect&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;unprotected &amp;quot;&lt;a href=&quot;/LibSBGN&quot; title=&quot;LibSBGN&quot;&gt;LibSBGN&lt;/a&gt;&amp;quot;&lt;/p&gt;
+</description>
+			<pubDate>Tue, 07 Jun 2016 23:03:11 GMT</pubDate>			<dc:creator>Tczauderna</dc:creator>			<comments>http://www.sbgn.org/Log/protect</comments>		</item>
+		<item>
+			<title>Special:Log/protect</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/protect&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;protected &amp;quot;&lt;a href=&quot;/LibSBGN&quot; title=&quot;LibSBGN&quot;&gt;LibSBGN&lt;/a&gt;&amp;quot;: protected for migration to GitGub [edit=sysop:move=sysop] [cascading]&lt;/p&gt;
+</description>
+			<pubDate>Tue, 07 Jun 2016 23:02:32 GMT</pubDate>			<dc:creator>Tczauderna</dc:creator>			<comments>http://www.sbgn.org/Log/protect</comments>		</item>
+		<item>
+			<title>Special:Log/protect</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/protect&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;unprotected &amp;quot;&lt;a href=&quot;/LibSBGN&quot; title=&quot;LibSBGN&quot;&gt;LibSBGN&lt;/a&gt;&amp;quot;&lt;/p&gt;
+</description>
+			<pubDate>Tue, 07 Jun 2016 23:02:12 GMT</pubDate>			<dc:creator>Tczauderna</dc:creator>			<comments>http://www.sbgn.org/Log/protect</comments>		</item>
+		<item>
+			<title>Special:Log/protect</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/protect&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;changed protection level for &amp;quot;&lt;a href=&quot;/LibSBGN&quot; title=&quot;LibSBGN&quot;&gt;LibSBGN&lt;/a&gt;&amp;quot;: [edit=sysop:move=sysop]&lt;/p&gt;
+</description>
+			<pubDate>Tue, 07 Jun 2016 23:01:52 GMT</pubDate>			<dc:creator>Tczauderna</dc:creator>			<comments>http://www.sbgn.org/Log/protect</comments>		</item>
+		<item>
+			<title>Special:Log/protect</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/protect&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;protected &amp;quot;&lt;a href=&quot;/LibSBGN&quot; title=&quot;LibSBGN&quot;&gt;LibSBGN&lt;/a&gt;&amp;quot;: [edit=sysop:move=sysop] [cascading]&lt;/p&gt;
+</description>
+			<pubDate>Tue, 07 Jun 2016 22:58:11 GMT</pubDate>			<dc:creator>Tczauderna</dc:creator>			<comments>http://www.sbgn.org/Log/protect</comments>		</item>
+﻿		<item>
+			<title>Symbols/perturbing agent</title>
+			<link>http://www.sbgn.org/index.php?title=Symbols/perturbing_agent&amp;diff=4197&amp;oldid=prev</link>
+			<description>&lt;p&gt;&lt;/p&gt;
+
+			&lt;table style=&quot;background-color: white; color:black;&quot;&gt;
+			&lt;col class='diff-marker' /&gt;
+			&lt;col class='diff-content' /&gt;
+			&lt;col class='diff-marker' /&gt;
+			&lt;col class='diff-content' /&gt;
+			&lt;tr&gt;
+				&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;←Older revision&lt;/td&gt;
+				&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;Revision as of 15:29, 2 June 2016&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;tr&gt;&lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 1:&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 1:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;''by Vasundra Touré''&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;A perturbing agent is an Entity Pool Node found in PD. This glyph represents external influences carried on a biochemical network. Those influences can be the effect of well-defined physical perturbing agents, such as light pulse or a temperature change. They can also be more complex and not well-defined phenomena, for instance the outcome of a biological process or a mutation. The perturbing agent glyph is represented by a modified hexagon having two opposite concave faces. It is identified by a label and may carry a clone marker. One or more units of information can also be defined.&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;A perturbing agent is an Entity Pool Node found in PD. This glyph represents external influences carried on a biochemical network. Those influences can be the effect of well-defined physical perturbing agents, such as light pulse or a temperature change. They can also be more complex and not well-defined phenomena, for instance the outcome of a biological process or a mutation. The perturbing agent glyph is represented by a modified hexagon having two opposite concave faces. It is identified by a label and may carry a clone marker. One or more units of information can also be defined.&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</description>
+			<pubDate>Thu, 02 Jun 2016 15:29:52 GMT</pubDate>			<dc:creator>Vtoure</dc:creator>			<comments>http://www.sbgn.org/Talk:Symbols/perturbing_agent</comments>		</item>
+		<item>
+			<title>Main Page</title>
+			<link>http://www.sbgn.org/index.php?title=Main_Page&amp;diff=4196&amp;oldid=prev</link>
+			<description>&lt;p&gt;&lt;/p&gt;
+
+			&lt;table style=&quot;background-color: white; color:black;&quot;&gt;
+			&lt;col class='diff-marker' /&gt;
+			&lt;col class='diff-content' /&gt;
+			&lt;col class='diff-marker' /&gt;
+			&lt;col class='diff-content' /&gt;
+			&lt;tr&gt;
+				&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;←Older revision&lt;/td&gt;
+				&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;Revision as of 15:26, 2 June 2016&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;tr&gt;&lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 13:&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 13:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt;-&lt;/td&gt;&lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;=Symbol of the month - &lt;del style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;May &lt;/del&gt;2016=&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;=Symbol of the month - &lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;June &lt;/ins&gt;2016=&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{|width=&amp;quot;100%&amp;quot; style=&amp;quot;font-weight:bold;font-size:1.2em;&amp;quot;&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{|width=&amp;quot;100%&amp;quot; style=&amp;quot;font-weight:bold;font-size:1.2em;&amp;quot;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt;-&lt;/td&gt;&lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;| align=&amp;quot;center&amp;quot; style=&amp;quot;padding:12px;&amp;quot;| [[Symbols/&lt;del style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;perturbing_agent&lt;/del&gt;| &amp;lt;font color=&amp;quot;#ffff00&amp;quot;&amp;gt;&lt;del style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;Perturbing Agent &lt;/del&gt;(PD)]]&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;| align=&amp;quot;center&amp;quot; style=&amp;quot;padding:12px;&amp;quot;| [[Symbols/&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;unspecified_entity&lt;/ins&gt;| &amp;lt;font color=&amp;quot;#ffff00&amp;quot;&amp;gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;Unspecified Entity &lt;/ins&gt;(PD)]]&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt;-&lt;/td&gt;&lt;td style=&quot;background: #ffa; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;| align=&amp;quot;center&amp;quot; style=&amp;quot;padding:12px;&amp;quot;| [[Image:&lt;del style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;Symbol_perturbingAgent&lt;/del&gt;.png|border|150px]]&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;| align=&amp;quot;center&amp;quot; style=&amp;quot;padding:12px;&amp;quot;| [[Image:&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;Symbol_unspecEntity&lt;/ins&gt;.png|border|150px]]&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;|}&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;|}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;Click [[Symbols/ | here]] to see the list of previous symbols of the month.&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;Click [[Symbols/ | here]] to see the list of previous symbols of the month.&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</description>
+			<pubDate>Thu, 02 Jun 2016 15:26:14 GMT</pubDate>			<dc:creator>Vtoure</dc:creator>			<comments>http://www.sbgn.org/Talk:Main_Page</comments>		</item>
+		<item>
+			<title>Symbols/unspecified entity</title>
+			<link>http://www.sbgn.org/index.php?title=Symbols/unspecified_entity&amp;diff=4195&amp;oldid=prev</link>
+			<description>&lt;p&gt;&lt;/p&gt;
+
+			&lt;table style=&quot;background-color: white; color:black;&quot;&gt;
+			&lt;col class='diff-marker' /&gt;
+			&lt;col class='diff-content' /&gt;
+			&lt;col class='diff-marker' /&gt;
+			&lt;col class='diff-content' /&gt;
+			&lt;tr&gt;
+				&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;←Older revision&lt;/td&gt;
+				&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;Revision as of 15:24, 2 June 2016&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;tr&gt;&lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 19:&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 19:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{#icon:Symbol_unspecEntity-example.png |||| corner iradius11}}&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;{{#icon:Symbol_unspecEntity-example.png |||| corner iradius11}}&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;/center&amp;gt;&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&amp;lt;/center&amp;gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;Download the unspecified entity glyph image as (from the more semantic to the more generic):&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;[ [[media:Symbol_unspecEntity.sbgn|SBGN-ML]] ]&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;[ [[media:Symbol_unspecEntity.gml|GML]] ]&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;[ [[media:Symbol_unspecEntity.graphml|GraphML]] ]&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;[ [[media:Symbol_unspecEntity.svg|SVG]] ]&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;[ [[media:Symbol_unspecEntity.odp|Open Document Format]] ]&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;[ [[media:Symbol_unspecEntity.ppt|PowerPoint]] ]&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;[ [[media:Symbol_unspecEntity.pdf|PDF]] ]&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;[ [[media:Symbol_unspecEntity.png|PNG]] ]&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</description>
+			<pubDate>Thu, 02 Jun 2016 15:24:48 GMT</pubDate>			<dc:creator>Vtoure</dc:creator>			<comments>http://www.sbgn.org/Talk:Symbols/unspecified_entity</comments>		</item>
+		<item>
+			<title>Special:Log/upload</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/upload&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;uploaded &amp;quot;&lt;a href=&quot;/Image:Symbol_unspecEntity.pdf&quot; title=&quot;Image:Symbol unspecEntity.pdf&quot;&gt;Image:Symbol unspecEntity.pdf&lt;/a&gt;&amp;quot;&lt;/p&gt;
+</description>
+			<pubDate>Thu, 02 Jun 2016 15:23:48 GMT</pubDate>			<dc:creator>Vtoure</dc:creator>			<comments>http://www.sbgn.org/Log/upload</comments>		</item>
+		<item>
+			<title>Special:Log/upload</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/upload&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;uploaded &amp;quot;&lt;a href=&quot;/Image:Symbol_unspecEntity.svg&quot; title=&quot;Image:Symbol unspecEntity.svg&quot;&gt;Image:Symbol unspecEntity.svg&lt;/a&gt;&amp;quot;&lt;/p&gt;
+</description>
+			<pubDate>Thu, 02 Jun 2016 15:23:38 GMT</pubDate>			<dc:creator>Vtoure</dc:creator>			<comments>http://www.sbgn.org/Log/upload</comments>		</item>
+		<item>
+			<title>Symbols/</title>
+			<link>http://www.sbgn.org/index.php?title=Symbols/&amp;diff=4192&amp;oldid=prev</link>
+			<description>&lt;p&gt;&lt;/p&gt;
+
+			&lt;table style=&quot;background-color: white; color:black;&quot;&gt;
+			&lt;col class='diff-marker' /&gt;
+			&lt;col class='diff-content' /&gt;
+			&lt;col class='diff-marker' /&gt;
+			&lt;col class='diff-content' /&gt;
+			&lt;tr&gt;
+				&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;←Older revision&lt;/td&gt;
+				&lt;td colspan='2' style=&quot;background-color: white; color:black;&quot;&gt;Revision as of 15:21, 2 June 2016&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;tr&gt;&lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 1:&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 1:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;== Symbol of the month series ==&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;== Symbol of the month series ==&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;background: #cfc; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;&lt;ins style=&quot;color: red; font-weight: bold; text-decoration: none;&quot;&gt;* June 2016: [[Symbols/unspecified_entity | PD Unspecified Entity]] ''by Vasundra Touré''&lt;/ins&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;* May 2016: [[Symbols/perturbing_agent | PD Perturbing Agent]] ''by Vasundra Touré''&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;* May 2016: [[Symbols/perturbing_agent | PD Perturbing Agent]] ''by Vasundra Touré''&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;* Apr 2016: [[Symbols/unit_of_information_for_BA | AF Unit of information (for BA)]] ''by Vasundra Touré''&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt; &lt;/td&gt;&lt;td style=&quot;background: #eee; color:black; font-size: smaller;&quot;&gt;&lt;div&gt;* Apr 2016: [[Symbols/unit_of_information_for_BA | AF Unit of information (for BA)]] ''by Vasundra Touré''&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</description>
+			<pubDate>Thu, 02 Jun 2016 15:21:10 GMT</pubDate>			<dc:creator>Vtoure</dc:creator>			<comments>http://www.sbgn.org/Talk:Symbols/</comments>		</item>
+		<item>
+			<title>Symbols/unspecified entity</title>
+			<link>http://www.sbgn.org/index.php?title=Symbols/unspecified_entity&amp;diff=4191&amp;oldid=prev</link>
+			<description>&lt;p&gt;New page: ''by Vasundra Touré''  In SBGN PD, the unspecified entity is the simplest and the most generic Entity Pool Node (EPN). It defines unknown or uncertain biological elements, or simply non-r...&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;New page&lt;/b&gt;&lt;/p&gt;&lt;div&gt;''by Vasundra Touré''&lt;br /&gt;
+&lt;br /&gt;
+In SBGN PD, the unspecified entity is the simplest and the most generic Entity Pool Node (EPN). It defines unknown or uncertain biological elements, or simply non-relevant information for the map. An unspecified entity is represented by an elliptic shape and is identified by a label.&lt;br /&gt;
+&lt;br /&gt;
+&amp;lt;center&amp;gt;&lt;br /&gt;
+{{#icon:Symbol_unspecEntity.png |||| corner iradius11}}&lt;br /&gt;
+&amp;lt;/center&amp;gt;&lt;br /&gt;
+&lt;br /&gt;
+As it is an EPN, the unspecified entity can carry a clone marker.&lt;br /&gt;
+&lt;br /&gt;
+&amp;lt;center&amp;gt;&lt;br /&gt;
+{{#icon:Symbol_unspecEntity-clone.png |||| corner iradius11}}&lt;br /&gt;
+&amp;lt;/center&amp;gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+The following example shows a part of the iNOS pathway (http://sbgnbricks.sourceforge.net/) where the iNOS and CaM entities form a complex to catalyse the production of Nitric Oxide (NO) and citruline, leading to a couple of other reactions. Here, the iNOS and the CaM are represented as unspecified entities.&lt;br /&gt;
+&lt;br /&gt;
+&amp;lt;center&amp;gt;&lt;br /&gt;
+{{#icon:Symbol_unspecEntity-example.png |||| corner iradius11}}&lt;br /&gt;
+&amp;lt;/center&amp;gt;&lt;/div&gt;</description>
+			<pubDate>Thu, 02 Jun 2016 15:20:14 GMT</pubDate>			<dc:creator>Vtoure</dc:creator>			<comments>http://www.sbgn.org/Talk:Symbols/unspecified_entity</comments>		</item>
+		<item>
+			<title>Special:Log/upload</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/upload&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;uploaded &amp;quot;&lt;a href=&quot;/Image:Symbol_unspecEntity-example.png&quot; title=&quot;Image:Symbol unspecEntity-example.png&quot;&gt;Image:Symbol unspecEntity-example.png&lt;/a&gt;&amp;quot;&lt;/p&gt;
+</description>
+			<pubDate>Thu, 02 Jun 2016 15:18:55 GMT</pubDate>			<dc:creator>Vtoure</dc:creator>			<comments>http://www.sbgn.org/Log/upload</comments>		</item>
+		<item>
+			<title>Special:Log/upload</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/upload&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;uploaded &amp;quot;&lt;a href=&quot;/Image:Symbol_unspecEntity-clone.png&quot; title=&quot;Image:Symbol unspecEntity-clone.png&quot;&gt;Image:Symbol unspecEntity-clone.png&lt;/a&gt;&amp;quot;&lt;/p&gt;
+</description>
+			<pubDate>Thu, 02 Jun 2016 15:18:42 GMT</pubDate>			<dc:creator>Vtoure</dc:creator>			<comments>http://www.sbgn.org/Log/upload</comments>		</item>
+		<item>
+			<title>Special:Log/upload</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/upload&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;uploaded &amp;quot;&lt;a href=&quot;/Image:Symbol_unspecEntity.ppt&quot; title=&quot;Image:Symbol unspecEntity.ppt&quot;&gt;Image:Symbol unspecEntity.ppt&lt;/a&gt;&amp;quot;&lt;/p&gt;
+</description>
+			<pubDate>Thu, 02 Jun 2016 15:18:32 GMT</pubDate>			<dc:creator>Vtoure</dc:creator>			<comments>http://www.sbgn.org/Log/upload</comments>		</item>
+		<item>
+			<title>Special:Log/upload</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/upload&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;uploaded &amp;quot;&lt;a href=&quot;/Image:Symbol_unspecEntity.odp&quot; title=&quot;Image:Symbol unspecEntity.odp&quot;&gt;Image:Symbol unspecEntity.odp&lt;/a&gt;&amp;quot;&lt;/p&gt;
+</description>
+			<pubDate>Thu, 02 Jun 2016 15:18:24 GMT</pubDate>			<dc:creator>Vtoure</dc:creator>			<comments>http://www.sbgn.org/Log/upload</comments>		</item>
+		<item>
+			<title>Special:Log/upload</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/upload&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;uploaded &amp;quot;&lt;a href=&quot;/Image:Symbol_unspecEntity.gml&quot; title=&quot;Image:Symbol unspecEntity.gml&quot;&gt;Image:Symbol unspecEntity.gml&lt;/a&gt;&amp;quot;&lt;/p&gt;
+</description>
+			<pubDate>Thu, 02 Jun 2016 15:16:28 GMT</pubDate>			<dc:creator>Vtoure</dc:creator>			<comments>http://www.sbgn.org/Log/upload</comments>		</item>
+		<item>
+			<title>Special:Log/upload</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/upload&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;uploaded &amp;quot;&lt;a href=&quot;/Image:Symbol_unspecEntity.graphml&quot; title=&quot;Image:Symbol unspecEntity.graphml&quot;&gt;Image:Symbol unspecEntity.graphml&lt;/a&gt;&amp;quot;&lt;/p&gt;
+</description>
+			<pubDate>Thu, 02 Jun 2016 15:15:41 GMT</pubDate>			<dc:creator>Vtoure</dc:creator>			<comments>http://www.sbgn.org/Log/upload</comments>		</item>
+		<item>
+			<title>Special:Log/upload</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/upload&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;uploaded &amp;quot;&lt;a href=&quot;/Image:Symbol_unspecEntity.sbgn&quot; title=&quot;Image:Symbol unspecEntity.sbgn&quot;&gt;Image:Symbol unspecEntity.sbgn&lt;/a&gt;&amp;quot;&lt;/p&gt;
+</description>
+			<pubDate>Thu, 02 Jun 2016 15:15:31 GMT</pubDate>			<dc:creator>Vtoure</dc:creator>			<comments>http://www.sbgn.org/Log/upload</comments>		</item>
+		<item>
+			<title>Special:Log/upload</title>
+			<link>http://www.sbgn.org/index.php?title=Special:Log/upload&amp;diff=0&amp;oldid=prev</link>
+			<description>&lt;p&gt;uploaded &amp;quot;&lt;a href=&quot;/Image:Symbol_unspecEntity.png&quot; title=&quot;Image:Symbol unspecEntity.png&quot;&gt;Image:Symbol unspecEntity.png&lt;/a&gt;&amp;quot;: Symbol of the month June 2016&lt;/p&gt;
+</description>
+			<pubDate>Thu, 02 Jun 2016 15:13:50 GMT</pubDate>			<dc:creator>Vtoure</dc:creator>			<comments>http://www.sbgn.org/Log/upload</comments>		</item>
+	</channel>
+</rss>

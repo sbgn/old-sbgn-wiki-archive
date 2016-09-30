@@ -1,0 +1,388 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-1</title>
+    <id>205</id>
+    <revision>
+      <id>1997</id>
+      <timestamp>2010-02-10T22:28:50Z</timestamp>
+      <contributor>
+        <username>SBGNWikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>Protected &quot;[[Events/SBGN-1]]&quot;: Only let sysops edit this page [edit=sysop:move=sysop] [cascading]</comment>
+      <text xml:space="preserve">February 11-12, 2006, at [http://www.aist.go.jp/index_en.html AIST] in Tokyo, Japan.
+
+==Introduction==
+
+The first international workshop on the Systems Biology Graphical Notation (SBGN-1) took place February 11-12, 2006, at [http://www.aist.go.jp/index_en.html the National Institute of Advanced Industrial Science and Technology (AIST)], in Tokyo, Japan. This first workshop was aimed at intensive discussions about the formation of a standard for the graphical display for biological network diagrams. Diagrams may cover a wide range of biological processes and express various levels of abstraction. The limitations of current graphical notations has been widely recognized, and several efforts has been made to rectify the situation. 
+
+Workshop co-organizers: 
+
+* Ken Ichirou Fukuda (AIST)
+* Hiroaki Kitano (SBI &amp; Sony CSL)
+* Mike Hucka (Caltech)
+* Nicolas Le Novère (EBI)
+* Yukiko Matsuoka (SBI &amp; JST)
+* Akira Funahashi (SBI &amp; JST)
+
+This workshop was made possible by support from the [http://www.nedo.go.jp/ NEDO METI International Grant (Japan)], the [http://www.jst.go.jp/kisoken/sorst/ JST SORST program (Japan)], the Genome Network Project (MEXT, Japan), the Swedish-Japanese Strategic Research Program (JST), and [http://www.cbrc.jp/index.eng.html AIST CBRC] (METI).
+
+==Agenda: Presentations, Discussions and Notes==
+
+[[image: sbgn1-discussion2.jpg ]]
+
+[http://sbmlteam.smugmug.com/gallery/1220713 Click here for a photo album from the event]
+
+&lt;span class=&quot;subhead4&quot;&gt; Day 1 (Saturday, 11 February 2006)&lt;/span&gt;
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;
+!Time
+!Topic
+!Speaker
+!Files
+|-
+|09:30–09:45
+|Introduction
+|Hiroaki Kitano
+| 
+|-
+|09:45-10:00
+|Meeting agenda and Notes
+|Michael Hucka
+| [[media:Sbgn1-day1-hucka.pdf | PDF]]
+|-
+|10:00-10:45
+|Molecular Interaction Maps
+|Mirit Aladjem
+| [[media:Sbgn1-day1-aladjem.pdf‎ | PDF]]
+|-
+|10:45-11:30
+|Process Diagram notation
+|Hiroaki Kitano
+| [[media:Sbgn1-day1-kitano.pdf | PDF]]
+|-
+|11:30-11:45
+| colspan=&quot;3&quot;| ''Break''
+|-
+|11:45-12:05
+|Cytoscape
+|Nerius Landys
+| [[media:Sbgn1-day1-landys.pdf | PDF]]
+|-
+|12:05-12:25
+|INOH
+|Ken Fukuda
+| [[media: Sbgn1-day1-fukuda.pdf| PDF]]
+|-
+|12:25-12:45
+|Panther Pathway
+|Huaiyu Mi
+| [[media:Sbgn1-day1-mi.pdf | PDF]]
+|-
+|12:45-14:30
+|colspan=&quot;3&quot; | ''Lunch''
+|-
+|14:30-14:50
+|VLX Design Suite
+|Zheng Li
+| [[media:Sbgn1-day1-li.pdf | PDF]]
+|-
+|14:50-15:10
+|JDesigner
+|Frank Bergmann
+| [[media:Sbgn1-day1-bergmann.pdf‎ | PDF]]
+|-
+|15:10-15:40
+|Patika
+|Ugur Dogrusoz
+| [[media:Sbgn1-day1-dogrusoz.pdf | PDF]]
+|-
+|15:40-16:00
+|colspan=&quot;3&quot; | ''Break''
+|-
+|16:00-16:20
+|EPE
+|Anatoly Sorokin
+| [[media:Sbgn1-day1-sorokin.pdf | PDF]]
+|-
+|16:20-16:40
+|SBML layout &amp; render extension proposals
+|Ralph Gauges
+| [[media:Sbgn1-day1-gauges.pdf | PDF]]
+|-
+|16:40-18:00
+|colspan=&quot;3&quot;|Discussion:  view from modelers and first pass at definining SBGN goals.  [[Events/SBGN-1/SGBN-1 Discussion Notes: Goals| Discussion notes]]
+|-
+|}
+
+&lt;span class=&quot;subhead4&quot;&gt; Day 2 (Sunday, 12 February 2006)&lt;/span&gt;
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+!Time
+!Topic
+!Speaker
+!Files
+|-
+|09:00-09:15
+|Introduction
+|Michael Hucka
+| 
+|-
+|09:15-09:40
+|Edinburgh notation proposals
+|Stuart Moodie
+| [[media:Sbgn1-day2-moodie.pdf | PDF]]
+|-
+|09:40-10:15
+|Review of PDN notation
+|Hiroaki Kitano
+| [[media:Sbgn1-day2-kitano.pdf | PDF]]
+|-
+|10:15-10:40
+|Review of MIMs notation
+|Mirit Aladjem
+| [[media:Sbgn1-day2-aladjem.pdf | PDF]]
+|-
+|10:40-11:00
+|colspan=&quot;3&quot; | ''Break''
+|-
+|11:00-12:15
+|colspan=&quot;3&quot; |Discussion:  tradeoffs between notations &amp;amp; requirements for SBGN [[Events/SBGN-1/SGBN-1 Discussion Notes: Tradeoffs | Discussion notes]]
+|-
+|12:15-13:15
+|colspan=&quot;3&quot; | ''Lunch''
+|-
+|13:15-13:35
+|CellML efforts
+|Sarala Dissanayake
+| [[media:Sbgn1-day2-dissanayake.pdf | PDF]]
+|- 
+|13:35-14:00 
+|colspan=&quot;3&quot; | Discussion:  resolution to morning's unanswered questions [[Events/SBGN-1/SGBN-1 Discussion Notes: Resolutions | Discussion notes]]
+|-
+|14:00-14:35
+|colspan=&quot;3&quot; | Discussion:  2nd pass at developing list of SBGN requirements
+|-
+|14:35-15:00
+|colspan=&quot;3&quot; | ''break''
+|-
+|15:00-15:20
+|colspan=&quot;3&quot; | Discussion: issues in interfacing SBGN with machine readable formats [[Events/SBGN-1/SGBN-1 Discussion Notes: Interfacing| Discussion notes]]
+|-
+|15:20-16:15
+|colspan=&quot;3&quot; | Discussion:  3rd pass at developing list of SBGN requirements
+|-
+|16:15-16:30
+|colspan=&quot;3&quot; | Discussion: moving towards a standard &amp; planning the next steps [[Events/SBGN-1/SGBN-1 Discussion Notes: Planning | Discussion notes]]
+|-
+|16:30-16:35
+|colspan=&quot;3&quot; | Final closing
+|-
+|}
+
+==Workshop Participants==
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+!Name
+!Affliation
+!Group
+|-
+|Mirit I. Aladjem 
+|NIH, NCI (USA)
+|MIMs
+|-
+|Frank Bergmann
+|Keck Graduate Inst. (USA)
+|JDesigner 
+|-
+|Emek Demir
+|MSKCC (USA)
+|BioPAX
+|-
+|Sarala Dissanayake
+|Univ. of Auckland (New Zealand)
+|CellML 
+|-
+|Ugur Dogrusoz
+|Bilkent University (Turkey)
+|Patika
+|-
+|Ken Fukuda
+|AIST (Japan)
+|INOH, BioPAX
+|-
+|Akira Funahashi
+|SBI (Japan)
+|CellDesigner, SBML
+|-
+|Ralph Gauges
+|EML (Germany)
+|COPASI
+|-
+|Peter Ghazal
+|Univ. Edinburgh (UK)
+|DBsolve, EPE
+|-
+|Igor Goryanin
+|Univ. Edinburgh (UK)
+|DBsolve, EPE
+|-
+|Noriko Hiroi
+|SBI (Japan)
+|
+|-
+|Michael Hucka
+|Caltech (USA)
+|SBML, SBGN
+|-
+|Hiroaki Kitano
+|SBI and Sony CSL (Japan)
+|SBGN, SBML
+|-
+|Edda Klipp
+|Max Planck Institute for Mol. Genetics (Germany)
+|Kinetics Modeling Group
+|-
+|Marcus Krantz
+|SBI 
+|YSBN 
+|-
+|Nerius Landys
+|UCSD (USA)
+|Cytoscape 
+|-
+|Nicolas Le Novère
+|EBI (UK)
+|BioModels Database 
+|-
+|Lu Li 
+|EBI (UK)
+|BioModels Database 
+|-
+|Zheng Li
+|TERANODE Corp. (USA)
+|Design Suite
+|-
+|Yukiko Matsuoka
+|SBI (Japan)
+|SBGN, CellDesigner
+|-
+|Huaiyu Mi
+|Applied Biosystems Inc. (USA)
+|Panther Pathway
+|-
+|Stuart Moodie
+|Univ. Edinburgh (UK)
+|DBsolve, EPE
+|-
+|Mineo Morohashi
+|Human Metabolome Technologies Inc.
+|
+|-
+|Poul Nielsen
+|Univ. of Auckland (New Zeland)
+|CellML 
+|-
+|Yasunori Osana
+|SBI (Japan)
+|CellDesigner
+|-
+|Sven Sahle
+|EML (Germany)
+|COPASI
+|-
+|Anatoly Sorokin
+|Univ. Edinburgh (UK)
+|DBsolve, EPE
+|-
+|Jörg Stelling
+|ETH (Switzerland)
+|YSBN 
+|-
+|Carl Tiger 
+|Göteborg Univ. (Sweden)
+|YSBN 
+|-
+|}
+
+==Workshop Location==
+The workshop was held at the [http://www.cbrc.jp/cbrc/map/index.eng.html AIST Tokyo Waterfront Bio-IT Research Building], 11th floor. The venue was made available thanks to Ken Fukuda of AIST.
+
+The page of [http://www.cds.caltech.edu/~ltaddeo/sbgn-1-directions/ detailed directions to the AIST building] provide a guide for getting from the hotel to the AIST.
+
+For those of you already familiar with the area from past visits, it may help to know that the AIST building is very near the MeSci building (Miraikan), site of past SBML and other meetings. You simply need to walk a little farther out past MeSci.
+
+==Accommodations==
+Reservations for SBGN-1 participants were made at the [http://www.villa-fontaine.co.jp/eng/shiodome/ Hotel Villa Fontaine Shiodome]. The hotel is located right outside a major train and subway exchange point. Getting from the hotel to the SBGN-1 venue is a simple matter of taking the Yurikamome line from the station right next to the hotel to the AIST building. Detailed directions are available [http://www.cds.caltech.edu/~ltaddeo/sbgn-1-directions/ on a separate page]. 
+
+==Pre-Meeting Background Materials==
+
+The development of graphical diagrammatic notations for biological networks is an active area of work. The following papers are valuable readings on topics that figured prominently at SBGN-2. 
+
+===Kitano process diagram notation===
+
+* [[media:Kitano_et_al_2005.pdf | Kitano/Funahashi/Matsuoka/Oda 2005]] paper in ''Nature Biotech''.
+* [[media:Kitano_2003.pdf | Kitano 2003]] on biochemical networks in ''BIOSILICO''.
+* [[media:Process-diagram.pdf | The Process Diagram: Rationale and Definition]] unpublished manuscript
+
+===Kohn Molecular Interaction Maps (MIM) notation===
+
+* [[media:Kohn_et_al_2006.pdf | Kohn/Aladjem/Weinstein/Pommier 2006]] paper in ''Mol. Bio. of the Cell''
+* [[media:Kohn_aladjem_2006.pdf | Kohn/Aladjem commentary]] in ''Mol. Sys. Bio.'' 2006
+* [[media:Kohn_2001.pdf | Kohn 2001]] paper in ''Chaos''
+
+===Edinburgh Pathway Notation===
+
+* [[media:Moodie_2006.pdf | Moodie/Sorokin/Goryanin/Ghazal 2006]] paper in ''J. Integrative Bioinformatics'' 2006
+
+===Patika===
+
+* [[media:Demir_et_al_2004.pdf | Demir et al. 2004]] paper in ''Bioinformatics''
+* [[media:Dogrusoz_et_al_2006.pdf | Dogrusoz et al. paper submitted, in review]] in ''ACM Trans. Graphics''
+
+===INOH===
+
+* [[media:Fukuda_takagi_2004.pdf | Fukuda and Takagi 2004]] paper in ACM ''conference on Asia-Pacific bioinformatics''
+* [[media:Yamamoto_2003.pdf | Yamamoto et al. 2003]] paper in ''Genome Informatics''
+
+===SBML Layout and Rendering Extensions proposals===
+
+* [[media:Gauges_et_al_2006.pdf | Gauges/Rost/Sahle/Wegner paper submitted, in-review]] in ''Bioinformatics''
+* [[media:NEWSBMLRenderExtension.pdf | Gauges/Sahle/Wegner draft render extensions proposal]] manuscript
+
+==Travel Information==
+&lt;span class=&quot;subhead3&quot;&gt;Please print and take with you&lt;/span&gt; our [[Events/SBGN-1/Pre-travel Information |pre-travel information page]]. This will help you find your way upon arrival at Narita airport.
+
+&lt;span class=&quot;subhead3&quot;&gt;Notice about visa requirements:&lt;/span&gt; All overseas visitors wishing to enter Japan require a valid Passport. A visa is also required for participants coming from [http://www.mofa.go.jp/j_info/visit/visa/02.html#a countries without visa exemption agreements] with Japan. Please visit http://www.mofa.go.jp/j_info/visit/visa/index.html for more information.</text>
+    </revision>
+  </page>
+</mediawiki>

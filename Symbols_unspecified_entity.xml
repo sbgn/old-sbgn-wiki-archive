@@ -1,0 +1,75 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Symbols/unspecified entity</title>
+    <id>1110</id>
+    <revision>
+      <id>4195</id>
+      <timestamp>2016-06-02T15:24:48Z</timestamp>
+      <contributor>
+        <username>Vtoure</username>
+        <id>76</id>
+      </contributor>
+      <text xml:space="preserve">''by Vasundra Touré''
+
+In SBGN PD, the unspecified entity is the simplest and the most generic Entity Pool Node (EPN). It defines unknown or uncertain biological elements, or simply non-relevant information for the map. An unspecified entity is represented by an elliptic shape and is identified by a label.
+
+&lt;center&gt;
+{{#icon:Symbol_unspecEntity.png |||| corner iradius11}}
+&lt;/center&gt;
+
+As it is an EPN, the unspecified entity can carry a clone marker.
+
+&lt;center&gt;
+{{#icon:Symbol_unspecEntity-clone.png |||| corner iradius11}}
+&lt;/center&gt;
+
+
+The following example shows a part of the iNOS pathway (http://sbgnbricks.sourceforge.net/) where the iNOS and CaM entities form a complex to catalyse the production of Nitric Oxide (NO) and citruline, leading to a couple of other reactions. Here, the iNOS and the CaM are represented as unspecified entities.
+
+&lt;center&gt;
+{{#icon:Symbol_unspecEntity-example.png |||| corner iradius11}}
+&lt;/center&gt;
+
+
+
+Download the unspecified entity glyph image as (from the more semantic to the more generic):
+
+[ [[media:Symbol_unspecEntity.sbgn|SBGN-ML]] ]
+[ [[media:Symbol_unspecEntity.gml|GML]] ]
+[ [[media:Symbol_unspecEntity.graphml|GraphML]] ]
+[ [[media:Symbol_unspecEntity.svg|SVG]] ]
+[ [[media:Symbol_unspecEntity.odp|Open Document Format]] ]
+[ [[media:Symbol_unspecEntity.ppt|PowerPoint]] ]
+[ [[media:Symbol_unspecEntity.pdf|PDF]] ]
+[ [[media:Symbol_unspecEntity.png|PNG]] ]</text>
+    </revision>
+  </page>
+</mediawiki>

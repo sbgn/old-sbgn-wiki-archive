@@ -1,0 +1,175 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-1/SGBN-1 Discussion Notes: Goals</title>
+    <id>238</id>
+    <revision>
+      <id>1135</id>
+      <timestamp>2008-10-03T23:58:14Z</timestamp>
+      <contributor>
+        <username>Ltaddeo</username>
+        <id>6</id>
+      </contributor>
+      <text xml:space="preserve">&lt;div class=&quot;superhead2&quot;&gt;Feb. 11, 2006 discussions about user experiences and SBGN goals (combined session)&lt;/div&gt;
+
+''(Discussion moderated and notes taken by M. Hucka.)''
+
+'''M. Hucka:''' By way of introduction to this session, the point is to discuss what people's experiences are with respect to the desires and needs of practicing users. Lot of people in the audience are either biologists or modelers or interact with biologists and modelers. What do they find that users want from a graphical diagramming facility?
+
+'''I. Goryanin:''' Biologists want PowerPoint. We need to show them that there is something to be gained from a system that provides more specific features for modeling.
+
+'''H. Mi:''' They went though that at ABI. They sat down with non-expert users and taught them a few features of the tools. They found biologists realized they couldn't connect their diagrams with the data with something like powerpoint. They wanted to store their diagrams in the databases where they kept other data. ABI showed the users there was value added by providing additional facilities beyond what just a drawing program provides.
+
+'''P. Ghazal:''' Their group had students trying using Kitano's notation, Kohn notation, others, but the students found they couldn't represent everything they wanted. Lesson learned: need to keep the notation as simple as possible. Need to focus on key interactions. A rule of thumb is: need to have a symbolic language with no more than 20 symbols. It must be formally correct, but keep it simple.
+
+'''M. Aladjem:''' Their experience is that users soon realize powerpoint or graphical drawing tools don't cut it. The context is often that they're trying to get something published. Their experience is that users find MIMs maps quick to intuit. Their group finds that people are not often willing to take the time to learn something when the learning curve is steep. But they're ready for consistent regular diagrams.
+
+(General comments made about keeping it simple, but it's important to also have functionality.)
+
+'''Le Novere:''' biologists learn well by example. If all of us start to use a consistent graphical notation, they will see it again and again, and will be more willing to use it. Maybe what we need is levels of complexity in the notation: a version that's simpler (to start off with), a version that's more elaborate (for more expressiveness).
+
+'''P. Ghazal.:''' Agreed, you have to lower the barrier to entry. Levels are a good idea.
+
+'''E. Klipp:''' Keep in mind mind that people may want to use tools in different situations. For example, powerpoint might still be useful for people doing presentations. So we should think in terms that people can have these other network diagram tools available in *addition* to powerpoint.
+
+'''A. Sorokin:''' Stuart Moodie in their group did study of using drawing tools, and they found users made errors in diagrams. It's vital to have tools that can validate the diagrams. Powerpoint doesn't validate the semantics and syntax of the diagrams.
+
+'''E. Demir:''' Disagrees: we don't need the diagrams to be validated, we need a validated mapping from the diagrams to representations like SBML or Biopax. We should not go for exact unambiguous diagrams, because it's not going to happen.
+
+'''Le Novere:''' Disagrees with that. Consider CellDesigner, graphical languages in other areas, etc. The diagrams are verifiable. We want uncertainty but not ambiguity.
+
+'''H. Mi:''' Keep in mind there are two types of users: one type of user generates, the other type reads diagrams. It's hard to satisfy both types at the same time. To generate diagrams, you still have to put a lot of effort o train users to capture as much information as possible in the diagram. When you present the results to readers, there you might want to focus the information, make the diagram simpler if you need to. But if you start with simple capture of information, then you have a problem that you may not get all the info you need from the start, and you have to keep going back for more details later.
+
+'''H. Kitano:''' We also have to be concerned about how people will download and want to use diagrams published.
+
+'''Le Novere:''' Today, high school students are taught to use electrical diagrams (at least in France?). He thinks that in a few decades from now, high school students will be taught SBGN.
+
+'''S. Sahle:''' Keep in mind there may be tools that do different things. Some tools may only do graphics, some may be db tools that only export SBGN, etc. So we shouldn't focus only on the editor/capture tools.
+
+'''M. Aladjem:''' We're having 2 discussions here. Discussion (1) is about what we should include in the language, whether it should be extensible to layers, etc. Discussion (2) is about how to provide tools that let users work with the diagrams. We should separate these discussions.
+
+'''I. Goryanin:''' (Going back to the language.) Are we talking about SBG Language or SBG Notation?
+
+'''H. Kitano:''' They're kind of same thing here. Recall that in linguistics, there are three aspects of languages: symbols, syntax, and semantics.
+
+'''K. Fukuda:''' Can we allow ambiguity in the language?
+
+'''M. Hucka:''' Well, there can be uncertainty in electronic circuit diagrams. In the simplest diagrams it's less likely to be ambiguous, but the more complicated they get, sometimes you can have a hard time determine what is intended. This is especially true if some of the symbols are compound boxes (like logic gates) whose behavior is complex. So yes, you could have ambiguity in that sense, but it's ambiguity coming from insufficient information or knowledge of something, rather than formal ambiguity in the meaning of the signals propagated by the circuit.
+
+'''K. Fukuda:''' We need to resolve uncertainty. We may use predefined models to do that.
+
+'''H. Kitano:''' In PDN (process diagram notation) you can get ambiguities in absense of additional info. You need to make unknown processes explicit.
+
+'''Le Novere:''' Right, what we don't want is having two different biologists interpret the same diagram differently.
+
+'''M. Aladjem:''' It seems obvious we don't want to have ambiguous maps.
+
+'''E. Demir:''' OK, would like to try to argue for ambiguous maps. Has a use case. In Patika, you have abstraction by collecting elements together and collapsing to hide the details. You can export this visually, it's still a visual diagram, and it's ambiguous. But the semantics are recoverable (it's simply collapsed). The point is that the underlying model may not need to be represented in the visual notation for some purposes. It's just information you're not rendering in a particular situation or context or display of the diagram.
+
+'''M. Hucka:''' It seems like the syntax of language should be well defined, to prevent the construction of incorrect constructs (like connecting two arrow endpoints to each other), but it does seem possible that the semantic meaning could still be unclear.
+
+'''H. Kitano:''' (Projected examples from a publication where there was ambiguity in the diagram.) We don't want to have ambiguity.
+
+'''Le Novere:''' We need a the graphical equivalent of “wildcards” in SBGN, so that you can express the idea of “I don't know this part exactly”. Need to express uncertainty. Is that what Emek is talking about?
+
+'''E. Demir:''' Well, no. The idea is that when looking at an SBGN diagram, the constraint of “We should be able to extract an SBML model from that” is an overconstraint. We shouldn't be requiring this.
+
+'''A. Sorokin:''' Disagrees. We should do that!
+
+'''P. Nielsen:''' The graphical representation shouldn't be inconsistent with the underlying truth or knowledge of the process, but it may not need to represent all the knowledge you have. The point is simply that it mustn't be inconsistent.
+
+'''Le Novere:''' Isn't this the idea of a wildcard?
+
+'''S. Sahle:''' You cannot formalize the requirement “the diagram must not contradict the underlying biological knowledge”. The underlying biological knowledge is itself incomplete and uncertain and changing.
+
+'''P. Nielsen:''' He means the idea of containment, which is the idea of representing some things but not making explicit everything you know.
+
+'''Le Novere:''' (missed)
+
+'''M. Aladjem:''' We all have things we know that aren't represented. Thinks we all kind of agree that the SBGN representation doesn't need to represent everything in the underlying SBML. But we agree it has to be unambiguous.
+
+'''P. Ghazal.:''' Their group feels strongly that at least at having the ability to define levels of abstraction. Even if you want to build quality models, we don't have all the parameters to fit to that. So in fact it's important to be able to capture at a first level of approximation of an abstraction the logic of the system. Even if it's not capturing everything, it still has a huge benefit of forcing the user into thinking about what's the logic in each of the dependencies being expressed.
+
+'''P. Ghazal.:''' This comes back to the argument for developing a graphical language in the first place. What we're doing here is moving away from a kind of gene analytic approach, and giving biologists tools to go further than that, to support deeper resoning about the system. Giving biologists the tools is changing the biologists' mindsets and how the biologists work.
+
+'''E. Demir:''' But there's no logical network in the cell. The cell is biochemical network. It's easy to fall back to this logical system metaphor, but it has disadvantages when you try to integrate the concepts of logic networks versus biochemical networks. They don't integrate the same way.
+
+'''S. Moodie: SBGN''' is trying to do both. In their group, they found it important to use diagrams to get an overview of the network being worked on. People can get an overview, and also can get details when they want them.
+
+'''E. Demir:''' Wants to propose that we use biochemical representation as the best practice, the bottom common layer.
+
+'''Le Novere:''' We need to think about logic diagrams too. In electronics, developing logic diagrams is a necessary step towards being able to build bigger systems by integrating circuits. Same thing is going to happen with models in biology.
+
+'''E. Demir:''' But keep in mind that life has a lot of ways of implementing the same thing.
+
+'''H. Kitano:''' What is the implication of that?
+
+'''E. Demir:''' Obviously we won't always know every detail. When the details are known, we should capture them in the diagram.
+
+'''E. Klipp:''' On a different topic, from Edda's point of view, you want to be able to represent some things which are part of the model but not part of the network diagram. For example, there are experimental conditions, information about cellular state, physical condition of an entity, drug interventions, etc. These are no in the network itself, but need to be captured in the network diagram somehow.
+
+'''A. Sorokin:''' Also, sometimes there are question marks and these are important to represent explicitly in the network diagram.
+
+'''E. Demir:''' Going back to an earlier topic, trying to explain his reasons for being afraid. Offers the following story. They were working on EGF model with some collaborators. The authors of the model chose to use the easiest parts of their software tool's representation capabilities, rather than the more elaborate ones, losing information.
+
+'''H. Kitano:''' Yes, this is a good point. There is a danger in making it too easy to have an intermediate or simpler representation. Users are too likely will to take the easiest way out, and they will not put in the necessary details and this will be lost information.
+
+'''A. Sorokin:''' If you have a validator for your diagrams, you can catch errors and could inform the user about problems.
+
+'''P. Ghazal.:''' What you call ambiguity especially comes into play when you're dealing with combinatorial possibilities. When you have logic diagrams, you have all sorts of things you can do. The possibilities explode.
+
+'''M. Aladjem:''' The found that when they're drawing networks using MIMs, they're not using all the “contingencies” aspects of the notation when they know what's going on in the network/model. The find themselves turning to contingencies when they have to go to the heuristic diagram level.
+
+'''S. Sahle:''' The diagram language should help as much as possible with doing good modeling, but it can't do everything. Think of computer programming languages: just because a language makes it impossible to construct something syntactically invalid, it doesn't mean that the program is done elegantly or properly. Syntactic validation does not buy you everything.
+
+'''I. Goryanin:''' It's not enough to borrow electric circuit diagramming tools. The things that give you confidence are things that remove ambiguity, and that allow for mechanical validation.
+
+'''H. Kitano:''' in circuits, when you go to physical implementation, you have things that aren't in the diagram, like hidden capacitances. So when you're creating the diagram, there are things you're not making explicit.
+
+'''E. Klipp:''' Electric circuits aren't like bio models. In a cell there are a lot of different networks – signaling, metabolic, etc. If you're going to build tools to combine these different types of networks, you have to worry explicitly about the end plugs/contacts. This means you have to think about how subnetworks will be pieced together.
+
+'''I. Goryanin:''' We need to put levels of complexity into the language. There may be diff complexity for different scenarios.
+
+'''M. Hucka:''' Do MIMs and PDN have a way of representing terminals?
+
+'''H. Kitano:''' Yes. They look like diamonds in PDN.
+
+'''M. Aladjem:''' Yes. (Showed an example of a so-called heuristic map.) In the MIM explict maps, you point to the part of the world where you're supposed to go next.
+
+'''Z. Li:''' What are the goal of this workshop again? Are we trying to create a new language to replace SBML and CellML?
+
+'''M. Hucka:''' No, there are differences. There are such things as visual languages, again using the electronic circuit diagram analogies, where there's a set of symbols defined and means of combining them.. SBML is something that feeds into simulation and analysis tools. It's more like something that is underneath or behind the SBGN.
+
+'''A. Sorokin:''' Thinks there are differences and should be kept separate.
+
+'''Le Novere:''' Let's not forget that systems biology is much more than interaction maps. His devils advocate position is: do we want the SBGN to stick to molecular signaling and metabolic networks? What about other types of modelling, of higher order? Do we want the glyphs to rep only elementary molecules? What if we want to represent a nulcear pore or a ribosome? We don't want to represent all the molecular component.</text>
+    </revision>
+  </page>
+</mediawiki>

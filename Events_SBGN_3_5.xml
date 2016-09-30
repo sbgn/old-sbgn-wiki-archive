@@ -1,0 +1,753 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-3.5</title>
+    <id>37</id>
+    <revision>
+      <id>2003</id>
+      <timestamp>2010-02-10T22:35:59Z</timestamp>
+      <contributor>
+        <username>SBGNWikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>/* Agenda, Presentations &amp;amp; Video Recordings */</comment>
+      <text xml:space="preserve">&lt;span class=&quot;headline1&quot;&gt;Super-hackathon &quot;standards and ontologies for Systems Biology&quot;&lt;/span&gt;
+
+The Okinawa super hackathon aims to gather developers of the various standard formats and ontologies used in the field of Systems Biology, in order to improve their interfacing.  The event will be held from '''January 28''' through '''February 2''' at the [http://www.oist.jp/ Okinawa Institute of Science and Technology], Japan.  It combines both the fifth SBGN meeting and the 3rd annual [http://biomodels.net BioModels.net] meeting.
+
+The fifth SBGN meeting will be a “Spec-a-thon” devoted to finalise SBGN Level 1, and a hackathon, where we will develop software support for the language.  The third annual [http://biomodels.net/ BioModels.net] meeting should feature presentations about progresses of the core projects and related efforts.  We will also work on the interactions of [http://www.sbgn.org SBGN] and [http://biomodels.net BioModels.net] efforts with other formats such as [http://www.biopax.org BioPAX] and [http://sbml.org SBML].
+
+[[image: Sbgn3.5-oist-150.jpg | right]]
+The workshop co-organizers are:
+
+* Hiroaki Kitano ([http://www.sbi.jp/ SBI] &amp; [http://www.sonycsl.co.jp/ Sony CSL])
+* Nicolas Le Novère ([http://www.ebi.ac.uk EMBL-EBI])
+* Mike Hucka ([http://www.cds.caltech.edu Caltech CDS])
+* Akira Funahashi ([http://www.sbi.jp SBI] &amp; [http://www.bio.keio.ac.jp/ Keio University])
+
+We gratefully acknowledge generous funding from the following agencies:
+
+* [http://www.oist.jp Okinawa Institute of Science and Technology]
+* [http://www.nedo.go.jp/english New Energy and Industrial Technology Development Organization (NEDO)]
+* [http://www.sbi.jp The Systems Biology Institute]
+
+==Photo Album==
+&lt;div class=&quot;leftindent with-border&quot;&gt;
+
+&lt;html&gt;&lt;a style=&quot;text-decoration: none&quot; href=&quot;http://sbmlteam.smugmug.com/gallery/4695619_YDALk&quot;&gt;&lt;img src=&quot;/skins/SBGN/graphics/sbgn3.5-eventphoto.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;Click here to go to the photo album from the meeting.&lt;/a&gt;&lt;/html&gt;
+
+&lt;/div&gt;
+
+==Agenda, Presentations &amp;amp; Video Recordings==
+&lt;div class=&quot;leftindent with-border&quot;&gt;
+For the first time, we are video-recording talks and discussions and will post files online as each session progresses. The files are included in the table  below. Beware that they are quite large (150 MB–1 GB each). They are [http://www.apple.com/quicktime/ QuickTime] movie files.  Free players are available for Mac and Windows.
+
+Suggested approach for using the recordings: for talks that involved slide presentations, open both the video and the copy of the slides at the same time on your computer, so that you can follow along in the presentation during the talk. (Note: The volume and quality are low on the first day's recordings but is improved on the subsequent days. Thankfully, voices are generally clear, but you may need to ''really'' turn up the volume on your speakers or use earphones.) 
+&lt;/div&gt;
+
+
+&lt;span class=&quot;subhead4&quot;&gt; Day 1 (Monday, 28 January 2008)&lt;/span&gt;
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;
+! width=&quot;75px&quot; | Time
+!Topic
+!Speaker
+!Video
+! width=&quot;50px&quot; | Files
+|- 
+|09:00–09:07
+|General intro to OIST and the meeting 
+|Hiroaki 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day1-kitano.mov MOV]
+|(none)
+|-
+|09:15–09:20
+|Intro to the week and today 
+|Mike
+|[http://{{SERVERNAME}}/files/sbgn3.5-day1-hucka.mov MOV]
+|(none)
+|-
+|09:20–09:45 
+|Summary of SBGN so far 
+|Nicolas 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day1-lenovere.mov MOV]
+|[[media: Sbgn3.5-pres-sbgn-currentstate.pdf | Slides]]
+|-
+|09:45–10:15 
+| colspan=&quot;4&quot; | ''Break''
+|-
+|10:15–11:45 
+|Edinburgh group issues &amp; discussions 
+|Anatoly + everyone 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day1-session-2.mov MOV]
+|[[media: sbgn3.5-pres-sorokin.pdf | Freeman et&amp;nbsp;al. comments]]
+&lt;br&gt;
+[[media: sbgn3.5-pres-sorokin-sbgn-objectmodel.pdf | Proposed additions]]
+|-
+|11:45–13:00 
+| colspan=&quot;4&quot; | ''Lunch''
+|-
+|13:00–14:45 
+|Discussion: remaining SBGN issues 
+|Moderator: Emek 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day1-session-3.mov MOV]
+|(none)
+|-
+|14:45–15:20 
+| colspan=&quot;4&quot; | ''Break''
+|-
+|15:20–16:30 
+|Discussion: remaining SBGN issues (cont.)
+|Moderator: Emek 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day1-session-4.mov MOV]
+|(none)
+|-
+|16:30–18:00 
+|Breakout discussion about tags 
+|Moderators: Emek &amp; Anatoly
+|[http://{{SERVERNAME}}/files/sbgn3.5-day1-breakout-session.mov MOV]
+|(none)
+|-
+|18:00–18:30 
+| colspan=&quot;4&quot; | ''Shuttle back to hotel + break''
+|-
+|18:30–21:00 
+| colspan=&quot;4&quot; | ''Reception + dinner at Rizzan Sea-park hotel &amp;quot;Koushou Room&amp;quot;''
+|-
+|}
+
+
+&lt;span class=&quot;subhead4&quot;&gt; Day 2 (Tuesday, 29 January 2008)&lt;/span&gt;
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+! width=&quot;75px&quot; |Time
+!Topic
+!Speaker
+!Video
+! width=&quot;50px&quot; |Files
+|- 
+|09:00-09:15
+|Introduction to the day
+|Mike, Nicolas
+|(none)
+|(none)
+|- 
+|09:15–09:30
+|[http://biomodels.net BioModels.net], MIRIAM &amp; SBO
+|Nicolas
+|''recording&lt;br&gt;corrupted&lt;br&gt; &amp;amp;&lt;br&gt;unavailable''
+|[[media: sbgn3.5-pres-intro-bio-models-net.pdf | Slides]]
+|-
+|09:30–10:30
+|SBO, MIRIAM, &amp; URI scheme proposal
+|Camille
+|[http://{{SERVERNAME}}/files/sbgn3.5-day2-laibe.mov MOV]
+|[[media: sbgn3.5-pres-sbo.pdf | SBO primer]]
+[[media: sbgn3.5-pres-miriam.pdf | MIRIAM&amp;nbsp;slides]]&lt;br&gt;
+[[media: sbgn3.5-pres-uri-scheme.pdf | URI slides]]&lt;br&gt;
+[[media: sbgn3.5-pres-miriam-uri-proposal.pdf | URI&amp;nbsp;scheme]]
+|-
+|10:30–11:00 
+| colspan=&quot;4&quot; | ''Break''
+|-
+|11:00–11:30
+|MIASE and KiSAO
+|Dagmar
+|[http://{{SERVERNAME}}/files/sbgn3.5-day2-koehn.mov MOV]
+|[[media: sbgn3.5-pres-kisao-praesi.pdf | KiSAO slides]] &lt;br&gt;
+[[media: sbgn3.5-pres-miase-praesi.pdf | MIASE slides]]
+|-
+|11:30–11:45 
+|TEDDY
+|Christian
+|[http://{{SERVERNAME}}/files/sbgn3.5-day2-knuepfer.mov MOV]
+|[[media: sbgn3.5-pres-knuepfer-teddy.pdf | Slides]]
+|-
+|11:45–12:00
+|MIRIAM 2
+|Nicolas
+|[http://{{SERVERNAME}}/files/sbgn3.5-day2-lenovere-miriam-2.mov MOV]
+|[[media: sbgn3.5-pres-miriam2.pdf | Slides]]
+|-
+|12:00-13:20 
+| colspan=&quot;4&quot; | ''Lunch''
+|-
+|13:20–13:40
+|SABIO-RK, SBO, MIRIAM
+|Martin 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day2-golebiewski.mov MOV]
+|[[media: sbgn3.5-pres-sabiork.pdf | Slides]]
+|-
+|13:45–14:00
+|Forthcoming resources
+|Nicolas Rodriguez
+|[http://{{SERVERNAME}}/files/sbgn3.5-day2-rodriguez.mov MOV]
+|[[media: sbgn3.5-pres-forthcoming-resources.pdf | Slides]]
+|-
+|14:00–14:40
+|BioPAX Level 3
+|Emek 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day2-demir.mov MOV]
+|[[media: sbgn3.5-pres-biopax.pdf | Slides]]
+|-
+|15:15–18:00
+|SBGN break-out discussion
+|Moderator: Stuart 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day2-sbgn-discussion.mov MOV]
+|(none)
+|-
+|18:30-20:00 
+| colspan=&quot;4&quot; | ''Dinner in 3rd floor cafeteria at OIST''
+|-
+|20:00-20:30 
+| colspan=&quot;4&quot; | ''Shuttle back to the hotel''
+|-
+|}
+
+ 
+&lt;span class=&quot;subhead4&quot;&gt; Day 3 (Wednesday, 30 January 2008) &lt;/span&gt;
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+! width=&quot;75px&quot; |Time
+!Topic
+!Speaker
+!Video
+! width=&quot;50px&quot; |Files
+|- 
+|09:15–09:45
+|EPE
+|Stuart &amp; Anatoly
+|[http://{{SERVERNAME}}/files/sbgn3.5-day3-stuart-anatoly.mov MOV]
+|[[media: sbgn3.5-pres-epe2.pdf | Slides]]
+|-
+|09:45–10:00
+|Apostrophe 
+|Katja 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day3-katja.mov MOV]
+|[[media: sbgn3.5-pres-netbuilder-okin.pdf | Slides]]
+|-
+|10:00–10:20
+|Arcadia 
+|Alice
+|[http://{{SERVERNAME}}/files/sbgn3.5-day3-alice.mov MOV]
+|[[media: sbgn3.5-pres-arcadia.pdf | Slides]]
+|-
+|10:20-11:00
+| colspan=&quot;4&quot; | ''Break''
+|-
+|11:00–11:15
+|FANTOM4 case study 
+|Hideya 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day3-hideya.mov MOV]
+|[[media: sbgn3.5-pres-kawaji.pdf | Slides]]
+|-
+|11:15–11:30
+|CellDesigner 4.0beta 
+|Akira &amp; Yukiko
+|[http://{{SERVERNAME}}/files/sbgn3.5-day3-akira-yukiko.mov MOV]
+|[[media: sbgn3.5-pres-celldesigner4beta2.pdf | Slides]]
+|-
+|11:30–11:45
+|PANTHER Pathway
+|Huaiyu 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day3-huaiyu.mov MOV]
+|[[media: sbgn3.5-pres-panther-pthwy.pdf | Slides]]
+|- 
+|11:45-12:00
+|BioUML
+|Fedor (virtually)
+|&amp;nbsp;
+|[[media: sbgn3.5-pres-biouml.pdf | Slides]] &lt;br&gt;
+[http://www.biouml.org/sbgn.shtml Additional materials]
+|-
+|12:00-13:00
+| colspan=&quot;4&quot; | ''Lunch''
+|-
+|13:05–13:20
+|Vanted 
+|Falk 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day3-falk.mov MOV]
+|[[media: sbgn3.5-pres-vanted.pdf | Slides]]
+|-
+|13:20–13:35
+|Payao 
+|Hiroaki 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day3-hiroaki.mov MOV]
+|[[media: sbgn3.5-pres-payao.pdf | Slides]]
+|-
+|13:35–13:50
+|Experiences implementing SBGN
+|Frank 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day3-frank.mov MOV]
+|[[media: sbgn3.5-pres-firststeps.pdf | Slides]]
+|-
+|13:50–14:20
+|Discussion about an SBGN file format
+|(Everyone)
+|[http://{{SERVERNAME}}/files/sbgn3.5-day3-storage-discussion.mov MOV]
+|(none)
+|-
+|14:20-15:00
+| colspan=&quot;4&quot; | ''Break''
+|-
+|15:00–15:45
+|ER &amp; MIM &amp; discussions 
+|Mirit 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day3-mirit.mov MOV]
+|[[media: sbgn3.5-pres-mimissues.pdf | Slides]]
+|-
+|15:45-16:40
+| colspan=&quot;4&quot; | ''Break''
+|-
+|16:40–16:40
+|Activity Flow
+|Hiroaki 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day3-hiroaki-2.mov MOV]
+|[[media: sbgn3.5-pres-kitano-activity-flow.pdf | Slides]]
+|-
+|16:15–17:15
+|SBGN issues review pt.1
+|Stuart
+|[http://{{SERVERNAME}}/files/sbgn3.5-day3-stuart-issues-1.mov MOV]
+|[[Events/SBGN 3.5/Issues | Issues list]]
+|-
+|17:15-17:30 
+| colspan=&quot;4&quot; | ''Break''
+|-
+|17:30–18:30
+|SBGN issues review pt.2
+|Stuart 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day3-stuart-issues-2.mov MOV]
+|[[Events/SBGN 3.5/Issues | Issues list]]
+|-
+|18:30-19:30 
+| colspan=&quot;4&quot; | ''Dinner in 3rd floor cafeteria at OIST''
+|-
+|19:40–21:00
+|SBGN issues discussion pt.3 
+|Stuart
+|[http://{{SERVERNAME}}/files/sbgn3.5-day3-sbgn-late-discussion.mov MOV]
+|(none)
+|-
+|20:30-21:00
+| colspan=&quot;4&quot; | ''Shuttle back to the hotel''
+|-
+|}
+
+
+&lt;span class=&quot;subhead4&quot;&gt; Day 4 (Thursday, 31 January 2008) &lt;/span&gt;
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+! width=&quot;75px&quot; |Time
+!Topic
+!Speaker
+!Video
+! width=&quot;50px&quot; |Files
+|- 
+|09:10–09:20
+|Intro 
+|Mike 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day4-mike.mov MOV]
+|(none)
+|-
+|09:20–09:35
+|MetaCrop 
+|Falk 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day4-falk.mov MOV]
+|[[media: sbgn3.5-pres-metacrop.pdf | Slides]]
+|-
+|09:35–10:05 
+|COPASI progress 
+|Sven 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day4-sven.mov MOV]
+|[[media: sbgn3.5-pres-copasi.pdf | Slides]]
+|-
+|10:05–10:35
+|BioModels Database progress
+|Nicolas
+|[http://{{SERVERNAME}}/files/sbgn3.5-day4-nicolas.mov MOV]
+|[[media: sbgn3.5-pres-biomodelsdb.pdf | Slides]]
+|-
+|10:35-11:00 
+| colspan=&quot;4&quot; | ''Break''
+|-
+|11:00–11:15
+|Using BioModels Database to test simulators
+|Frank 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day4-frank.mov MOV]
+|[[media: sbgn3.5-pres-comparing-sim-results.pdf | Slides]]
+|-
+|11:15–11:30
+|Multistate &amp; multicomponent proposal progress
+|Anika 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day4-anika.mov MOV]
+|[[media: sbgn3.5-pres-multis-in-sbml.pdf | Slides]]
+|-
+|11:40–12:10
+|VCell progress
+|Ion 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day4-ion.mov MOV]
+|[[media: sbgn3.5-pres-vcell-sbml-bmdb-miriam.pdf | Slides]]
+|-
+|13:10–13:25
+|SBToolbox2
+|Henning 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day4-henning.mov MOV]
+|[[media: sbgn3.5-pres-sbtoolbx2.pdf | Slides]]
+|-
+|13:25-14:40
+| colspan=&quot;4&quot; | ''Lunch''
+|-
+|14:40–14:50
+|MIASE/simulation format pt.1 
+|Nicolas 
+| 
+|&amp;nbsp;
+|-
+|14:50–16:15
+|MIASE/simulation format pt.2 
+|Nicolas 
+| 
+|&amp;nbsp;
+|-
+|16:40–18:20
+|SBML Test Suite breakout discussion
+|Mike 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day4-test-suite-breakout.mov MOV]
+|(none)
+|-
+|18:30-19:30 
+| colspan=&quot;4&quot; | ''Dinner in 3rd floor cafeteria at OIST''
+|-
+|19:30–19:55
+|More SBGN issues
+|Nicolas 
+| 
+|&amp;nbsp;
+|-
+|20:00-20:30
+| colspan=&quot;4&quot; | ''Shuttle back to the hotel''
+|-
+|}
+
+
+&lt;span class=&quot;subhead4&quot;&gt; Day 5 (Friday, 1 February 2008)&lt;/span&gt;
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+! width=&quot;75px&quot; |Time
+!Topic
+!Speaker
+!Video
+! width=&quot;50px&quot; |Files
+|- 
+|09:00-9:15
+|Introduction to the day
+|Mike, Nicolas
+|(none)
+|
+|- 
+|09:15–09:45
+|PSI-MI 
+|Samuel
+|[http://{{SERVERNAME}}/files/sbgn3.5-day5-samuel.mov MOV]
+|
+|-
+|09:50–10:15
+|MIASE-ML first draft XML format proposal
+|Ion
+| 
+|[[media: sbgn3.5-pres-miase_test_00.xml | XML example]]
+|-
+|10:40–12:10
+|SBGN breakout discussion 1
+|Emek &amp; Nicolas
+|[http://{{SERVERNAME}}/files/sbgn3.5-day5-sbgn1.mov MOV]
+|
+|-
+|12:10-13:15 
+| colspan=&quot;4&quot; | ''Lunch''
+|-
+|13:15–14:45
+|SBGN breakout discussion 2
+|Stuart 
+|[http://{{SERVERNAME}}/files/sbgn3.5-day5-sbgn2.mov MOV]
+|
+|-
+|17:30-18:00
+| colspan=&quot;4&quot; | ''Shuttle from OIST to restaurant''
+|-
+|18:00-19:45 
+| colspan=&quot;4&quot; | ''Dinner at Orchid restaurant at Manza Beach Hotel.  Drinks self-pay (all-you-can-drink 1800JPY).''
+|-
+|19:45- 
+| colspan=&quot;4&quot; | ''Shuttle back to the hotel''
+|-
+|}
+
+
+&lt;span class=&quot;subhead4&quot;&gt; Day 6 (Saturday, 2 February 2008) &lt;/span&gt;
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+! width=&quot;75px&quot; |Time
+!Event
+|- 
+|Morning
+|Hacking
+|-
+|12:00
+|''Lunch''
+|-
+|Afternoon
+|Hacking
+|-
+|18:30
+|''Shuttle to restaurant''
+|-
+|19:00
+|''Dinner: Japanese restaurant [http://www.anamanza.co.jp/restaurant/unkai.html &amp;quot;Utaki&amp;quot;] at Manza Beach Hotel 1F
+|-
+|21:30
+|''Return shuttle service''
+|}
+
+==Supplementary Materials==
+&lt;div class=&quot;blockquote&quot;&gt;
+
+* [http://sbgn.cvs.sourceforge.net/*checkout*/sbgn/documents/specifications/Level1/sbgn-level1.pdf SBGN Level 1 specification draft (PDF)] of 2008-01-25
+
+* [http://sbgn.cvs.sourceforge.net/*checkout*/sbgn/documents/meetings/SuperHackathon2008/CommentsTomFreeman.pdf Comments by Tom Freeman (Edinburgh group)]  submitted to sbgn-discuss list some time ago and reexamined during the workshop
+
+* [[media:sbgn3.5-SourceSinkKitanoProposal.pdf | Source/Sink notation proposal from Hiroaki Kitano]] (from day 1 morning discussion about SBGN notation)
+
+* [[Events/SBGN_3.5/Discussion Notes:FinaliseL1Spec | Stuart's notes about day 1 discussions on remaining SBGN issues]]
+
+* [[media:Sbgn3.5-video-memory-chip-labels.jpg | Example of real-life video memory module with many connections]] from Hiroaki, apropos discussions about tags on modules
+
+* [[media:sbgn3.5-Kitano-ActivityFlow.pdf | Activity flow diagrams]] proposed by Hiroaki
+
+* Examples from PANTHER Pathway by Huaiyu Mi, to illustrate the problems discussed on 2008-01-27. [[media:Sbgn3.5-Synaptic_vesicle_trafficking.png | Example 1: Synaptic_vesicle_trafficking.png]] and [[media:Sbgn3.5-p38_MAPK_pathway.png | Example 2: p38_MAPK_pathway.png]]
+
+* [[Events/SBGN 3.5/Issues | SBGN Issues that were discussed and resolved]]
+
+* Examples of PANTHER diagrams relevant to gene regulation, by Huaiyu Mi:
+** [[media:Sbgn3.5-RNApolymeraseI.png | General transcription RNA polymerase I.png]]
+** [[media:Sbgn3.5-regulation.png | General transcription regulation.png]]
+** [[media:Sbgn3.5-regulation-by-bZIP.png | Transcription regulation by bZIP.png]]
+** [[media:Sbgn3.5-mRNA-splicing.png | mRNA splicing.png]]
+
+* Example by Christian Knuepfer about why non-overlapping rules for labels don't really solve the problem: [[media:Sbgn3.5-label-problem.pdf | label-problem.pdf]]
+
+* [[MIASE | MIASE work page]]
+
+* [[Events/SBGN 3.5/Resolutions | Changes agreed to SBGN Process Notation by the end of the meeting]]
+
+&lt;/div&gt;
+
+==Fun Quotes==
+&lt;div class=&quot;leftindent with-border&quot;&gt;
+Overheard at this meeting: ;-)
+
+* ''”I have a very good understanding of the misunderstanding.”'' – Emek Demir
+* ''”I don't like dangling things.”'' – Nicolas Le Novère
+* ''”You are obsessed by dots!”'' – Nicolas Le Novère
+* ''”My semantic alarms are going off at the moment.”'' – Emek Demir
+* ''”I'm not sure if it's apathy, tardiness or conversion.”'' – Stuart Moodie
+* ''”It hardly seems credible, but I think we are actually in agreement.”'' – Stuart Moodie
+* ''”Can I raise a concern that will never happen but I will raise it anyway?”'' – Emek Demir 
+* ''”If you don’t care, you don’t care, here we are talking about the case you care.”'' – Nicolas Le Novère
+* ''”I think '''that''' was a remarkable amount of agreement.”'' – Mike Hucka
+&lt;/div&gt;
+
+==Participants==
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot;
+!Name
+!Affiliation
+!Group/Project
+|-
+|Mirit Aladjem 
+|National Cancer Institute (USA) 
+|[http://discover.nci.nih.gov/mim/index.jsp MIM]
+|-
+|Kimberly Begley
+|Griffiths University (Australia) 
+|[http://sbml.org/ SBML Test Suite]
+|-
+|Frank Bergmann 
+|University of Washington (USA)
+|[http://www.sys-bio.org/ http://www.sys-bio.org/]
+|-
+|Emek Demir 
+|MSKCC (USA) 
+|[http://www.biopax.org/ BioPax]
+|-
+|Akira Funahashi
+|Keio University (Japan)
+|[http://celldesigner.org/ CellDesigner], [http://sbgn.org/ SBGN]
+|-
+|Ralph Gauges
+|University of Heidelberg (Germany)
+|[http://www.copasi.org/ COPASI]
+|-
+|Martin Golebiewski
+|EML Research GmbH (Germany)
+|[http://sabio.villa-bosch.de/SABIORK/ SABIO-RK]
+|-
+|Igor Goryanin
+|University of Edinburgh (UK)
+|[http://www.bioinformatics.ed.ac.uk/epe EPE &amp; EPN]
+|-
+|Samik Ghosh
+|&amp;nbsp;
+|&amp;nbsp;
+|-
+|Michael Hucka
+|Caltech (USA)
+|[http://sbml.org/ SBML], [http://sbgn.org/ SBGN], [http://biomodels.net/ BioModels.net]
+|-
+|Akiya Jouraku 
+|Keio University (Japan)
+|[http://celldesigner.org/ CellDesigner], [http://sbml.org/ SBML]
+|-
+|Hideya Kawaji
+|Riken (Japan)
+|[http://fantom.gsc.riken.go.jp/ FANTOM]
+|-
+|Brian Kemper
+|University of Tokyo (Japan)
+|
+|-
+|Samuel Kerrien
+|EMBL-EBI 
+|[http://www.ebi.ac.uk/intact IntAct], [http://www.psidev.info/index.php?q=node/60 PSI-MI]
+|-
+|Norihiko Kikuchi
+|MKI 
+|[http://celldesigner.org/ CellDesigner]
+|-
+|Hiroaki Kitano 
+|The Systems Biology Institute (Japan)
+|all things SB
+|-
+|Dagmar Koehn
+|Univ Rostock 
+|[http://www.ebi.ac.uk/compneur-srv/miase/ MIASE]
+|-
+|Fedor Kolpakov
+|Institute of Systems Biology (Russia)
+|[http://www.biouml.org/ BioUML]
+|-
+|Christian Knuepfer
+|Univ Jena (Germany)
+|[http://www.ebi.ac.uk/compneur-srv/teddy/ TEDDY]
+|-
+|Camille Laibe
+|EMBL-EBI (UK)
+|[http://www.ebi.ac.uk/compneur-srv/miriam/ MIRIAM], [http://www.ebi.ac.uk/sbo/ SBO]
+|-
+|Nicolas Le Novère
+|EMBL-EBI (UK)
+|[http://www.ebi.ac.uk/biomodels/ BioModels Database], [http://sbgn.org/ SBGN], [http://sbml.org/ SBML]
+|-
+|Yukiko Matsuoka  
+|EMBL-EBI (UK)
+|[http://celldesigner.org/ CellDesigner], [http://sbgn.org/ SBGN]
+|-
+|Huaiyu Mi
+|SRI International (USA)
+|[http://www.pantherdb.org/pathway/ PANTHER Pathway]
+|-
+|Stuart Moodie
+|University of Edinburgh (UK)
+|[http://www.bioinformatics.ed.ac.uk/epe EPE &amp; EPN]
+|-
+|Ion Moraru
+|University of Connecticut Health Center (USA)
+|[http://vcell.org/ VCell]
+|-
+|Anika Oellrich
+|EMBL-EBI (UK)
+|[https://sourceforge.net/projects/stochsim/ StochSim]
+|-
+|Nicolas Rodriguez
+|EMBL-EBI (UK)
+|[http://www.ebi.ac.uk/compneur-srv/SBMLeditor.html SBMLeditor], [http://www.ebi.ac.uk/sbo/ SBO]
+|-
+|Sven Sahle
+|University of Heidelberg (Germany)
+|[http://www.copasi.org/ COPASI]
+|-
+|Henning Schmidt
+|Univ Rostock (Germany)
+|[http://sbtoolbox2.org/ SBToolbox2]
+|-
+|Falk Schreiber
+|IPK (Germany)
+|[http://vanted.ipk-gatersleben.de/ Vanted], [http://metacrop.ipk-gatersleben.de/ MetaCrop]
+|-
+|Anatoly Sorokin
+|University of Edinburgh (UK)
+|[http://www.bioinformatics.ed.ac.uk/epe EPE &amp; EPN]
+|-
+|Alice Villeger
+|University of Manchester (UK)
+|[http://utopia.cs.man.ac.uk/ Utopia]
+|-
+|Katja Wegner
+|University of Hertfordshire (UK)
+|[http://strc.herts.ac.uk/bio/maria/Apostrophe/index.htm NetBuilder]
+|-
+|}
+
+==Logistical Information==
+&lt;div class=&quot;leftindent with-border&quot;&gt;
+===Venue===
+The meeting will be held at the [http://www.oist.jp/seasidehouse.html seaside house] of the [http://www.oist.jp/ Okinawa Institute of Science and Technology].
+
+===Accommodations===
+Accommodation will be arranged by OIST/local organiser for all the participants. We are planning to stay in the following hotel (not confirmed yet as of Dec 15)
+
+* Rizzan Sea-Park Hotel at Tancha-bay [http://www.rizzan.co.jp http://www.rizzan.co.jp] tel:+81-(0)98-964-6611
+* [http://www.oist.jp/seasidehouse.html Seaside house] Tel:+81-(0)98-966-8711
+
+Transportation between the hotel and the venue: Shuttle service will be available during the following period: 8:30-8:45 and 19:30-20:30
+
+===Travel Information===
+
+&lt;html&gt;&lt;a href=&quot;http://www.wunderground.com/global/stations/47930.html?bannertypeclick=infobox&quot;&gt; 
+&lt;img src=&quot;http://banners.wunderground.com/weathersticker/infobox_both/language/www/global/stations/47930.gif&quot; border=0
+alt=&quot;Click for Naha City, Japan Forecast&quot; height=108 width=144 class=&quot;event&quot;&gt;&lt;/a&gt;&lt;/html&gt;
+
+Transportation between Naha airport and your hotels will be arranged. (About an hour drive to the hotel/venue from the airport.) On your arrival at the airport, look for the person with “OIST Super Hackathon Workshop” sign.
+
+General Info on Okinawa:  [http://www.ocvb.or.jp/index.php?current=General_Page&amp;amp;action=Top_Page&amp;amp;mode=isel&amp;amp;lang=en   Okinawa Tourist Information]</text>
+    </revision>
+  </page>
+</mediawiki>

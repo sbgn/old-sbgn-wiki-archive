@@ -1,0 +1,76 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-1/SGBN-1 Discussion Notes: Planning</title>
+    <id>243</id>
+    <revision>
+      <id>1164</id>
+      <timestamp>2008-10-08T00:31:10Z</timestamp>
+      <contributor>
+        <username>Ltaddeo</username>
+        <id>6</id>
+      </contributor>
+      <text xml:space="preserve">&lt;div class=&quot;superhead2&quot;&gt;Feb. 12, 2006 discussion on moving towards a standard and planning the next steps&lt;/div&gt;
+
+''(Discussions moderated and notes taken by M. Hucka.)''
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;
+! Task/goal/event
+! Target date
+|- 
+| &lt;span class=&quot;subhead3&quot;&gt;Collect examples of notations and cases&lt;/span&gt;
+|End of April
+|-
+|colspan=&quot;2&quot; | Peter Ghazal (Edingburgh group) and Sarala Dissanayake (CellML group) will evaluate and synthesize. They will start with what Sarala has already done in the process of working on visualization for CellML. They will add and extend this. Mike Hucka will assist in putting materials online and creating survey forms. Huaiyu Mi will be people chaser and task master for this, nagging people in other groups to supply examples and case studies.
+|-
+|&lt;span class=&quot;subhead3&quot;&gt;Teleconference&lt;/span&gt;
+|End of April 
+|-
+|colspan=&quot;2&quot; | When the collection task above is done, we will attempt to have a teleconference to take stock of the results and plan further goals.
+|-
+|&lt;span class=&quot;subhead3&quot;&gt;Draft proposals&lt;/span&gt;
+|Before SBGN-2 
+|-
+|colspan=&quot;2&quot; | We should develop a standard documentation format for specifications (i.e., a document template) so that different notation proposals can all be presented in a similar way. This might put each symbol on a separate page, with a name, abstract, description, examples, etc. These alternative proposals should be put online on SBGN.org for everyone to examine side-by-side.
+|-
+|&lt;span class=&quot;subhead3&quot;&gt;Next meeting: SBGN-2&lt;/span&gt;
+|October 7 @ ICSB 2006 
+|-
+|colspan=&quot;2&quot; | We will plan on having a 1-day workshop in Yokohama or Tokyo immediately before ICSB 2006, on October 7 (the day before the tutorial day at ICSB, to avoid colliding with possible tutorial commitments by people). This will be called SBGN-2.
+|-
+|&lt;span class=&quot;subhead3&quot;&gt;Next 2-day workshop: SBGN-3&lt;/span&gt;
+|March or April 2007 
+|-
+|colspan=&quot;2&quot; | The Edinburgh group has tentatively volunteered to host the next full SBGN workshop, to be named SBGN-3. The EML group has offered to act as a back-up option in case the workshop cannot be held at Edinburgh. The Auckland group has offered host a future SBGN meeting (SBGN-5?).
+|-
+|}</text>
+    </revision>
+  </page>
+</mediawiki>

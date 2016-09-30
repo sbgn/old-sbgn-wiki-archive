@@ -1,0 +1,107 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>SBGN Software/LibSBGN</title>
+    <id>721</id>
+    <revision>
+      <id>2743</id>
+      <timestamp>2012-02-20T00:42:55Z</timestamp>
+      <contributor>
+        <username>Fbergmann</username>
+        <id>13</id>
+      </contributor>
+      <minor/>
+      <comment>/* Software supporting SBGN-ML */</comment>
+      <text xml:space="preserve">The main goal of the LibSBGN project is to provide a standard electronic implementation for the Systems Biology Graphical Notation (SBGN). The project develops both: 
+
+* a standard exchange format: SBGN-ML and
+* software libraries for reading SBGN-ML documents
+
+On this page you will find information about: 
+
+* SBGN-ML files
+* Software supporting SBGN-ML
+
+==== SBGN-ML files ====
+For SBGN-ML we decided on using a basic XML representation of glyphs and connecting arcs. 
+
+&lt;pre&gt;
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;sbgn xmlns=&quot;http://sbgn.org/libsbgn/0.2&quot;&gt;
+    &lt;map language=&quot;process description&quot;&gt;
+        &lt;glyph id=&quot;glyph9&quot; class=&quot;macromolecule&quot;&gt;
+            &lt;label text=&quot;hexokinase&quot;/&gt;
+            &lt;bbox y=&quot;40.0&quot; x=&quot;170.0&quot; h=&quot;60.0&quot; w=&quot;120.0&quot;/&gt;
+        &lt;/glyph&gt;
+        &lt;glyph id=&quot;glyph0&quot; class=&quot;simple chemical&quot;&gt;
+            &lt;label text=&quot;glucose&quot;/&gt;
+            &lt;bbox y=&quot;140.0&quot; x=&quot;90.0&quot; h=&quot;60.0&quot; w=&quot;60.0&quot;/&gt;
+        &lt;/glyph&gt;
+        ...
+        &lt;arc target=&quot;glyph8&quot; source=&quot;glyph9&quot; class=&quot;catalysis&quot;&gt;
+            &lt;start y=&quot;100.0&quot; x=&quot;230.0&quot;/&gt;
+            &lt;end y=&quot;160.0&quot; x=&quot;230.0&quot;/&gt;
+        &lt;/arc&gt;
+        &lt;arc target=&quot;glyph8.1&quot; source=&quot;glyph0&quot; class=&quot;consumption&quot;&gt;
+            &lt;start y=&quot;170.0&quot; x=&quot;150.0&quot;/&gt;
+            &lt;end y=&quot;170.0&quot; x=&quot;210.0&quot;/&gt;
+        &lt;/arc&gt;
+    &lt;/map&gt;
+&lt;/sbgn&gt;
+&lt;/pre&gt;
+
+Example files are available on source forge: 
+
+http://libsbgn.svn.sourceforge.net/viewvc/libsbgn/trunk/example-files/
+
+each file is stored with an accompanying image. 
+
+==== Software supporting SBGN-ML ====
+Software support for SBGN-ML is steadily growing. The libSBGN project provides a Java and a C++ library based on code generation from the SBGN-ML schema. The Java library is used by: 
+
+&lt;gallery&gt;
+Image:Libsbgn-pathvisio.png|PathVisio http://www.pathvisio.org/wiki/SbgnPluginHelp
+
+Image:Libsbgn-vanted.png|VANTED (SBGN-ED) http://vanted.ipk-gatersleben.de/addons/sbgn-ed/
+&lt;/gallery&gt;
+
+
+Another implementation is available through [http://sbmllayout.sf.net SBMLLayout], and is available for use with the Systems Biology Workbench or [http://sysbioapps.dyndns.org/RenderComparison online].
+
+&lt;gallery&gt;
+Image:Libsgbn-sbmllayout.png|Systems Biology Workbench http://sf.net/projects/sbw/files
+Image:Libsbgn-sysbioapps.png|Render Comparison http://sysbioapps.dyndns.org/RenderComparison
+&lt;/gallery&gt;
+
+==== More information ====
+For further information see also the libSBGN development page at sourceforge: http://libsbgn.sf.net</text>
+    </revision>
+  </page>
+</mediawiki>

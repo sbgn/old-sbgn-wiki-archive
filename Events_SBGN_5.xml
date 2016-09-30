@@ -1,0 +1,424 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN-5</title>
+    <id>384</id>
+    <revision>
+      <id>3107</id>
+      <timestamp>2012-12-07T16:28:27Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <text xml:space="preserve">{{EventImage | image = GoldenGate-100.jpg}}
+
+The fifth SBGN forum (SBGN5) was held on September 2 and 3, 2009, in Menlo Park, California, at [http://www.sri.com/ SRI International].  The workshop will take place in parallel of the [http://www.icsb-2009.org/ 10th International Conference on Systems Biology] (ICSB 2009).
+
+The annual SBGN Forum meeting is an opportunity for the SBGN community to meet face-to-face and discuss SBGN development. The meeting included presentations of SBGN specifications, implementation of support, as well as focused discussions about SBGN issues and future development.
+
+== Agenda == 
+
+=== Wednesday September 2 ===
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+! width=&quot;75px&quot; | Time
+! width=&quot;270px&quot; | Topic
+! width=&quot;135px&quot; | Speaker(s)
+! width=&quot;120px&quot; | Slides
+! width=&quot;120&quot; |Audio
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 8:00am
+| colspan=&quot;4&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Breakfast ready at the conference room'' 
+|-
+| 9:00am 
+| Introductions
+| Huaiyu Mi
+| (none)
+| (none)
+|-
+| style=&quot;background-color: #424242&quot; | 9:10am&amp;nbsp;&amp;ndash;&amp;nbsp;10:00am
+| style=&quot;background-color: #424242&quot; | '''Software Implementation''' 
+| style=&quot;background-color: #424242&quot; | Chair: Frank Bergmann
+| style=&quot;background-color: #424242&quot; | 
+| style=&quot;background-color: #424242&quot; | 
+|-
+|
+| SBW and SBGN
+| Frank Bergmann
+| [[media:Bergman.pdf | slides]]
+| [http://www.sbgn.org/files/Bergmann_SBGN5.mp3 listen]
+|-
+|
+| VISIBIOweb: a web-based visualization and layout service for biological pathways
+| Ugur Dogrusoz
+| [[media:Dogrusoz.2009.09.02.pdf | slides]]
+|[http://www.sbgn.org/files/Dogrusoz_SBGN5.mp3 listen]
+|-
+|
+| CellDesigner and SBGN
+| Yukiko Matsuoka
+| [[media:Matsuoka.2009.09.02.pdf | slides]]
+| [http://www.sbgn.org/files/Matsuoka_SBGN5.mp3 listen]
+|-
+|
+| EPE and SBGN
+| Stuart Moodie
+| [[media:Moodie.2009.09.02.pdf | slides]]
+| [http://www.sbgn.org/files/Moodie_EPE_SBGN5.mp3 listen]
+|- 
+|
+| New developments for the VANTED system
+| Christian Klukas
+| [[media:Klukas.2009.09.02.pdf | slides]]
+| [http://www.sbgn.org/files/Klukas_SBGN5.mp3 listen]
+|-
+|
+| SBGN-ED: A VANTED Add-on for System
+| Tobias Czauderna
+| [[media:Czauderna.2009.09.02.pdf | slides]]
+| [http://www.sbgn.org/files/Czauderna_SBGN5.mp3 listen]
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 10:00am
+| colspan=&quot;4&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | '' Short break'' 
+|-
+| 10:10am&amp;nbsp;&amp;ndash;&amp;nbsp;11:00am
+| Constraint-based layout templates for SBGN
+| Sarah Boyd
+| [[media:Boyd.2009.09.02.pdf | slides]]
+| [http://www.sbgn.org/files/Boyd_SBGN.mp3 listen]
+|-
+|
+| Mapping BioPAX to CellDesigner and SBGN-PD
+| Anushya Muruganujan
+| [[media:Muruganujan.2009.09.02.pdf | slides]]
+| [http://www.sbgn.org/files/Muruganujan_SBGN5.mp3 listen]
+|-
+|
+| SBGN representation of rule-based modeling
+| Michael Blinov
+| [[media:Blinov.2009.09.02.pdf | slides]]
+| [http://www.sbgn.org/files/Blinov_SBGN5.mp3 listen]
+|-
+|
+| Update on Arcadia
+| Alice Villeger
+| [[media:Villeger.2009.09.02_arcadia.pdf | slides]]
+| [http://www.sbgn.org/files/Villeger_Arcadia_SBGN5.mp3 listen]
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 10:55am
+| colspan=&quot;4&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Coffee break''
+|- 
+| style=&quot;background-color: #424242&quot;| 11:15am
+| style=&quot;background-color: #424242&quot;| '''libSBGN and SBGN-ML''' 
+| style=&quot;background-color: #424242&quot;| Chair: Alice Villeger
+| style=&quot;background-color: #424242&quot;|
+| style=&quot;background-color: #424242&quot;|
+|-
+|
+| Update on the LibSBGN/SBGN format effort and discussion
+| Alice Villeger 
+| [[media:Villeger.2009.09.02_lib.pdf | slides]][[media:Libsbgnmeetingminutes20090902.doc‎| minutes]]
+| [http://www.sbgn.org/files/libSBGN_dicsussion1_20090902.mp3 listen] to the discussion
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 1:00pm
+| colspan=&quot;4&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Lunch'' 
+|-
+| style=&quot;background-color: #424242&quot;| 1:45pm&amp;nbsp;&amp;ndash;&amp;nbsp;3:00pm 
+| style=&quot;background-color: #424242&quot;| '''Domains, features, and sites in ER'''
+| style=&quot;background-color: #424242&quot;| Chair: Mirit Aladjem
+| style=&quot;background-color: #424242&quot;| [[media:moodie_domains.pdf | domain proposal 2]] by Moodie
+| style=&quot;background-color: #424242&quot;|
+|-
+|
+| SBGN-ER and MIMs: emphasis on domains
+| Mirit Aladjem
+| [[Media:Aladjem.2009.09.02.pdf | slides and domain proposal 1]]
+| [http://www.sbgn.org/files/Mirit_ER_MIM_domain.mp3 listen] to the discussion
+|-
+| style=&quot;background-color: #424242&quot;| 3:10pm&amp;nbsp;&amp;ndash;&amp;nbsp;4:40pm
+| style=&quot;background-color: #424242&quot;| '''Process Description Discussion'''
+| style=&quot;background-color: #424242&quot;| Chair:  Stuart Moodie
+| style=&quot;background-color: #424242&quot;| [[media:Moodie_SBGN5PDIssues.pdf | slides]]
+| style=&quot;background-color: #424242&quot;|
+|-
+|
+|  &amp;ndash; Announce PD L1 R1.1&lt;br&gt;
+&amp;ndash; Discussion on proposed changes to PD L1 R2.0&lt;br&gt;
+&amp;nbsp;* Stadium state variables&lt;br&gt;
+&amp;nbsp;* Submaps should be real processes. How would this work?&lt;br&gt;
+&amp;nbsp;* Revisiting reversible processes&lt;br&gt;
+&amp;nbsp;* Should the Source and Sink glyphs be unified?
+|
+|
+| 
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 4:40pm
+| colspan=&quot;4&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Coffee break'' 
+|-
+| style=&quot;background-color: #424242&quot;| 5:00pm&amp;nbsp;&amp;ndash;&amp;nbsp;5:30pm 
+| style=&quot;background-color: #424242&quot;| '''Roadmap, funding and governance of SBGN'''
+| style=&quot;background-color: #424242&quot;|Chair: Nicolas Le Novère
+| style=&quot;background-color: #424242&quot;| 
+| style=&quot;background-color: #424242&quot;|
+|-
+|
+| &amp;ndash; Status of current specs - roadmap for the future ones&lt;br&gt;
+&amp;ndash; Avenues for future Funding?&lt;br&gt;
+&amp;ndash; Governance - organisation of the editorial elections&lt;br&gt;
+&amp;ndash; Next Hackthon and Forum meetings&lt;br&gt;
+&amp;ndash; SBGN Competition&lt;br&gt;
+| 
+| [[media:SBGN5-governance.pdf | slides]]
+| [http://www.sbgn.org/files/Nicolas_governance_SBGN5.mp3 listen]
+|-
+| style=&quot;background-color: #424242&quot;| 5:30pm&amp;nbsp;&amp;ndash;&amp;nbsp;5:35pm 
+| style=&quot;background-color: #424242&quot;| '''Introduction to SBGN5.5'''
+| style=&quot;background-color: #424242&quot;|  Tobias Czauderna
+| style=&quot;background-color: #424242&quot;|  [[media:SBGN-Wittenberg.pdf | slides]]
+| style=&quot;background-color: #424242&quot;| [http://www.sbgn.org/files/Czauderna_Whittenberg.mp3 listen]
+|-
+| style=&quot;background-color: #424242&quot;| 5:35pm&amp;nbsp;&amp;ndash;&amp;nbsp; 6:00pm
+| style=&quot;background-color: #424242&quot;| '''Housekeeping'''
+| style=&quot;background-color: #424242&quot;| Chair: Stuart Moodie
+| style=&quot;background-color: #424242&quot;| 
+| style=&quot;background-color: #424242&quot;|
+|-
+|
+|  &amp;ndash; What resources are available on sourceforge, e.g. mailing lists etc.&lt;br&gt;
+&amp;nbsp;* svn projects names ProcessDiagram -&gt; ProcessDescription&lt;br&gt;
+&amp;nbsp;* issue tracking - move over to MantisBT&lt;br&gt;
+&amp;nbsp;* SF project admins&lt;br&gt;
+&amp;ndash; Additional resources for libSBGN - svn project and mailing list.&lt;br&gt;
+&amp;ndash; sbgn.org - current state and evolution&lt;br&gt;
+| 
+| [[media:Moodie_Sbgn5HouseKeeping.pdf | slides]]
+| [http://www.sbgn.org/files/Moodie_housekeeping_SBGN5.mp3 listen]
+|- 
+|  style=&quot;background-color: #2f2f2f&quot;| 7:00pm
+| colspan=&quot;4&quot; style=&quot;background-color: #2f2f2f&quot; | ''Dinner.  [http://www.scottsseafoodpa.com/ Scott's Seafood Restaurant].''
+855 El Camino Real, Building #1 Town &amp; Country Village Center, Palo Alto
+
+[http://local.yahoo.com/info-21375514-scott-s-seafood-palo-alto-palo-alto;_ylt=AsqGWNZitjPcQpHnA16zgI6KNcIF;_ylv=3?viewtype=map Map and direction] 
+|}
+
+=== Thursday September 3 ===
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+! width=&quot;75px&quot; | Time
+! width=&quot;270px&quot; | Topic
+! width=&quot;135px&quot; | Speaker(s)
+! width=&quot;120px&quot; | Slides
+! width=&quot;120px&quot; |Audio
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 8:00am
+| colspan=&quot;4&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Breakfast ready at the conference room'' 
+|-
+| 9:00am&amp;nbsp;&amp;ndash;&amp;nbsp;10:30pm
+| Activity Flow
+| Chair: Huaiyu Mi
+| [[media: Mi_SBGN5_Activity_Flow.pdf | slides]]
+| [http://www.sbgn.org/files/Mi_activityFlow_SBGN5.mp3 listen]
+|-
+|
+| PANTHER Applet
+| Anushya Muruganujan
+| [[media:Muruganujan_ActivityFlow.pdf | slides ]]
+| [http://www.sbgn.org/files/Muruganujan_CDApplet_SBGN5.mp3 listen]
+|-
+|
+| WikiPathway
+| Alex Pico
+| [[media:Pico_WikiPathways_SBGN5.pdf | slides ]]
+| [http://www.sbgn.org/files/Pico_wikipathway_SBGN5.mp3 listen]
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 10:30am
+| colspan=&quot;4&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Coffee break'' 
+|-
+| 10:50am&amp;nbsp;&amp;ndash;&amp;nbsp;12:30am
+| Instances and generics - more focused on generics.
+| Chair: Nicolas Le Novère
+| 
+| [http://www.sbgn.org/files/Discussion_Generics_SBGN5.mp3 listen] to discussion
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 12:30pm
+| colspan=&quot;4&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Lunch'' 
+|-
+| 1:30pm&amp;nbsp;&amp;ndash;&amp;nbsp;3:30pm
+| Discussion on instances
+| Chair: Nicolas Le Novère
+|
+| [http://www.sbgn.org/files/Discussion_Instances_SBGN5.mp3 listen] to discussion
+|-
+| style=&quot;background-color: #2f2f2f&quot;| 3:30pm
+| colspan=&quot;4&quot; align=&quot;center&quot; style=&quot;background-color: #2f2f2f&quot; | ''Coffee break'' 
+|-
+| 4:00pm&amp;nbsp;&amp;ndash;&amp;nbsp;6:00pm
+| Additional libSBGN discussion
+| Chair: Alice Villeger
+| [[media: LibSBGNmeetingminutes20090903.doc | minutes]]
+| [http://www.sbgn.org/files/libSBGN_discussion2_20090903.mp3 listen] to discussion
+|}
+
+== Minutes ==
+
+
+* [[Entity Relationship domains]]
+
+* [[Process Descriptions Issues Discussion]]
+
+* [[Housekeeping Issues]]
+
+== Participants ==
+
+{| border=&quot;1&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;whitetable&quot; width=&quot;100%&quot;
+!width=&quot;120px&quot;| Name
+!width=&quot;220px&quot;| Affiliation
+! Group/Project
+|-
+| Mirit Aladjem
+| NIH (USA)
+| [http://discover.nci.nih.gov/mim MIM]
+|-
+| Frank Bergmann
+| University of Washington (USA)
+| [http://sys-bio.org SBW, Athena]
+|-
+| Michael Blinov
+| Center for Cell Analysis and Modeling, UCHC (USA)
+| [http://vcell.org/bionetgen BioNetGen]
+|-
+| Sarah Boyd
+| Monash University (AU)
+| [http://www.csse.monash.edu.au/~mwybrow/dunnart/ Dunnart]
+|-
+| Emek Demir
+| MSKCC
+| [http://www.biopax.org/ BioPAX]
+|-
+| Ugur Dogrusoz
+| Bilkent University (TR)
+| [http://www.bilkent.edu.tr/~bcbi/pvs.html VISIBIOweb]
+|- 
+| Samik Ghosh
+| The Systems Biology Institute (JP)
+| [http://celldesigner.org CellDesigner]
+|-
+| Hiroaki Kitano
+| The Systems Biology Institute (JP)
+| [http://celldesigner.org CellDesigner],[http://www.payaologue.org Payao]
+|- 
+| Christian Klukas
+| IPK-Gatersleben (DE)
+| [http://vanted.ipk-gatersleben.de Vanted]
+|- 
+| Nicolas Le Nov&amp;egrave;re
+| EMBL-EBI
+| [http://www.ebi.ac.uk/biomodels/ BioModels Database]
+|-
+| Yukiko Matsuoka
+| The Systems Biology Institute (JP)
+| [http://celldesigner.org CellDesigner],[http://www.payaologue.org Payao]
+|-
+| Huaiyu Mi
+| SRI International (USA)
+| [http://www.pantherdb.org/pathway/ Panther Pathways]
+|-
+| Stuart Moodie
+| University of Edinburgh (UK)
+| [http://www.pathwayeditor.org Edinburgh Pathway Editor]
+|-
+| Anushya Muruganujan
+| SRI International (USA)
+| [http://www.pantherdb.org/pathway/ Panther Pathways]
+|-
+| Alexander Pico
+| The Gladstone Institutes, UCSF (USA)
+| [http://www.wikipathways.org WikiPathways]
+|- 
+| Tobias Czauderna
+| IPK Gatersleben (DE)
+|
+|- 
+| Alice Villeger
+| University of Manchester (UK)
+| [http://arcadiapathways.sourceforge.net/ Arcadia]
+|}
+
+== Accommodation ==
+
+A list of accommodation options is provided by [http://www.icsb-2009.org/travel.html#hotels ICSB 2009]. SRI is not far from Stanford so these should be suitable. If you requested us to book you accommodation during registration then we will provide hotel details here when we have confirmed them.
+
+== Travel ==
+
+As mentioned above, SBGN 5 will be held in in Menlo Park, California, at [http://www.sri.com/ SRI International].  The map below shows the location of SRI international.
+
+&lt;div style=&quot;display: block; margin: 0 auto; padding: 0 0 1em 1em&quot;&gt;
+&lt;html&gt;&lt;center&gt;
+&lt;iframe width=&quot;425&quot; height=&quot;350&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=SRI+International,+Menlo+Park,+California+94025&amp;amp;sll=37.465594,-122.17226&amp;amp;sspn=0.035357,0.077591&amp;amp;ie=UTF8&amp;amp;t=h&amp;amp;ll=37.453083,-122.178846&amp;amp;spn=0.011924,0.018239&amp;amp;z=15&amp;amp;output=embed&quot;&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;small&gt;&lt;a href=&quot;http://maps.google.com/maps?f=q&amp;amp;source=embed&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=SRI+International,+Menlo+Park,+California+94025&amp;amp;sll=37.465594,-122.17226&amp;amp;sspn=0.035357,0.077591&amp;amp;ie=UTF8&amp;amp;t=h&amp;amp;ll=37.453083,-122.178846&amp;amp;spn=0.011924,0.018239&amp;amp;z=15&quot; style=&quot;color:#0000FF;text-align:left&quot;&gt;View Larger Map&lt;/a&gt;&lt;/small&gt;
+&lt;/center&gt;&lt;/html&gt;
+&lt;/div&gt;
+
+You can also click [[Media:SBGN5_map.jpg|here]] to view a static map with SRI, Sheraton Hotel, and Caltrain station labeled.
+
+Most of the participants will stay at [http://www.starwoodhotels.com/sheraton/search/hotel_detail.html?propertyID=214 Sheraton Hotel Palo Alto].  To get to the hotel from San Francisco Airport (SFO), you can take a taxi, which costs about US$85.  You can also take train.  Here is how.  You first take the Bay Area Rapid Transit (BART) from SFO to Millbrae (see [http://www.bart.gov/schedules/index.aspx schedule]).  The ticket is $4.00.  You first take the BART towards Pittsburg/Bay Point from SFO for one stop to San Bruno station, get off, and take the train in the opposite direction to Millbrae.  You can use BART [http://www.bart.gov/ QuickPlanner] to plan the trip.  At Millbrae station, you switch to Caltrain (see [http://www.caltrain.com/timetable.html Caltrain schedule]).  You need to walk over an overpass for the southbound train.  Purchase the ticket to Palo Alto station from the ticket machine before getting on the train.  The ticket costs $6.00. Take the southbound Caltrain towards San Jose, and get off at Palo Alto station, which is located in the Palo Alto Transit Center and is a couple of minutes walk to the hotel.  
+
+To get to SRI from the hotel, you go to the Transit Center (Palo Alto station), take the northbound Caltrain (towards San Francisco) for one stop, and get off at the Menlo Park station.  ''Please note that the express trains do not stop at the Menlo Park station, so make sure to check the [http://www.caltrain.com/timetable.html Caltrain schedule]''.  You need to purchase the ticket from the machine before getting on the train.  After getting off the train, you walk back to Ravenwood Ave., and turn left (northeast).  SRI is at '''333 Ravenswood Ave.''', which is about 10 minutes walk from the train station.  Follow the sign and go directly to the [[Media:SRIBuildingA.jpg|'''main entrance in Building A''']].  At the front desk, just mention that you are attending SBGN.  Someone will be there to guide you to the conference room.
+
+[[Image:SRIBuildingA.jpg|center|thumb|300px|SRI main entrance in Building A]]
+
+
+If you are coming from the ICSB main venue (Stanford Memorial Auditorium), you can take the free [http://transportation.stanford.edu/marguerite/MargueriteSched.shtml#map Stanford Marguerite Shuttle] service ([http://transportation.stanford.edu/pdf/2009-10-marguerite-map.pdf route map]).  Take [http://transportation.stanford.edu/marguerite/schedules/LineA_4-6-2009.pdf Line A] toward the Palo Alto Transit Center, and follow the direction above.
+
+The weather in the San Francisco area during August and September is usually always very warm, with temperatures ranging from 75 &amp;deg;F &amp;ndash; 100 &amp;deg; (24 &amp;ndash; 38 C).  There is sometimes a chance of light rain, so make sure to bring a small umbrella and some light wet weather clothes.
+
+&lt;div style=&quot;display: block; margin: 0 auto; padding: 0 0 1em 1em&quot;&gt;
+&lt;html&gt;&lt;script src=&quot;http://www.gmodules.com/ig/ifr?url=http://www.notkewl.com/myWeather/myWeather.xml&amp;amp;up_paikka=USCA0693&amp;amp;up_merkki=1&amp;amp;synd=open&amp;amp;w=285&amp;amp;h=250&amp;amp;title=&amp;amp;border=%23ffffff%7C0px%2C0px+dotted+%23ffffff&amp;amp;output=js&quot;&gt;&lt;/script&gt;&lt;/html&gt;&lt;/div&gt;
+
+If you are traveling from outside of the USA, be sure to bring an appropriate power plug converter for your laptop and all other electrical devices you're bringing. Electric current in the USA is 60 Hz, 120 V. The plug types are depicted below. For more detailed information on the types of plugs that are used, as well as electrical standards in various countries, please visit http://users.pandora.be/worldstandards/electricity.htm .
+
+
+&lt;center&gt;
+{|
+!width=&quot;150px&quot;| Type A Plug
+| &lt;html&gt;&lt;img width=&quot;300px&quot; src=&quot;http://users.telenet.be/worldstandards/images/A%20plug.jpg&quot;&gt;&lt;/html&gt;
+|-
+|}
+{|
+!width=&quot;150px&quot;| Type B Plug
+| &lt;html&gt;&lt;img width=&quot;300px&quot; src=&quot;http://users.telenet.be/worldstandards/images/B%20plug.jpg&quot;&gt;&lt;/html&gt;
+|}
+&lt;/center&gt;
+
+== Contact ==
+
+If you have any queries then please contact the organisers at sbgn-meeting at lists.sourceforge.net.</text>
+    </revision>
+  </page>
+</mediawiki>

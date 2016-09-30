@@ -1,0 +1,88 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>SBGN Admin Meeting 08 April 2009</title>
+    <id>365</id>
+    <revision>
+      <id>1543</id>
+      <timestamp>2009-04-21T17:33:23Z</timestamp>
+      <contributor>
+        <username>SBGNWikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>[[SBGNAdminMeeting080409]] moved to [[SBGN Admin Meeting 08 April 2009]]</comment>
+      <text xml:space="preserve">== SBGN &quot;Business&quot; Meeting, Waiheke Island 8 Apr 2009 ==
+
+Over dinner a number of interested parties met to have a brief meeting about a number of SBGN related administrative issues.
+
+Present:
+Sarah Boyd (SB)
+Stuart Moodie (SM)
+Emek Demir (ED)
+Nicolas Le Novere (NLN)
+Frank Bergmann (FB)
+Huaiyu Mi (HM)
+Alice Villeger (AV)
+Yukiko Matsuoka (YM)
+Hiroaki Kitano (HK)
+
+
+Briefly the conclusions of the meeting were as follows:
+
+
+* The next SBGN Forum meeting will be on the 2-3 Sep for 1.5 days. This will be hosted by HM at SRI - he need to confirm this. Note that the SBML forum will immediately follow this meeting.
+
+* The next bug fix release (Level 1 R1.1) should go out soon and will undergo an RFC process to get feedback from community.
+
+* We will be more diligent in publishing errata on the wiki/website.
+
+* ED suggested adding a list of scheduled changes to go into next release.
+
+* The next feature containing release of PD (L1 R2.0) will follow later - no deadline specified.
+
+* Concerns were expressed that Editors' discussion about issues relating to changes in the notation or issues relating to the notation could be more visible to the community. It was agreed that the editors would put such discussion on the public sbgn-discuss list.
+
+* EM nominated AV to lead/coordinate the libSBGN effort to develop an exchange format for SBGN editing tools.
+
+Actions:
+
+SM Circulate R1.1
+
+SM: Do caspase diagram with PD
+
+HM: Do caspase diagram with ER &amp; AF
+
+SM: Get templates for Powerpoint (i.e. delegate this to Anatoly Sorokin ;-))
+
+FB: Refcard for Inkscape PD. Do refcard with colour and without to help illustrate that colour can be used in SBGN.</text>
+    </revision>
+  </page>
+</mediawiki>

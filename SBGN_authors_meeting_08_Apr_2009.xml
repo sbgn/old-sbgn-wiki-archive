@@ -1,0 +1,67 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>SBGN authors meeting 08 Apr 2009</title>
+    <id>360</id>
+    <revision>
+      <id>2008</id>
+      <timestamp>2010-02-10T22:39:51Z</timestamp>
+      <contributor>
+        <username>SBGNWikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>Protected &quot;[[SBGN authors meeting 08 Apr 2009]]&quot; [edit=sysop:move=sysop] [cascading]</comment>
+      <text xml:space="preserve">= SBGN Authors Meeting Waheke Island, NZ, 080409 =
+
+== Present ==
+
+Stuart Moodie, Nicolas Le Novere, Huaiyu Mi, Hiroaki Kitano, Yukiko Matsuoka, Alice Villeger, Frank Bergmann, Emek Demir, Sarah Boyd
+
+== Agenda ==
+
+The aim of this ad-hoc meeting was to discuss some issues with the specification documents. The following conclusions were arrived at.
+
+1) Edge/node crossings is current permitted in some cases in the PD spec. It was agreed that this should be forbidden in all cases. (Put in L1 R1.1).
+
+2) As agreed in Rostock we will use make logic gates consistent with processes and have edges meet before the node, so that we can distinguish input and output to the logic operator. (Put in L1 R1.1) This removes a potential source of ambiguity.
+
+3) It was agreed that Perturbation is an EPN. The Spec was inconsistent on this and shall be updated accordingly in R1.1.
+
+4) It was agreed that observable would be better named as Phenotype. (R2.0)
+
+5) Observable should eb classified as a Process (R1.1)
+
+6) In AF it was not agreed what would be the best Glyph to use. HM agreed to circulate a range of options for community feedback.
+
+7) Perturbation/Observable were OK to be included in AF.</text>
+    </revision>
+  </page>
+</mediawiki>

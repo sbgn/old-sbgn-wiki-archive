@@ -1,0 +1,67 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>LibSBGN/Developer Tutorial Ant</title>
+    <id>774</id>
+    <revision>
+      <id>2998</id>
+      <timestamp>2012-11-05T16:14:06Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <comment>New page: = Compiling from source (using ant) =  == Preparation ==  You'll need  * Java * Apache ant [http://ant.apache.org/manual/install.html ant installation instructions] * Subversion [http://sv...</comment>
+      <text xml:space="preserve">= Compiling from source (using ant) =
+
+== Preparation ==
+
+You'll need 
+* Java
+* Apache ant [http://ant.apache.org/manual/install.html ant installation instructions]
+* Subversion [http://svnbook.red-bean.com/en/1.1/ch01s05.html installation instructions] (Windows users prefer the user-friendly [http://tortoisesvn.net/ TortoiseSVN])
+
+First check out the source code from subversion with the following command:
+
+ svn checkout https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/trunk libsbgn
+
+(Or if you're using TortoiseSVN, right-click in a directory and choose svn-checkout. Then enter the repository URL https://libsbgn.svn.sourceforge.net/svnroot/libsbgn/trunk)
+
+Change to the directory that was just created
+
+ cd libsbgn
+
+If ant is set up correctly, you only need the following command:
+
+ ant
+
+If all goes well, you can find a jar file named org.sbgn.jar in the &quot;dist&quot; directory, which you should include in your project.</text>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,370 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Events/SBGN 3.5/Issues</title>
+    <id>50</id>
+    <revision>
+      <id>1168</id>
+      <timestamp>2008-10-08T19:29:29Z</timestamp>
+      <contributor>
+        <username>Ltaddeo</username>
+        <id>6</id>
+      </contributor>
+      <text xml:space="preserve">''Note these issues are specific to the Process diagrams in SBGN.''
+
+&lt;div class=&quot;superhead2&quot;&gt;Resolved Issues&lt;/div&gt;
+
+==Cloning of State Nodes==
+
+&lt;div class=&quot;leftindent-small&quot;&gt;
+
+''Discussed 30/1/08''
+
+===Background===
+
+The ST spec states that state nodes cannot be duplicated on the same map (cloned) unless all copies of the state node are marked with a Tag glyph. State nodes are identified by their name, compartment, any complex that they belong to and their state (including the states of their subunits if the state node is a complex).
+
+===Issue===
+
+The concern is that the Tag solution looks visually ugly and seems a very cumbersome and ill-suited solution for cases where a molecule is duplicated frequently and is not central to the understanding of a pathway. A good example is a currency metabolite such as ATP which is frequently cloned and for which marking seems unnecessary.
+
+There was consensus that there is a need to mark clones and label identical clones to assist navigation in a printed map. The difference in opinion was that some felt clones should be marked in all cases, others only for non-currency molecules (how they should be defined was unresolved). There was also disagreement whether a Tag glyph should be used or whether a decorator of the State Node, such as a diamond should be used.
+
+===Discussion===
+
+''Discussed 29-30/1/08''
+
+No consensus was obtained for this. A range of solutions was agreed upon. These were:
+
+# Keep current solution - use tags always.
+# Always mark clones, but use a diamond decorator. Variants were:
+## Always provide an identifier so that all clones can be identified.
+## Providing an identifier is optional, but if provided in one clone it must be provided in the others.
+# Only mark cloned non-currency metabolites. How do we identify a non-currency molecule?:
+## Declare them in a legend in each diagram.
+## Rely on a set of reserved names, e.g. ATP, H2O
+## Use a special glyph for currency metabolites that can be cloned without marking.
+
+===Final Agreement===
+
+''Discussion 30/1/08''
+
+An agreement was reached as follows:
+
+# Cloned states should be marked as such.
+# Clones will be marked using a identified label in in a stateful node.
+# Clones will be marked as a filled bottom in a non-stateful node.
+
+See solution shown below:
+
+http://sbgn.org/lib/exe/fetch.php?cache=cache&amp;media=http%3A%2F%2Fassets.drop.io%2Fdownload%2F47a14a92%2F296f274ae76c1da5ec620de613d6b43d6e891831%2F04ffcc60-b1e0-012a-aa8d-00127994f632%2F81a148d0-b1e0-012a-8985-fc3c183d16d0%2Fdsc_0553.jpg
+
+&lt;/div&gt;
+
+==Modules and Module Interface Definition==
+
+&lt;div class=&quot;leftindent-small&quot;&gt;
+''Discussed 29/1/08''
+===Background===
+
+Modules are reusable pathway segments that can be included in a map. The issue is therefore how do you describe the mapping between state nodes using the module in the map and state nodes in the module definition. Also how do you specify the state nodes that make up the interface of the module definition.
+
+===Issues===
+
+When a module definition contains more than one compartment then the mapping between module interface nodes and module instantiating nodes becomes complicated because it is necessary to define an equivalence between compartments in the map and module definition.
+
+===Resolution===
+
+There was concern that the module specification was too complicated and untried for Level 1. Therefore, it was decided to change it to a SubMap.
+
+This is a way of collapsing detail in a map into a single node. Therefore the mapping between the nodes in the map and submap is simple because they are identical and the nodes are essentially clones. Therefore we will use the cloning mechanism (one decided) to identify the interface state nodes of the SubMap. The state nodes linked to the submap will be identified by squares within the SubMap glyph containing an identifier consistent with the cloning marker in the SubMap (need a diagram !)
+&lt;/div&gt;
+
+==Multimer Complex==
+&lt;div class=&quot;leftindent-small&quot;&gt;
+''Discussed 29/1/08''
+
+===Background===
+
+We have multimer for macromolecule and small molecule why not complex?
+
+===Issues===
+
+# There are 2 ways to write a complex containing 2 identical subunits: a multimer complex and a single macromolecule or a single complex and a multimer macromolecule.
+# Open to abuse as user may not realise state applies to all subunits in the multimer. This is an issue for macromolecule too.
+
+===Resolution===
+
+Agreed to adopt it as it is consistent with the other permitted multimers.
+&lt;/div&gt;
+
+==Linking to Subunits==
+&lt;div class=&quot;leftindent-small&quot;&gt;
+
+''Discussed 29/1/08''
+
+===Background===
+
+Should we allow edges to be linked to a subunit within a complex? This is currently done by Panther and allowed by the Kitano notation and CellDesigner.
+
+===Issues===
+
+# This breaks the idea that the subunits in a complex do not describe its topology or structure.
+# On the plus side Users want this to express information about how a reaction works.
+# Linking to a consumption or production arc is misleading because the whole complex not its subunits participate in a process.
+
+===Resolution===
+
+Only modulation arcs are allowed to be assigned to complex subunits. This also has a different meaning to the whole complex being assigned to the modulation arc.
+&lt;/div&gt;
+
+==States in Compartment==
+&lt;div class=&quot;leftindent-small&quot;&gt;
+
+===Background===
+
+States currently are not stateful and cannot be duplicated. It is unclear how compartments that translocate in the cell should be described. Common cases are endocytosis or secretion via vesicles. In the latter case the membrane “buds” into a vacuole that is internalised into the cytosol. In the former case the vesicle fuses to the membrane and its contents are expelled from the cell. In both cases it is important to cature the different statges of the vesicle since there are different processes occuring within the vesicle at different locations.
+
+===Issues===
+
+# Do we want SBGN Level 1 to try and capture this (can it be deferred to a later version)?
+# If not is there a recommended workaround to capture this information?
+# If so how do we do it?
+## One suggestion is to add states to the compartment.
+
+===Resolution===
+
+# SBGN Level 1 will not try and address this issue with new mechanisms.
+# Vacuoles in their different stages can be shown as different compartments.
+# No arc will be used to show progress from one to the other. The user must rely on unstructured annotation of the diagram.
+&lt;/div&gt;
+
+==Transition Node Compartments==
+&lt;div class=&quot;leftindent-small&quot;&gt;
+
+===Background===
+
+Transition nodes can be used to describe process that start in one compartment and end up in another. In such cases is the container the transition is located in significant?
+
+===Issues===
+
+# Does the Transition Node belong to a compartment?
+## If so what does this mean?
+# Do we care where the transition node is if its producers and consumers are in the same compartment?
+# Should we restrict the compartment of a control to be in the same compartment as the producers and consumers of a transition node?
+
+===Resolution===
+
+''Discussed 31/01/08''
+
+# Since a Process Node can describe multiple biochemical processes they cannot belong to a compartment.
+# To ensure aesthetic layout the Process Node should be in the same compartment as at least one of its participants or in the “empty” compartment.
+&lt;/div&gt;
+
+==Additional graphical attributes within SBGN diagrams==
+&lt;div class=&quot;leftindent-small&quot;&gt;
+
+===Background===
+
+It would be very helpful if additional information connected to nodes and arcs/edges could be shown within a drawing. Such information could be, for example, experimental or simulation data.
+
+===Issues===
+
+Additional information connected to network elements (nodes and edges) could be expressed by colour, size (width), diagrams and other graphical attributes. Therefore in the specification of SBGN
+
+# colour should not be used (no assumption about the clour of a glyph)
+# the size of nodes and the width of edges should not carry any meaning within SBGN (no assumption that, for example, a transition node is smaller than a node for a single molecule).
+# labels(text) should be freely placed within the glyph (The problem in the current spec is, that often label boxes have to be attached to the center of the container box.)
+
+===Resolution===
+
+All issues were agreed as above with variations to the last issue. Text layout should follow the following rules:
+
+# At least a part of the label (unbordered box containing a string of characters) has to be with the node it belongs to. Node labels are not allowed to overlap nodes or other labels (this includes touching of other nodes or labels).
+# Edge labels are not allowed to overlap nodes (this include touching of nodes).
+# Compartments: if all participants of a transition are in the same compartment the transition node and all edges/arcs have to be in this compartment.
+# Labels should be horizontal. Node labels should be placed completely inside the node if possible. Edge labels should be placed close to the edge and avoid overlapping the edge as well as other edge labels.
+&lt;/div&gt;
+
+==Edge Layout==
+&lt;div class=&quot;leftindent-small&quot;&gt;
+
+===Background===
+
+Spec already contains number of rules and recommendations for edges layout. In particular number of bend points and overall length of the edge should be minimized and edge can not be covered by node. Once we've decide that compartments could be nested and ends of the edge could locate in different compartments, we need to decide do we need extra constraints and rules that should be added to the spec.
+
+===Issues===
+
+Should there be any rules for edge layout?
+
+===Resolution===
+
+The resolution was that layout section of the spec should contain recommendation for edge layout. There are two major rules:
+
+* Edge should not intersect itself
+* Edge should not cross boundary of compartment more than once.
+&lt;/div&gt;
+
+==Gene Regulation==
+&lt;div class=&quot;leftindent-small&quot;&gt;
+
+===Background===
+
+The specification is not specific about how we capture gene expression and its regulation in the ST diagram. Some examples use the Unit of information as a controller of a synthesis process, however, this does not seem consistent with the other concepts within an ST diagram.
+
+===Issues===
+
+# What is the mechanism currently described in the spec? Is there one?
+# What is our preferred way of doing this?
+
+===Proposed Solution===
+
+#  new Glyph will be created called Genomic Entity which is a “Fragment of a macromolecule that carries genomic information”.
+# Gene regulation is therefore described by binding to Genomic Entities that describe regulatory regions of the gene - binding being described as a complex.
+# The Genomic Entity is stateful and can have state variables and units of information.
+
+See example from HK below (note that the glyphs are different):
+
+http://assets.drop.io_download_47a26e2b_d83051979735c49bb7e5992a5187d81add923aed_04ffcc60-b1e0-012a-aa8d-00127994f632_29ae76d0-b28e-012a-27dc-f27f77bb0d47_ipscell_large.jpg
+
+===Resolution===
+
+As proposed solution above.
+&lt;/div&gt;
+
+==Compartment Nesting Semantics==
+
+&lt;div class=&quot;leftindent-small&quot;&gt;
+
+===Background===
+
+Can compartments be nested graphically? If so what does this mean? Does this imply that the nested compartment is contained by the nesting compartment?
+
+===Issues===
+
+# The original idea was that SBGN would not describe spatial relationships and be independent of compartment topology.
+# Nesting behaviour could be confusing when assigning a state node to a compartment.
+
+===Progress so far===
+
+'''''Agreement reached on 29/01/08'''''
+
+# Compartments are drawn as enclosed compartments that could be graphically nested. If they are nested then this does not imply containment of compartments.
+
+'''''Further informal discussions on 30/01/08'''''
+
+# Compartments can be nested and this *does* imply containment.
+# Compartments can be drawn as closed containers or as a double line. The double line should have a thick line and a thinner line - this thick line indicating the boundary of the compartment that is contained.
+
+SLM note: this need to be discussed and agreed more widely.
+
+===Resolution===
+
+# Compartments can be enclosed by other compartments.
+# The boundary of a compartment is a double line, one thicker than the other. The side of the thick line indicates the containing compartment.
+# Enclosure does not indicate that compartments can contain each other, i.e. that there is a hierarchy of compartment containment.
+&lt;/div&gt;
+
+==Compartment Spanning==
+
+&lt;div class=&quot;leftindent-small&quot;&gt;
+
+===Background===
+
+In biology macromolecules and complexes frequently span subcellular compartments. Receptor systems are a good example. In EGFR, for example, the receptor is a complex which binds to a ligand (EGF) on the outside of the cell, spans the membrane and binds to a number of adapter and scaffold proteins inside the cell. How can we capture this in SBGN?
+
+===Issues===
+
+# Can state nodes span a compartment.
+# If so can state nodes belong to multiple compartments?
+# In a complex can the subunits belong to a different compartment to its containing complex.
+
+===State of discussion===
+
+''Discussed 30/1/08''
+
+There was almost agreement on this. The conclusions arrived at were:
+
+# The complex must be assigned to a compartment
+# The complex can span compartments
+# The subunits can be owned by different compartments to the complex.
+
+The contentious issue is whether a macromolecule (such as a TM protein) can span compartments. The options are:
+
+# The macromolecule cannot span compartments. The drawback of this is that it does not look as a biologist would expect and in reality the macromolecule _does_ span compartments.
+# The macromolecule _can_ span compartments and this is indicated using a code (such as “TM”) in a unit of information. The drawback is that the user will start to draw information that cannot be described and would not necessarily be reproduced by autolayout etc.
+# The macromolecule can span compartments but we develop a domain description notation to properly describe the parts of the molecule that are in different compartments.
+
+A diagram illustrating the different views is below.
+
+http://assets.drop.io_download_47a1514e_bd93d2ea860088fc40e70ac47b567c6620e83b1e_04ffcc60-b1e0-012a-aa8d-00127994f632_7c4df200-b1e0-012a-617d-f3e44f3ee6cc_dsc_0554_large.jpg
+
+===Proposed Solution===
+
+# State Variables will belong to a compartment as well as an Entity Pool Node.
+# Stateful Entity Pool Nodes will be able to span compartments and so will belong to one or more compartments.
+
+===Unresolved Issues===
+
+Further discussion on 2/2/08 identified a number issues with the above solution. It was felt that further work was required on this problem and that testing of a number of solutions was required to identify the best.
+&lt;/div&gt;
+
+==Nomenclature==
+
+&lt;div class=&quot;leftindent-small&quot;&gt;
+
+===Background===
+
+The use of the name State Transition notation is misleading and potentially confusing since it is in reality a process diagram. The proposal is to change the name to “SBGN Process Notation”.
+
+* A consequence of this is that a State Node should not be named as such. There is no suggestion for a replacement name.
+* Likewise, the Transition Node must be redefined if the name is changed.
+
+===Current Status===
+
+''Discussed 31/1/08''
+
+# The ST notation should now be called the Process Notation
+# The Transition Node should therefore be called the Process Node.
+# No agreement was reached about naming what is currently called the State Node. Preferred options were:
+
+* No change - remains State Node.
+* Entity
+* Species
+
+===Resolution===
+
+# The ST notation should now be called the Process Notation
+# The Transition Node should therefore be called the Process Node.
+# The State node becomes Entity Pool Node.
+&lt;/div&gt;</text>
+    </revision>
+  </page>
+</mediawiki>

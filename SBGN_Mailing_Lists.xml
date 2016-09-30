@@ -1,0 +1,93 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>SBGN Mailing Lists</title>
+    <id>375</id>
+    <revision>
+      <id>3981</id>
+      <timestamp>2015-10-21T05:43:50Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <comment>/* For End-Users */</comment>
+      <text xml:space="preserve">The SBGN mailing lists are where questions are asked and the latest developments discussed.  There are different lists for different purposes and aspects of the SBGN effort.
+
+=== For End-Users ===
+{|
+! width=&quot;250&quot; | List 
+! Archive
+! Info/sign-up
+|-
+| &lt;big&gt;sbgn-discuss&lt;/big&gt;&lt;br&gt;An open mailing list for discussing the Systems Biology Graphical Notation.
+| align=&quot;center&quot; | [https://groups.google.com/forum/#!forum/sbgn-discuss sbgn-discuss archive]&lt;br&gt;[https://lists.caltech.edu/pipermail/sbgn-discuss/ (old sbgn-discuss archive)]
+| align=&quot;center&quot; | [https://groups.google.com/forum/#!forum/sbgn-discuss subscription page]
+|-
+| &lt;big&gt;sbgn-announce&lt;/big&gt;&lt;br&gt;An announcement-only mailing list for the community at large.
+| align=&quot;center&quot; | [http://sourceforge.net/mailarchive/forum.php?forum_name=sbgn-announce sbgn-announce archive]
+| align=&quot;center&quot; | [https://lists.sourceforge.net/lists/listinfo/sbgn-announce subscription page]
+|}
+
+=== For Developers ===
+{|
+! width=&quot;250&quot; | List 
+! Archive
+! Info/sign-up
+|-
+| &lt;big&gt;sbgn-libsbgn&lt;/big&gt;&lt;br&gt;An open mailing list for discussing the development of an API library for SBGN.
+| align=&quot;center&quot; | [http://sourceforge.net/mailarchive/forum.php?forum_name=sbgn-libsbgn sbgn-libsbgn archive]
+| align=&quot;center&quot; | [https://lists.sourceforge.net/lists/listinfo/sbgn-libsbgn subscription page]
+|-
+| &lt;big&gt;sbgn-svn-commit&lt;/big&gt;&lt;br&gt;Automatic broadcast-only list receiving mail whenever a change is committed to the SVN repository.
+| align=&quot;center&quot; | [http://sourceforge.net/mailarchive/forum.php?forum_name=sbgn-svn-commit sbgn-svn-commit archive]
+| align=&quot;center&quot; | [https://lists.sourceforge.net/lists/listinfo/sbgn-svn-commit subscription page]
+|}
+
+=== VIP Area ===
+{|
+! width=&quot;250&quot; | List 
+! Archive
+! Info/sign-up
+|- 
+| &lt;big&gt;sbgn-editors&lt;/big&gt;&lt;br&gt;A private mailing list for the SBGN Editors to discuss SBGN development, planning, event organization, and other matters.
+| align=&quot;center&quot; | [http://sourceforge.net/mailarchive/forum.php?forum_name=sbgn-editors sbgn-editors archive]
+| align=&quot;center&quot; | 
+|- 
+| &lt;big&gt;sbgn-editors-all&lt;/big&gt;&lt;br&gt;A private mailing list for all the SBGN Editors, past an present, in order to discuss specific issues that require editor experience. 
+| align=&quot;center&quot; | [http://sourceforge.net/mailarchive/forum.php?forum_name=sbgn-editors-all sbgn-editors-all archive]
+| align=&quot;center&quot; | 
+|- 
+| &lt;big&gt;sbgn-scicom&lt;/big&gt;&lt;br&gt;A private mailing list for the SBGN Scientific Committee to discuss SBGN development, endorsement and support.
+| align=&quot;center&quot; | [http://sourceforge.net/mailarchive/forum.php?forum_name=sbgn-scicom sbgn-scicom archive]
+| align=&quot;center&quot; | 
+|}</text>
+    </revision>
+  </page>
+</mediawiki>

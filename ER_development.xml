@@ -1,0 +1,205 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>ER development</title>
+    <id>388</id>
+    <revision>
+      <id>2727</id>
+      <timestamp>2012-01-18T23:36:00Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <comment>/* Survey on clarification of the &quot;outcome&quot; */</comment>
+      <text xml:space="preserve">== Survey on clarification of the &quot;outcome&quot; ==
+
+In SBGN Entity Relationships L1V1, an &quot;outcome&quot;, visualised by a black disc, represents the truth of a statement, such an interaction or a variable assignmment. One can then use the outcome as an interactor, or as the source of an influence. Over the past few years, we have discussed much of the meaning of the outcome. Such discussions can be found at:
+
+http://sbgn.org/Events/SBGN-6/SBGN_languages_breakout_topics#Differentiating_continuant_and_occurrent_entities
+
+https://utils.its.caltech.edu/pipermail/sbgn-discuss/2011-February/000475.html
+
+https://utils.its.caltech.edu/pipermail/sbgn-discuss/2011-April/000578.html
+
+Prior to HARMONY 2011, the outcome was interpreted by some as the result of
+the statement (e.g. a complex created by an interaction) or the statement
+itself becoming true (e.g. the interaction itself). SBGN aiming to be
+unambiguously interpreted, this was an unsatisfactory situation. During
+HARMONY 2011, the discussion led to the conclusion that for most people
+(not all since the specification is fuzzy on this point), the outcome
+*currently* represents a restriction of the possible states of the
+participants. For an interaction between an entity A and an entity B, the
+outcome of an interaction between A and B would represent (the instances of
+B bound to A) AND (the instances of A bound to B). This interpretation
+was confirmed without dissent by the participants of COMBINE 2011.
+
+This let us to the question of representing the interaction itself, or a
+phosphorylation event (by opposition to the phosphorylated entity) etc. It
+was proposed (see discussions referenced above) to create another glyph.
+
+----
+
+A vote was opened on September 9th 2011 and closed on September 30th 2011. 8 votes have been expressed. Two questions aimed at assessing the background understanding of the specification, and two questions aimed at taking decisions.
+
+1. In your understanding of the current ER specification, what can be 
+represented by an entity glyph
+
+{| 
+|-
+!
+!yes
+!no
+!not sure
+|-
+|a material entity (e.g. molecule)
+|7 
+|1
+|0
+|-
+|a process (e.g. glycolysis)
+|1
+|4
+|3
+|-
+|a variable (e.g blood pressure)
+|2
+|2
+|4
+|}
+
+Comments:
+&quot;An entity can be anything...&quot;
+
+While the answers are diverse, a trend emerges to say that an ER entity is 
+currently representing continuants and not occurrents. This calls for the 
+creation of another glyph to represent occurrent. That issue will be the 
+topic of a further vote.
+
+2. In your understanding of the current ER specification, what does the 
+outcome of an interaction represent?
+
+{|
+| A material complex formed by the interactors?	
+|7
+|-
+|The interaction itself when realised?		
+|0	
+|-
+|None of the above				
+|1
+|-
+|Not sure					
+|0
+|}
+
+Comments:
+&quot;It's the result of the interaction where both entities are in a bound 
+state. But NOT a new complex entity.&quot;
+
+There seems to be a consensus here that the current outcome represents a 
+continuant, whether material complex, or restriction of the states of the 
+participants.
+
+3. There is a proposal to split the ER &quot;outcome&quot; glyph into the current 
+filled disk, that would then represent the result of a statement, e.g. a 
+complex, and another symbol, representing the realisation of the statement, 
+e.g. an interaction. Do-you agree with this proposal?
+
+{|
+| yes			
+|6
+|-
+|no			
+|6
+|-	
+|unsure			
+|1
+|}
+
+Comments:
+&quot;I think the working of this question is not clear. I'm not sure what is 
+the diff between result and realisation&quot;
+
+Decision: Creation of two outcome glyphs, with the current one representing 
+the result of the interaction.
+
+4. Several proposition were made to represent the new outcome. An empty 
+square would remind of the process in Process Descriptions, and the 
+activity in Activity Flows. But it would potentially be confusing with the 
+cardinality of an interation, also represented by a square (but tangent to 
+the interaction arc). A filled square would remind of the current outcome, 
+but may be confused with the circle outcome if too small. If we introduce a 
+new glyph to represent the realisation of a statement, should it be:
+
+{|
+|filled square		
+|1
+|-
+|empty square		
+|4
+|-
+|Others			
+|2 (&quot;Not sure.&quot;, &quot;empty circle&quot;)
+|}
+
+Decision: The outcome glyph representing the interaction itself will be an 
+empty square.
+
+== Domains, sites and motives ==
+
+SBGN ER Level 1 Version 1 does not provide structures to represent physical or functional subdivisions of entities. Nevertheless, 
+it is clear that domains are important, and that people want, and need, to represent them.
+
+Different approaches have been proposed so far, in particular the nesting and the subdivision. Both have advantages and disadvantages. Nesting is closer to the underlying, or conceptual, representation, and will probably be favored by computer scientists. Subdivision is closer to the physical structure of the entities and to what we draw in the back on an envelop and in a power-point presentation. It will likely be preferred by biologists. Designing a consistent and robust system will require a significant amount of work and discussion and this page provide materials to base the discussion.
+
+=== Proposal by Kurt Kohn === 
+
+Kurt Kohn proposed a comprehensive proposal to encode structures using subdivisions. 
+
+* [[media:Proposal-FineStructure.doc | detailed proposal]] to represent internal structures of entities.
+* [[media:P53-structure.pdf | map of p53]] 
+* [[media:P53-structure-description.doc | explanation of the map]]
+
+=== Proposal by Michael Blinov === 
+
+A proposal for hierarchical nesting of entities. It provides a description of domains, sites and individual atoms of biomolecules. The proposal is designed to cover all the requirements and capabilities of subdivision proposal of MIM group.  The proposal is consistent with rule-based description used in BioNetGen software and it is expected to be consistent with SBML level 3 extension describing multi-state multi-component species. 
+
+* [[media:SBGN-hierarchical-blinov.pdf | Proposal (pdf)]] to represent internal structures of entities usinh hierarchical nesting.
+* [[media:SBGN-hierarchical-blinov.doc | MS Word file]].
+* [[media:SBGN-hierarchical-blinov.svg | Inkscape file]] with all pictures used in the proposal.
+
+Chylek et al. published a paper on &quot;Guidelines for visualizing and annotating rule-based models&quot; (http://www.ncbi.nlm.nih.gov/pubmed/21647530) describing a human-readable (vs machine-readable, as the main focus of SBGN efforts) way to describe rule-based models. This approach can be restricted to the SBGN domain to describe multi-component multi-state features, as illustrated in [[media:Chylek2011.pdf | this figure (pdf)]]
+
+=== Current state of discussion ===
+
+[[Entity_Relationship_domains | Minutes of the discussion at SBGN 5 in Stanford]]</text>
+    </revision>
+  </page>
+</mediawiki>

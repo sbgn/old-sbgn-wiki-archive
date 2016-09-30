@@ -1,0 +1,88 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Symbols/perturbing agent</title>
+    <id>1092</id>
+    <revision>
+      <id>4197</id>
+      <timestamp>2016-06-02T15:29:52Z</timestamp>
+      <contributor>
+        <username>Vtoure</username>
+        <id>76</id>
+      </contributor>
+      <text xml:space="preserve">''by Vasundra Touré''
+
+A perturbing agent is an Entity Pool Node found in PD. This glyph represents external influences carried on a biochemical network. Those influences can be the effect of well-defined physical perturbing agents, such as light pulse or a temperature change. They can also be more complex and not well-defined phenomena, for instance the outcome of a biological process or a mutation. The perturbing agent glyph is represented by a modified hexagon having two opposite concave faces. It is identified by a label and may carry a clone marker. One or more units of information can also be defined.
+
+&lt;center&gt;
+{{#icon:Symbol_perturbingAgent.png |||| corner iradius11}}
+&lt;/center&gt;
+
+Units of information use a controlled vocabulary to describe the physical characteristics of a perturbing agent:
+
+{|
+!'''Name'''
+!'''Label'''
+!'''SBOterm'''
+|-
+|Temperature
+|pc:T
+|SBO:0000147
+|-
+|Voltage
+|pc:V
+|SBO:0000259
+|-
+|pH
+|pc:pH
+|SBO:0000304
+|}
+
+
+The following example shows the transport of sodium chemical Na+ into the cytoplasm of a cell via the sodium channel. The sodium channel is sensitive to the membrane potential: when the membrane is polarized, the sodium channel is closed and when the membrane is depolarized, the sodium channel is opened. In our example, the membrane is depolarized (perturbing agent). This induce the opening of sodium channel and thus the import of sodium Na+ into the cytoplasm.
+
+&lt;center&gt;
+{{#icon:Symbol_perturbingAgent_NaChannel.png |||| corner iradius11}}
+&lt;/center&gt;
+
+
+Download the perturbing agent image as (from the more semantic to the more generic):
+
+[ [[media:Symbol_perturbingAgent.sbgn|SBGN-ML]] ]
+[ [[media:Symbol_perturbingAgent.gml|GML]] ]
+[ [[media:Symbol_perturbingAgent.graphml|GraphML]] ]
+[ [[media:Symbol_perturbingAgent.svg|SVG]] ]
+[ [[media:Symbol_Perturbing_Agent.odp|Open Document Format]] ]
+[ [[media:Symbol_Perturbing_Agent.ppt|PowerPoint]] ]
+[ [[media:Symbol_perturbingAgent.pdf|PDF]] ]
+[ [[media:Symbol_perturbingAgent.png|PNG]] ]</text>
+    </revision>
+  </page>
+</mediawiki>

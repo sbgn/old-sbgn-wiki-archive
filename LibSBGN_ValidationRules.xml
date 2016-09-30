@@ -1,0 +1,50 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>LibSBGN/ValidationRules</title>
+    <id>772</id>
+    <revision>
+      <id>2991</id>
+      <timestamp>2012-11-05T15:46:25Z</timestamp>
+      <contributor>
+        <username>Tczauderna</username>
+        <id>67</id>
+      </contributor>
+      <comment>New page: {| class=&quot;wikitable&quot; border=&quot;1&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; |PD.1 |Arc with class consumption must have source reference to glyph of class &lt;EPN classes&gt; and target reference to port on...</comment>
+      <text xml:space="preserve">{| class=&quot;wikitable&quot; border=&quot;1&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot;
+|PD.1
+|Arc with class consumption must have source reference to glyph of class &lt;EPN classes&gt; and target reference to port on glyph of class &lt;PN classes&gt;
+|-
+|PD.2
+|Arc with class production must have source reference to port on glyph with class &lt;PN classes&gt; and target reference to glyph of class &lt;EPN classes&gt;
+|}</text>
+    </revision>
+  </page>
+</mediawiki>

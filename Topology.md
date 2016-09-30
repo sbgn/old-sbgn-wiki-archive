@@ -1,0 +1,1 @@
+SBGN languages do not offer currently clean and expressive way of representing topologies and connectivities between components of graphs. This question is relevant at all scales, and solutions are necessary for representing domains, molecular complexes, sub-cellular phenomena, anatomical structures etc.

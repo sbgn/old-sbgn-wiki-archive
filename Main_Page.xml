@@ -1,0 +1,85 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Main Page</title>
+    <id>1</id>
+    <revision>
+      <id>4196</id>
+      <timestamp>2016-06-02T15:26:14Z</timestamp>
+      <contributor>
+        <username>Vtoure</username>
+        <id>76</id>
+      </contributor>
+      <text xml:space="preserve">&lt;html&gt;&lt;img id=&quot;mainpagegraphic&quot; src=&quot;/skins/SBGN/graphics/sbgn-front-image-v5.gif&quot;&gt;&lt;/html&gt;
+
+&lt;div class=&quot;pagetitle2&quot;&gt;A Visual Notation for Network Diagrams in Biology&lt;/div&gt;
+
+Welcome to the global portal for documentation, news, and other information about the '''Systems Biology Graphical Notation''' (SBGN) project, an effort to standardize the graphical notation used in maps of biological processes. 
+
+=Quick start=
+
+{|width=&quot;100%&quot; style=&quot;font-weight:bold;font-size:1.2em;&quot;
+| align=&quot;center&quot; style=&quot;padding:12px;&quot;| [[User_Page | &lt;font color=&quot;#ffff00&quot;&gt;Learn how to use SBGN]]
+| align=&quot;center&quot; style=&quot;padding:12px;&quot;| [[Developer_Page | &lt;font color=&quot;#ffff00&quot;&gt;Get involved ]]
+|}
+
+
+=Symbol of the month - June 2016=
+
+{|width=&quot;100%&quot; style=&quot;font-weight:bold;font-size:1.2em;&quot;
+| align=&quot;center&quot; style=&quot;padding:12px;&quot;| [[Symbols/unspecified_entity| &lt;font color=&quot;#ffff00&quot;&gt;Unspecified Entity (PD)]]
+| align=&quot;center&quot; style=&quot;padding:12px;&quot;| [[Image:Symbol_unspecEntity.png|border|150px]]
+|}
+Click [[Symbols/ | here]] to see the list of previous symbols of the month.
+
+
+=Pathway of the month=
+
+This month's pathway is an SBGN-PD diagram based on the following paper published in the October 2014 issue of the Cell magazine (PubMed ID: [http://www.ncbi.nlm.nih.gov/pubmed/25303525 25303525]).
+
+''Ma H, Groth RD, Cohen SM, Emery JF, Li B, Hoedt E, Zhang G, Neubert TA, Tsien RW. (2014) γCaMKII shuttles Ca²⁺/CaM to the nucleus to trigger CREB phosphorylation and gene expression. [http://www.sciencedirect.com/science/article/pii/S0092867414011684 Cell 159,281-294].''
+
+{|width=&quot;100%&quot; style=&quot;font-weight:bold;font-size:1.2em;&quot;
+| align=&quot;center&quot; style=&quot;padding:12px;&quot;| [[Image:POM_Nov2014_PD.png|border|450px]]
+|}
+
+Click [[pathway_of_the_month|here]] for more details of the diagram.
+
+This diagram is also available in [[Media: POM_Nov2014_PD.sbgn|SBGN-ML format]].
+
+
+
+----
+SBGN is the work of many people.  It would not have been possible without the generous [[Contacts#Funding | support of multiple organizations]] over the years, for which we are very thankful.
+
+{{NewsPage}}</text>
+    </revision>
+  </page>
+</mediawiki>

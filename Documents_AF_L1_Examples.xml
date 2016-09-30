@@ -1,0 +1,57 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Documents/AF L1 Examples</title>
+    <id>637</id>
+    <revision>
+      <id>2841</id>
+      <timestamp>2012-07-18T10:30:09Z</timestamp>
+      <contributor>
+        <username>Lenov</username>
+        <id>11</id>
+      </contributor>
+      <text xml:space="preserve">== Repressilator ==
+
+The repressilator is a circular system of three genes which products sequentially inhibit the expression of the next gene. Both the model and its in vitro realization were published by Michael Elowitz and Stanislas Leibler in 2000, in a publication that is seen as one of the milestones in the birth of Synthetic Biology. 
+
+&lt;center&gt;
+{{#icon:Repressilator-AF.png‎ |||| corner iradius11}}
+&lt;/center&gt;
+
+== EGFR signaling ==
+
+This is a representation in AF of the signaling pathways triggered by EGF binding on its receptor. The original information came from [http://stke.sciencemag.org/cgi/cm/stkecm;CMP_14987 STKE], and a first version of the image was published in [http://identifiers.org/pubmed/19668183 the initial SBGN publication].
+
+&lt;center&gt;
+{{#icon:EGFfromSTKEinAF2.png‎ |||| corner iradius11}}
+&lt;/center&gt;</text>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,47 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>sbgn.org</sitename>
+    <base>http://www.sbgn.org/Main_Page</base>
+    <generator>MediaWiki 1.12.0</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">sbgn.org</namespace>
+      <namespace key="5">sbgn.org talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="274">Widget</namespace>
+      <namespace key="275">Widget talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Acknowledgements</title>
+    <id>98</id>
+    <revision>
+      <id>633</id>
+      <timestamp>2008-08-12T03:38:41Z</timestamp>
+      <contributor>
+        <username>SBGNWikiSysop</username>
+        <id>1</id>
+      </contributor>
+      <comment>New page: We are deeply indebted to the many funding agencies and organizations that have supported SBGN over the years.  The development of SBGN was mainly supported by a grant from the Japanese  [...</comment>
+      <text xml:space="preserve">We are deeply indebted to the many funding agencies and organizations that have supported SBGN over the years.
+
+The development of SBGN was mainly supported by a grant from the Japanese 
+[http://www.nedo.go.jp New Energy and Industrial Technology Development Organization (NEDO)].  The [http://www.oist.jp Okinawa Institute of Science and Technology (OIST)], the British [http://www.bbsrc.ac.uk/ Biotechnology and Biological Sciences Research Council (BBSRC)] through a ''Japan Partnering Award'', the [http://www.eml-r.org/ European Media Laboratory (EML Research GmbH)], and the [http://bnmc.caltech.edu Beckman Institute BNMC at the California Institute of Technology] provided additional support for SBGN workshops.  The [http://www.jst.go.jp/ Japan Science and Technology Agency (JST)] and the ''Genome Network Project'' of the [http://www.mext.go.jp/ Japanese Ministry of Education, Sports, Culture, Science, and Technology (MEXT)] also supported the development of the gene regulation network aspect of SBGN.</text>
+    </revision>
+  </page>
+</mediawiki>
